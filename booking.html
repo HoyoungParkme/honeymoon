@@ -38,6 +38,8 @@
   .item .links a i { font-style: normal; font-size: 10px; font-weight: 700; letter-spacing: .06em; padding: 2px 6px; border-radius: 6px; background: var(--bg); color: var(--mute); }
   .item .links a i.ko { background: #FBF0EA; color: var(--gold); }
   .item .links a i.of { background: #EEF5F0; color: #2F6B4D; }
+  .item .links a.primary { background: var(--ink); color: #fff; border-color: var(--ink); min-height: 40px; padding: 0 16px; font-size: 14px; }
+  .item .links a.primary i { background: rgba(255,255,255,.18); color: #fff; }
   .aside { margin: 8px 0 48px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
   .box { border: 1px solid var(--line2); border-radius: 20px; background: var(--card); padding: 22px 24px; }
   .box h3 { margin: 0 0 12px; font-size: 13px; font-weight: 700; letter-spacing: .12em; color: var(--dim); }
@@ -86,7 +88,7 @@
   var key = function (c, g, i) { return c + '|' + g + '|' + i; };
 
   function tagClass(t) { return t === '한국어' ? 'ko' : (t === '공식' ? 'of' : ''); }
-  function link(l) { return '<a href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.name) + (l.tag ? '<i class="' + tagClass(l.tag) + '">' + esc(l.tag) + '</i>' : '') + '</a>'; }
+  function link(l, primary) { return '<a class="' + (primary ? 'primary' : '') + '" href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.name) + (l.tag ? '<i class="' + tagClass(l.tag) + '">' + esc(l.tag) + '</i>' : '') + '</a>'; }
 
   function render() {
     var done = store(), total = 0, cnt = 0;
@@ -99,7 +101,7 @@
         return '<li class="item' + (d ? ' done' : '') + '"><input type="checkbox" id="' + esc(k) + '" data-k="' + esc(k) + '"' + (d ? ' checked' : '') + ' aria-label="예약 완료 표시">' +
           '<div class="main"><div class="top"><label class="what" for="' + esc(k) + '">' + esc(it.what) + '</label><span class="meta">' + esc(it.where) + ' · ' + esc(it.dates) + '</span></div>' +
           '<dl class="kv"><dt>금액</dt><dd><b>' + esc(it.price) + '</b></dd><dt>언제</dt><dd>' + esc(it.when) + '</dd>' + (it.alt ? '<dt>선택지</dt><dd>' + esc(it.alt) + '</dd>' : '') + '</dl></div>' +
-          '<div class="links">' + it.links.filter(function (l) { return l.url; }).map(link).join('') + '</div></li>';
+          '<div class="links">' + it.links.filter(function (l) { return l.url; }).map(function (l, li) { return link(l, g.cat === '숙소' && li === 0); }).join('') + '</div></li>';
       }).join('') + '</ol></section>';
     }).join('');
     $('progress').innerHTML = '<b>' + cnt + '</b> / ' + total + ' 예약 완료 · 항목을 체크하면 저장돼요';
