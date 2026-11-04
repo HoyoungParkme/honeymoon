@@ -42,6 +42,11 @@
   .ctrl button { width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line2); background: transparent; color: var(--ink); cursor: pointer; display: inline-flex; align-items: center; justify-content: center; }
   .ctrl button:hover { background: var(--card); }
   .ctrl span { font-size: 13px; color: var(--mute); }
+  .ctrl.zoom { gap: 6px; margin-top: -6px; }
+  .ctrl.zoom button { width: 36px; height: 36px; }
+  .ctrl.zoom button.lbl { width: auto; min-width: 64px; border-radius: 999px; padding: 0 12px; font-size: 12px; font-weight: 700; color: var(--mute); }
+  .stage { padding-top: 24px; }
+  .globe-wrap { overflow: hidden; border-radius: 50%; }
   @media (min-width: 900px) {
     .intro { padding: 64px 40px 56px 72px; }
     .intro h1 { font-size: 64px; }
@@ -78,8 +83,13 @@
     </div>
     <div class="ctrl">
       <button type="button" id="left" aria-label="왼쪽으로 돌리기"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"></path></svg></button>
-      <span>드래그하거나 화살표로 돌려 보세요</span>
+      <span>드래그로 돌리고, Ctrl + 휠로 확대</span>
       <button type="button" id="right" aria-label="오른쪽으로 돌리기"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"></path></svg></button>
+    </div>
+    <div class="ctrl zoom" aria-label="확대·축소">
+      <button type="button" id="zoomOut" aria-label="축소"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M5 12h14"></path></svg></button>
+      <button type="button" id="zoomReset" class="lbl" aria-label="원래 크기로"><span id="zoomLbl">100%</span></button>
+      <button type="button" id="zoomIn" aria-label="확대"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></button>
     </div>
   </section>
 </main>
@@ -100,10 +110,11 @@
   var ctx = canvas.getContext('2d');
   var projection = d3.geoOrthographic().rotate([3.7, -38]);
   var path = d3.geoPath(projection, ctx);
-  var land = null, size = 0, dpr = Math.min(window.devicePixelRatio || 1, 2);
+  var land = null, borders = null, size = 0, dpr = Math.min(window.devicePixelRatio || 1, 2);
   var sphere = { type: 'Sphere' };
   var graticule = d3.geoGraticule10();
   var idle = true;   // 사용자가 만지기 전엔 천천히 돈다
+  var zoom = 1;      // 1 = 지구본이 꽉 참, 최대 5배
 
   // 핀 버튼은 한 번만 만들고 위치만 옮긴다
   PINS.forEach(function (p) {
@@ -122,14 +133,17 @@
     size = wrap.clientWidth;
     canvas.width = size * dpr; canvas.height = size * dpr;
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    projection.translate([size / 2, size / 2]).scale(size / 2 - 6);
+    projection.translate([size / 2, size / 2]).scale((size / 2 - 6) * zoom);
     draw();
   }
 
   function draw() {
     ctx.clearRect(0, 0, size, size);
+    // 캔버스 밖으로 나간 부분은 원 안에서만 그린다
+    ctx.save();
+    ctx.beginPath(); ctx.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2); ctx.clip();
     // 바다
-    var g = ctx.createRadialGradient(size * 0.4, size * 0.35, size * 0.05, size * 0.5, size * 0.5, size * 0.55);
+    var g = ctx.createRadialGradient(size * 0.4, size * 0.35, size * 0.05, size * 0.5, size * 0.5, size * 0.55 * zoom);
     g.addColorStop(0, '#2A5CA8'); g.addColorStop(0.7, '#1B3F7A'); g.addColorStop(1, '#0F2650');
     ctx.beginPath(); path(sphere); ctx.fillStyle = g; ctx.fill();
     // 육지
@@ -137,10 +151,25 @@
       ctx.beginPath(); path(land); ctx.fillStyle = '#EDE6D6'; ctx.fill();
       ctx.lineWidth = 0.5; ctx.strokeStyle = '#0F2650'; ctx.stroke();
     }
+    // 국경선 (확대할수록 조금 진하게)
+    if (borders) {
+      ctx.beginPath(); path(borders);
+      ctx.lineWidth = 0.6 + (zoom - 1) * 0.2;
+      ctx.strokeStyle = 'rgba(15,38,80,' + Math.min(0.75, 0.35 + (zoom - 1) * 0.12) + ')';
+      ctx.setLineDash([]); ctx.stroke();
+    }
     // 위경선·테두리
     ctx.beginPath(); path(graticule); ctx.lineWidth = 0.6; ctx.strokeStyle = 'rgba(255,255,255,.10)'; ctx.stroke();
     ctx.beginPath(); path(sphere); ctx.lineWidth = 1.5; ctx.strokeStyle = 'rgba(127,163,230,.45)'; ctx.stroke();
+    ctx.restore();
     placePins();
+  }
+
+  function setZoom(z) {
+    zoom = Math.max(1, Math.min(5, z));
+    projection.scale((size / 2 - 6) * zoom);
+    document.getElementById('zoomLbl').textContent = Math.round(zoom * 100) + '%';
+    draw();
   }
 
   // 핀: 뒷면이면 숨긴다 (중심에서 90도 넘게 떨어지면 뒷면)
@@ -149,9 +178,11 @@
     var centre = [-r[0], -r[1]];
     PINS.forEach(function (p) {
       var back = d3.geoDistance([p.lon, p.lat], centre) > Math.PI / 2 - 0.02;
-      p.el.hidden = back;
-      if (back) return;
-      var xy = projection([p.lon, p.lat]);
+      var xy = back ? null : projection([p.lon, p.lat]);
+      // 뒷면이거나 확대해서 원 밖으로 나가면 숨긴다
+      var out = !xy || Math.hypot(xy[0] - size / 2, xy[1] - size / 2) > size / 2 - 8;
+      p.el.hidden = out;
+      if (out) return;
       p.el.style.left = xy[0] + 'px';
       p.el.style.top = xy[1] + 'px';
     });
@@ -168,13 +199,24 @@
   canvas.addEventListener('pointerdown', function (e) { idle = false; last = [e.clientX, e.clientY]; canvas.setPointerCapture(e.pointerId); });
   canvas.addEventListener('pointermove', function (e) {
     if (!last) return;
-    rotateBy((e.clientX - last[0]) * k, -(e.clientY - last[1]) * k * 0.8);
+    // 확대할수록 같은 드래그에 덜 돈다
+    rotateBy((e.clientX - last[0]) * k / zoom, -(e.clientY - last[1]) * k * 0.8 / zoom);
     last = [e.clientX, e.clientY];
   });
   canvas.addEventListener('pointerup', function () { last = null; });
   canvas.addEventListener('pointercancel', function () { last = null; });
-  document.getElementById('left').addEventListener('click', function () { idle = false; rotateBy(-25, 0); });
-  document.getElementById('right').addEventListener('click', function () { idle = false; rotateBy(25, 0); });
+  document.getElementById('left').addEventListener('click', function () { idle = false; rotateBy(-25 / zoom, 0); });
+  document.getElementById('right').addEventListener('click', function () { idle = false; rotateBy(25 / zoom, 0); });
+
+  // Ctrl(또는 ⌘) + 휠로 줌. 그냥 휠은 페이지 스크롤 그대로
+  wrap.addEventListener('wheel', function (e) {
+    if (!(e.ctrlKey || e.metaKey)) return;
+    e.preventDefault(); idle = false;
+    setZoom(zoom * (e.deltaY < 0 ? 1.12 : 1 / 1.12));
+  }, { passive: false });
+  document.getElementById('zoomIn').addEventListener('click', function () { idle = false; setZoom(zoom * 1.25); });
+  document.getElementById('zoomOut').addEventListener('click', function () { idle = false; setZoom(zoom / 1.25); });
+  document.getElementById('zoomReset').addEventListener('click', function () { setZoom(1); });
 
   // 만지기 전엔 천천히 자전
   d3.timer(function () { if (idle && land) rotateBy(0.08, 0); });
@@ -182,6 +224,7 @@
   window.addEventListener('resize', resize);
   resize();
   fetch('data/land.geojson').then(function (r) { return r.json(); }).then(function (geo) { land = geo; draw(); });
+  fetch('data/borders.geojson').then(function (r) { return r.json(); }).then(function (geo) { borders = geo; draw(); });
 })();
 </script>
 </body>
