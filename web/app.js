@@ -386,6 +386,7 @@
   function render() {
     readHash();
     renderHeader();
+    var bl = $('bookLink'); if (bl) bl.href = '../booking.html#c' + (location.hash.match(/^#c(\d)/) || [0, 1])[1];
     renderPlan();
     renderMap();
     $('preview').innerHTML = '<p class="preview-empty">일정 행을 누르면 그 행의 예매·식당 페이지 미리보기가 여기에 떠요.</p>';

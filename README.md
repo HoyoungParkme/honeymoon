@@ -11,6 +11,7 @@
 | 지구본 홈 | `index.html` | d3-geo 정사 투영 지구본(`data/land.geojson`, Natural Earth 110m). 드래그·화살표로 회전, 만지기 전엔 자전. 스페인 핀만 활성, 나머지는 흐린 핀 |
 | 코스 선택 | `spain.html` | 코스 카드 3장. 누르면 총비용 막대(`data/budget.json`)와 10일 요약이 펼쳐지고 "이 코스 일정 보기"로 `web/#c{n}-d1` 진입 |
 | 일정 | `web/` | 기존 일정 화면. 밝은 회백("돌") 톤 기본, 위에 지구본/스페인/코스 일정 경로 표시줄. 행을 누르면 지도 아래(폰은 행 아래)에 그 행의 예매·식당 페이지 미리보기 카드 |
+| 예약할 것 | `booking.html` | 코스별 예약 체크리스트(`data/booking.json`). 항공·숙소·열차·입장권·식당 순으로 금액·예약 시점·다른 선택지·예약 링크(한국어 결제처는 "한국어", 공식은 "공식" 표시). 체크 표시는 브라우저에만 저장. 아래에 한국에서 쓰기 좋은 예약처와 택시·교통카드 준비 |
 | 공통 색 | `site.css` | 홈·코스 선택의 "돌" 팔레트(회백 바탕 #F2F3F5 + 벽돌 #B8432A). `web/style.css` 라이트 토큰과 같은 값. 톤 시안: https://claude.ai/artifact/Q3usRrkiE89MiGg9Nxi9aP |
 
 새 여행지를 넣을 땐 `index.html`의 `PINS`에 한 줄(이름·좌표·href) 추가하고, `spain.html`을 본떠 그 나라 페이지를 만들면 된다.
@@ -76,6 +77,7 @@ python -I tools/build_atlas.py <타일_저장_폴더> web
 | `tools/build_boards.py` | itinerary → 보드 HTML 생성 (Playwright로 높이 측정 후 8000px 단위로 분할) |
 | `tools/board_template.dc.html` | 보드 템플릿 (원화 변환 `won()`, 요금 분해 `splitFare()` 포함) |
 | `tools/render_maps.py` | Leaflet + Playwright로 지도 PNG 렌더 |
+| `tools/build_booking.py` | 코스별 예약 목록 → `data/booking.json`. 숙소는 `courses.json`의 잠자리에서 자동(체크인·박수·아고다/부킹/트립닷컴 날짜 링크), 항공·열차·입장권·식당·택시는 파일 안 표를 손으로 고친다 |
 | `tools/fetch_previews.py` | 일정 행의 예매·식당 링크를 Playwright로 열어 `previews/*.jpg` 스크린샷과 제목을 `data/previews.json`에 저장. 새 링크만 받으니 링크를 추가하면 다시 실행 |
 
 ## 결정 사항

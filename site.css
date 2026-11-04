@@ -15,5 +15,7 @@ button { font: inherit; color: inherit; }
 .topbar .sp { flex: 1; }
 .btn-gold { display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 24px; border-radius: 999px; background: #1C2230; color: #FFFFFF; font-weight: 900; font-size: 15px; border: 0; cursor: pointer; }
 .btn-gold:hover { filter: brightness(1.08); }
+.btn-line { display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 22px; border-radius: 999px; border: 1px solid var(--line2); background: var(--card); color: var(--ink); font-weight: 700; font-size: 15px; }
+.btn-line:hover { border-color: var(--ink); }
 .wrap { max-width: 1280px; margin: 0 auto; padding: 0 16px; }
 @media (min-width: 900px) { .topbar { padding: 22px 72px; } .wrap { padding: 0 72px; } }

@@ -88,6 +88,7 @@
         <span class="lbl" id="pLbl"></span>
         <span class="big"><b id="pTotal"></b><span id="pPct"></span></span>
       </div>
+      <a class="btn-line" id="pBook" href="booking.html">예약할 것 보기</a>
       <a class="btn-gold" id="pGo" href="web/">이 코스 일정 보기 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
     </div>
     <div>
@@ -140,6 +141,7 @@
     $('pTotal').textContent = '약 ' + c.total + '만 원';
     $('pPct').textContent = '예산 ' + budget.budgetTotal.toLocaleString('ko-KR') + '만 원 중 ' + Math.round(c.total / budget.budgetTotal * 100) + '%';
     $('pGo').href = 'web/#c' + picked.replace('course', '') + '-d1';
+    $('pBook').href = 'booking.html#c' + picked.replace('course', '');
     $('pBar').innerHTML = c.parts.map(function (v, i) {
       return '<span style="width:' + (v / budget.budgetTotal * 100).toFixed(1) + '%;background:' + budget.categories[i].color + '"></span>';
     }).join('');
