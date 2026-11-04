@@ -1,0 +1,678 @@
+{
+ "kostas": {
+  "shop": {
+   "title": "File:Souvlaki in Athens.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Souvlaki_in_Athens.JPG/1280px-Souvlaki_in_Athens.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Souvlaki_in_Athens.JPG",
+   "license": "CC BY-SA 4.0",
+   "artist": "Miyagawa",
+   "query": "Souvlaki pita Athens",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Pita giros.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Pita_giros.JPG/1280px-Pita_giros.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pita_giros.JPG",
+    "license": "CC BY-SA 3.0",
+    "artist": "Antonio Fajardo i López",
+    "query": "Kebab pita",
+    "file": "kostas_d2.jpg",
+    "dish": "Kebab pita"
+   }
+  ]
+ },
+ "karamanlidika": {
+  "shop": {
+   "title": "File:Iraqi Pastirma-Mosul 03.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Iraqi_Pastirma-Mosul_03.jpg/1280px-Iraqi_Pastirma-Mosul_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Iraqi_Pastirma-Mosul_03.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Abdulsalam Al Dabbagh",
+   "query": "Pastirma",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Iraqi Pastirma-Mosul 04.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Iraqi_Pastirma-Mosul_04.jpg/1280px-Iraqi_Pastirma-Mosul_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Iraqi_Pastirma-Mosul_04.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Abdulsalam Al Dabbagh",
+    "query": "Pastirma",
+    "file": "karamanlidika_d1.jpg",
+    "dish": "Pastirma"
+   },
+   {
+    "title": "File:Sausage making-H-5-edited2.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Sausage_making-H-5-edited2.jpg/1280px-Sausage_making-H-5-edited2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Sausage_making-H-5-edited2.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "László Szalai (Beyond silence)",
+    "query": "Sucuk sausage",
+    "file": "karamanlidika_d2.jpg",
+    "dish": "Sucuk sausage"
+   }
+  ]
+ },
+ "thes": {
+  "shop": {
+   "title": "File:Мусака од компири.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/%D0%9C%D1%83%D1%81%D0%B0%D0%BA%D0%B0_%D0%BE%D0%B4_%D0%BA%D0%BE%D0%BC%D0%BF%D0%B8%D1%80%D0%B8.jpg/1280px-%D0%9C%D1%83%D1%81%D0%B0%D0%BA%D0%B0_%D0%BE%D0%B4_%D0%BA%D0%BE%D0%BC%D0%BF%D0%B8%D1%80%D0%B8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:%D0%9C%D1%83%D1%81%D0%B0%D0%BA%D0%B0_%D0%BE%D0%B4_%D0%BA%D0%BE%D0%BC%D0%BF%D0%B8%D1%80%D0%B8.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Original:  Cuklev",
+   "query": "Moussaka",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Mousakas.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Mousakas.jpg/1280px-Mousakas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Mousakas.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Fotograf: Dieter Mueller (dino1948) Kamera: de:Nikon 885",
+    "query": "Moussaka",
+    "file": "thes_d1.jpg",
+    "dish": "Moussaka"
+   },
+   {
+    "title": "File:Horiatiki salad.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Horiatiki_salad.jpg/1280px-Horiatiki_salad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Horiatiki_salad.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Scudsvlad",
+    "query": "Greek salad horiatiki",
+    "file": "thes_d2.jpg",
+    "dish": "Greek salad horiatiki"
+   }
+  ]
+ },
+ "strofi": {
+  "shop": {
+   "title": "File:2007 Greece Athens Parthenon at night.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/2007_Greece_Athens_Parthenon_at_night.jpg/1280px-2007_Greece_Athens_Parthenon_at_night.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:2007_Greece_Athens_Parthenon_at_night.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Nicholas Hartmann",
+   "query": "Parthenon at night illuminated",
+   "kind": "view"
+  },
+  "dishes": [
+   {
+    "title": "File:Kleftiko.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Kleftiko.JPG/1280px-Kleftiko.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Kleftiko.JPG",
+    "license": "CC BY-SA 3.0",
+    "artist": "Lord Mountbatten",
+    "query": "Kleftiko",
+    "file": "strofi_d1.jpg",
+    "dish": "Kleftiko"
+   }
+  ]
+ },
+ "atlantikos": {
+  "dishes": [
+   {
+    "title": "File:Fried calamari in Limnionas, Kos, Greece (5654208438).jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Fried_calamari_in_Limnionas%2C_Kos%2C_Greece_%285654208438%29.jpg/1280px-Fried_calamari_in_Limnionas%2C_Kos%2C_Greece_%285654208438%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Fried_calamari_in_Limnionas,_Kos,_Greece_(5654208438).jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "Michal Osmenda from Brussels, Belgium",
+    "query": "Fried calamari Greece",
+    "file": "atlantikos_d2.jpg",
+    "dish": "Fried calamari Greece"
+   }
+  ]
+ },
+ "lukumades": {
+  "shop": {
+   "title": "File:Loukoumades.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/08/Loukoumades.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "page": "https://commons.wikimedia.org/wiki/File:Loukoumades.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Flickr.com user \"avlxyz\"",
+   "query": "Loukoumades",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Lokma Galata Bridge.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Lokma_Galata_Bridge.JPG/1280px-Lokma_Galata_Bridge.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lokma_Galata_Bridge.JPG",
+    "license": "CC BY 3.0",
+    "artist": "Benreis",
+    "query": "Loukoumades",
+    "file": "lukumades_d1.jpg",
+    "dish": "Loukoumades"
+   },
+   {
+    "title": "File:Loukoumades Greek Doughnuts with Walnuts and Honey.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Loukoumades_Greek_Doughnuts_with_Walnuts_and_Honey.jpg/1280px-Loukoumades_Greek_Doughnuts_with_Walnuts_and_Honey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Loukoumades_Greek_Doughnuts_with_Walnuts_and_Honey.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "Alpha from Melbourne, Australia",
+    "query": "Loukoumades honey",
+    "file": "lukumades_d2.jpg",
+    "dish": "Loukoumades honey"
+   }
+  ]
+ },
+ "ariston": {
+  "shop": {
+   "title": "File:Bougatsa.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Bougatsa.jpg/1280px-Bougatsa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Bougatsa.jpg",
+   "license": "CC BY-SA 2.5",
+   "artist": "Konstantinos Stampoulis (Geraki)",
+   "query": "Bougatsa",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Fresh bougatsa from bakery in Kallithea (Καλλιθέα), Athens, Greece.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Fresh_bougatsa_from_bakery_in_Kallithea_%28%CE%9A%CE%B1%CE%BB%CE%BB%CE%B9%CE%B8%CE%AD%CE%B1%29%2C_Athens%2C_Greece.jpg/1280px-Fresh_bougatsa_from_bakery_in_Kallithea_%28%CE%9A%CE%B1%CE%BB%CE%BB%CE%B9%CE%B8%CE%AD%CE%B1%29%2C_Athens%2C_Greece.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Fresh_bougatsa_from_bakery_in_Kallithea_(%CE%9A%CE%B1%CE%BB%CE%BB%CE%B9%CE%B8%CE%AD%CE%B1),_Athens,_Greece.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "Philip Mallis",
+    "query": "Bougatsa",
+    "file": "ariston_d1.jpg",
+    "dish": "Bougatsa"
+   },
+   {
+    "title": "File:Tiropita Greek dish.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Tiropita_Greek_dish.jpg/1280px-Tiropita_Greek_dish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Tiropita_Greek_dish.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Tanya Bakogiannis",
+    "query": "Tiropita",
+    "file": "ariston_d2.jpg",
+    "dish": "Tiropita"
+   }
+  ]
+ },
+ "diporto": {
+  "dishes": [
+   {
+    "title": "File:Fava Schinoussa.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Fava_Schinoussa.jpg/1280px-Fava_Schinoussa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Fava_Schinoussa.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Waldviertler",
+    "query": "Fava split pea puree",
+    "file": "diporto_d2.jpg",
+    "dish": "Fava split pea puree"
+   }
+  ]
+ },
+ "metaxi": {
+  "shop": {
+   "title": "File:Tomato fritters of Santorini (Tomatokeftedes).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Tomato_fritters_of_Santorini_%28Tomatokeftedes%29.jpg/1280px-Tomato_fritters_of_Santorini_%28Tomatokeftedes%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Tomato_fritters_of_Santorini_(Tomatokeftedes).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Sam Holt",
+   "query": "Tomatokeftedes",
+   "kind": "dish"
+  },
+  "dishes": []
+ },
+ "aktaion": {
+  "dishes": [
+   {
+    "title": "File:Tomato fritters of Santorini (Tomatokeftedes).jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Tomato_fritters_of_Santorini_%28Tomatokeftedes%29.jpg/1280px-Tomato_fritters_of_Santorini_%28Tomatokeftedes%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Tomato_fritters_of_Santorini_(Tomatokeftedes).jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Sam Holt",
+    "query": "Tomatokeftedes Santorini",
+    "file": "aktaion_d2.jpg",
+    "dish": "Tomatokeftedes Santorini"
+   }
+  ]
+ },
+ "psaraki": {
+  "shop": {
+   "title": "File:Greek-style grilled octopus with olive oil, lemon, butter and parsley.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Greek-style_grilled_octopus_with_olive_oil%2C_lemon%2C_butter_and_parsley.jpg/1280px-Greek-style_grilled_octopus_with_olive_oil%2C_lemon%2C_butter_and_parsley.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Greek-style_grilled_octopus_with_olive_oil,_lemon,_butter_and_parsley.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Gatorfan252525",
+   "query": "Grilled octopus Greece",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:20240510 172056 Corfu Restaurant MeGusto Grilled Octopus anagoria.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/20240510_172056_Corfu_Restaurant_MeGusto_Grilled_Octopus_anagoria.jpg/1280px-20240510_172056_Corfu_Restaurant_MeGusto_Grilled_Octopus_anagoria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:20240510_172056_Corfu_Restaurant_MeGusto_Grilled_Octopus_anagoria.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Anagoria",
+    "query": "Grilled octopus Greece",
+    "file": "psaraki_d1.jpg",
+    "dish": "Grilled octopus Greece"
+   }
+  ]
+ },
+ "dimitris": {
+  "shop": {
+   "title": "File:Ammoudi Bay.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Ammoudi_Bay.jpg/1280px-Ammoudi_Bay.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Ammoudi_Bay.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Anthony Baratier",
+   "query": "Ammoudi Bay Oia",
+   "kind": "view"
+  },
+  "dishes": [
+   {
+    "title": "File:Αστακομακαρονάδα.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/0b/%CE%91%CF%83%CF%84%CE%B1%CE%BA%CE%BF%CE%BC%CE%B1%CE%BA%CE%B1%CF%81%CE%BF%CE%BD%CE%AC%CE%B4%CE%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:%CE%91%CF%83%CF%84%CE%B1%CE%BA%CE%BF%CE%BC%CE%B1%CE%BA%CE%B1%CF%81%CE%BF%CE%BD%CE%AC%CE%B4%CE%B1.jpg",
+    "license": "Public domain",
+    "artist": "Kornoslimnos (talk · contribs)",
+    "query": "Astakomakaronada lobster pasta",
+    "file": "dimitris_d1.jpg",
+    "dish": "Astakomakaronada lobster pasta"
+   },
+   {
+    "title": "File:Octopus drying under the sun in Greece.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Octopus_drying_under_the_sun_in_Greece.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Octopus_drying_under_the_sun_in_Greece.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "No machine-readable author provided. Lourakis assumed (based",
+    "query": "Dried octopus Greece",
+    "file": "dimitris_d2.jpg",
+    "dish": "Dried octopus Greece"
+   }
+  ]
+ },
+ "roka": {
+  "dishes": []
+ },
+ "luckys": {
+  "shop": {
+   "title": "File:Pita giros.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Pita_giros.JPG/1280px-Pita_giros.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Pita_giros.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Antonio Fajardo i López",
+   "query": "Gyros pita",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Pitta Mushroom Gyros - Montague Gyros 2025-12-06.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Pitta_Mushroom_Gyros_-_Montague_Gyros_2025-12-06.jpg/1280px-Pitta_Mushroom_Gyros_-_Montague_Gyros_2025-12-06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pitta_Mushroom_Gyros_-_Montague_Gyros_2025-12-06.jpg",
+    "license": "CC0",
+    "artist": "Andy Li",
+    "query": "Gyros pita",
+    "file": "luckys_d1.jpg",
+    "dish": "Gyros pita"
+   },
+   {
+    "title": "File:Souvlaki Platter.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Souvlaki_Platter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Souvlaki_Platter.jpg",
+    "license": "Public domain",
+    "artist": "en:User:Siqbal",
+    "query": "Souvlaki plate",
+    "file": "luckys_d2.jpg",
+    "dish": "Souvlaki plate"
+   }
+  ]
+ },
+ "pitogyros": {
+  "shop": {
+   "title": "File:Mix Gyros (Chicken & Pork) Pitta Wrap - Montague Gyros 2025-12-06.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Mix_Gyros_%28Chicken_%26_Pork%29_Pitta_Wrap_-_Montague_Gyros_2025-12-06.jpg/1280px-Mix_Gyros_%28Chicken_%26_Pork%29_Pitta_Wrap_-_Montague_Gyros_2025-12-06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Mix_Gyros_(Chicken_%26_Pork)_Pitta_Wrap_-_Montague_Gyros_2025-12-06.jpg",
+   "license": "CC0",
+   "artist": "Andy Li",
+   "query": "Pork gyros pita",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Lamb Gyro Souvlaki Wrap at Skewers on Commercial.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Lamb_Gyro_Souvlaki_Wrap_at_Skewers_on_Commercial.jpg/1280px-Lamb_Gyro_Souvlaki_Wrap_at_Skewers_on_Commercial.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lamb_Gyro_Souvlaki_Wrap_at_Skewers_on_Commercial.jpg",
+    "license": "CC0",
+    "artist": "StoppedTime",
+    "query": "Souvlaki skewers",
+    "file": "pitogyros_d2.jpg",
+    "dish": "Souvlaki skewers"
+   }
+  ]
+ },
+ "selene": {
+  "shop": {
+   "title": "File:Πύργος Σαντορίνης 0862.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/%CE%A0%CF%8D%CF%81%CE%B3%CE%BF%CF%82_%CE%A3%CE%B1%CE%BD%CF%84%CE%BF%CF%81%CE%AF%CE%BD%CE%B7%CF%82_0862.jpg/1280px-%CE%A0%CF%8D%CF%81%CE%B3%CE%BF%CF%82_%CE%A3%CE%B1%CE%BD%CF%84%CE%BF%CF%81%CE%AF%CE%BD%CE%B7%CF%82_0862.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:%CE%A0%CF%8D%CF%81%CE%B3%CE%BF%CF%82_%CE%A3%CE%B1%CE%BD%CF%84%CE%BF%CF%81%CE%AF%CE%BD%CE%B7%CF%82_0862.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "C messier",
+   "query": "Pyrgos Kallistis village",
+   "kind": "view"
+  },
+  "dishes": [
+   {
+    "title": "File:Préparation d'une tarte à la tomate (06) - sortie du four.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Pr%C3%A9paration_d%27une_tarte_%C3%A0_la_tomate_%2806%29_-_sortie_du_four.jpg/1280px-Pr%C3%A9paration_d%27une_tarte_%C3%A0_la_tomate_%2806%29_-_sortie_du_four.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pr%C3%A9paration_d%27une_tarte_%C3%A0_la_tomate_(06)_-_sortie_du_four.jpg",
+    "license": "CC0",
+    "artist": "Benoît Prieur",
+    "query": "Tomato tart",
+    "file": "selene_d1.jpg",
+    "dish": "Tomato tart"
+   },
+   {
+    "title": "File:Fava Schinoussa.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Fava_Schinoussa.jpg/1280px-Fava_Schinoussa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Fava_Schinoussa.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Waldviertler",
+    "query": "Fava split pea puree",
+    "file": "selene_d2.jpg",
+    "dish": "Fava split pea puree"
+   }
+  ]
+ },
+ "svoronos": {
+  "shop": {
+   "title": "File:Simit-2x.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Simit-2x.JPG/1280px-Simit-2x.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Simit-2x.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "미상",
+   "query": "Koulouri Thessalonikis",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Simit, salah satu roti khas Turki.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Simit%2C_salah_satu_roti_khas_Turki.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Simit,_salah_satu_roti_khas_Turki.jpg",
+    "license": "CC0",
+    "artist": "Tianadara",
+    "query": "Koulouri Thessalonikis",
+    "file": "svoronos_d1.jpg",
+    "dish": "Koulouri Thessalonikis"
+   }
+  ]
+ },
+ "kikis": {
+  "shop": {
+   "title": "File:Cyclades Mykonos Agios Sostis Petite Plage 23062013 - panoramio.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Cyclades_Mykonos_Agios_Sostis_Petite_Plage_23062013_-_panoramio.jpg/1280px-Cyclades_Mykonos_Agios_Sostis_Petite_Plage_23062013_-_panoramio.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Cyclades_Mykonos_Agios_Sostis_Petite_Plage_23062013_-_panoramio.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "rene boulay",
+   "query": "Agios Sostis beach Mykonos",
+   "kind": "view"
+  },
+  "dishes": [
+   {
+    "title": "File:Greek-Salad & Wine.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Greek-Salad_%26_Wine.jpg/1280px-Greek-Salad_%26_Wine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Greek-Salad_%26_Wine.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Manfred&amp;Barbara Aulbach",
+    "query": "Greek village salad",
+    "file": "kikis_d2.jpg",
+    "dish": "Greek village salad"
+   }
+  ]
+ },
+ "nikolas": {
+  "shop": {
+   "title": "File:Gemista.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Gemista.jpg/1280px-Gemista.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Gemista.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Photo and cooking: Badseed",
+   "query": "Gemista stuffed tomatoes",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Gemistagreek.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Gemistagreek.jpg/1280px-Gemistagreek.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Gemistagreek.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "Alpha",
+    "query": "Gemista stuffed tomatoes",
+    "file": "nikolas_d1.jpg",
+    "dish": "Gemista stuffed tomatoes"
+   },
+   {
+    "title": "File:Мусака од компири.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/%D0%9C%D1%83%D1%81%D0%B0%D0%BA%D0%B0_%D0%BE%D0%B4_%D0%BA%D0%BE%D0%BC%D0%BF%D0%B8%D1%80%D0%B8.jpg/1280px-%D0%9C%D1%83%D1%81%D0%B0%D0%BA%D0%B0_%D0%BE%D0%B4_%D0%BA%D0%BE%D0%BC%D0%BF%D0%B8%D1%80%D0%B8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%9C%D1%83%D1%81%D0%B0%D0%BA%D0%B0_%D0%BE%D0%B4_%D0%BA%D0%BE%D0%BC%D0%BF%D0%B8%D1%80%D0%B8.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Original:  Cuklev",
+    "query": "Moussaka Greek",
+    "file": "nikolas_d2.jpg",
+    "dish": "Moussaka Greek"
+   }
+  ]
+ },
+ "katerinas": {
+  "shop": {
+   "title": "File:Sunset of Mykonos.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Sunset_of_Mykonos.jpg/1280px-Sunset_of_Mykonos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Sunset_of_Mykonos.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Roberto Faccenda",
+   "query": "Little Venice Mykonos sunset",
+   "kind": "view"
+  },
+  "dishes": [
+   {
+    "title": "File:Grilled octopus at Other Mama.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Grilled_octopus_at_Other_Mama.jpg/1280px-Grilled_octopus_at_Other_Mama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Grilled_octopus_at_Other_Mama.jpg",
+    "license": "CC BY 2.0",
+    "artist": "T.Tseng",
+    "query": "Grilled octopus",
+    "file": "katerinas_d1.jpg",
+    "dish": "Grilled octopus"
+   },
+   {
+    "title": "File:Seafood pasta (6792548256).jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Seafood_pasta_%286792548256%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Seafood_pasta_(6792548256).jpg",
+    "license": "CC BY 2.0",
+    "artist": "Cooking etc. from Athens, Greece",
+    "query": "Seafood pasta Greek",
+    "file": "katerinas_d2.jpg",
+    "dish": "Seafood pasta Greek"
+   }
+  ]
+ },
+ "sakis": {
+  "shop": {
+   "title": "File:Taxiteller.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Taxiteller.jpg/1280px-Taxiteller.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Taxiteller.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "DoubleG at German Wikipedia",
+   "query": "Gyros plate tzatziki",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Mix Gyros (Chicken & Pork) Pitta Wrap - Montague Gyros 2025-12-06.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Mix_Gyros_%28Chicken_%26_Pork%29_Pitta_Wrap_-_Montague_Gyros_2025-12-06.jpg/1280px-Mix_Gyros_%28Chicken_%26_Pork%29_Pitta_Wrap_-_Montague_Gyros_2025-12-06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Mix_Gyros_(Chicken_%26_Pork)_Pitta_Wrap_-_Montague_Gyros_2025-12-06.jpg",
+    "license": "CC0",
+    "artist": "Andy Li",
+    "query": "Pork gyros",
+    "file": "sakis_d2.jpg",
+    "dish": "Pork gyros"
+   }
+  ]
+ },
+ "baboulas": {
+  "shop": {
+   "title": "File:Саганаки со школки.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/%D0%A1%D0%B0%D0%B3%D0%B0%D0%BD%D0%B0%D0%BA%D0%B8_%D1%81%D0%BE_%D1%88%D0%BA%D0%BE%D0%BB%D0%BA%D0%B8.jpg/1280px-%D0%A1%D0%B0%D0%B3%D0%B0%D0%BD%D0%B0%D0%BA%D0%B8_%D1%81%D0%BE_%D1%88%D0%BA%D0%BE%D0%BB%D0%BA%D0%B8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B0%D0%B3%D0%B0%D0%BD%D0%B0%D0%BA%D0%B8_%D1%81%D0%BE_%D1%88%D0%BA%D0%BE%D0%BB%D0%BA%D0%B8.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Deodora333",
+   "query": "Mussels saganaki",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Μύδια σαγανάκι 0801.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/%CE%9C%CF%8D%CE%B4%CE%B9%CE%B1_%CF%83%CE%B1%CE%B3%CE%B1%CE%BD%CE%AC%CE%BA%CE%B9_0801.jpg/1280px-%CE%9C%CF%8D%CE%B4%CE%B9%CE%B1_%CF%83%CE%B1%CE%B3%CE%B1%CE%BD%CE%AC%CE%BA%CE%B9_0801.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:%CE%9C%CF%8D%CE%B4%CE%B9%CE%B1_%CF%83%CE%B1%CE%B3%CE%B1%CE%BD%CE%AC%CE%BA%CE%B9_0801.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "C messier",
+    "query": "Mussels saganaki",
+    "file": "baboulas_d1.jpg",
+    "dish": "Mussels saganaki"
+   },
+   {
+    "title": "File:Tsipouro and Meze.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Tsipouro_and_Meze.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Tsipouro_and_Meze.jpg",
+    "license": "CC0",
+    "artist": "DocWoKav",
+    "query": "Ouzo meze",
+    "file": "baboulas_d2.jpg",
+    "dish": "Ouzo meze"
+   }
+  ]
+ },
+ "meating": {
+  "shop": {
+   "title": "File:Kleftiko - Brunswick Centre - London 2026-06-04.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Kleftiko_-_Brunswick_Centre_-_London_2026-06-04.jpg/1280px-Kleftiko_-_Brunswick_Centre_-_London_2026-06-04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Kleftiko_-_Brunswick_Centre_-_London_2026-06-04.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Haydn Blackey",
+   "query": "Slow cooked lamb Greek",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Seafood risotto, Trattoria Da Antonio, Włodarzewska, Warsaw, 2022.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Seafood_risotto%2C_Trattoria_Da_Antonio%2C_W%C5%82odarzewska%2C_Warsaw%2C_2022.jpg/1280px-Seafood_risotto%2C_Trattoria_Da_Antonio%2C_W%C5%82odarzewska%2C_Warsaw%2C_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Seafood_risotto,_Trattoria_Da_Antonio,_W%C5%82odarzewska,_Warsaw,_2022.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Kgbo",
+    "query": "Seafood risotto",
+    "file": "meating_d2.jpg",
+    "dish": "Seafood risotto"
+   }
+  ]
+ },
+ "gioras": {
+  "shop": {
+   "title": "File:Sifnos Amygdalota.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Sifnos_Amygdalota.jpg/1280px-Sifnos_Amygdalota.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Sifnos_Amygdalota.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Catlemur",
+   "query": "Amygdalota almond cookies",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Spanakopita.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Spanakopita.jpg/1280px-Spanakopita.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Spanakopita.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "Alpha",
+    "query": "Spanakopita",
+    "file": "gioras_d2.jpg",
+    "dish": "Spanakopita"
+   }
+  ]
+ },
+ "tamam": {
+  "dishes": [
+   {
+    "title": "File:Graviera Kritis Kraounaki Rethymnou.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Graviera_Kritis_Kraounaki_Rethymnou.jpg/1280px-Graviera_Kritis_Kraounaki_Rethymnou.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Graviera_Kritis_Kraounaki_Rethymnou.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Catlemur",
+    "query": "Graviera cheese",
+    "file": "tamam_d2.jpg",
+    "dish": "Graviera cheese"
+   },
+   {
+    "title": "File:Plat de Dakos en Crète en juillet 2021.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Plat_de_Dakos_en_Cr%C3%A8te_en_juillet_2021.jpg/1280px-Plat_de_Dakos_en_Cr%C3%A8te_en_juillet_2021.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Plat_de_Dakos_en_Cr%C3%A8te_en_juillet_2021.jpg",
+    "license": "CC0",
+    "artist": "Benoît Prieur",
+    "query": "Dakos",
+    "file": "tamam_d1.jpg",
+    "dish": "Dakos"
+   }
+  ],
+  "shop": {
+   "title": "File:Koukouvagia.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/95/Koukouvagia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "page": "https://commons.wikimedia.org/wiki/File:Koukouvagia.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Frente",
+   "query": "Dakos",
+   "kind": "dish"
+  }
+ },
+ "dounias": {
+  "dishes": [],
+  "shop": {
+   "title": "File:Restaurant Erotokritos (Almyrida) - beignets.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Restaurant_Erotokritos_%28Almyrida%29_-_beignets.jpg/1280px-Restaurant_Erotokritos_%28Almyrida%29_-_beignets.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Restaurant_Erotokritos_(Almyrida)_-_beignets.jpg",
+   "license": "CC0",
+   "artist": "Benoît Prieur",
+   "query": "Kalitsounia",
+   "kind": "dish"
+  }
+ },
+ "peskesi": {
+  "dishes": [
+   {
+    "title": "File:Κατσικάκι με αγκινάρες του βουνού στην κατσαρόλα.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/%CE%9A%CE%B1%CF%84%CF%83%CE%B9%CE%BA%CE%AC%CE%BA%CE%B9_%CE%BC%CE%B5_%CE%B1%CE%B3%CE%BA%CE%B9%CE%BD%CE%AC%CF%81%CE%B5%CF%82_%CF%84%CE%BF%CF%85_%CE%B2%CE%BF%CF%85%CE%BD%CE%BF%CF%8D_%CF%83%CF%84%CE%B7%CE%BD_%CE%BA%CE%B1%CF%84%CF%83%CE%B1%CF%81%CF%8C%CE%BB%CE%B1.jpg/1280px-%CE%9A%CE%B1%CF%84%CF%83%CE%B9%CE%BA%CE%AC%CE%BA%CE%B9_%CE%BC%CE%B5_%CE%B1%CE%B3%CE%BA%CE%B9%CE%BD%CE%AC%CF%81%CE%B5%CF%82_%CF%84%CE%BF%CF%85_%CE%B2%CE%BF%CF%85%CE%BD%CE%BF%CF%8D_%CF%83%CF%84%CE%B7%CE%BD_%CE%BA%CE%B1%CF%84%CF%83%CE%B1%CF%81%CF%8C%CE%BB%CE%B1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:%CE%9A%CE%B1%CF%84%CF%83%CE%B9%CE%BA%CE%AC%CE%BA%CE%B9_%CE%BC%CE%B5_%CE%B1%CE%B3%CE%BA%CE%B9%CE%BD%CE%AC%CF%81%CE%B5%CF%82_%CF%84%CE%BF%CF%85_%CE%B2%CE%BF%CF%85%CE%BD%CE%BF%CF%8D_%CF%83%CF%84%CE%B7%CE%BD_%CE%BA%CE%B1%CF%84%CF%83%CE%B1%CF%81%CF%8C%CE%BB%CE%B1.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "C messier",
+    "query": "Cretan cuisine dish",
+    "file": "peskesi_d2.jpg",
+    "dish": "Cretan cuisine dish"
+   }
+  ],
+  "shop": {
+   "title": "File:Restaurant Erotokritos (Almyrida) - beignets.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Restaurant_Erotokritos_%28Almyrida%29_-_beignets.jpg/1280px-Restaurant_Erotokritos_%28Almyrida%29_-_beignets.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Restaurant_Erotokritos_(Almyrida)_-_beignets.jpg",
+   "license": "CC0",
+   "artist": "Benoît Prieur",
+   "query": "Kalitsounia",
+   "kind": "dish"
+  }
+ },
+ "iordanis": {
+  "dishes": [
+   {
+    "title": "File:Bougatsa.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Bougatsa.jpg/1280px-Bougatsa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bougatsa.jpg",
+    "license": "CC BY-SA 2.5",
+    "artist": "Konstantinos Stampoulis (Geraki)",
+    "query": "Bougatsa",
+    "file": "iordanis_d2.jpg",
+    "dish": "Bougatsa"
+   }
+  ]
+ }
+}

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ko" data-k="greece">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>그리스 · 세 가지 길</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap">
+<link rel="stylesheet" href="site.css">
+<link rel="stylesheet" href="country.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="back" href="./"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"></path></svg>지구본</a>
+  <a class="back" href="booking.html?k=greece">예약할 것</a>
+  <span class="sp"></span>
+  <span class="kicker">2027 · HONEYMOON</span>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div>
+      <div class="eyebrow">ΕΛΛΆΔΑ · GREECE</div>
+      <h1>그리스, 세 가지 길</h1>
+    </div>
+    <div class="facts">
+      <span><b>5.9 – 5.18</b>10일 · 9박</span>
+      <span><b>1,000만 원</b>2인 총예산</span>
+      <span><b>1€ = 1,500원</b>원화 환산</span>
+    </div>
+  </section>
+
+  <section class="cards" id="cards" aria-label="코스 고르기"></section>
+
+  <div class="empty" id="empty">코스를 하나 고르면 총비용과 10일 요약이 여기에 펼쳐집니다.</div>
+
+  <section class="panel" id="panel" hidden aria-live="polite">
+    <div class="ptop">
+      <div class="lead">
+        <span class="lbl" id="pLbl"></span>
+        <span class="big"><b id="pTotal"></b><span id="pPct"></span></span>
+      </div>
+      <a class="btn-line" id="pBook" href="booking.html">예약할 것 보기</a>
+      <a class="btn-gold" id="pGo" href="web/">이 코스 일정 보기 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+    </div>
+    <div>
+      <div class="bar" id="pBar"></div>
+      <div class="legend" id="pLegend"></div>
+    </div>
+    <div class="four">
+      <div><span class="k">항공</span><span class="v" id="pFlight"></span></div>
+      <div><span class="k">숙소</span><span class="v" id="pStay"></span></div>
+      <div><span class="k good">좋은 점</span><span class="v" id="pGood"></span></div>
+      <div><span class="k warn">주의</span><span class="v" id="pWatch"></span></div>
+    </div>
+    <div>
+      <div class="sec">10일 요약</div>
+      <ol class="days" id="pDays"></ol>
+    </div>
+  </section>
+</main>
+
+<script src="country.js"></script>
+</body>
+</html>

@@ -1,12 +1,11 @@
 """세 코스의 일자별 문앞-문앞 이동 데이터. 시간은 build_days()가 순서대로 계산한다."""
 
 
-def mv(frm, to, mode, mins, line="", stops="", fare="", note=""):
-    return {"kind": "move", "frm": frm, "to": to, "mode": mode, "mins": mins, "line": line, "stops": stops, "fare": fare, "note": note}
+import os
+import sys
 
-
-def st(place, do, dur, fare="", note="", at=None, link=""):
-    return {"kind": "stop", "place": place, "do": do, "dur": dur, "fare": fare, "note": note, "at": at, "link": link}
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from tripkit import add_times, mv, st  # noqa: E402
 
 
 # 자주 쓰는 요금 문구
@@ -521,23 +520,6 @@ def build_course(course):
     return days
 
 
-def add_times(day):
-    """start 시각부터 순서대로 시각을 계산한다. at이 있으면 그 시각으로 건너뛴다."""
-    h, m = map(int, day["start"].split(":"))
-    cursor = h * 60 + m
-    out = []
-    for it in day["items"]:
-        if it["kind"] == "stop" and it.get("at"):
-            ah, am = map(int, it["at"].split(":"))
-            fixed = ah * 60 + am
-            if fixed > cursor:
-                it = dict(it, wait=fixed - cursor)
-                cursor = fixed
-        it = dict(it, time="%02d:%02d" % (cursor // 60 % 24, cursor % 60))
-        cursor += it["mins"] if it["kind"] == "move" else it["dur"]
-        out.append(it)
-    day = dict(day, items=out, end="%02d:%02d" % (cursor // 60 % 24, cursor % 60))
-    return day
 
 
 COURSES = {c: [add_times(d) for d in build_course(c)] for c in (1, 2, 3)}

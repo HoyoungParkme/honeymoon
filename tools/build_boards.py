@@ -11,6 +11,7 @@ sys.path.insert(0, HERE)
 from blobs import HOTEL_LINKS, MAP_BLOBS, PHOTO_BLOBS  # noqa: E402
 from itinerary import BREAKFAST, CAFES, COURSES  # noqa: E402
 from places import PLACES  # noqa: E402
+from tripkit import MODE_KO, eur_of, shift  # noqa: E402
 
 SCRATCH = os.path.dirname(HERE)
 COORDS = json.load(open(os.path.join(SCRATCH, "data", "coords.json")))
@@ -20,8 +21,6 @@ COURSES_JSON = os.path.join(SCRATCH, "data", "courses.json")  # 웹앱용 (maps/
 TEMPLATE = open(os.path.join(HERE, "board_template.dc.html"), encoding="utf-8").read()
 MAX_H = 8000
 
-MODE_KO = {"walk": "도보", "metro": "메트로", "train": "열차", "rack": "산악열차", "funicular": "푸니쿨라",
-           "bus": "버스", "tram": "트램", "taxi": "택시", "plane": "비행기"}
 GMAP_MODE = {"walk": "walking", "taxi": "driving"}
 COURSE_META = {
     1: ("코스 1 · 스페인 일주 (경유)", "#1E56A0"),
@@ -44,18 +43,6 @@ def place_url(key):
     return "https://www.google.com/maps/search/?api=1&query=" + urllib.parse.quote(PLACES[key]["q"])
 
 
-def eur_of(fare):
-    """요금 문구에서 유로 합계(하한)를 뽑는다. 하루 비용 합산용."""
-    if not fare:
-        return 0.0
-    text = re.sub(r"€\s?(\d+(?:\.\d+)?)\s?[–~-]\s?€?\d+(?:\.\d+)?", r"€\1", fare)
-    return sum(float(v) for v in re.findall(r"€\s?(\d+(?:\.\d+)?)", text))
-
-
-def shift(hhmm, minutes):
-    h, m = map(int, hhmm.split(":"))
-    t = max(h * 60 + m - minutes, 5 * 60 + 30)
-    return "%02d:%02d" % (t // 60, t % 60)
 
 
 def seg_maps(course, dnum):

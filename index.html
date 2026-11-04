@@ -86,9 +86,14 @@
         <span class="txt"><b>스페인</b><small>5.9 – 5.18 · 코스 3개</small></span>
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
       </a>
+      <a class="pin-row on" href="greece.html">
+        <span class="dot"></span>
+        <span class="txt"><b>그리스</b><small>5.9 – 5.18 · 코스 3개</small></span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+      </a>
       <div class="pin-row off">
         <span class="dot"></span>
-        <span class="txt" style="font-size: 14px;">다음 여행지</span>
+        <span class="txt" style="font-size: 14px;">포르투갈 · 체코</span>
         <span style="font-size: 12px;">준비 중</span>
       </div>
     </nav>
@@ -119,14 +124,15 @@
   // 핀: 지금은 스페인만 켜져 있다. 새 여행지는 여기에 한 줄 추가하고 href 를 주면 된다
   var PINS = [
     { id: 'spain', name: '스페인', sub: '코스 3개 · 10일', lon: -3.7, lat: 40.4, href: 'spain.html' },
-    { id: 'italy', name: '이탈리아', sub: '준비 중', lon: 12.5, lat: 41.9 },
-    { id: 'japan', name: '일본', sub: '준비 중', lon: 139.7, lat: 35.7 }
+    { id: 'greece', name: '그리스', sub: '코스 3개 · 10일', lon: 23.7, lat: 37.98, href: 'greece.html' },
+    { id: 'portugal', name: '포르투갈', sub: '준비 중', lon: -9.14, lat: 38.72 },
+    { id: 'czech', name: '체코', sub: '준비 중', lon: 14.42, lat: 50.08 }
   ];
   var canvas = document.getElementById('globe');
   var wrap = document.getElementById('globeWrap');
   var pinLayer = document.getElementById('pins');
   var ctx = canvas.getContext('2d');
-  var projection = d3.geoOrthographic().rotate([3.7, -38]);
+  var projection = d3.geoOrthographic().rotate([-10, -40]);
   var path = d3.geoPath(projection, ctx);
   var land = null, borders = null, size = 0, dpr = Math.min(window.devicePixelRatio || 1, 2);
   var sphere = { type: 'Sphere' };

@@ -9,7 +9,12 @@
 
   // 로컬(web/ 아래)에서는 한 단계 위, 아티팩트로 발행하면 같은 폴더에서 읽는다
   var LOCAL = /\/web\/?$/.test(location.pathname);
-  var DATA = LOCAL ? '../data/' : 'data/';
+  // ?k=greece 면 data/greece/ 를 읽는다 (스페인은 키 없음). 나라 이름·페이지는 data/countries.json
+  var K = (/[?&]k=([a-z]+)/.exec(location.search) || [])[1] || 'spain';
+  var Q = K === 'spain' ? '' : '?k=' + K;
+  var ROOTDATA = LOCAL ? '../data/' : 'data/';
+  var DATA = ROOTDATA + (K === 'spain' ? '' : K + '/');
+  var COUNTRY = { name: '스페인', title: '스페인 신혼여행', page: 'spain.html' };
   var ASSET = LOCAL ? '../' : '';
   // 로컬은 OSM 타일 서버를 직접 쓴다. ?atlas 를 붙이면 로컬에서도 내장 타일로 확인할 수 있다
   var ONLINE_TILES = LOCAL && !/[?&]atlas/.test(location.search);
@@ -17,7 +22,7 @@
   var BADGE = {
     walk: ['도보', '#1E56A0'], metro: ['메트로', '#B8432A'], train: ['열차', '#B8432A'],
     rack: ['산악열차', '#B8432A'], funicular: ['푸니쿨라', '#B8432A'], bus: ['버스', '#2F7A57'],
-    tram: ['트램', '#2F7A57'], taxi: ['택시', '#7A5C99'], plane: ['비행기', '#7A5C99'], stop: ['장소', '#1C2230']
+    tram: ['트램', '#2F7A57'], taxi: ['택시', '#7A5C99'], plane: ['비행기', '#7A5C99'], ferry: ['페리', '#1E7FA8'], boat: ['보트', '#1E7FA8'], stop: ['장소', '#1C2230']
   };
 
   var trip = null;          // { courses, coords, routes }
@@ -137,10 +142,21 @@
     };
     var previews = get('previews.json').catch(function () { return {}; });  // 없어도 앱은 돈다
     var restaurants = get('restaurants.json').catch(function () { return {}; });
-    return Promise.all(['courses.json', 'index.json', 'coords.json', 'routes.json'].map(get).concat([previews, restaurants])).then(function (res) {
+    var countries = fetch(ROOTDATA + 'countries.json').then(function (r) { return r.json(); }).catch(function () { return {}; });
+    return Promise.all(['courses.json', 'index.json', 'coords.json', 'routes.json'].map(get).concat([previews, restaurants, countries])).then(function (res) {
+      if (res[6] && res[6][K]) COUNTRY = res[6][K];
+      applyCountry();
       attachSegments(res[0], res[1], res[2], res[3]);
       trip = { courses: res[0], coords: res[2], routes: res[3], previews: res[4] || {}, restaurants: res[5] || {} };
     });
+  }
+
+  // 제목·경로 표시줄·링크를 나라에 맞춘다
+  function applyCountry() {
+    document.title = COUNTRY.title;
+    var h1 = document.querySelector('.brand h1'); if (h1) h1.textContent = COUNTRY.title;
+    document.querySelectorAll('a[href="../spain.html"]').forEach(function (a) { a.setAttribute('href', '../' + COUNTRY.page); });
+    var crumb = document.querySelector('.crumbs a[href="../' + COUNTRY.page + '"]'); if (crumb) crumb.textContent = COUNTRY.name;
   }
 
   // ── 주소(#c1-d3)와 상태 ──
@@ -173,7 +189,7 @@
 
     var total = course.days.reduce(function (s, d) { return s + d.cost; }, 0);
     $('courseBar').innerHTML = '<b>' + esc(course.name) + '</b> · ' + course.days.length + '일 · 현지 이동·입장권만 1인 약 <b>' +
-      esc(won('€' + Math.round(total))) + '</b> (2인 ' + esc(won('€' + Math.round(total * 2))) + ') · 숙박·식비·항공은 <a href="../spain.html#c' + state.course.replace('course', '') + '">코스 총액</a>에';
+      esc(won('€' + Math.round(total))) + '</b> (2인 ' + esc(won('€' + Math.round(total * 2))) + ') · 숙박·식비·항공은 <a href="../' + COUNTRY.page + '#c' + state.course.replace('course', '') + '">코스 총액</a>에';
 
     $('dayTabs').innerHTML = course.days.map(function (d, i) {
       return '<button class="day-tab" role="tab" data-d="' + i + '" aria-selected="' + (i === state.day) + '">' +
@@ -250,7 +266,7 @@
 
   // ── 지도 ──
 
-  var LINE_COLOR = { walk: '#1E56A0', metro: '#B8432A', train: '#B8432A', rack: '#B8432A', funicular: '#B8432A', bus: '#2F7A57', tram: '#2F7A57', taxi: '#7A5C99', plane: '#7A5C99' };
+  var LINE_COLOR = { walk: '#1E56A0', metro: '#B8432A', train: '#B8432A', rack: '#B8432A', funicular: '#B8432A', bus: '#2F7A57', tram: '#2F7A57', taxi: '#7A5C99', plane: '#7A5C99' , ferry: '#1E7FA8', boat: '#1E7FA8' };
 
   // 아티팩트로 발행된 페이지는 외부 타일 서버를 못 쓴다. 미리 받아 둔 타일을
   // 아틀라스(JPEG 16×16장)에서 잘라 그리는 타일 레이어로 대신한다.
@@ -342,7 +358,7 @@
   function restaurantCard(r, it) {
     var rt = r.rating || {};
     return '<article class="pv rest">' +
-      (r.photo ? '<a class="shot" href="' + esc(r.photo.page || r.url || it.link) + '" target="_blank" rel="noopener"><img src="' + esc(ASSET + r.photo.file) + '" alt="' + esc(r.name) + (r.photo.kind === 'dish' ? ' 대표 음식' : ' 가게') + '" loading="lazy"><span class="credit">' + esc(r.photo.kind === 'dish' ? '대표 음식 · ' : '') + esc(r.photo.credit) + '</span></a>' : '') +
+      (r.photo ? '<a class="shot" href="' + esc(r.photo.page || r.url || it.link) + '" target="_blank" rel="noopener"><img src="' + esc(ASSET + r.photo.file) + '" alt="' + esc(r.name) + (r.photo.kind === 'dish' ? ' 대표 음식' : r.photo.kind === 'view' ? ' 주변 풍경' : ' 가게') + '" loading="lazy"><span class="credit">' + esc(r.photo.kind === 'dish' ? '대표 음식 · ' : r.photo.kind === 'view' ? '주변 풍경 · ' : '') + esc(r.photo.credit) + '</span></a>' : '') +
       '<div class="meta">' +
       '<span class="kind">식당 · ' + esc(r.city) + '</span>' +
       '<span class="title">' + esc(r.name) + '</span>' +
@@ -455,7 +471,7 @@
     readHash();
     renderHeader();
     syncMapToggle();
-    var bl = $('bookLink'); if (bl) bl.href = '../booking.html#c' + (location.hash.match(/^#c(\d)/) || [0, 1])[1];
+    var bl = $('bookLink'); if (bl) bl.href = '../booking.html' + Q + '#c' + (location.hash.match(/^#c(\d)/) || [0, 1])[1];
     renderPlan();
     renderMap();
     $('preview').innerHTML = '<p class="preview-empty">일정 행을 누르면 그 행의 예매·식당 페이지 미리보기가 여기에 떠요.</p>';

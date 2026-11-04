@@ -15,8 +15,8 @@ ROOT = os.path.dirname(HERE)
 OUT = os.path.join(ROOT, "photos", "food")
 CREDITS = os.path.join(ROOT, "photos", "food_credits.json")
 os.makedirs(OUT, exist_ok=True)
-UA = "SpainHoneymoonPlanner/1.0 (personal trip page)"
-CTX = ssl.create_default_context()
+sys.path.insert(0, HERE)
+from commons import fetch, search  # noqa: E402
 
 # 키: (가게 검색어 후보들, 대표 음식 검색어 후보들)
 SUBJECTS = {
@@ -46,40 +46,6 @@ SUBJECTS = {
 }
 
 
-def fetch(url):
-    for attempt in range(5):
-        req = urllib.request.Request(url, headers={"User-Agent": UA})
-        try:
-            with urllib.request.urlopen(req, timeout=30, context=CTX) as r:
-                return r.read()
-        except urllib.error.HTTPError as e:
-            if e.code != 429:
-                raise
-            time.sleep(10 * (attempt + 1))
-    raise RuntimeError("429 계속")
-
-
-def strip(t):
-    return re.sub(r"<[^>]+>", "", t or "").strip()
-
-
-def search(q):
-    params = {"action": "query", "format": "json", "generator": "search", "gsrnamespace": "6",
-              "gsrsearch": q + " filetype:bitmap", "gsrlimit": "8", "prop": "imageinfo",
-              "iiprop": "url|extmetadata", "iiurlwidth": "1200"}
-    data = json.loads(fetch("https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode(params)))
-    out = []
-    for p in sorted(data.get("query", {}).get("pages", {}).values(), key=lambda x: x.get("index", 99)):
-        ii = (p.get("imageinfo") or [{}])[0]
-        meta = ii.get("extmetadata", {})
-        lic = strip(meta.get("LicenseShortName", {}).get("value", ""))
-        if not ii.get("thumburl") or not re.search(r"CC|Public domain", lic, re.I):
-            continue
-        if re.search(r"\.(svg|gif|pdf|tif)$", p["title"], re.I):
-            continue
-        out.append({"title": p["title"], "thumb": ii["thumburl"], "page": ii.get("descriptionurl", ""),
-                    "license": lic, "artist": strip(meta.get("Artist", {}).get("value", ""))[:60] or "미상"})
-    return out
 
 
 credits = json.load(open(CREDITS, encoding="utf-8")) if os.path.exists(CREDITS) else {}

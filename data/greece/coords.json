@@ -1,0 +1,482 @@
+{
+ "acropolis": {
+  "lat": 37.9692,
+  "lon": 23.7266,
+  "src": "manual"
+ },
+ "acropolis_museum": {
+  "lat": 37.9684,
+  "lon": 23.7285,
+  "src": "manual"
+ },
+ "agios_sostis": {
+  "lat": 37.4891,
+  "lon": 25.3716,
+  "src": "manual"
+ },
+ "akrotiri": {
+  "lat": 36.3515,
+  "lon": 25.4035,
+  "src": "manual"
+ },
+ "ammoudi": {
+  "lat": 36.4627,
+  "lon": 25.3707,
+  "src": "manual"
+ },
+ "anafiotika": {
+  "lat": 37.9725,
+  "lon": 23.7283,
+  "src": "manual"
+ },
+ "ancient_agora": {
+  "lat": 37.9747,
+  "lon": 23.7224,
+  "src": "manual"
+ },
+ "ancient_thera": {
+  "lat": 36.3622,
+  "lon": 25.4777,
+  "src": "manual"
+ },
+ "arachova": {
+  "lat": 38.479,
+  "lon": 22.5845,
+  "src": "manual"
+ },
+ "armenistis": {
+  "lat": 37.4936,
+  "lon": 25.3214,
+  "src": "manual"
+ },
+ "ath_airport": {
+  "lat": 37.9364,
+  "lon": 23.9445,
+  "src": "manual"
+ },
+ "athinios": {
+  "lat": 36.3859,
+  "lon": 25.431,
+  "src": "manual"
+ },
+ "chania_harbour": {
+  "lat": 35.5177,
+  "lon": 24.0175,
+  "src": "manual"
+ },
+ "chania_lighthouse": {
+  "lat": 35.5196,
+  "lon": 24.0174,
+  "src": "manual"
+ },
+ "chq_airport": {
+  "lat": 35.5317,
+  "lon": 24.1497,
+  "src": "manual"
+ },
+ "delos": {
+  "lat": 37.4005,
+  "lon": 25.2685,
+  "src": "manual"
+ },
+ "delphi": {
+  "lat": 38.4824,
+  "lon": 22.501,
+  "src": "manual"
+ },
+ "elafonisi": {
+  "lat": 35.2714,
+  "lon": 23.5413,
+  "src": "manual"
+ },
+ "fira": {
+  "lat": 36.4166,
+  "lon": 25.4316,
+  "src": "manual"
+ },
+ "fira_oldport": {
+  "lat": 36.4176,
+  "lon": 25.429,
+  "src": "manual"
+ },
+ "firostefani": {
+  "lat": 36.4232,
+  "lon": 25.429,
+  "src": "manual"
+ },
+ "great_meteoron": {
+  "lat": 39.7217,
+  "lon": 21.6247,
+  "src": "manual"
+ },
+ "h_ath_electra": {
+  "lat": 37.9738,
+  "lon": 23.7329,
+  "src": "manual"
+ },
+ "h_ath_herodion": {
+  "lat": 37.9681,
+  "lon": 23.7262,
+  "src": "manual"
+ },
+ "h_ath_plaka": {
+  "lat": 37.9759,
+  "lon": 23.729,
+  "src": "manual"
+ },
+ "h_cha_delfino": {
+  "lat": 35.5178,
+  "lon": 24.0164,
+  "src": "manual"
+ },
+ "h_fira_elgreco": {
+  "lat": 36.4232,
+  "lon": 25.435,
+  "src": "manual"
+ },
+ "h_her_lato": {
+  "lat": 35.342,
+  "lon": 25.1366,
+  "src": "manual"
+ },
+ "h_imero_astra": {
+  "lat": 36.4327,
+  "lon": 25.4228,
+  "src": "manual"
+ },
+ "h_kal_doupiani": {
+  "lat": 39.7158,
+  "lon": 21.6203,
+  "src": "manual"
+ },
+ "h_myk_harmony": {
+  "lat": 37.4497,
+  "lon": 25.3291,
+  "src": "manual"
+ },
+ "h_oia_andronis": {
+  "lat": 36.4613,
+  "lon": 25.3762,
+  "src": "manual"
+ },
+ "heraklion_lions": {
+  "lat": 35.3392,
+  "lon": 25.1335,
+  "src": "manual"
+ },
+ "heraklion_port": {
+  "lat": 35.3445,
+  "lon": 25.142,
+  "src": "manual"
+ },
+ "imerovigli": {
+  "lat": 36.4332,
+  "lon": 25.4232,
+  "src": "manual"
+ },
+ "jmk_airport": {
+  "lat": 37.4351,
+  "lon": 25.3481,
+  "src": "manual"
+ },
+ "jtr_airport": {
+  "lat": 36.3992,
+  "lon": 25.4793,
+  "src": "manual"
+ },
+ "kalambaka": {
+  "lat": 39.7064,
+  "lon": 21.626,
+  "src": "manual"
+ },
+ "kamari": {
+  "lat": 36.3762,
+  "lon": 25.484,
+  "src": "manual"
+ },
+ "kastraki": {
+  "lat": 39.714,
+  "lon": 21.617,
+  "src": "manual"
+ },
+ "knossos": {
+  "lat": 35.298,
+  "lon": 25.1631,
+  "src": "manual"
+ },
+ "lycabettus": {
+  "lat": 37.9819,
+  "lon": 23.7433,
+  "src": "manual"
+ },
+ "lycabettus_funicular": {
+  "lat": 37.9793,
+  "lon": 23.7434,
+  "src": "manual"
+ },
+ "matoyianni": {
+  "lat": 37.4453,
+  "lon": 25.3283,
+  "src": "manual"
+ },
+ "meteora_sunset": {
+  "lat": 39.7172,
+  "lon": 21.6385,
+  "src": "manual"
+ },
+ "monastiraki": {
+  "lat": 37.9761,
+  "lon": 23.7257,
+  "src": "manual"
+ },
+ "mykonos_newport": {
+  "lat": 37.4627,
+  "lon": 25.3289,
+  "src": "manual"
+ },
+ "mykonos_oldport": {
+  "lat": 37.4478,
+  "lon": 25.3268,
+  "src": "manual"
+ },
+ "nat_arch_museum": {
+  "lat": 37.989,
+  "lon": 23.7323,
+  "src": "manual"
+ },
+ "national_garden": {
+  "lat": 37.973,
+  "lon": 23.7375,
+  "src": "manual"
+ },
+ "nea_kameni": {
+  "lat": 36.404,
+  "lon": 25.396,
+  "src": "manual"
+ },
+ "oia": {
+  "lat": 36.4618,
+  "lon": 25.3753,
+  "src": "manual"
+ },
+ "oia_castle": {
+  "lat": 36.4609,
+  "lon": 25.3726,
+  "src": "manual"
+ },
+ "panathenaic": {
+  "lat": 37.9683,
+  "lon": 23.7411,
+  "src": "manual"
+ },
+ "paraportiani": {
+  "lat": 37.447,
+  "lon": 25.3257,
+  "src": "manual"
+ },
+ "perissa": {
+  "lat": 36.3557,
+  "lon": 25.4757,
+  "src": "manual"
+ },
+ "philopappos": {
+  "lat": 37.9666,
+  "lon": 23.7192,
+  "src": "manual"
+ },
+ "plaka": {
+  "lat": 37.9726,
+  "lon": 23.7302,
+  "src": "manual"
+ },
+ "pyrgos": {
+  "lat": 36.3826,
+  "lon": 25.4499,
+  "src": "manual"
+ },
+ "pyrgos_castle": {
+  "lat": 36.3831,
+  "lon": 25.45,
+  "src": "manual"
+ },
+ "r_aktaion": {
+  "lat": 36.4235,
+  "lon": 25.4296,
+  "src": "manual"
+ },
+ "r_ariston": {
+  "lat": 37.9761,
+  "lon": 23.7331,
+  "src": "manual"
+ },
+ "r_atlantikos": {
+  "lat": 37.9784,
+  "lon": 23.7239,
+  "src": "manual"
+ },
+ "r_baboulas": {
+  "lat": 37.4482,
+  "lon": 25.3285,
+  "src": "manual"
+ },
+ "r_dimitris": {
+  "lat": 36.4623,
+  "lon": 25.3703,
+  "src": "manual"
+ },
+ "r_dounias": {
+  "lat": 35.4389,
+  "lon": 23.9419,
+  "src": "manual"
+ },
+ "r_gioras": {
+  "lat": 37.4461,
+  "lon": 25.3297,
+  "src": "manual"
+ },
+ "r_iordanis": {
+  "lat": 35.5149,
+  "lon": 24.0185,
+  "src": "manual"
+ },
+ "r_karamanlidika": {
+  "lat": 37.9799,
+  "lon": 23.7258,
+  "src": "manual"
+ },
+ "r_katerinas": {
+  "lat": 37.4456,
+  "lon": 25.3262,
+  "src": "manual"
+ },
+ "r_kikis": {
+  "lat": 37.4888,
+  "lon": 25.3705,
+  "src": "manual"
+ },
+ "r_kostas": {
+  "lat": 37.9767,
+  "lon": 23.7282,
+  "src": "manual"
+ },
+ "r_luckys": {
+  "lat": 36.4187,
+  "lon": 25.4316,
+  "src": "manual"
+ },
+ "r_lukumades": {
+  "lat": 37.9768,
+  "lon": 23.7272,
+  "src": "manual"
+ },
+ "r_metaxi": {
+  "lat": 36.3838,
+  "lon": 25.4609,
+  "src": "manual"
+ },
+ "r_peskesi": {
+  "lat": 35.339,
+  "lon": 25.1312,
+  "src": "manual"
+ },
+ "r_pitogyros": {
+  "lat": 36.4621,
+  "lon": 25.3778,
+  "src": "manual"
+ },
+ "r_psaraki": {
+  "lat": 36.3383,
+  "lon": 25.4303,
+  "src": "manual"
+ },
+ "r_sakis": {
+  "lat": 37.4449,
+  "lon": 25.3279,
+  "src": "manual"
+ },
+ "r_selene": {
+  "lat": 36.3829,
+  "lon": 25.4505,
+  "src": "manual"
+ },
+ "r_strofi": {
+  "lat": 37.9686,
+  "lon": 23.7235,
+  "src": "manual"
+ },
+ "r_svoronos": {
+  "lat": 36.4178,
+  "lon": 25.432,
+  "src": "manual"
+ },
+ "r_tamam": {
+  "lat": 35.5163,
+  "lon": 24.0166,
+  "src": "manual"
+ },
+ "r_thes": {
+  "lat": 37.9785,
+  "lon": 23.7232,
+  "src": "manual"
+ },
+ "red_beach": {
+  "lat": 36.3482,
+  "lon": 25.3945,
+  "src": "manual"
+ },
+ "rethymno": {
+  "lat": 35.3699,
+  "lon": 24.4737,
+  "src": "manual"
+ },
+ "santo_wines": {
+  "lat": 36.3967,
+  "lon": 25.4369,
+  "src": "manual"
+ },
+ "seitan_limania": {
+  "lat": 35.5527,
+  "lon": 24.1952,
+  "src": "manual"
+ },
+ "skaros": {
+  "lat": 36.4313,
+  "lon": 25.417,
+  "src": "manual"
+ },
+ "sounion": {
+  "lat": 37.6503,
+  "lon": 24.0246,
+  "src": "manual"
+ },
+ "syntagma": {
+  "lat": 37.9755,
+  "lon": 23.7348,
+  "src": "manual"
+ },
+ "syntagma_guard": {
+  "lat": 37.9753,
+  "lon": 23.7366,
+  "src": "manual"
+ },
+ "varlaam": {
+  "lat": 39.7246,
+  "lon": 21.6267,
+  "src": "manual"
+ },
+ "vlychada": {
+  "lat": 36.3376,
+  "lon": 25.4296,
+  "src": "manual"
+ },
+ "windmills": {
+  "lat": 37.4446,
+  "lon": 25.3259,
+  "src": "manual"
+ },
+ "zeus_temple": {
+  "lat": 37.9693,
+  "lon": 23.7331,
+  "src": "manual"
+ }
+}

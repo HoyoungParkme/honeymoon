@@ -1,0 +1,1068 @@
+{
+ "c1_d01_s1.png": {
+  "course": 1,
+  "day": 1,
+  "seg": 1,
+  "order": {
+   "ath_airport": 1,
+   "h_ath_electra": 2,
+   "r_lukumades": 3,
+   "monastiraki": 4,
+   "plaka": 5,
+   "anafiotika": 6,
+   "lycabettus_funicular": 7,
+   "lycabettus": 8,
+   "r_karamanlidika": 9
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17
+  ],
+  "city": "아테네"
+ },
+ "c1_d02_s1.png": {
+  "course": 1,
+  "day": 2,
+  "seg": 1,
+  "order": {
+   "h_ath_electra": 1,
+   "acropolis": 2,
+   "acropolis_museum": 3,
+   "r_kostas": 4,
+   "ancient_agora": 5,
+   "syntagma_guard": 6,
+   "syntagma": 7,
+   "sounion": 8,
+   "r_atlantikos": 9
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  "city": "아테네"
+ },
+ "c1_d03_s1.png": {
+  "course": 1,
+  "day": 3,
+  "seg": 1,
+  "order": {
+   "h_ath_electra": 1,
+   "r_ariston": 2,
+   "ath_airport": 3
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "city": "아테네 → 미코노스"
+ },
+ "c1_d03_s2.png": {
+  "course": 1,
+  "day": 3,
+  "seg": 2,
+  "order": {
+   "jmk_airport": 1,
+   "h_myk_harmony": 2,
+   "paraportiani": 3,
+   "matoyianni": 4,
+   "r_katerinas": 5,
+   "windmills": 6,
+   "r_sakis": 7
+  },
+  "items": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20
+  ],
+  "city": "아테네 → 미코노스"
+ },
+ "c1_d04_s1.png": {
+  "course": 1,
+  "day": 4,
+  "seg": 1,
+  "order": {
+   "h_myk_harmony": 1,
+   "mykonos_oldport": 2,
+   "delos": 3,
+   "r_kikis": 4,
+   "agios_sostis": 5,
+   "armenistis": 6,
+   "r_baboulas": 7
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "city": "미코노스"
+ },
+ "c1_d05_s1.png": {
+  "course": 1,
+  "day": 5,
+  "seg": 1,
+  "order": {
+   "h_myk_harmony": 1,
+   "r_gioras": 2,
+   "mykonos_newport": 3
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "city": "미코노스 → 산토리니"
+ },
+ "c1_d05_s2.png": {
+  "course": 1,
+  "day": 5,
+  "seg": 2,
+  "order": {
+   "athinios": 1,
+   "h_oia_andronis": 2,
+   "r_pitogyros": 3,
+   "oia": 4,
+   "ammoudi": 5,
+   "r_dimitris": 6
+  },
+  "items": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16
+  ],
+  "city": "미코노스 → 산토리니"
+ },
+ "c1_d06_s1.png": {
+  "course": 1,
+  "day": 6,
+  "seg": 1,
+  "order": {
+   "h_oia_andronis": 1,
+   "oia": 2,
+   "vlychada": 3
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "city": "산토리니"
+ },
+ "c1_d07_s1.png": {
+  "course": 1,
+  "day": 7,
+  "seg": 1,
+  "order": {
+   "h_oia_andronis": 1,
+   "h_fira_elgreco": 2,
+   "imerovigli": 3,
+   "skaros": 4,
+   "firostefani": 5,
+   "r_aktaion": 6,
+   "akrotiri": 7,
+   "red_beach": 8,
+   "santo_wines": 9,
+   "r_metaxi": 10
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17
+  ],
+  "city": "산토리니"
+ },
+ "c1_d08_s1.png": {
+  "course": 1,
+  "day": 8,
+  "seg": 1,
+  "order": {
+   "h_fira_elgreco": 1,
+   "r_svoronos": 2,
+   "fira": 3,
+   "fira_oldport": 4,
+   "nea_kameni": 5,
+   "pyrgos": 6,
+   "pyrgos_castle": 7,
+   "r_selene": 8
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  "city": "산토리니"
+ },
+ "c1_d09_s1.png": {
+  "course": 1,
+  "day": 9,
+  "seg": 1,
+  "order": {
+   "h_fira_elgreco": 1,
+   "r_luckys": 2,
+   "jtr_airport": 3
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "city": "산토리니 → 아테네"
+ },
+ "c1_d09_s2.png": {
+  "course": 1,
+  "day": 9,
+  "seg": 2,
+  "order": {
+   "ath_airport": 1,
+   "h_ath_electra": 2,
+   "nat_arch_museum": 3,
+   "r_thes": 4
+  },
+  "items": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "city": "산토리니 → 아테네"
+ },
+ "c1_d10_s1.png": {
+  "course": 1,
+  "day": 10,
+  "seg": 1,
+  "order": {
+   "h_ath_electra": 1,
+   "r_ariston": 2,
+   "syntagma_guard": 3,
+   "national_garden": 4,
+   "panathenaic": 5,
+   "zeus_temple": 6,
+   "plaka": 7,
+   "ath_airport": 8
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "city": "아테네 → 인천"
+ },
+ "c2_d01_s1.png": {
+  "course": 2,
+  "day": 1,
+  "seg": 1,
+  "order": {
+   "ath_airport": 1,
+   "h_ath_plaka": 2,
+   "r_lukumades": 3,
+   "monastiraki": 4,
+   "plaka": 5,
+   "anafiotika": 6,
+   "acropolis_museum": 7,
+   "r_strofi": 8
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "city": "아테네"
+ },
+ "c2_d02_s1.png": {
+  "course": 2,
+  "day": 2,
+  "seg": 1,
+  "order": {
+   "h_ath_plaka": 1,
+   "acropolis": 2,
+   "acropolis_museum": 3,
+   "r_kostas": 4,
+   "ancient_agora": 5,
+   "syntagma_guard": 6,
+   "lycabettus_funicular": 7,
+   "lycabettus": 8,
+   "r_karamanlidika": 9
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  "city": "아테네"
+ },
+ "c2_d03_s1.png": {
+  "course": 2,
+  "day": 3,
+  "seg": 1,
+  "order": {
+   "h_ath_plaka": 1,
+   "syntagma": 2,
+   "delphi": 3,
+   "arachova": 4,
+   "h_kal_doupiani": 5,
+   "meteora_sunset": 6,
+   "kastraki": 7
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "city": "델피 → 메테오라"
+ },
+ "c2_d04_s1.png": {
+  "course": 2,
+  "day": 4,
+  "seg": 1,
+  "order": {
+   "h_kal_doupiani": 1,
+   "great_meteoron": 2,
+   "varlaam": 3,
+   "kalambaka": 4,
+   "syntagma": 5,
+   "h_ath_plaka": 6,
+   "r_atlantikos": 7
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "city": "메테오라 → 아테네"
+ },
+ "c2_d05_s1.png": {
+  "course": 2,
+  "day": 5,
+  "seg": 1,
+  "order": {
+   "h_ath_plaka": 1,
+   "ath_airport": 2
+  },
+  "items": [
+   0,
+   1
+  ],
+  "city": "아테네 → 산토리니"
+ },
+ "c2_d05_s2.png": {
+  "course": 2,
+  "day": 5,
+  "seg": 2,
+  "order": {
+   "jtr_airport": 1,
+   "h_fira_elgreco": 2,
+   "r_luckys": 3,
+   "fira": 4,
+   "firostefani": 5,
+   "imerovigli": 6,
+   "skaros": 7,
+   "r_aktaion": 8
+  },
+  "items": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16
+  ],
+  "city": "아테네 → 산토리니"
+ },
+ "c2_d06_s1.png": {
+  "course": 2,
+  "day": 6,
+  "seg": 1,
+  "order": {
+   "h_fira_elgreco": 1,
+   "akrotiri": 2,
+   "red_beach": 3,
+   "perissa": 4,
+   "fira": 5,
+   "imerovigli": 6,
+   "oia": 7,
+   "oia_castle": 8,
+   "r_pitogyros": 9
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16
+  ],
+  "city": "산토리니"
+ },
+ "c2_d07_s1.png": {
+  "course": 2,
+  "day": 7,
+  "seg": 1,
+  "order": {
+   "h_fira_elgreco": 1,
+   "r_svoronos": 2,
+   "fira": 3,
+   "fira_oldport": 4,
+   "nea_kameni": 5,
+   "pyrgos": 6,
+   "santo_wines": 7,
+   "r_metaxi": 8
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17
+  ],
+  "city": "산토리니"
+ },
+ "c2_d08_s1.png": {
+  "course": 2,
+  "day": 8,
+  "seg": 1,
+  "order": {
+   "h_fira_elgreco": 1,
+   "ancient_thera": 2,
+   "kamari": 3,
+   "ammoudi": 4,
+   "r_dimitris": 5
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "city": "산토리니"
+ },
+ "c2_d09_s1.png": {
+  "course": 2,
+  "day": 9,
+  "seg": 1,
+  "order": {
+   "h_fira_elgreco": 1,
+   "jtr_airport": 2
+  },
+  "items": [
+   0,
+   1
+  ],
+  "city": "산토리니 → 아테네"
+ },
+ "c2_d09_s2.png": {
+  "course": 2,
+  "day": 9,
+  "seg": 2,
+  "order": {
+   "ath_airport": 1,
+   "h_ath_plaka": 2,
+   "nat_arch_museum": 3,
+   "r_kostas": 4,
+   "syntagma": 5,
+   "sounion": 6,
+   "r_lukumades": 7
+  },
+  "items": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  "city": "산토리니 → 아테네"
+ },
+ "c2_d10_s1.png": {
+  "course": 2,
+  "day": 10,
+  "seg": 1,
+  "order": {
+   "h_ath_plaka": 1,
+   "r_ariston": 2,
+   "syntagma_guard": 3,
+   "national_garden": 4,
+   "panathenaic": 5,
+   "zeus_temple": 6,
+   "plaka": 7,
+   "ath_airport": 8
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "city": "아테네 → 인천"
+ },
+ "c3_d01_s1.png": {
+  "course": 3,
+  "day": 1,
+  "seg": 1,
+  "order": {
+   "ath_airport": 1,
+   "h_ath_herodion": 2,
+   "r_lukumades": 3,
+   "monastiraki": 4,
+   "plaka": 5,
+   "anafiotika": 6,
+   "lycabettus_funicular": 7,
+   "lycabettus": 8,
+   "r_karamanlidika": 9
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17
+  ],
+  "city": "아테네"
+ },
+ "c3_d02_s1.png": {
+  "course": 3,
+  "day": 2,
+  "seg": 1,
+  "order": {
+   "h_ath_herodion": 1,
+   "acropolis": 2,
+   "acropolis_museum": 3,
+   "r_kostas": 4,
+   "ancient_agora": 5,
+   "syntagma_guard": 6,
+   "philopappos": 7,
+   "r_thes": 8
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16
+  ],
+  "city": "아테네"
+ },
+ "c3_d03_s1.png": {
+  "course": 3,
+  "day": 3,
+  "seg": 1,
+  "order": {
+   "h_ath_herodion": 1,
+   "ath_airport": 2
+  },
+  "items": [
+   0,
+   1,
+   2
+  ],
+  "city": "아테네 → 크레타 하니아"
+ },
+ "c3_d03_s2.png": {
+  "course": 3,
+  "day": 3,
+  "seg": 2,
+  "order": {
+   "chq_airport": 1,
+   "seitan_limania": 2,
+   "h_cha_delfino": 3,
+   "chania_harbour": 4,
+   "chania_lighthouse": 5,
+   "r_tamam": 6
+  },
+  "items": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "city": "아테네 → 크레타 하니아"
+ },
+ "c3_d04_s1.png": {
+  "course": 3,
+  "day": 4,
+  "seg": 1,
+  "order": {
+   "h_cha_delfino": 1,
+   "r_iordanis": 2,
+   "elafonisi": 3,
+   "r_dounias": 4,
+   "chania_harbour": 5
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "city": "크레타 서부"
+ },
+ "c3_d05_s1.png": {
+  "course": 3,
+  "day": 5,
+  "seg": 1,
+  "order": {
+   "h_cha_delfino": 1,
+   "rethymno": 2,
+   "knossos": 3,
+   "h_her_lato": 4,
+   "heraklion_lions": 5,
+   "r_peskesi": 6
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "city": "하니아 → 이라클리온"
+ },
+ "c3_d06_s1.png": {
+  "course": 3,
+  "day": 6,
+  "seg": 1,
+  "order": {
+   "h_her_lato": 1,
+   "heraklion_port": 2
+  },
+  "items": [
+   0,
+   1
+  ],
+  "city": "크레타 → 산토리니"
+ },
+ "c3_d06_s2.png": {
+  "course": 3,
+  "day": 6,
+  "seg": 2,
+  "order": {
+   "athinios": 1,
+   "h_imero_astra": 2,
+   "fira": 3,
+   "r_luckys": 4,
+   "skaros": 5,
+   "r_aktaion": 6
+  },
+  "items": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "city": "크레타 → 산토리니"
+ },
+ "c3_d07_s1.png": {
+  "course": 3,
+  "day": 7,
+  "seg": 1,
+  "order": {
+   "h_imero_astra": 1,
+   "pyrgos": 2,
+   "r_psaraki": 3,
+   "vlychada": 4
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "city": "산토리니"
+ },
+ "c3_d08_s1.png": {
+  "course": 3,
+  "day": 8,
+  "seg": 1,
+  "order": {
+   "h_imero_astra": 1,
+   "akrotiri": 2,
+   "red_beach": 3,
+   "imerovigli": 4,
+   "oia": 5,
+   "ammoudi": 6,
+   "r_dimitris": 7
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "city": "산토리니"
+ },
+ "c3_d09_s1.png": {
+  "course": 3,
+  "day": 9,
+  "seg": 1,
+  "order": {
+   "h_imero_astra": 1,
+   "jtr_airport": 2
+  },
+  "items": [
+   0,
+   1
+  ],
+  "city": "산토리니 → 아테네"
+ },
+ "c3_d09_s2.png": {
+  "course": 3,
+  "day": 9,
+  "seg": 2,
+  "order": {
+   "ath_airport": 1,
+   "h_ath_herodion": 2,
+   "nat_arch_museum": 3,
+   "r_kostas": 4,
+   "syntagma": 5,
+   "sounion": 6,
+   "r_atlantikos": 7
+  },
+  "items": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  "city": "산토리니 → 아테네"
+ },
+ "c3_d10_s1.png": {
+  "course": 3,
+  "day": 10,
+  "seg": 1,
+  "order": {
+   "h_ath_herodion": 1,
+   "r_ariston": 2,
+   "syntagma_guard": 3,
+   "national_garden": 4,
+   "panathenaic": 5,
+   "zeus_temple": 6,
+   "plaka": 7,
+   "ath_airport": 8
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "city": "아테네 → 인천"
+ }
+}

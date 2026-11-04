@@ -3,10 +3,13 @@
 사용: python -I tools/build_booking.py"""
 import json
 import os
+import sys
 import urllib.parse
 from datetime import date, timedelta
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
+from tripkit import due_of  # noqa: E402
 ROOT = os.path.dirname(HERE)
 courses = json.load(open(os.path.join(ROOT, "data", "courses.json"), encoding="utf-8"))
 
@@ -174,26 +177,6 @@ RESTAURANTS = {
     "course2": [R_BOTIN, R_MORAYMA, R_BOLA, R_CALPEP, R_7PORTES, R_CAMPOS, R_ESLAVA, R_RINCONCILLO, R_BOTERO],
     "course3": [R_BOTIN, R_MORAYMA, R_CANDIDO, R_LUCIO, R_BOLA, R_CAMPOS, R_ESLAVA, R_RINCONCILLO, R_BOTERO],
 }
-
-def due_of(when):
-    """'언제' 설명문에서 짧은 꼬리표를 뽑는다 (지금 / 열리면 / 3개월 전 / … / 현장)."""
-    w = when
-    if "현장" in w or "당일" in w or "도착해서" in w:
-        return "현장"
-    if "판매 시작" in w or "12개월" in w or "열리는 대로" in w or "열리는 즉시" in w or "열리는지" in w:
-        return "열리면"
-    if "가장 먼저" in w or "바로" in w or "지금" in w or "다음으로" in w:
-        return "지금"
-    if "3~4개월" in w or "3개월" in w or "2~3달" in w or "3달" in w:
-        return "3개월 전"
-    if "2달" in w or "1~2달" in w:
-        return "2개월 전"
-    if "1달" in w or "한 달" in w:
-        return "1개월 전"
-    if "주 전" in w:
-        return "2주 전"
-    return "미리"
-
 
 out = {"generated": "2026-11-04", "sites": SITES, "taxi": TAXI, "courses": {}}
 for c in ("course1", "course2", "course3"):

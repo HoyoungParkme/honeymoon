@@ -1,0 +1,1834 @@
+{
+ "generated": "2026-11-04",
+ "country": {
+  "kicker": "ΕΛΛΆΔΑ · 2027.05.09 – 05.18",
+  "page": "greece.html"
+ },
+ "sites": [
+  {
+   "name": "아고다",
+   "url": "https://www.agoda.com/ko-kr/",
+   "for": "숙소",
+   "note": "한국어·원화 결제. 유로로 결제하면 수수료가 덜 붙음. 산토리니 동굴 호텔은 공식 사이트가 더 쌀 때가 있으니 비교"
+  },
+  {
+   "name": "트립닷컴",
+   "url": "https://kr.trip.com/",
+   "for": "숙소·항공·렌터카",
+   "note": "한국어 고객센터. 그리스 국내선·렌터카도 한국어로"
+  },
+  {
+   "name": "부킹닷컴",
+   "url": "https://www.booking.com/index.ko.html",
+   "for": "숙소",
+   "note": "그리스 섬 소형 숙소 재고가 가장 많음"
+  },
+  {
+   "name": "네이버 항공",
+   "url": "https://flight.naver.com/",
+   "for": "국제선",
+   "note": "카타르·에미레이트·터키항공 비교. 결제 직전 금액 확인"
+  },
+  {
+   "name": "Ferryhopper",
+   "url": "https://www.ferryhopper.com/",
+   "for": "페리",
+   "note": "수수료 없음, 한국 카드 결제 가능. SeaJets·Blue Star 한 화면 비교"
+  },
+  {
+   "name": "클룩",
+   "url": "https://www.klook.com/ko/",
+   "for": "투어·입장권",
+   "note": "한국어. 아크로폴리스 가이드·산토리니 크루즈·메테오라 투어"
+  },
+  {
+   "name": "마이리얼트립",
+   "url": "https://www.myrealtrip.com/",
+   "for": "한국어 가이드·요트",
+   "note": "산토리니 요트투어·아테네 한국어 가이드 후기 많음"
+  },
+  {
+   "name": "hhticket.gr",
+   "url": "https://www.hhticket.gr",
+   "for": "유적 공식 입장권",
+   "note": "아크로폴리스·아크로티리·크노소스·델로스 등 국영 유적 공식 e-티켓"
+  }
+ ],
+ "taxi": [
+  {
+   "what": "아테네 공항 ↔ 시내 택시",
+   "note": "정액 €40 (05~24시), 밤 €55. 2인·짐 포함, 카드 가능. 지하철 3호선은 1인 €9",
+   "links": []
+  },
+  {
+   "what": "택시 앱",
+   "note": "FREE NOW(아테네 택시 호출), Uber(아테네에서는 일반 택시 호출로 연결). 섬은 앱이 거의 안 되니 호텔 픽업이나 사전 예약",
+   "links": [
+    {
+     "name": "FREE NOW",
+     "url": "https://www.free-now.com/"
+    }
+   ]
+  },
+  {
+   "what": "산토리니 이동",
+   "note": "택시가 아주 부족 (섬 전체 수십 대). 공항·항구 픽업은 호텔에 미리 요청(€40~60). 일몰 직후 이아 버스는 극심 혼잡. KTEL 버스는 피라 터미널 중심, €2~2.40",
+   "links": [
+    {
+     "name": "KTEL 산토리니",
+     "url": "https://ktel-santorini.gr/"
+    }
+   ]
+  },
+  {
+   "what": "미코노스 이동",
+   "note": "파브리카 터미널에서 해변 버스 €2. 택시는 줄이 길어 저녁엔 미리 호출",
+   "links": []
+  },
+  {
+   "what": "크레타 렌터카",
+   "note": "국제운전면허증 + 한국 면허증. 산길이 많아 소형 오토 + 완전자차. 하니아 구시가는 차량 진입 금지 → 공영주차장",
+   "links": []
+  },
+  {
+   "what": "데이터",
+   "note": "eSIM(유럽 10일 10GB) 출국 전 설치. 섬 사이 바다 위에서는 끊김",
+   "links": []
+  }
+ ],
+ "courses": {
+  "course1": {
+   "name": "코스 1 · 섬 허니문",
+   "groups": [
+    {
+     "cat": "국제선 항공",
+     "hint": "가장 먼저. 코스가 정해지면 당일",
+     "items": [
+      {
+       "what": "카타르항공 왕복: 인천 5/9 01:20 → 도하 → 아테네 12:25 / 아테네 5/18 20:00 → 도하 → 인천 5/19 17:05",
+       "where": "인천 ↔ 아테네",
+       "dates": "5/9 출발 · 5/18 귀국",
+       "price": "1인 약 126.1만 원 (2026-11-04 구글 항공)",
+       "when": "코스를 고르면 바로. 5월은 2~3월부터 오름",
+       "alt": "에미레이트(두바이 경유)는 110.8만 원이지만 아테네 도착이 5/10 밤. 터키항공은 157.1만 원, 5/10 아침 도착",
+       "links": [
+        {
+         "name": "네이버 항공",
+         "tag": "한국어",
+         "url": "https://flight.naver.com/flights/international/ICN-ATH-20270509/ATH-ICN-20270518?adult=2&fareType=Y"
+        },
+        {
+         "name": "카타르항공 공식",
+         "tag": "공식",
+         "url": "https://www.qatarairways.com/ko-kr/homepage.html"
+        },
+        {
+         "name": "구글 항공",
+         "tag": "비교",
+         "url": "https://www.google.com/travel/flights?hl=ko&curr=KRW"
+        }
+       ],
+       "due": "지금"
+      }
+     ]
+    },
+    {
+     "cat": "숙소",
+     "hint": "이아 동굴 호텔부터. 무료 취소로 먼저 잡고 갈아타기",
+     "items": [
+      {
+       "what": "Electra Palace Athens (5성)",
+       "where": "아테네 · 플라카",
+       "dates": "05/09 체크인 · 2박 (05/11 체크아웃)",
+       "price": "€250–330 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "루프탑 수영장에서 아크로폴리스가 보임. 더 싸게는 Hotel Plaka(3성, 루프탑 뷰) 1박 €150~200",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Electra%20Palace%20Athens&checkIn=2027-05-09&los=2&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Electra%20Palace%20Athens&checkin=2027-05-09&checkout=2027-05-11&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Electra%20Palace%20Athens&checkin=2027/05/09&checkout=2027/05/11&adult=2"
+        },
+        {
+         "name": "공식 사이트",
+         "tag": "공식",
+         "url": "https://www.electrahotels.gr/"
+        }
+       ],
+       "due": "열리면"
+      },
+      {
+       "what": "Harmony Boutique Hotel (4성)",
+       "where": "미코노스 타운 (구항 언덕)",
+       "dates": "05/11 체크인 · 2박 (05/13 체크아웃)",
+       "price": "€220–320 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "이오스여행사 허니문 상품의 4성 선택지. 5성은 Kouros·Katikies Mykonos",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Harmony%20Boutique%20Hotel%20Mykonos&checkIn=2027-05-11&los=2&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Harmony%20Boutique%20Hotel%20Mykonos&checkin=2027-05-11&checkout=2027-05-13&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Harmony%20Boutique%20Hotel%20Mykonos&checkin=2027/05/11&checkout=2027/05/13&adult=2"
+        }
+       ],
+       "due": "열리면"
+      },
+      {
+       "what": "Andronis Boutique Hotel (이아, 핫텁 스위트)",
+       "where": "산토리니 · 이아",
+       "dates": "05/13 체크인 · 2박 (05/15 체크아웃)",
+       "price": "€650–900 (추정) · 1박 2인 1실",
+       "when": "이아 동굴 호텔은 가장 먼저 매진. 무료 취소 요금으로 지금 잡기",
+       "alt": "이오스 허니문 상품 선택지(Petite Suite 핫텁). 예산을 줄이려면 아고다에서 '이아 동굴 스위트 핫텁' 1박 €300~450대를 찾기",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Andronis%20Boutique%20Hotel%20Oia&checkIn=2027-05-13&los=2&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Andronis%20Boutique%20Hotel%20Oia&checkin=2027-05-13&checkout=2027-05-15&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Andronis%20Boutique%20Hotel%20Oia&checkin=2027/05/13&checkout=2027/05/15&adult=2"
+        },
+        {
+         "name": "공식 사이트",
+         "tag": "공식",
+         "url": "https://www.andronis.com/"
+        }
+       ],
+       "due": "지금"
+      },
+      {
+       "what": "El Greco Resort (피라, 4성)",
+       "where": "산토리니 · 피라 외곽",
+       "dates": "05/15 체크인 · 2박 (05/17 체크아웃)",
+       "price": "€150–220 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "하나투어 그리스 일주 상품의 산토리니 호텔(수영장). 칼데라 뷰는 아님",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=El%20Greco%20Resort%20Santorini&checkIn=2027-05-15&los=2&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=El%20Greco%20Resort%20Santorini&checkin=2027-05-15&checkout=2027-05-17&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=El%20Greco%20Resort%20Santorini&checkin=2027/05/15&checkout=2027/05/17&adult=2"
+        }
+       ],
+       "due": "열리면"
+      },
+      {
+       "what": "Electra Palace Athens (5성)",
+       "where": "아테네 · 플라카",
+       "dates": "05/17 체크인 · 1박 (05/18 체크아웃)",
+       "price": "€250–330 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "루프탑 수영장에서 아크로폴리스가 보임. 더 싸게는 Hotel Plaka(3성, 루프탑 뷰) 1박 €150~200",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Electra%20Palace%20Athens&checkIn=2027-05-17&los=1&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Electra%20Palace%20Athens&checkin=2027-05-17&checkout=2027-05-18&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Electra%20Palace%20Athens&checkin=2027/05/17&checkout=2027/05/18&adult=2"
+        },
+        {
+         "name": "공식 사이트",
+         "tag": "공식",
+         "url": "https://www.electrahotels.gr/"
+        }
+       ],
+       "due": "열리면"
+      }
+     ]
+    },
+    {
+     "cat": "국내선·페리",
+     "hint": "섬 사이 이동은 결항 대비 오전 편",
+     "items": [
+      {
+       "what": "SKY express 아테네 → 미코노스 13:10",
+       "where": "그리스 국내선",
+       "dates": "5/11 13:10",
+       "price": "€66 (₩98,782, 1인)",
+       "when": "국제선 다음으로 바로. 저가 요금은 3~4개월 전이 가장 쌈. 위탁 수하물은 예매 때 같이",
+       "alt": "Aegean 07:35편 ₩88,244",
+       "links": [
+        {
+         "name": "SKY express 공식",
+         "tag": "공식",
+         "url": "https://www.skyexpress.gr/en"
+        },
+        {
+         "name": "Aegean 공식",
+         "tag": "공식",
+         "url": "https://www.aegeanair.com/"
+        },
+        {
+         "name": "트립닷컴 항공",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/flights/"
+        }
+       ],
+       "due": "지금"
+      },
+      {
+       "what": "SeaJets 미코노스 → 산토리니 10:10",
+       "where": "미코노스 신항 → 아티니오스",
+       "dates": "5/13 10:10",
+       "price": "€60–90 (1인)",
+       "when": "1~2주 전 (금·일 매진 잦음)",
+       "alt": "일반선 3시간+ 약 €42",
+       "links": [
+        {
+         "name": "Ferryhopper",
+         "tag": "비교",
+         "url": "https://www.ferryhopper.com/"
+        },
+        {
+         "name": "SeaJets 공식",
+         "tag": "공식",
+         "url": "https://www.seajets.com/"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Aegean 산토리니 → 아테네 15:05",
+       "where": "그리스 국내선",
+       "dates": "5/17 15:05",
+       "price": "€73 (₩109,289, 1인)",
+       "when": "국제선 다음으로 바로. 저가 요금은 3~4개월 전이 가장 쌈. 위탁 수하물은 예매 때 같이",
+       "alt": "Ryanair 17:10편 ₩85,038",
+       "links": [
+        {
+         "name": "Aegean 공식",
+         "tag": "공식",
+         "url": "https://www.aegeanair.com/"
+        },
+        {
+         "name": "트립닷컴 항공",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/flights/"
+        }
+       ],
+       "due": "지금"
+      }
+     ]
+    },
+    {
+     "cat": "입장권·투어",
+     "hint": "아크로폴리스 08:00 슬롯과 크루즈가 먼저",
+     "items": [
+      {
+       "what": "아크로폴리스 08:00 시간 지정 입장권",
+       "where": "아테네",
+       "dates": "5/10 08:00",
+       "price": "€30 (1인)",
+       "when": "1~2달 전. 인기 슬롯(08:00, 17:00 이후)은 며칠 전 매진",
+       "alt": "매진이면 클룩·마이리얼트립 가이드 투어(입장권 포함)",
+       "links": [
+        {
+         "name": "hhticket.gr 공식",
+         "tag": "공식",
+         "url": "https://www.hhticket.gr"
+        },
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=아크로폴리스"
+        },
+        {
+         "name": "마이리얼트립",
+         "tag": "한국어",
+         "url": "https://www.myrealtrip.com/search?q=아크로폴리스"
+        }
+       ],
+       "due": "2개월 전"
+      },
+      {
+       "what": "아크로폴리스 박물관 시간 지정 입장권",
+       "where": "아테네",
+       "dates": "5/10 10:15경",
+       "price": "€20 (1인)",
+       "when": "2~3주 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식 e-티켓",
+         "tag": "공식",
+         "url": "https://etickets.theacropolismuseum.gr"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "수니온 선셋 반일 투어",
+       "where": "아테네 근교",
+       "dates": "5/10 오후",
+       "price": "€45–65 (1인, 입장료 €20 별도 여부 확인)",
+       "when": "1~2주 전",
+       "alt": "택시 왕복(대기 포함) €150~200",
+       "links": [
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=수니온"
+        },
+        {
+         "name": "마이리얼트립",
+         "tag": "한국어",
+         "url": "https://www.myrealtrip.com/search?q=수니온"
+        },
+        {
+         "name": "GetYourGuide",
+         "tag": "비교",
+         "url": "https://www.getyourguide.com/s/?q=sounion%20sunset"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "델로스 섬 보트 (10:00)",
+       "where": "미코노스",
+       "dates": "5/12 10:00",
+       "price": "왕복 €25 + 섬 입장 €20 (1인)",
+       "when": "1~2주 전 (현장 구매도 가능)",
+       "alt": "영어 가이드 반일 투어 €79 (보트·입장·가이드)",
+       "links": [
+        {
+         "name": "Delos Tours 공식",
+         "tag": "공식",
+         "url": "https://www.delostours.gr/en/"
+        },
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=델로스"
+        }
+       ],
+       "due": "현장"
+      },
+      {
+       "what": "산토리니 카타마란 선셋 크루즈 (5시간, BBQ·음료)",
+       "where": "산토리니",
+       "dates": "5/14 15:00",
+       "price": "€110–130 (1인, 공유)",
+       "when": "1~2주 전",
+       "alt": "세미프라이빗 €180~300, 프라이빗 4인 €800~",
+       "links": [
+        {
+         "name": "Sunset Oia 공식",
+         "tag": "공식",
+         "url": "https://sailing-santorini.com/"
+        },
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=산토리니 선셋 크루즈"
+        },
+        {
+         "name": "마이리얼트립",
+         "tag": "한국어",
+         "url": "https://www.myrealtrip.com/search?q=산토리니 요트"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "아크로티리 유적",
+       "where": "산토리니",
+       "dates": "5/15",
+       "price": "€20 (1인)",
+       "when": "현장 구매 가능 (월·목은 15:30 마감)",
+       "alt": "",
+       "links": [
+        {
+         "name": "hhticket.gr 공식",
+         "tag": "공식",
+         "url": "https://www.hhticket.gr"
+        }
+       ],
+       "due": "현장"
+      },
+      {
+       "what": "Santo Wines 일몰 테라스 테이스팅",
+       "where": "산토리니 · 피르고스",
+       "dates": "5/15 19:00",
+       "price": "€18–38 (1인, 예약 시 €40 선결제)",
+       "when": "수 주 전 (일몰석)",
+       "alt": "Venetsanos(메갈로호리) 칼데라 뷰",
+       "links": [
+        {
+         "name": "Santo Wines 공식",
+         "tag": "공식",
+         "url": "https://santowines.gr"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "화산섬·온천 보트",
+       "where": "산토리니 · 피라 구항",
+       "dates": "5/16 10:00",
+       "price": "€25–45 + 화산공원 €5 현금 (1인)",
+       "when": "전날 부두·여행사 (현장 구매)",
+       "alt": "카타마란 크루즈에 온천 포함된 상품으로 대체 가능",
+       "links": [
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=산토리니 화산섬"
+        }
+       ],
+       "due": "현장"
+      },
+      {
+       "what": "국립고고학박물관",
+       "where": "아테네",
+       "dates": "5/17 오후",
+       "price": "€20 (1인)",
+       "when": "1~2주 전 시간 지정",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식",
+         "tag": "공식",
+         "url": "https://www.namuseum.gr/en/episkepsi"
+        }
+       ],
+       "due": "2주 전"
+      }
+     ]
+    },
+    {
+     "cat": "식당",
+     "hint": "전화·이메일 예약이 필요한 곳 위주",
+     "items": [
+      {
+       "what": "Metaxi Mas",
+       "where": "산토리니 · 엑소 고니아",
+       "dates": "코스 일정 참고",
+       "price": "1인 €25–35",
+       "when": "10일 전 전화 예약, 전날 재확인",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://santorini-metaximas.gr/en"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g8043198-d1939380-Reviews-Metaxi_Mas-Exo_Gonia_Fira_Santorini_Cyclades_South_Aegean.html"
+        }
+       ],
+       "due": "미리"
+      },
+      {
+       "what": "Dimitris Ammoudi Taverna",
+       "where": "산토리니 · 이아 아래 암무디 포구",
+       "dates": "코스 일정 참고",
+       "price": "1인 €40–70",
+       "when": "2~3주 전, 일몰 시간 바다쪽 자리",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g482941-d3221585-Reviews-Dimitris_Ammoudi_Taverna-Oia_Santorini_Cyclades_South_Aegean.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Selene",
+       "where": "산토리니 · 피르고스",
+       "dates": "코스 일정 참고",
+       "price": "1인 €120–200",
+       "when": "1~2달 전 (미슐랭 1스타)",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://selene.gr/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g482942-d1103027-Reviews-Selene-Fira_Santorini_Cyclades_South_Aegean.html"
+        }
+       ],
+       "due": "2개월 전"
+      },
+      {
+       "what": "Thes · Greek Creative Cuisine",
+       "where": "아테네 · 프시리",
+       "dates": "코스 일정 참고",
+       "price": "1인 €30–45",
+       "when": "2~3주 전 이메일",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://www.instagram.com/thesgreekcreativecuisine/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g189400-d17837015-Reviews-Thes_Greek_Creative_Cuisine-Athens_Attica.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Ta Karamanlidika tou Fani",
+       "where": "아테네 · 중앙시장 옆",
+       "dates": "코스 일정 참고",
+       "price": "1인 €20–30",
+       "when": "1~2주 전 공식 사이트",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://www.karamanlidika.gr"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g189400-d6852056-Reviews-Ta_Karamanlidika_tou_Fani-Athens_Attica.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Baboulas Ouzeri",
+       "where": "미코노스 · 구항구",
+       "dates": "코스 일정 참고",
+       "price": "1인 €25–40",
+       "when": "1주 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://www.baboulasmykonos.gr/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g662620-d23485585-Reviews-Baboulas_Ouzeri-Mykonos_Town_Mykonos_Cyclades_South_Aegean.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Katerina's",
+       "where": "미코노스 · 리틀 베니스",
+       "dates": "코스 일정 참고",
+       "price": "음료 €15–20 / 식사 1인 €40–60",
+       "when": "1주 전 발코니",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://katerinaslittlevenicemykonos.com/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g662620-d1572170-Reviews-Katerina_s_Restaurant_Cocktail_Bar-Mykonos_Town_Mykonos_Cyclades_South_Aegean.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Aktaion (1922~)",
+       "where": "산토리니 · 피로스테파니",
+       "dates": "코스 일정 참고",
+       "price": "1인 €25–35",
+       "when": "1~2주 전 폼",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://www.aktaionsantorini.com"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g635607-d1787767-Reviews-Aktaion-Firostefani_Santorini_Cyclades_South_Aegean.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Kiki's Tavern",
+       "where": "미코노스 · 아기오스 소스티스 해변 위",
+       "dates": "코스 일정 참고",
+       "price": "1인 €25–40",
+       "when": "예약 불가 — 12시 전 도착",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g189430-d1504692-Reviews-Kiki_s_Tavern-Mykonos_Cyclades_South_Aegean.html"
+        }
+       ],
+       "due": "미리"
+      }
+     ]
+    }
+   ]
+  },
+  "course2": {
+   "name": "코스 2 · 그리스 일주",
+   "groups": [
+    {
+     "cat": "국제선 항공",
+     "hint": "가장 먼저",
+     "items": [
+      {
+       "what": "카타르항공 왕복: 인천 5/9 01:20 → 도하 → 아테네 12:25 / 아테네 5/18 20:00 → 도하 → 인천 5/19 17:05",
+       "where": "인천 ↔ 아테네",
+       "dates": "5/9 출발 · 5/18 귀국",
+       "price": "1인 약 126.1만 원 (2026-11-04 구글 항공)",
+       "when": "코스를 고르면 바로. 5월은 2~3월부터 오름",
+       "alt": "에미레이트(두바이 경유)는 110.8만 원이지만 아테네 도착이 5/10 밤. 터키항공은 157.1만 원, 5/10 아침 도착",
+       "links": [
+        {
+         "name": "네이버 항공",
+         "tag": "한국어",
+         "url": "https://flight.naver.com/flights/international/ICN-ATH-20270509/ATH-ICN-20270518?adult=2&fareType=Y"
+        },
+        {
+         "name": "카타르항공 공식",
+         "tag": "공식",
+         "url": "https://www.qatarairways.com/ko-kr/homepage.html"
+        },
+        {
+         "name": "구글 항공",
+         "tag": "비교",
+         "url": "https://www.google.com/travel/flights?hl=ko&curr=KRW"
+        }
+       ],
+       "due": "지금"
+      }
+     ]
+    },
+    {
+     "cat": "델피·메테오라 투어",
+     "hint": "투어가 호텔·교통을 같이 잡아 줌",
+     "items": [
+      {
+       "what": "델피·메테오라 1박 2일 소그룹 투어 (호텔 포함)",
+       "where": "아테네 출발",
+       "dates": "5/11–5/12",
+       "price": "€280–350 (1인, 입장료 별도: 델피 €20 · 수도원 €5×2)",
+       "when": "1~2달 전",
+       "alt": "기차로 직접 가면 아테네→칼람바카 약 5.5시간 €28~31 (2026 기준)",
+       "links": [
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=메테오라 델피"
+        },
+        {
+         "name": "마이리얼트립",
+         "tag": "한국어",
+         "url": "https://www.myrealtrip.com/search?q=메테오라"
+        },
+        {
+         "name": "GetYourGuide",
+         "tag": "비교",
+         "url": "https://www.getyourguide.com/s/?q=delphi%20meteora%202%20day"
+        }
+       ],
+       "due": "2개월 전"
+      }
+     ]
+    },
+    {
+     "cat": "숙소",
+     "hint": "무료 취소 요금으로 먼저",
+     "items": [
+      {
+       "what": "Hotel Plaka (3성)",
+       "where": "아테네 · 플라카",
+       "dates": "05/09 체크인 · 2박 (05/11 체크아웃)",
+       "price": "€150–200 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "루프탑 바에서 아크로폴리스 정면. 수영장이 원하면 Electra Palace(5성)",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Plaka%20Hotel%20Athens&checkIn=2027-05-09&los=2&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Plaka%20Hotel%20Athens&checkin=2027-05-09&checkout=2027-05-11&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Plaka%20Hotel%20Athens&checkin=2027/05/09&checkout=2027/05/11&adult=2"
+        },
+        {
+         "name": "공식 사이트",
+         "tag": "공식",
+         "url": "https://www.plakahotel.gr/"
+        }
+       ],
+       "due": "열리면"
+      },
+      {
+       "what": "Doupiani House (카스트라키, 메테오라 뷰)",
+       "where": "메테오라 · 카스트라키",
+       "dates": "05/11 체크인 · 1박 (05/12 체크아웃)",
+       "price": "투어 요금에 포함 · 1박 2인 1실",
+       "when": "델피·메테오라 1박 2일 투어를 예약하면 투어사가 배정 (투어별로 호텔 다름)",
+       "alt": "투어 대신 직접 가면 1박 €90~130",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Doupiani%20House%20Kastraki&checkIn=2027-05-11&los=1&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Doupiani%20House%20Kastraki&checkin=2027-05-11&checkout=2027-05-12&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Doupiani%20House%20Kastraki&checkin=2027/05/11&checkout=2027/05/12&adult=2"
+        },
+        {
+         "name": "공식 사이트",
+         "tag": "공식",
+         "url": "https://www.doupianihouse.com/"
+        }
+       ],
+       "due": "미리"
+      },
+      {
+       "what": "Hotel Plaka (3성)",
+       "where": "아테네 · 플라카",
+       "dates": "05/12 체크인 · 1박 (05/13 체크아웃)",
+       "price": "€150–200 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "루프탑 바에서 아크로폴리스 정면. 수영장이 원하면 Electra Palace(5성)",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Plaka%20Hotel%20Athens&checkIn=2027-05-12&los=1&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Plaka%20Hotel%20Athens&checkin=2027-05-12&checkout=2027-05-13&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Plaka%20Hotel%20Athens&checkin=2027/05/12&checkout=2027/05/13&adult=2"
+        },
+        {
+         "name": "공식 사이트",
+         "tag": "공식",
+         "url": "https://www.plakahotel.gr/"
+        }
+       ],
+       "due": "열리면"
+      },
+      {
+       "what": "El Greco Resort (피라, 4성)",
+       "where": "산토리니 · 피라 외곽",
+       "dates": "05/13 체크인 · 4박 (05/17 체크아웃)",
+       "price": "€150–220 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "하나투어 그리스 일주 상품의 산토리니 호텔(수영장). 칼데라 뷰는 아님",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=El%20Greco%20Resort%20Santorini&checkIn=2027-05-13&los=4&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=El%20Greco%20Resort%20Santorini&checkin=2027-05-13&checkout=2027-05-17&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=El%20Greco%20Resort%20Santorini&checkin=2027/05/13&checkout=2027/05/17&adult=2"
+        }
+       ],
+       "due": "열리면"
+      },
+      {
+       "what": "Hotel Plaka (3성)",
+       "where": "아테네 · 플라카",
+       "dates": "05/17 체크인 · 1박 (05/18 체크아웃)",
+       "price": "€150–200 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "루프탑 바에서 아크로폴리스 정면. 수영장이 원하면 Electra Palace(5성)",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Plaka%20Hotel%20Athens&checkIn=2027-05-17&los=1&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Plaka%20Hotel%20Athens&checkin=2027-05-17&checkout=2027-05-18&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Plaka%20Hotel%20Athens&checkin=2027/05/17&checkout=2027/05/18&adult=2"
+        },
+        {
+         "name": "공식 사이트",
+         "tag": "공식",
+         "url": "https://www.plakahotel.gr/"
+        }
+       ],
+       "due": "열리면"
+      }
+     ]
+    },
+    {
+     "cat": "국내선",
+     "hint": "",
+     "items": [
+      {
+       "what": "Aegean 아테네 → 산토리니 10:05",
+       "where": "그리스 국내선",
+       "dates": "5/13 10:05",
+       "price": "€68 (₩101,792, 1인)",
+       "when": "국제선 다음으로 바로. 저가 요금은 3~4개월 전이 가장 쌈. 위탁 수하물은 예매 때 같이",
+       "alt": "SKY express 10:00편 ₩88,245",
+       "links": [
+        {
+         "name": "Aegean 공식",
+         "tag": "공식",
+         "url": "https://www.aegeanair.com/"
+        },
+        {
+         "name": "SKY express 공식",
+         "tag": "공식",
+         "url": "https://www.skyexpress.gr/en"
+        },
+        {
+         "name": "트립닷컴 항공",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/flights/"
+        }
+       ],
+       "due": "지금"
+      },
+      {
+       "what": "Aegean 산토리니 → 아테네 08:25",
+       "where": "그리스 국내선",
+       "dates": "5/17 08:25",
+       "price": "€73 (₩109,289, 1인)",
+       "when": "국제선 다음으로 바로. 저가 요금은 3~4개월 전이 가장 쌈. 위탁 수하물은 예매 때 같이",
+       "alt": "SKY express 08:30편 ₩125,848",
+       "links": [
+        {
+         "name": "Aegean 공식",
+         "tag": "공식",
+         "url": "https://www.aegeanair.com/"
+        },
+        {
+         "name": "트립닷컴 항공",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/flights/"
+        }
+       ],
+       "due": "지금"
+      }
+     ]
+    },
+    {
+     "cat": "입장권·투어",
+     "hint": "",
+     "items": [
+      {
+       "what": "아크로폴리스 08:00 시간 지정 입장권",
+       "where": "아테네",
+       "dates": "5/10 08:00",
+       "price": "€30 (1인)",
+       "when": "1~2달 전. 인기 슬롯(08:00, 17:00 이후)은 며칠 전 매진",
+       "alt": "매진이면 클룩·마이리얼트립 가이드 투어(입장권 포함)",
+       "links": [
+        {
+         "name": "hhticket.gr 공식",
+         "tag": "공식",
+         "url": "https://www.hhticket.gr"
+        },
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=아크로폴리스"
+        },
+        {
+         "name": "마이리얼트립",
+         "tag": "한국어",
+         "url": "https://www.myrealtrip.com/search?q=아크로폴리스"
+        }
+       ],
+       "due": "2개월 전"
+      },
+      {
+       "what": "아크로폴리스 박물관 시간 지정 입장권",
+       "where": "아테네",
+       "dates": "5/10 10:15경",
+       "price": "€20 (1인)",
+       "when": "2~3주 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식 e-티켓",
+         "tag": "공식",
+         "url": "https://etickets.theacropolismuseum.gr"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "아크로티리 유적",
+       "where": "산토리니",
+       "dates": "5/14",
+       "price": "€20 (1인)",
+       "when": "현장 구매 가능 (월·목은 15:30 마감)",
+       "alt": "",
+       "links": [
+        {
+         "name": "hhticket.gr 공식",
+         "tag": "공식",
+         "url": "https://www.hhticket.gr"
+        }
+       ],
+       "due": "현장"
+      },
+      {
+       "what": "화산섬·온천 보트",
+       "where": "산토리니 · 피라 구항",
+       "dates": "5/15 10:00",
+       "price": "€25–45 + 화산공원 €5 현금 (1인)",
+       "when": "전날 부두·여행사 (현장 구매)",
+       "alt": "카타마란 크루즈에 온천 포함된 상품으로 대체 가능",
+       "links": [
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=산토리니 화산섬"
+        }
+       ],
+       "due": "현장"
+      },
+      {
+       "what": "Santo Wines 일몰 테라스 테이스팅",
+       "where": "산토리니 · 피르고스",
+       "dates": "5/15 19:00",
+       "price": "€18–38 (1인, 예약 시 €40 선결제)",
+       "when": "수 주 전 (일몰석)",
+       "alt": "Venetsanos(메갈로호리) 칼데라 뷰",
+       "links": [
+        {
+         "name": "Santo Wines 공식",
+         "tag": "공식",
+         "url": "https://santowines.gr"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "수니온 선셋 반일 투어",
+       "where": "아테네 근교",
+       "dates": "5/17 오후",
+       "price": "€45–65 (1인, 입장료 €20 별도 여부 확인)",
+       "when": "1~2주 전",
+       "alt": "택시 왕복(대기 포함) €150~200",
+       "links": [
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=수니온"
+        },
+        {
+         "name": "마이리얼트립",
+         "tag": "한국어",
+         "url": "https://www.myrealtrip.com/search?q=수니온"
+        },
+        {
+         "name": "GetYourGuide",
+         "tag": "비교",
+         "url": "https://www.getyourguide.com/s/?q=sounion%20sunset"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "국립고고학박물관",
+       "where": "아테네",
+       "dates": "5/17 오후",
+       "price": "€20 (1인)",
+       "when": "1~2주 전 시간 지정",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식",
+         "tag": "공식",
+         "url": "https://www.namuseum.gr/en/episkepsi"
+        }
+       ],
+       "due": "2주 전"
+      }
+     ]
+    },
+    {
+     "cat": "식당",
+     "hint": "",
+     "items": [
+      {
+       "what": "Strofi",
+       "where": "아테네 · 마크리야니 (아크로폴리스 남쪽)",
+       "dates": "코스 일정 참고",
+       "price": "1인 €30–45",
+       "when": "1~2주 전 루프탑 지정",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://strofi.gr/en/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g189400-d1045580-Reviews-Strofi_Athenian_Restaurant-Athens_Attica.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Ta Karamanlidika tou Fani",
+       "where": "아테네 · 중앙시장 옆",
+       "dates": "코스 일정 참고",
+       "price": "1인 €20–30",
+       "when": "1~2주 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://www.karamanlidika.gr"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g189400-d6852056-Reviews-Ta_Karamanlidika_tou_Fani-Athens_Attica.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Metaxi Mas",
+       "where": "산토리니 · 엑소 고니아",
+       "dates": "코스 일정 참고",
+       "price": "1인 €25–35",
+       "when": "10일 전 전화",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://santorini-metaximas.gr/en"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g8043198-d1939380-Reviews-Metaxi_Mas-Exo_Gonia_Fira_Santorini_Cyclades_South_Aegean.html"
+        }
+       ],
+       "due": "미리"
+      },
+      {
+       "what": "Dimitris Ammoudi Taverna",
+       "where": "산토리니 · 이아 아래 암무디 포구",
+       "dates": "코스 일정 참고",
+       "price": "1인 €40–70",
+       "when": "2~3주 전 일몰석",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g482941-d3221585-Reviews-Dimitris_Ammoudi_Taverna-Oia_Santorini_Cyclades_South_Aegean.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Aktaion (1922~)",
+       "where": "산토리니 · 피로스테파니",
+       "dates": "코스 일정 참고",
+       "price": "1인 €25–35",
+       "when": "1~2주 전 폼",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://www.aktaionsantorini.com"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g635607-d1787767-Reviews-Aktaion-Firostefani_Santorini_Cyclades_South_Aegean.html"
+        }
+       ],
+       "due": "2주 전"
+      }
+     ]
+    }
+   ]
+  },
+  "course3": {
+   "name": "코스 3 · 크레타 + 산토리니",
+   "groups": [
+    {
+     "cat": "국제선 항공",
+     "hint": "가장 먼저",
+     "items": [
+      {
+       "what": "카타르항공 왕복: 인천 5/9 01:20 → 도하 → 아테네 12:25 / 아테네 5/18 20:00 → 도하 → 인천 5/19 17:05",
+       "where": "인천 ↔ 아테네",
+       "dates": "5/9 출발 · 5/18 귀국",
+       "price": "1인 약 126.1만 원 (2026-11-04 구글 항공)",
+       "when": "코스를 고르면 바로. 5월은 2~3월부터 오름",
+       "alt": "에미레이트(두바이 경유)는 110.8만 원이지만 아테네 도착이 5/10 밤. 터키항공은 157.1만 원, 5/10 아침 도착",
+       "links": [
+        {
+         "name": "네이버 항공",
+         "tag": "한국어",
+         "url": "https://flight.naver.com/flights/international/ICN-ATH-20270509/ATH-ICN-20270518?adult=2&fareType=Y"
+        },
+        {
+         "name": "카타르항공 공식",
+         "tag": "공식",
+         "url": "https://www.qatarairways.com/ko-kr/homepage.html"
+        },
+        {
+         "name": "구글 항공",
+         "tag": "비교",
+         "url": "https://www.google.com/travel/flights?hl=ko&curr=KRW"
+        }
+       ],
+       "due": "지금"
+      }
+     ]
+    },
+    {
+     "cat": "숙소",
+     "hint": "Astra Suites(칼데라 뷰)부터",
+     "items": [
+      {
+       "what": "Herodion Hotel (4성)",
+       "where": "아테네 · 아크로폴리스 박물관 앞",
+       "dates": "05/09 체크인 · 2박 (05/11 체크아웃)",
+       "price": "€200–260 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "아크로폴리스 남쪽 입구까지 도보 5분, 루프탑 정원 뷰",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Herodion%20Hotel%20Athens&checkIn=2027-05-09&los=2&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Herodion%20Hotel%20Athens&checkin=2027-05-09&checkout=2027-05-11&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Herodion%20Hotel%20Athens&checkin=2027/05/09&checkout=2027/05/11&adult=2"
+        },
+        {
+         "name": "공식 사이트",
+         "tag": "공식",
+         "url": "https://www.herodion.gr/"
+        }
+       ],
+       "due": "열리면"
+      },
+      {
+       "what": "Casa Delfino (하니아 구항, 부티크)",
+       "where": "크레타 · 하니아 구항",
+       "dates": "05/11 체크인 · 2박 (05/13 체크아웃)",
+       "price": "€220–320 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "구항 골목 17세기 저택 호텔. 주차는 구시가 밖 공영주차장",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Casa%20Delfino%20Chania&checkIn=2027-05-11&los=2&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Casa%20Delfino%20Chania&checkin=2027-05-11&checkout=2027-05-13&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Casa%20Delfino%20Chania&checkin=2027/05/11&checkout=2027/05/13&adult=2"
+        },
+        {
+         "name": "공식 사이트",
+         "tag": "공식",
+         "url": "https://www.casadelfino.com/"
+        }
+       ],
+       "due": "열리면"
+      },
+      {
+       "what": "Lato Boutique Hotel (이라클리온)",
+       "where": "크레타 · 이라클리온",
+       "dates": "05/13 체크인 · 1박 (05/14 체크아웃)",
+       "price": "€120–160 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "항구 바로 위라 다음 날 08:00 페리에 걸어서 감 (트립어드바이저 4.4, 리뷰 2,579)",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Lato%20Boutique%20Hotel%20Heraklion&checkIn=2027-05-13&los=1&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Lato%20Boutique%20Hotel%20Heraklion&checkin=2027-05-13&checkout=2027-05-14&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Lato%20Boutique%20Hotel%20Heraklion&checkin=2027/05/13&checkout=2027/05/14&adult=2"
+        },
+        {
+         "name": "공식 사이트",
+         "tag": "공식",
+         "url": "https://www.lato.gr/"
+        }
+       ],
+       "due": "열리면"
+      },
+      {
+       "what": "Astra Suites (이메로비글리, 칼데라 뷰)",
+       "where": "산토리니 · 이메로비글리",
+       "dates": "05/14 체크인 · 3박 (05/17 체크아웃)",
+       "price": "€450–650 (추정) · 1박 2인 1실",
+       "when": "칼데라 뷰 스위트는 일찍 매진. 지금 무료 취소로",
+       "alt": "이아보다 조용한 칼데라 정면, 스카로스 바위가 바로 앞. 더 싸게는 피로스테파니 칼데라 뷰 3성 €250~350",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Astra%20Suites%20Santorini&checkIn=2027-05-14&los=3&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Astra%20Suites%20Santorini&checkin=2027-05-14&checkout=2027-05-17&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Astra%20Suites%20Santorini&checkin=2027/05/14&checkout=2027/05/17&adult=2"
+        },
+        {
+         "name": "공식 사이트",
+         "tag": "공식",
+         "url": "https://www.astra-suites.com/"
+        }
+       ],
+       "due": "지금"
+      },
+      {
+       "what": "Herodion Hotel (4성)",
+       "where": "아테네 · 아크로폴리스 박물관 앞",
+       "dates": "05/17 체크인 · 1박 (05/18 체크아웃)",
+       "price": "€200–260 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "아크로폴리스 남쪽 입구까지 도보 5분, 루프탑 정원 뷰",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Herodion%20Hotel%20Athens&checkIn=2027-05-17&los=1&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Herodion%20Hotel%20Athens&checkin=2027-05-17&checkout=2027-05-18&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Herodion%20Hotel%20Athens&checkin=2027/05/17&checkout=2027/05/18&adult=2"
+        },
+        {
+         "name": "공식 사이트",
+         "tag": "공식",
+         "url": "https://www.herodion.gr/"
+        }
+       ],
+       "due": "열리면"
+      }
+     ]
+    },
+    {
+     "cat": "국내선·페리·렌터카",
+     "hint": "",
+     "items": [
+      {
+       "what": "Aegean 아테네 → 하니아 11:25",
+       "where": "그리스 국내선",
+       "dates": "5/11 11:25",
+       "price": "€92 (₩137,921, 1인)",
+       "when": "국제선 다음으로 바로. 저가 요금은 3~4개월 전이 가장 쌈. 위탁 수하물은 예매 때 같이",
+       "alt": "SKY express 06:45편 ₩73,191",
+       "links": [
+        {
+         "name": "Aegean 공식",
+         "tag": "공식",
+         "url": "https://www.aegeanair.com/"
+        },
+        {
+         "name": "SKY express 공식",
+         "tag": "공식",
+         "url": "https://www.skyexpress.gr/en"
+        },
+        {
+         "name": "트립닷컴 항공",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/flights/"
+        }
+       ],
+       "due": "지금"
+      },
+      {
+       "what": "크레타 렌터카 3일 (하니아 공항 픽업 → 이라클리온 항구 반납)",
+       "where": "크레타",
+       "dates": "5/11–5/14",
+       "price": "€180–240 (편도 반납료 포함, 완전자차 추천)",
+       "when": "1~2달 전. 수동이 기본이라 오토는 일찍",
+       "alt": "국제운전면허증 필수",
+       "links": [
+        {
+         "name": "트립닷컴 렌터카",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/carhire/"
+        },
+        {
+         "name": "Rentalcars",
+         "tag": "비교",
+         "url": "https://www.rentalcars.com/"
+        }
+       ],
+       "due": "2개월 전"
+      },
+      {
+       "what": "SeaJets 이라클리온 → 산토리니 (08:00경)",
+       "where": "이라클리온 → 아티니오스",
+       "dates": "5/14 08:00경",
+       "price": "€68–93 (1인)",
+       "when": "2027 시간표가 열리면 바로 (판매 시작 시점 확인)",
+       "alt": "Blue Star 3시간 50분 약 €31, SKY express 이라클리온→산토리니 항공 €69~",
+       "links": [
+        {
+         "name": "Ferryhopper",
+         "tag": "비교",
+         "url": "https://www.ferryhopper.com/"
+        },
+        {
+         "name": "SeaJets 공식",
+         "tag": "공식",
+         "url": "https://www.seajets.com/"
+        }
+       ],
+       "due": "열리면"
+      },
+      {
+       "what": "Aegean 산토리니 → 아테네 08:25",
+       "where": "그리스 국내선",
+       "dates": "5/17 08:25",
+       "price": "€73 (₩109,289, 1인)",
+       "when": "국제선 다음으로 바로. 저가 요금은 3~4개월 전이 가장 쌈. 위탁 수하물은 예매 때 같이",
+       "alt": "",
+       "links": [
+        {
+         "name": "Aegean 공식",
+         "tag": "공식",
+         "url": "https://www.aegeanair.com/"
+        },
+        {
+         "name": "트립닷컴 항공",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/flights/"
+        }
+       ],
+       "due": "지금"
+      }
+     ]
+    },
+    {
+     "cat": "입장권·투어",
+     "hint": "",
+     "items": [
+      {
+       "what": "아크로폴리스 08:00 시간 지정 입장권",
+       "where": "아테네",
+       "dates": "5/10 08:00",
+       "price": "€30 (1인)",
+       "when": "1~2달 전. 인기 슬롯(08:00, 17:00 이후)은 며칠 전 매진",
+       "alt": "매진이면 클룩·마이리얼트립 가이드 투어(입장권 포함)",
+       "links": [
+        {
+         "name": "hhticket.gr 공식",
+         "tag": "공식",
+         "url": "https://www.hhticket.gr"
+        },
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=아크로폴리스"
+        },
+        {
+         "name": "마이리얼트립",
+         "tag": "한국어",
+         "url": "https://www.myrealtrip.com/search?q=아크로폴리스"
+        }
+       ],
+       "due": "2개월 전"
+      },
+      {
+       "what": "아크로폴리스 박물관 시간 지정 입장권",
+       "where": "아테네",
+       "dates": "5/10 10:15경",
+       "price": "€20 (1인)",
+       "when": "2~3주 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식 e-티켓",
+         "tag": "공식",
+         "url": "https://etickets.theacropolismuseum.gr"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "크노소스 궁전",
+       "where": "크레타 · 이라클리온",
+       "dates": "5/13 오후",
+       "price": "€20 (1인)",
+       "when": "1주 전 또는 현장",
+       "alt": "",
+       "links": [
+        {
+         "name": "hhticket.gr 공식",
+         "tag": "공식",
+         "url": "https://www.hhticket.gr"
+        }
+       ],
+       "due": "현장"
+      },
+      {
+       "what": "산토리니 카타마란 선셋 크루즈 (5시간, BBQ·음료)",
+       "where": "산토리니",
+       "dates": "5/15 15:00",
+       "price": "€110–130 (1인, 공유)",
+       "when": "1~2주 전",
+       "alt": "세미프라이빗 €180~300, 프라이빗 4인 €800~",
+       "links": [
+        {
+         "name": "Sunset Oia 공식",
+         "tag": "공식",
+         "url": "https://sailing-santorini.com/"
+        },
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=산토리니 선셋 크루즈"
+        },
+        {
+         "name": "마이리얼트립",
+         "tag": "한국어",
+         "url": "https://www.myrealtrip.com/search?q=산토리니 요트"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "아크로티리 유적",
+       "where": "산토리니",
+       "dates": "5/16",
+       "price": "€20 (1인)",
+       "when": "현장 구매 가능 (월·목은 15:30 마감)",
+       "alt": "",
+       "links": [
+        {
+         "name": "hhticket.gr 공식",
+         "tag": "공식",
+         "url": "https://www.hhticket.gr"
+        }
+       ],
+       "due": "현장"
+      },
+      {
+       "what": "수니온 선셋 반일 투어",
+       "where": "아테네 근교",
+       "dates": "5/17 오후",
+       "price": "€45–65 (1인, 입장료 €20 별도 여부 확인)",
+       "when": "1~2주 전",
+       "alt": "택시 왕복(대기 포함) €150~200",
+       "links": [
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=수니온"
+        },
+        {
+         "name": "마이리얼트립",
+         "tag": "한국어",
+         "url": "https://www.myrealtrip.com/search?q=수니온"
+        },
+        {
+         "name": "GetYourGuide",
+         "tag": "비교",
+         "url": "https://www.getyourguide.com/s/?q=sounion%20sunset"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "국립고고학박물관",
+       "where": "아테네",
+       "dates": "5/17 오후",
+       "price": "€20 (1인)",
+       "when": "1~2주 전 시간 지정",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식",
+         "tag": "공식",
+         "url": "https://www.namuseum.gr/en/episkepsi"
+        }
+       ],
+       "due": "2주 전"
+      }
+     ]
+    },
+    {
+     "cat": "식당",
+     "hint": "",
+     "items": [
+      {
+       "what": "Thes · Greek Creative Cuisine",
+       "where": "아테네 · 프시리",
+       "dates": "코스 일정 참고",
+       "price": "1인 €30–45",
+       "when": "2~3주 전 이메일",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://www.instagram.com/thesgreekcreativecuisine/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g189400-d17837015-Reviews-Thes_Greek_Creative_Cuisine-Athens_Attica.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Ta Karamanlidika tou Fani",
+       "where": "아테네 · 중앙시장 옆",
+       "dates": "코스 일정 참고",
+       "price": "1인 €20–30",
+       "when": "1~2주 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://www.karamanlidika.gr"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g189400-d6852056-Reviews-Ta_Karamanlidika_tou_Fani-Athens_Attica.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Tamam",
+       "where": "하니아 구시가 (옛 터키 목욕탕 건물)",
+       "dates": "코스 일정 참고",
+       "price": "1인 €20–30",
+       "when": "1주 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Search?q=Tamam%20Restaurant%20Chania"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Peskesi",
+       "where": "이라클리온 구시가",
+       "dates": "코스 일정 참고",
+       "price": "1인 €25–35",
+       "when": "1~2주 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g189417-d6513925-Reviews-Peskesi-Heraklion_Crete.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "To Psaraki",
+       "where": "산토리니 · 블리하다 마리나",
+       "dates": "코스 일정 참고",
+       "price": "1인 €35–55",
+       "when": "1주 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://topsaraki.gr/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g1188919-d1840339-Reviews-To_Psaraki-Vlychada_Santorini_Cyclades_South_Aegean.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Dimitris Ammoudi Taverna",
+       "where": "산토리니 · 이아 아래 암무디 포구",
+       "dates": "코스 일정 참고",
+       "price": "1인 €40–70",
+       "when": "2~3주 전 일몰석",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g482941-d3221585-Reviews-Dimitris_Ammoudi_Taverna-Oia_Santorini_Cyclades_South_Aegean.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Aktaion (1922~)",
+       "where": "산토리니 · 피로스테파니",
+       "dates": "코스 일정 참고",
+       "price": "1인 €25–35",
+       "when": "1~2주 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://www.aktaionsantorini.com"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g635607-d1787767-Reviews-Aktaion-Firostefani_Santorini_Cyclades_South_Aegean.html"
+        }
+       ],
+       "due": "2주 전"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

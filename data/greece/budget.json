@@ -1,0 +1,100 @@
+{
+ "budgetTotal": 1000,
+ "categories": [
+  {
+   "label": "국제선 항공",
+   "color": "#5B8DEF"
+  },
+  {
+   "label": "숙소 9박",
+   "color": "#E8B04B"
+  },
+  {
+   "label": "현지 교통",
+   "color": "#7FD1A8"
+  },
+  {
+   "label": "입장권·체험",
+   "color": "#C9A4F2"
+  },
+  {
+   "label": "식비",
+   "color": "#F0907A"
+  },
+  {
+   "label": "관광세·예비비",
+   "color": "#6F7D97"
+  }
+ ],
+ "courses": {
+  "course1": {
+   "no": "COURSE 1",
+   "accent": "#1E7FA8",
+   "title": "섬 허니문, 미코노스 + 산토리니",
+   "tag": "이아 동굴 스위트 2박 · 델로스 · 카타마란",
+   "total": 1124,
+   "parts": [
+    252.2,
+    468,
+    114,
+    111,
+    150,
+    28.8
+   ],
+   "photo": "photos/greece/oia.jpg",
+   "alt": "산토리니 이아 마을",
+   "flightShort": "카타르 도하 경유",
+   "stayShort": "이아 동굴 호텔",
+   "flight": "카타르항공 도하 1회 경유 왕복 · 1인 126.1만 원 (2026-11-04 구글 항공) · 국내선 2회 + 고속선 1회",
+   "stay": "Electra Palace (아테네 5성) · Harmony Boutique (미코노스) · Andronis Boutique 이아 2박 · El Greco (피라) 2박",
+   "good": "허니문 전문 여행사 동선 그대로, 이아 동굴 스위트와 섬 두 곳",
+   "watch": "예산을 약 124만 원 넘음 (이아 호텔이 절반). 섬 이동이 많아 짐 정리가 잦음"
+  },
+  "course2": {
+   "no": "COURSE 2",
+   "accent": "#2F7A57",
+   "title": "그리스 일주, 델피·메테오라 + 산토리니",
+   "tag": "여행사 일주 동선 · 메테오라 1박 · 산토리니 4박",
+   "total": 877,
+   "parts": [
+    252.2,
+    210,
+    80,
+    170,
+    135,
+    29.8
+   ],
+   "photo": "photos/greece/meteora.jpg",
+   "alt": "메테오라 수도원",
+   "flightShort": "카타르 도하 경유",
+   "stayShort": "3~4성 가성비",
+   "flight": "카타르항공 도하 1회 경유 왕복 · 1인 126.1만 원 · 국내선 2회",
+   "stay": "Hotel Plaka (아테네 3성) · Doupiani House (메테오라, 투어 포함) · El Greco Resort (피라) 4박",
+   "good": "예산 안(약 877만 원). 하나·모두투어 그리스 일주의 핵심(델피·메테오라·산토리니)을 자유여행으로",
+   "watch": "델피→메테오라→아테네 차량 이동이 하루 8시간 넘음. 산토리니 호텔은 칼데라 뷰 아님"
+  },
+  "course3": {
+   "no": "COURSE 3",
+   "accent": "#B8432A",
+   "title": "크레타 + 산토리니, 한국인 덜 가는 섬",
+   "tag": "렌터카 크레타 3일 · 칼데라 뷰 스위트 3박",
+   "total": 1119,
+   "parts": [
+    252.2,
+    450,
+    154,
+    82.5,
+    150,
+    30.3
+   ],
+   "photo": "photos/greece/elafonisi.jpg",
+   "alt": "크레타 엘라포니시 해변",
+   "flightShort": "카타르 도하 경유",
+   "stayShort": "칼데라 뷰 스위트",
+   "flight": "카타르항공 도하 1회 경유 왕복 · 1인 126.1만 원 · 국내선 2회 + 이라클리온→산토리니 고속선",
+   "stay": "Herodion (아테네 4성) · Casa Delfino (하니아) · Lato (이라클리온) · Astra Suites (이메로비글리) 3박",
+   "good": "한국 신혼 블로그 언급 1위 섬 크레타 + 칼데라 정면 스위트. 해변·자연·음식",
+   "watch": "예산을 약 119만 원 넘음. 렌터카(국제운전면허) 필요, 크레타 산길 운전이 김"
+  }
+ }
+}

@@ -99,11 +99,13 @@
 (function () {
   var $ = function (id) { return document.getElementById(id); };
   var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
+  var K = (/[?&]k=([a-z]+)/.exec(location.search) || [])[1] || '';
+  var DATA = 'data/' + (K ? K + '/' : '');
   var NAMES = { course1: '코스 1 · 경유', course2: '코스 2 · 직항 가성비', course3: '코스 3 · 안달루시아' };
   var data, picked = (location.hash.match(/#c([123])/) || [])[1] ? 'course' + location.hash.match(/#c([123])/)[1] : 'course1';
   var store = function () { try { return JSON.parse(localStorage.getItem('booking-done') || '{}'); } catch (e) { return {}; } };
   var save = function (o) { try { localStorage.setItem('booking-done', JSON.stringify(o)); } catch (e) {} };
-  var key = function (c, g, i) { return c + '|' + g + '|' + i; };
+  var key = function (c, g, i) { return (K ? K + '|' : '') + c + '|' + g + '|' + i; };  // 스페인은 예전 키 그대로
 
   // 유로 금액 뒤에 원화 환산을 붙인다 (1€ = 1,500원). "€195–270" → "€195–270 (약 29.3만–40.5만 원)"
   function won(text) {
@@ -119,7 +121,7 @@
       '<dt>평점</dt><dd>' + esc(score) + (rt.url ? ' <a href="' + esc(rt.url) + '" target="_blank" rel="noopener">' + esc(rt.src || '트립어드바이저') + ' ↗</a>' : '') + '</dd>' +
       (r.review ? '<dt>리뷰 요약</dt><dd>' + esc(r.review) + '</dd>' : '') +
       ((r.photo || (r.dishes || []).length) ? '<dt>사진</dt><dd class="rphotos">' +
-        (r.photo ? '<a class="rphoto" href="' + esc(r.photo.page) + '" target="_blank" rel="noopener"><img src="' + esc(r.photo.file) + '" alt="' + esc(r.name) + '" loading="lazy"><span>' + esc((r.photo.kind === 'dish' ? '대표 음식 · ' : '가게 · ') + r.photo.credit) + '</span></a>' : '') +
+        (r.photo ? '<a class="rphoto" href="' + esc(r.photo.page) + '" target="_blank" rel="noopener"><img src="' + esc(r.photo.file) + '" alt="' + esc(r.name) + '" loading="lazy"><span>' + esc((r.photo.kind === 'dish' ? '대표 음식 · ' : r.photo.kind === 'view' ? '주변 풍경 · ' : '가게 · ') + r.photo.credit) + '</span></a>' : '') +
         (r.dishes || []).map(function (d) { return '<a class="rphoto" href="' + esc(d.page) + '" target="_blank" rel="noopener"><img src="' + esc(d.file) + '" alt="' + esc(d.dish) + '" loading="lazy"><span>' + esc(d.dish + ' · ' + d.credit) + '</span></a>'; }).join('') + '</dd>' : '');
   }
   function dueHtml(d) { return '<span class="due' + (d === '지금' || d === '열리면' ? ' hot' : '') + '">' + esc(d) + '</span>'; }
@@ -155,7 +157,7 @@
   });
   $('tabs').addEventListener('click', function (e) {
     var b = e.target.closest('button'); if (!b) return;
-    picked = b.getAttribute('data-c'); history.replaceState(null, '', '#c' + picked.slice(-1)); render();
+    picked = b.getAttribute('data-c'); history.replaceState(null, '', location.search + '#c' + picked.slice(-1)); render();
   });
   $('groups').addEventListener('change', function (e) {
     var cb = e.target; if (cb.type !== 'checkbox') return;
@@ -168,8 +170,13 @@
 
   var rest = {};
   function findRest(it) { var ks = Object.keys(rest); for (var i = 0; i < ks.length; i++) { if (rest[ks[i]].match.some(function (m) { return it.what.indexOf(m) === 0; })) return rest[ks[i]]; } return null; }
-  Promise.all([fetch('data/booking.json').then(function (r) { return r.json(); }), fetch('data/restaurants.json').then(function (r) { return r.json(); }).catch(function () { return {}; })]).then(function (res) {
+  Promise.all([fetch(DATA + 'booking.json').then(function (r) { return r.json(); }), fetch(DATA + 'restaurants.json').then(function (r) { return r.json(); }).catch(function () { return {}; })]).then(function (res) {
     var j = res[0]; rest = res[1] || {};
+    Object.keys(j.courses).forEach(function (c) { if (j.courses[c].name) NAMES[c] = j.courses[c].name; });
+    if (j.country) {
+      document.querySelector('.hero .kicker').textContent = j.country.kicker;
+      document.querySelectorAll('.topbar a[href="spain.html"]').forEach(function (a) { a.setAttribute('href', j.country.page); });
+    }
     data = j; render();
     $('sites').innerHTML = j.sites.map(function (s) { return '<li><a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.name) + '</a><span class="tag">' + esc(s.for) + '</span><br>' + esc(s.note) + '</li>'; }).join('');
     $('taxi').innerHTML = j.taxi.map(function (t) { return '<li><b>' + esc(t.what) + '</b><br>' + esc(t.note) + (t.links.length ? '<div class="lk">' + t.links.map(function (l) { return '<a href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.name) + ' ↗</a>'; }).join('') + '</div>' : '') + '</li>'; }).join('');

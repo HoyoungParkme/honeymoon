@@ -1,0 +1,18 @@
+{
+ "spain": {
+  "name": "스페인",
+  "title": "스페인 신혼여행",
+  "page": "spain.html",
+  "data": "",
+  "kicker": "ESPAÑA",
+  "cur": "€"
+ },
+ "greece": {
+  "name": "그리스",
+  "title": "그리스 신혼여행",
+  "page": "greece.html",
+  "data": "greece/",
+  "kicker": "ΕΛΛΆΔΑ",
+  "cur": "€"
+ }
+}
