@@ -48,13 +48,14 @@
   .four .k { font-size: 11px; font-weight: 700; letter-spacing: .12em; color: var(--dim); }
   .four .k.good { color: #2F6B4D; } .four .k.warn { color: #9C3A22; }
   .four .v { font-size: 13px; line-height: 1.55; color: var(--sub); }
-  .days { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; }
-  .days li { display: flex; flex-direction: column; gap: 4px; padding: 12px 12px 12px 14px; border-radius: 12px; background: var(--bg); border-left: 3px solid var(--acc); }
-  .days .n { font-size: 11px; font-weight: 700; color: var(--acc); }
-  .days .c { font-size: 13px; font-weight: 700; }
-  .days .t { font-size: 12px; line-height: 1.45; color: var(--mute); }
+  .days { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 22px 28px; }
+  .days li { display: grid; grid-template-columns: auto 1fr; grid-template-rows: auto auto; column-gap: 12px; row-gap: 2px; padding-top: 12px; border-top: 1px solid var(--line2); }
+  .days .num { grid-row: 1 / 3; font-size: 34px; font-weight: 900; line-height: 1; letter-spacing: -.03em; color: var(--ink); font-variant-numeric: tabular-nums; }
+  .days .n { font-size: 11px; font-weight: 700; letter-spacing: .08em; color: var(--mute); }
+  .days .c { font-size: 15px; font-weight: 700; line-height: 1.3; }
+  .days .t { grid-column: 2; font-size: 12px; line-height: 1.45; color: var(--mute); }
   .sec { font-size: 11px; font-weight: 700; letter-spacing: .12em; color: var(--dim); margin-bottom: 12px; }
-  @media (min-width: 900px) { .hero h1 { font-size: 56px; } .panel { padding: 32px 36px; } }
+  @media (min-width: 900px) { .hero h1 { font-size: 56px; } .panel { padding: 32px 36px; } .days { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
 </style>
 </head>
 <body>
@@ -147,7 +148,7 @@
     }).join('');
     $('pFlight').textContent = c.flight; $('pStay').textContent = c.stay; $('pGood').textContent = c.good; $('pWatch').textContent = c.watch;
     $('pDays').innerHTML = days.map(function (d) {
-      return '<li><span class="n">DAY ' + d.n + ' · ' + esc(d.date) + '</span><span class="c">' + esc(d.city) + '</span><span class="t">' + esc(d.title) + '</span></li>';
+      return '<li><span class="num" aria-hidden="true">' + d.n + '</span><span class="n">DAY ' + d.n + ' · ' + esc(d.date) + '</span><span class="c">' + esc(d.city) + '</span><span class="t">' + esc(d.title) + '</span></li>';
     }).join('');
     $('panel').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
   }
