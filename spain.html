@@ -123,7 +123,7 @@
         '<img src="' + esc(c.photo) + '" alt="' + esc(c.alt) + '"><span class="shade"></span>' +
         '<span class="no" style="color:' + c.accent + '">' + esc(c.no) + '</span>' +
         '<span class="body"><span class="ttl">' + esc(c.title) + '</span><span class="tag">' + esc(c.tag) + '</span>' +
-        '<span class="tot"><b>약 ' + c.total + '만 원</b><small>1인</small></span>' +
+        '<span class="tot"><b>약 ' + c.total + '만 원</b><small>2인</small></span>' +
         '<span class="meta">' + esc(c.flightShort) + ' · ' + esc(c.stayShort) + '</span></span></button>';
     }).join('');
     $('cards').classList.toggle('has-pick', !!picked);
@@ -135,7 +135,7 @@
     var days = courses[picked].days;
     $('empty').hidden = true; $('panel').hidden = false;
     $('panel').style.setProperty('--acc', c.accent);
-    $('pLbl').textContent = c.no + ' · 총비용 (1인)'; $('pLbl').style.color = c.accent;
+    $('pLbl').textContent = c.no + ' · 총비용 (2인)'; $('pLbl').style.color = c.accent;
     $('pTotal').textContent = '약 ' + c.total + '만 원';
     $('pPct').textContent = '예산 ' + budget.budgetTotal.toLocaleString('ko-KR') + '만 원 중 ' + Math.round(c.total / budget.budgetTotal * 100) + '%';
     $('pGo').href = 'web/#c' + picked.replace('course', '') + '-d1';

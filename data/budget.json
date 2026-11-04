@@ -11,33 +11,33 @@
  "courses": {
   "course1": {
    "no": "COURSE 1", "accent": "#5B8DEF", "title": "스페인 일주, 경유로 아끼기", "tag": "카타르항공 경유 · 4성 숙소 · 그라나다 하맘",
-   "total": 961, "parts": [232.8, 324, 101.5, 84, 180, 38.5],
+   "total": 970, "parts": [242.1, 324, 101.5, 84, 180, 38.5],
    "photo": "photos/plaza_espana.jpg", "alt": "세비야 스페인 광장",
    "flightShort": "경유 18~20h", "stayShort": "4성 위주",
-   "flight": "카타르항공 도하 1회 경유 다구간 · 1인 116.4만 원 · 편도 약 18~20시간",
+   "flight": "카타르항공 도하 1회 경유 다구간 · 1인 121.1만 원 (2026-11-04 구글 항공 조회) · 편도 약 18~20시간",
    "stay": "Room Mate Alba · Las Casas de la Judería · Porcel Alixares · Catalonia Catedral",
    "good": "4성 숙소, 첫날 오후부터 관광, 하맘까지 포함",
    "watch": "편도 20시간 경유, 귀국일은 오전만 관광"
   },
   "course2": {
    "no": "COURSE 2", "accent": "#7FD1A8", "title": "스페인 일주, 직항 가성비", "tag": "직항 다구간 · 3성 중심 · 귀국일까지 꽉 채워",
-   "total": 985, "parts": [373.7, 245.3, 93, 64.5, 171, 37.2],
+   "total": 1038, "parts": [426.8, 245.3, 93, 64.5, 171, 37.2],
    "photo": "photos/park_guell.jpg", "alt": "바르셀로나 구엘 공원",
    "flightShort": "직항 MAD in · BCN out", "stayShort": "3성 중심",
-   "flight": "아시아나·대한항공 직항 다구간(마드리드 IN · 바르셀로나 OUT) · 1인 186.9만 원",
+   "flight": "대한항공·아시아나 직항 다구간(마드리드 IN · 바르셀로나 OUT) · 1인 213.4만 원 (2026-11-04 구글 항공 조회)",
    "stay": "Regente · Rey Alfonso X (4성) · Casa del Capitel Nazarí · Hotel Lleó",
    "good": "직항이라 체력 소모가 적고 귀국일도 하루 종일 관광",
-   "watch": "숙소 3성, 세비야→그라나다 버스 3시간, 하맘 제외"
+   "watch": "현 직항 운임으로는 예산을 약 38만 원 넘음, 숙소 3성, 세비야→그라나다 버스 3시간, 하맘 제외"
   },
   "course3": {
    "no": "COURSE 3", "accent": "#F0907A", "title": "안달루시아 깊게, 파라도르 1박", "tag": "대한항공 직항 왕복 · 알함브라 성벽 안 숙박 · 세고비아",
-   "total": 988, "parts": [353.2, 273.8, 82.5, 69, 180, 30],
+   "total": 1025, "parts": [390.5, 273.8, 82.5, 69, 180, 30],
    "photo": "photos/leones.jpg", "alt": "알함브라 사자의 정원",
    "flightShort": "직항 왕복", "stayShort": "파라도르 1박",
-   "flight": "대한항공 마드리드 왕복 직항 · 1인 176.6만 원",
+   "flight": "대한항공 마드리드 왕복 직항 · 1인 195.3만 원 (2026-11-04 구글 항공 조회)",
    "stay": "Regente (5박) · Las Casas de la Judería · Casa del Capitel Nazarí + 파라도르 데 그라나다",
    "good": "직항 + 파라도르, 안달루시아를 여유 있게",
-   "watch": "가우디·바르셀로나 없음, 그라나다→마드리드는 고속선 운행에 달림"
+   "watch": "현 직항 운임으로는 예산을 약 25만 원 넘음, 가우디·바르셀로나 없음, 그라나다→마드리드는 고속선 운행에 달림"
   }
  }
 }

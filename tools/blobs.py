@@ -49,7 +49,7 @@ HOTEL_LINKS = {
     "hotelB_mad": ("Hotel Regente (3성)", "https://www.kayak.ie/Madrid-Hotels-Regente.18463.ksp", "€150–200 (추정)"),
     "hotelA_sev": ("Las Casas de la Judería (4성)", "https://www.kayak.de/Sevilla-Hotels-Las-Casas-de-La-Juderia.18176.ksp", "€160–220"),
     "hotelB_sev": ("Hotel Rey Alfonso X (4성)", "https://www.kayak.ie/Sevilla-Hotels-Hotel-Rey-Alfonso-X.51888.ksp", "€160–220 (추정)"),
-    "hotelA_gra": ("Hotel Porcel Alixares (4성)", "https://www.kayak.com/Granada-Hotels-Hotel-Alixares.38046.ksp", "€85–130"),
+    "hotelA_gra": ("Hotel Porcel Alixares (4성)", "https://www.kayak.com/Granada-Hotels-Hotel-Alixares.38046.ksp", "€90 (2027.5 Booking 확인, 조식 포함)"),
     "hotelB_gra": ("Casa del Capitel Nazarí (3성)", "https://www.kayak.ie/Granada-Hotels-Casa-del-Capitel-Nazari.51314.ksp", "€110–150 (추정)"),
     "parador": ("Parador de Granada", "https://www.kayak.com/Granada-Hotels-Parador-de-Granada.75190.ksp", "€350–420"),
     "hotelA_bcn": ("Catalonia Catedral (4성)", "https://www.kayak.com/Barcelona-Hotels-Catalonia-Catedral.314408.ksp", "€330–360"),
