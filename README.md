@@ -77,6 +77,8 @@ python -I tools/build_atlas.py <타일_저장_폴더> web
 | `tools/build_boards.py` | itinerary → 보드 HTML 생성 (Playwright로 높이 측정 후 8000px 단위로 분할) |
 | `tools/board_template.dc.html` | 보드 템플릿 (원화 변환 `won()`, 요금 분해 `splitFare()` 포함) |
 | `tools/render_maps.py` | Leaflet + Playwright로 지도 PNG 렌더 |
+| `tools/restaurants.py` | 식당 23곳 정보(종류·대표 메뉴·주문 팁·가격·트립어드바이저 평점·리뷰 요약) → `data/restaurants.json`. 일정 화면에서 식당 행을 누르면 카드, 예약 페이지 식당 항목에도 표시 |
+| `tools/fetch_food_photos.py` | 식당·대표 음식 사진을 위키미디어 커먼즈에서 받아 `photos/food/`에 저장, 저작자는 `photos/food_credits.json`. 가게 사진이 없으면 대표 음식 사진 |
 | `tools/build_booking.py` | 코스별 예약 목록 → `data/booking.json`. 숙소는 `courses.json`의 잠자리에서 자동(체크인·박수·아고다/부킹/트립닷컴 날짜 링크), 항공·열차·입장권·식당·택시는 파일 안 표를 손으로 고친다 |
 | `tools/fetch_previews.py` | 일정 행의 예매·식당 링크를 Playwright로 열어 `previews/*.jpg` 스크린샷과 제목을 `data/previews.json`에 저장. 새 링크만 받으니 링크를 추가하면 다시 실행 |
 

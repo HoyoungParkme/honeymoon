@@ -136,9 +136,10 @@
       });
     };
     var previews = get('previews.json').catch(function () { return {}; });  // 없어도 앱은 돈다
-    return Promise.all(['courses.json', 'index.json', 'coords.json', 'routes.json'].map(get).concat([previews])).then(function (res) {
+    var restaurants = get('restaurants.json').catch(function () { return {}; });
+    return Promise.all(['courses.json', 'index.json', 'coords.json', 'routes.json'].map(get).concat([previews, restaurants])).then(function (res) {
       attachSegments(res[0], res[1], res[2], res[3]);
-      trip = { courses: res[0], coords: res[2], routes: res[3], previews: res[4] || {} };
+      trip = { courses: res[0], coords: res[2], routes: res[3], previews: res[4] || {}, restaurants: res[5] || {} };
     });
   }
 
@@ -238,7 +239,8 @@
       '<div class="side"><span class="dur">' + esc(it.dur) + '</span>' + (f ? '<span class="fare">' + f + '</span>' : '') + '</div>' +
       '<div class="links">' +
       (it.mapUrl ? '<a href="' + esc(it.mapUrl) + '" target="_blank" rel="noopener">' + esc(mapLabel(it)) + '</a>' : '') +
-      (it.link ? '<a class="src" href="' + esc(it.link) + '" target="_blank" rel="noopener">' + esc(LINK_LABEL[linkKind(it)]) + ' ↗</a><span class="chip" title="행을 누르면 이 페이지 미리보기가 떠요">미리보기</span>' : '') +
+      (it.link ? '<a class="src" href="' + esc(it.link) + '" target="_blank" rel="noopener">' + esc(LINK_LABEL[linkKind(it)]) + ' ↗</a>' : '') +
+      (findRestaurant(it) ? '<span class="chip food" title="행을 누르면 메뉴·평점·사진이 떠요">메뉴·평점</span>' : (it.link ? '<span class="chip" title="행을 누르면 이 페이지 미리보기가 떠요">미리보기</span>' : '')) +
       '</div></li>';
   }
   function mapLabel(it) {
@@ -321,6 +323,42 @@
     map.fitBounds(layer.getBounds(), { padding: [36, 36], maxZoom: 16 });
   }
 
+  // 행이 가리키는 식당 (data/restaurants.json, tools/restaurants.py). 행 제목에서 마커 번호를 뗀 뒤 이름으로 찾는다
+  function findRestaurant(it) {
+    if (it.kind !== 'stop') return null;
+    var head = (it.head || '').replace(/^\d+ /, '');
+    var keys = Object.keys(trip.restaurants || {});
+    for (var i = 0; i < keys.length; i++) {
+      var r = trip.restaurants[keys[i]];
+      if (r.match.some(function (m) { return head.indexOf(m) === 0; })) return r;
+    }
+    return null;
+  }
+  function stars(score) {
+    if (score == null) return '<span class="stars none">평점 미확인</span>';
+    var full = Math.round(score);
+    return '<span class="stars" aria-label="5점 만점에 ' + score + '">' + '★'.repeat(full) + '☆'.repeat(5 - full) + ' <b>' + score.toFixed(1) + '</b></span>';
+  }
+  function restaurantCard(r, it) {
+    var rt = r.rating || {};
+    return '<article class="pv rest">' +
+      (r.photo ? '<a class="shot" href="' + esc(r.photo.page || r.url || it.link) + '" target="_blank" rel="noopener"><img src="' + esc(ASSET + r.photo.file) + '" alt="' + esc(r.name) + (r.photo.kind === 'dish' ? ' 대표 음식' : ' 가게') + '" loading="lazy"><span class="credit">' + esc(r.photo.kind === 'dish' ? '대표 음식 · ' : '') + esc(r.photo.credit) + '</span></a>' : '') +
+      '<div class="meta">' +
+      '<span class="kind">식당 · ' + esc(r.city) + '</span>' +
+      '<span class="title">' + esc(r.name) + '</span>' +
+      '<span class="sub">' + esc(r.kind) + (r.since ? ' · ' + esc(r.since) : '') + '</span>' +
+      '<span class="rate">' + stars(rt.score) + (rt.n ? '<span class="n">리뷰 ' + rt.n.toLocaleString('ko-KR') + '</span>' : '') + (rt.url ? '<a href="' + esc(rt.url) + '" target="_blank" rel="noopener">' + esc(rt.src || '트립어드바이저') + ' ↗</a>' : '') + '</span>' +
+      '<span class="lbl">대표 메뉴</span><span class="dishes">' + r.signature.map(function (d) { return '<i>' + esc(d) + '</i>'; }).join('') + '</span>' +
+      (r.order ? '<span class="lbl">이렇게 시키면</span><span class="desc">' + esc(r.order) + '</span>' : '') +
+      (r.review ? '<span class="lbl">리뷰 요약</span><span class="desc quote">' + esc(r.review) + '</span>' : '') +
+      (r.tip ? '<span class="lbl">팁</span><span class="desc">' + esc(r.tip) + '</span>' : '') +
+      '<span class="host"><b class="price">' + esc(won(r.price)) + '</b>' +
+      (r.url ? '<a href="' + esc(r.url) + '" target="_blank" rel="noopener">홈페이지 ↗</a>' : '') +
+      (it.link && it.link !== r.url ? '<a href="' + esc(it.link) + '" target="_blank" rel="noopener">' + esc(LINK_LABEL[linkKind(it)]) + ' ↗</a>' : '') +
+      (it.mapUrl ? '<a href="' + esc(it.mapUrl) + '" target="_blank" rel="noopener">구글 지도 ↗</a>' : '') +
+      '</span></div></article>';
+  }
+
   // 링크 종류: 예매·요금 / 식당 / 출처 (행의 링크 이름과 미리보기 카드가 같이 쓴다)
   function linkKind(it) {
     return /ticket|entrada|renfe|omio|trenes|vueling|alsa|everyrail|patrimonio|alhambra|alcazar|parkguell|sagrada|fgc|crtm/i.test(it.link) ? '예매·요금' :
@@ -330,6 +368,8 @@
 
   // 행의 링크(예매·식당·출처) 미리보기 카드. tools/fetch_previews.py 가 만든 스크린샷·제목을 쓴다
   function previewHtml(it) {
+    var r = findRestaurant(it);
+    if (r) return restaurantCard(r, it);
     if (!it.link) return '<p class="preview-empty">이 행은 예매·식당 링크가 없어요. 지도 링크는 행 안의 "' + esc(mapLabel(it)) + '"를 눌러요.</p>';
     var p = trip.previews[it.link] || {};
     var host = p.host || it.link.replace(/^https?:\/\/(www\.)?/, '').split('/')[0];
@@ -346,7 +386,7 @@
     var html = previewHtml(it);
     $('preview').innerHTML = html;                                   // 데스크톱: 지도 아래
     document.querySelectorAll('.row-preview').forEach(function (e) { e.remove(); });
-    if (row && it.link) {                                            // 폰: 그 행 아래
+    if (row && (it.link || findRestaurant(it))) {                    // 폰: 그 행 아래
       var li = document.createElement('li');
       li.className = 'row-preview'; li.innerHTML = html;
       row.insertAdjacentElement('afterend', li);

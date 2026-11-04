@@ -43,6 +43,10 @@
   .item .kv { display: grid; grid-template-columns: 56px 1fr; gap: 4px 10px; font-size: 13px; line-height: 1.55; }
   .item .kv dt { margin: 0; color: var(--dim); font-weight: 700; }
   .item .kv dd { margin: 0; color: var(--sub); }
+  .item .kv dd a { color: var(--gold); font-weight: 700; }
+  .rphoto { display: inline-flex; flex-direction: column; gap: 2px; max-width: 320px; }
+  .rphoto img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 10px; background: var(--line); }
+  .rphoto span { font-size: 10px; color: var(--dim); }
   .item .links { grid-column: 2; display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
   .item .links a { display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 0 12px; border-radius: 999px; border: 1px solid var(--line2); background: var(--card); font-size: 13px; font-weight: 700; color: var(--ink); }
   .item .links a:hover { border-color: var(--ink); }
@@ -107,6 +111,14 @@
       return m + ' (약 ' + fmt(parseFloat(a)) + (b ? '–' + fmt(parseFloat(b)) : '') + ' 원)';
     });
   }
+  function restRows(r) {
+    if (!r) return '';
+    var rt = r.rating || {}, score = rt.score == null ? '평점 미확인' : '★ ' + rt.score.toFixed(1) + (rt.n ? ' · 리뷰 ' + rt.n.toLocaleString('ko-KR') : '');
+    return '<dt>대표 메뉴</dt><dd>' + r.signature.map(esc).join(' · ') + '</dd>' +
+      '<dt>평점</dt><dd>' + esc(score) + (rt.url ? ' <a href="' + esc(rt.url) + '" target="_blank" rel="noopener">' + esc(rt.src || '트립어드바이저') + ' ↗</a>' : '') + '</dd>' +
+      (r.review ? '<dt>리뷰 요약</dt><dd>' + esc(r.review) + '</dd>' : '') +
+      (r.photo ? '<dt>사진</dt><dd><a class="rphoto" href="' + esc(r.photo.page) + '" target="_blank" rel="noopener"><img src="' + esc(r.photo.file) + '" alt="' + esc(r.name) + '" loading="lazy"><span>' + esc((r.photo.kind === 'dish' ? '대표 음식 · ' : '') + r.photo.credit) + '</span></a></dd>' : '');
+  }
   function dueHtml(d) { return '<span class="due' + (d === '지금' || d === '열리면' ? ' hot' : '') + '">' + esc(d) + '</span>'; }
   function tagClass(t) { return t === '한국어' ? 'ko' : (t === '공식' ? 'of' : ''); }
   function link(l, primary) { return '<a class="' + (primary ? 'primary' : '') + '" href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.name) + (l.tag ? '<i class="' + tagClass(l.tag) + '">' + esc(l.tag) + '</i>' : '') + '</a>'; }
@@ -121,7 +133,7 @@
         var k = key(picked, gi, ii), d = !!done[k]; total++; if (d) cnt++;
         return '<li class="item' + (d ? ' done' : '') + '" id="i' + gi + '-' + ii + '"><input type="checkbox" id="' + esc(k) + '" data-k="' + esc(k) + '"' + (d ? ' checked' : '') + ' aria-label="예약 완료 표시">' +
           '<div class="main"><div class="top"><label class="what" for="' + esc(k) + '">' + esc(it.what) + '</label><span class="meta">' + esc(it.where) + ' · ' + esc(it.dates) + '</span></div>' +
-          '<dl class="kv"><dt>금액</dt><dd><b>' + esc(won(it.price)) + '</b></dd><dt>언제</dt><dd>' + dueHtml(it.due) + ' ' + esc(it.when) + '</dd>' + (it.alt ? '<dt>선택지</dt><dd>' + esc(it.alt) + '</dd>' : '') + '</dl></div>' +
+          '<dl class="kv"><dt>금액</dt><dd><b>' + esc(won(it.price)) + '</b></dd><dt>언제</dt><dd>' + dueHtml(it.due) + ' ' + esc(it.when) + '</dd>' + (it.alt ? '<dt>선택지</dt><dd>' + esc(it.alt) + '</dd>' : '') + restRows(g.cat === '식당' ? findRest(it) : null) + '</dl></div>' +
           '<div class="links">' + it.links.filter(function (l) { return l.url; }).map(function (l, li) { return link(l, g.cat === '숙소' && li === 0); }).join('') + '</div></li>';
       }).join('') + '</ol></section>';
     }).join('');
@@ -151,7 +163,10 @@
     $('progress').innerHTML = '<b>' + n + '</b> / ' + t + ' 예약 완료 · 항목을 체크하면 저장돼요';
   });
 
-  fetch('data/booking.json').then(function (r) { return r.json(); }).then(function (j) {
+  var rest = {};
+  function findRest(it) { var ks = Object.keys(rest); for (var i = 0; i < ks.length; i++) { if (rest[ks[i]].match.some(function (m) { return it.what.indexOf(m) === 0; })) return rest[ks[i]]; } return null; }
+  Promise.all([fetch('data/booking.json').then(function (r) { return r.json(); }), fetch('data/restaurants.json').then(function (r) { return r.json(); }).catch(function () { return {}; })]).then(function (res) {
+    var j = res[0]; rest = res[1] || {};
     data = j; render();
     $('sites').innerHTML = j.sites.map(function (s) { return '<li><a href="' + esc(s.url) + '" target="_blank" rel="noopener">' + esc(s.name) + '</a><span class="tag">' + esc(s.for) + '</span><br>' + esc(s.note) + '</li>'; }).join('');
     $('taxi').innerHTML = j.taxi.map(function (t) { return '<li><b>' + esc(t.what) + '</b><br>' + esc(t.note) + (t.links.length ? '<div class="lk">' + t.links.map(function (l) { return '<a href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.name) + ' ↗</a>'; }).join('') + '</div>' : '') + '</li>'; }).join('');

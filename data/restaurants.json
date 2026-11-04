@@ -1,0 +1,716 @@
+{
+ "botin": {
+  "match": [
+   "Sobrino de Botín"
+  ],
+  "name": "Sobrino de Botín",
+  "city": "마드리드",
+  "kind": "카스티야 전통 · 화덕 구이",
+  "since": "1725년 (기네스 '세계에서 가장 오래된 식당')",
+  "signature": [
+   "코치니요 아사도 (새끼돼지 통구이)",
+   "코르데로 아사도 (새끼양 구이)",
+   "소파 데 아호 (마늘 수프)"
+  ],
+  "order": "둘이면 코치니요 1/4 + 마늘 수프 + 하우스 와인. 1/2 마리는 둘이 다 못 먹음",
+  "price": "1인 €50–65",
+  "rating": {
+   "score": 4.0,
+   "n": 12704,
+   "src": "트립어드바이저",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g187514-d1094538-Reviews-Restaurante_Botin-Madrid.html"
+  },
+  "review": "껍질이 유리처럼 바삭한 코치니요와 300년 된 지하 와인셀러 분위기는 호평. 관광객이 많고 가격 대비 양이 적다는 불만도 있음",
+  "tip": "예약 메모에 'honeymoon'을 쓰면 지하 보데가 자리를 주는 경우가 많음. 헤밍웨이가 앉던 2층 창가도 인기",
+  "url": "https://botin.es/en/",
+  "photo": {
+   "file": "photos/food/botin.jpg",
+   "kind": "shop",
+   "credit": "Ank Kumar · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:2014_-_Sobrino_de_Bot%C3%ADn_(Casa_Bot%C3%ADn)_Restaurant,_Madrid,_Spain_(_Ank_Kumar_)_01.jpg"
+  }
+ },
+ "labra": {
+  "match": [
+   "Casa Labra"
+  ],
+  "name": "Casa Labra",
+  "city": "마드리드",
+  "kind": "타파스 바 (서서 먹는 집)",
+  "since": "1860년",
+  "signature": [
+   "타하다 데 바칼라오 (대구 튀김)",
+   "크로케타 데 바칼라오 (대구 크로켓)",
+   "생맥주 카냐"
+  ],
+  "order": "바에서 대구 튀김 2조각 + 크로켓 2개 + 카냐 두 잔이면 €15 안팎",
+  "price": "1인 €15–25",
+  "rating": {
+   "score": 4.1,
+   "n": 2903,
+   "src": "트립어드바이저",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g187514-d816122-Reviews-Casa_Labra-Madrid.html"
+  },
+  "review": "마드리드 사람들이 다 아는 집. 대구 튀김은 압도적 호평, 줄은 빨리 빠짐. 앉는 식당 쪽은 바보다 평이 낮음",
+  "tip": "바에서 주문표(티켓)를 먼저 끊고 받는 방식. 솔 광장 바로 옆이라 첫날 저녁으로 딱",
+  "url": "https://www.casalabra.es/",
+  "photo": {
+   "file": "photos/food/labra.jpg",
+   "kind": "shop",
+   "credit": "Tamorlan · CC BY 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Casa_Labra-2009.jpg"
+  }
+ },
+ "bola": {
+  "match": [
+   "Taberna La Bola"
+  ],
+  "name": "Taberna La Bola",
+  "city": "마드리드",
+  "kind": "코시도 전문 타베르나",
+  "since": "1870년",
+  "signature": [
+   "코시도 마드릴레뇨 (항아리에 끓인 병아리콩 스튜, 2단계로 나옴)",
+   "카야오스 (소 양 요리)",
+   "플란"
+  ],
+  "order": "코시도는 1인 1항아리. 양이 많아 둘이 코시도 1 + 전채 하나도 충분",
+  "price": "1인 €31–45",
+  "rating": {
+   "score": 3.6,
+   "n": 2787,
+   "src": "트립어드바이저",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g187514-d717262-Reviews-La_Bola-Madrid.html"
+  },
+  "review": "코시도 자체는 '마드리드 최고'라는 평이 많지만 현금만 받고(2026 기준 카드 불가) 서비스가 무뚝뚝해 점수가 낮음",
+  "tip": "현금 준비. 점심 12:30 오픈 직후가 자리 잡기 쉬움",
+  "url": "https://labola.es/en/",
+  "photo": {
+   "file": "photos/food/bola.jpg",
+   "kind": "shop",
+   "credit": "Raimundo Pastor · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Madrid_(RPS_07-10-2014)_Taberna_La_Bola.png"
+  }
+ },
+ "san_miguel": {
+  "match": [
+   "산 미겔 시장"
+  ],
+  "name": "Mercado de San Miguel",
+  "city": "마드리드",
+  "kind": "실내 미식 시장 (타파스 스탠드 20여 곳)",
+  "since": "1916년 철골 건물",
+  "signature": [
+   "올리브 꼬치 (La Hora del Vermut)",
+   "굴·해산물 (El Señor Martín)",
+   "이베리코 하몽 콘 (Carrasco)",
+   "베르무트 한 잔"
+  ],
+  "order": "한 곳에서 다 먹지 말고 스탠드 3~4곳에서 하나씩. 1인 €10이면 타파스 3개 + 음료",
+  "price": "1인 €5–15",
+  "rating": {
+   "score": 4.2,
+   "n": 34640,
+   "src": "트립어드바이저",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g187514-d6367286-Reviews-Mercado_de_San_Miguel-Madrid.html"
+  },
+  "review": "분위기와 다양함은 최고, 가격은 시내 바의 1.5~2배라는 평. 저녁엔 발 디딜 틈 없으니 점심 뒤 간식으로",
+  "tip": "마요르 광장 바로 옆. 자리 없으면 서서 먹는 게 정상",
+  "url": "https://mercadodesanmiguel.es/en/",
+  "photo": {
+   "file": "photos/food/san_miguel.jpg",
+   "kind": "shop",
+   "credit": "Steven Lek · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Interior_Mercado_de_San_Miguel_1.jpg"
+  }
+ },
+ "botero": {
+  "match": [
+   "Taberna El Botero"
+  ],
+  "name": "Taberna El Botero",
+  "city": "톨레도",
+  "kind": "현대식 타파스 · 칵테일 바",
+  "since": "",
+  "signature": [
+   "사슴 카르파초",
+   "카르카무사스 (톨레도식 돼지고기 토마토 스튜)",
+   "마사판 디저트"
+  ],
+  "order": "타파스 3~4개 나눠 먹기. 점심 메뉴(메누 델 디아)가 있으면 그게 가장 알참",
+  "price": "1인 €30–40",
+  "rating": {
+   "score": 4.5,
+   "n": 1346,
+   "src": "트립어드바이저",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g187489-d2654848-Reviews-Taberna_El_Botero-Toledo_Province_of_Toledo_Castile_La_Mancha.html"
+  },
+  "review": "톨레도 418곳 중 18위. 창의적인 타파스와 친절한 서비스가 호평, 양은 적은 편",
+  "tip": "대성당에서 도보 3분. 1층은 바, 2층은 테이블",
+  "url": "https://www.tabernaelbotero.com/",
+  "photo": {
+   "file": "photos/food/botero.jpg",
+   "kind": "dish",
+   "credit": "WeI-chieh Chiu from Taipei, Taiwan · CC BY-SA 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Carcamusas%EF%BC%8CToledo%E5%82%B3%E7%B5%B1%E8%8F%9C%EF%BC%8C%E8%BE%A3%E9%86%AC%E7%87%89%E7%89%9B%E8%82%89_(10077288014).jpg"
+  }
+ },
+ "campos": {
+  "match": [
+   "Bodegas Campos"
+  ],
+  "name": "Bodegas Campos",
+  "city": "코르도바",
+  "kind": "코르도바 전통 요리 · 와인 보데가",
+  "since": "1908년",
+  "signature": [
+   "살모레호 코르도베스 (차가운 토마토 크림 수프)",
+   "라보 데 토로 (소꼬리 찜)",
+   "플라멩킨 (돼지고기 하몽 말이 튀김)"
+  ],
+  "order": "살모레호 + 라보 데 토로 하나씩 + 몬티야 와인 한 잔",
+  "price": "1인 €40–50",
+  "rating": {
+   "score": 4.2,
+   "n": 103,
+   "src": "트립어드바이저(명소 페이지)",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g187430-d3676169-Reviews-Bodegas_Campos-Cordoba_Province_of_Cordoba_Andalucia.html"
+  },
+  "review": "파티오가 이어지는 100년 된 보데가 건물 자체가 볼거리. 음식은 정통, 가격은 코르도바 기준 높은 편",
+  "tip": "식당 안 '타베르나' 구역은 예약 없이 타파스만 먹을 수 있음",
+  "url": "https://www.bodegascampos.com/en/",
+  "photo": {
+   "file": "photos/food/campos.jpg",
+   "kind": "shop",
+   "credit": "CFA1877 · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Restaurante_Bodegas_Campos.jpg"
+  }
+ },
+ "teresas": {
+  "match": [
+   "Las Teresas"
+  ],
+  "name": "Las Teresas",
+  "city": "세비야",
+  "kind": "산타크루스 골목 타파스 바",
+  "since": "1870년",
+  "signature": [
+   "하몽 이베리코 데 베요타",
+   "에스피나카스 콘 가르반소스",
+   "케소 만체고"
+  ],
+  "order": "하몽 반 접시 + 타파스 2개 + 틴토 데 베라노",
+  "price": "1인 약 €25",
+  "rating": {
+   "score": null,
+   "n": null,
+   "src": "트립어드바이저",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g187443-d984911-Reviews-Cafe_Bar_Las_Teresas-Seville_Province_of_Seville_Andalucia.html"
+  },
+  "review": "천장에 하몽이 매달린 옛날 바 분위기로 유명. 평점은 검색에서 확인 못 함(2026-11)",
+  "tip": "자리가 좁아 바에 서서 먹는 게 기본. 첫날 저녁 가볍게",
+  "url": "",
+  "photo": {
+   "file": "photos/food/teresas.jpg",
+   "kind": "shop",
+   "credit": "CarlosVdeHabsburgo · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Bar_Las_Teresas.jpg"
+  }
+ },
+ "rinconcillo": {
+  "match": [
+   "El Rinconcillo"
+  ],
+  "name": "El Rinconcillo",
+  "city": "세비야",
+  "kind": "세비야 최고령 타파스 바",
+  "since": "1670년",
+  "signature": [
+   "에스피나카스 콘 가르반소스 (시금치 병아리콩)",
+   "바칼라오 콘 토마테",
+   "파본 (칠면조) 타파"
+  ],
+  "order": "바에서 타파스 4~5개. 계산은 바텐더가 나무 바에 분필로 적어 둠",
+  "price": "1인 €20–30",
+  "rating": {
+   "score": 3.9,
+   "n": 5041,
+   "src": "트립어드바이저",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g187443-d984947-Reviews-El_Rinconcillo-Seville_Province_of_Seville_Andalucia.html"
+  },
+  "review": "역사·분위기 때문에 가는 집. 시금치 병아리콩은 호평, 혼잡하고 서비스가 느리다는 평이 점수를 깎음",
+  "tip": "13:00 오픈 직후에 가면 바 자리 잡힘. 테이블 식당 쪽보다 바가 재미있음",
+  "url": "https://www.elrinconcillo.es/",
+  "photo": {
+   "file": "photos/food/rinconcillo.jpg",
+   "kind": "shop",
+   "credit": "CarlosVdeHabsburgo · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:El_Rinconcillo_(Sevilla).jpg"
+  }
+ },
+ "eslava": {
+  "match": [
+   "Eslava"
+  ],
+  "name": "Eslava",
+  "city": "세비야",
+  "kind": "창작 타파스 (수상 경력)",
+  "since": "1990년대",
+  "signature": [
+   "시가로 데 베카르 (해초 튀김 롤, 수상작)",
+   "우에보 소브레 비스코초 데 볼레투스 (버섯 케이크 위 계란)",
+   "코스티야 콘 미엘 (꿀 갈비)"
+  ],
+  "order": "위 세 개는 필수. 둘이 타파스 5~6개면 배부름",
+  "price": "1인 €30–40",
+  "rating": {
+   "score": 4.6,
+   "n": 7643,
+   "src": "트립어드바이저",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g187443-d984924-Reviews-Restaurante_Eslava-Seville_Province_of_Seville_Andalucia.html"
+  },
+  "review": "세비야 타파스 1순위로 꼽히는 집. 거의 모든 리뷰가 계란 타파스와 갈비를 언급. 줄이 긴 게 유일한 단점",
+  "tip": "바는 예약 불가 → 20:00 오픈 15분 전에 줄. 식당 테이블은 예약 가능",
+  "url": "https://www.espacioeslava.com/",
+  "photo": {
+   "file": "photos/food/eslava.jpg",
+   "kind": "dish",
+   "credit": "No machine-readable author provided. JackAttackFR assumed (b · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Tapas_Sevilla_01.jpg"
+  }
+ },
+ "diamantes": {
+  "match": [
+   "Los Diamantes"
+  ],
+  "name": "Los Diamantes (Navas)",
+  "city": "그라나다",
+  "kind": "해산물 튀김 타파스 바",
+  "since": "1942년",
+  "signature": [
+   "프리투라 데 페스카도 (모둠 생선 튀김)",
+   "베렌헤나스 프리타스 콘 미엘 (가지 튀김 꿀)",
+   "맥주 시키면 공짜 타파"
+  ],
+  "order": "그라나다는 음료마다 타파가 공짜. 맥주 2잔 + 프리투라 반 접시면 점심 해결",
+  "price": "1인 €15–25",
+  "rating": {
+   "score": 4.3,
+   "n": 5673,
+   "src": "트립어드바이저",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g187441-d900012-Reviews-Los_Diamantes_Navas-Granada_Province_of_Granada_Andalucia.html"
+  },
+  "review": "시끄럽고 서서 먹지만 튀김이 바삭하고 싸다는 평 일색. 나바스 거리 본점이 가장 붐빔",
+  "tip": "자리 없으면 같은 거리 Los Diamantes II나 누에바 광장점",
+  "url": "https://www.barlosdiamantes.com/",
+  "photo": {
+   "file": "photos/food/diamantes.jpg",
+   "kind": "dish",
+   "credit": "Xemenendura · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Pesca%C3%ADto_frito._chiclana.jpg"
+  }
+ },
+ "morayma": {
+  "match": [
+   "Mirador de Morayma"
+  ],
+  "name": "Mirador de Morayma",
+  "city": "그라나다",
+  "kind": "알함브라 뷰 카르멘(정원 저택) 레스토랑",
+  "since": "",
+  "signature": [
+   "레모혼 그라나디노 (오렌지·대구 샐러드)",
+   "라보 데 토로",
+   "피오노노 디저트"
+  ],
+  "order": "테라스 자리 요청이 핵심. 전채 하나 + 메인 둘 + 와인",
+  "price": "1인 €40–55",
+  "rating": {
+   "score": 4.1,
+   "n": 1021,
+   "src": "트립어드바이저",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g187441-d984436-Reviews-Mirador_de_Morayma-Granada_Province_of_Granada_Andalucia.html"
+  },
+  "review": "'그라나다에서 가장 로맨틱한 저녁'이라는 평. 음식보다 알함브라 야경이 주인공, 서비스가 느리다는 불만 있음",
+  "tip": "일몰(5월 약 21:15) 30분 전에 앉도록 예약. 알바이신 언덕이라 돌아올 땐 택시",
+  "url": "https://www.miradordemorayma.com/en/",
+  "photo": {
+   "file": "photos/food/morayma.jpg",
+   "kind": "shop",
+   "credit": "LBM1948 · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Granada,_La_Alhambra_10.jpg"
+  }
+ },
+ "calpep": {
+  "match": [
+   "Cal Pep"
+  ],
+  "name": "Cal Pep",
+  "city": "바르셀로나",
+  "kind": "바 자리 해산물 타파스 (메뉴판 없음)",
+  "since": "1977년",
+  "signature": [
+   "클로이사스 (조개 볶음)",
+   "감바스 아 라 플란차",
+   "트리파 (내장 요리)",
+   "토르티야 데 파타타스"
+  ],
+  "order": "메뉴판이 없음. '페프, 알아서'라고 하면 코스처럼 나옴. 양 조절은 '포코(조금)'",
+  "price": "1인 €50–70",
+  "rating": {
+   "score": 4.2,
+   "n": 2561,
+   "src": "트립어드바이저",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g187497-d697458-Reviews-Cal_Pep-Barcelona_Catalonia.html"
+  },
+  "review": "'바르셀로나 최고 타파스' 후보 단골. 바 자리 쇼 같은 조리가 재미, 금액이 생각보다 커진다는 평",
+  "tip": "바 20석은 예약 불가 → 19:30 오픈 20분 전 줄. 뒷방 테이블은 예약",
+  "url": "https://www.calpep.com/",
+  "photo": {
+   "file": "photos/food/calpep.jpg",
+   "kind": "dish",
+   "credit": "Gerda Arendt · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Gambas_alla_plancha,_Playa_de_La_Aldea,_Gran_Canaria.jpg"
+  }
+ },
+ "catalana": {
+  "match": [
+   "Cervecería Catalana"
+  ],
+  "name": "Cervecería Catalana",
+  "city": "바르셀로나",
+  "kind": "대형 타파스 바",
+  "since": "",
+  "signature": [
+   "몬타디토스 (빵 위 토핑, 바에 진열)",
+   "솔로미요 콘 포이 (안심 푸아그라 꼬치)",
+   "브라바스"
+  ],
+  "order": "바 위 진열된 몬타디토 가리키면 됨. 둘이 몬타디토 4개 + 꼬치 2개",
+  "price": "1인 €25–35",
+  "rating": {
+   "score": 4.4,
+   "n": 14146,
+   "src": "트립어드바이저",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g187497-d782944-Reviews-Cerveceria_Catalana-Barcelona_Catalonia.html"
+  },
+  "review": "리뷰 1만 4천 개에 4.4. 실패 없는 집이라는 평, 대신 언제나 줄",
+  "tip": "예약 안 받음. 13:30 전에 가면 바로 앉음. 카사 밀라에서 도보 5분",
+  "url": "",
+  "photo": {
+   "file": "photos/food/catalana.jpg",
+   "kind": "dish",
+   "credit": "Juan Emilio Prades Bel · CC BY 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Patatas_bravas._Tapa_de_bar_(Espa%C3%B1a).jpg"
+  }
+ },
+ "portes": {
+  "match": [
+   "7 Portes"
+  ],
+  "name": "7 Portes",
+  "city": "바르셀로나",
+  "kind": "카탈루냐 전통 · 파에야",
+  "since": "1836년",
+  "signature": [
+   "파에야 파레야다 (뼈·껍질 없이 손질한 파에야)",
+   "사르수엘라 (해산물 스튜)",
+   "크레마 카탈라나"
+  ],
+  "order": "파에야는 2인분부터. 파레야다 2인 + 크레마 카탈라나 하나",
+  "price": "1인 €45–60",
+  "rating": {
+   "score": 3.9,
+   "n": 9758,
+   "src": "트립어드바이저",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g187497-d697396-Reviews-7_Portes-Barcelona_Catalonia.html"
+  },
+  "review": "190년 된 홀과 '인생 파에야'라는 평이 많지만, 비싸고 관광객 식당 같다는 평도 비슷하게 많음",
+  "tip": "점심 13:00부터 밤 1시까지 쉬지 않고 운영. 저녁 19시 예약이면 한산",
+  "url": "https://7portes.com/en/",
+  "photo": {
+   "file": "photos/food/portes.jpg",
+   "kind": "shop",
+   "credit": "Xavier Dengra · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Pijama_(Restaurant_7_Portes_de_Barcelona).jpg"
+  }
+ },
+ "xampanyet": {
+  "match": [
+   "El Xampanyet"
+  ],
+  "name": "El Xampanyet",
+  "city": "바르셀로나",
+  "kind": "카바·보케론 타파스 바",
+  "since": "1929년",
+  "signature": [
+   "하우스 카바 '샴파녜트'",
+   "보케로네스 엔 비나그레 (식초 절임 멸치)",
+   "안초아스 (칸타브리아 안초비)",
+   "콘세르바스 (통조림 해산물)"
+  ],
+  "order": "카바 한 병에 보케론 + 안초비 + 통조림 하나. 둘이 €40 안쪽",
+  "price": "1인 €20–30",
+  "rating": {
+   "score": 4.5,
+   "n": 2928,
+   "src": "트립어드바이저",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g187497-d697571-Reviews-El_Xampanyet-Barcelona_Catalonia.html"
+  },
+  "review": "타일 벽 옛 바 분위기와 안초비는 모두가 칭찬. 좁고 시끄럽고 자리 없는 게 단점",
+  "tip": "피카소 미술관 골목. 12:00 오픈과 19:00 오픈 직후가 자리 있음",
+  "url": "",
+  "photo": {
+   "file": "photos/food/xampanyet.jpg",
+   "kind": "shop",
+   "credit": "Enric · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:053_El_Xampanyet,_c._Montcada_22_(Barcelona).jpg"
+  }
+ },
+ "boqueria": {
+  "match": [
+   "보케리아 시장"
+  ],
+  "name": "Mercat de la Boqueria",
+  "city": "바르셀로나",
+  "kind": "람블라스 옆 재래시장",
+  "since": "1840년",
+  "signature": [
+   "생과일 주스 (€1.5~2)",
+   "하몽 콘",
+   "El Quim de la Boqueria 바의 계란 요리",
+   "Pinotxo 바 (아침 타파스)"
+  ],
+  "order": "입구 쪽 과일컵은 비싸고 안쪽이 쌈. 아침은 Pinotxo나 El Quim 바에서",
+  "price": "1인 €5–15",
+  "rating": {
+   "score": 4.5,
+   "n": 27330,
+   "src": "트립어드바이저",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g187497-d190164-Reviews-Mercat_de_la_Boqueria-Barcelona_Catalonia.html"
+  },
+  "review": "바르셀로나 시장의 대명사. 10시 이후엔 관광객으로 가득하니 9시대가 좋음. 소매치기 주의",
+  "tip": "마지막 날 오전 일정에 맞춤. 일요일 휴무",
+  "url": "https://www.boqueria.barcelona/",
+  "photo": {
+   "file": "photos/food/boqueria.jpg",
+   "kind": "shop",
+   "credit": "Dungodung · Public domain · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:La_Boqueria.JPG"
+  }
+ },
+ "lucio": {
+  "match": [
+   "Casa Lucio"
+  ],
+  "name": "Casa Lucio",
+  "city": "마드리드",
+  "kind": "카스티야 가정식 · 유명인 단골집",
+  "since": "1974년",
+  "signature": [
+   "우에보스 로토스 / 에스트레야도스 (감자 위 반숙 계란)",
+   "카요스 (양 요리)",
+   "솔로미요 (안심)"
+  ],
+  "order": "계란 요리는 2인분 하나로 나눔 + 메인 하나",
+  "price": "1인 €45–60",
+  "rating": {
+   "score": 3.9,
+   "n": 4499,
+   "src": "트립어드바이저",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g187514-d718556-Reviews-Casa_Lucio-Madrid.html"
+  },
+  "review": "계란 요리 하나로 유명해진 집. 단순한 음식 대비 가격이 높다는 평, 분위기와 단골 유명인 구경은 재미",
+  "tip": "카바 바하 거리. 예약은 전화가 확실함",
+  "url": "https://casalucio.es/",
+  "photo": {
+   "file": "photos/food/lucio.jpg",
+   "kind": "shop",
+   "credit": "Tamorlan · CC BY 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Casa_Lucio-2009.jpg"
+  }
+ },
+ "candido": {
+  "match": [
+   "Mesón de Cándido"
+  ],
+  "name": "Mesón de Cándido",
+  "city": "세고비아",
+  "kind": "코치니요 전문 (수도교 앞)",
+  "since": "1931년 (건물은 18세기)",
+  "signature": [
+   "코치니요 아사도 (접시로 자르는 퍼포먼스)",
+   "후디오네스 데 라 그란하 (흰 강낭콩 스튜)",
+   "폰체 세고비아노 (디저트)"
+  ],
+  "order": "코치니요 1/4 + 후디오네스 + 폰체. 코치니요는 1인 1/4이 기본",
+  "price": "1인 €45–60",
+  "rating": {
+   "score": 3.9,
+   "n": 4322,
+   "src": "트립어드바이저",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g187494-d1054985-Reviews-Meson_de_Candido-Segovia_Province_of_Segovia_Castile_and_Leon.html"
+  },
+  "review": "수도교 보이는 창가와 접시로 돼지를 자르는 의식이 볼거리. 음식은 '평범, 비쌈'이라는 평이 절반",
+  "tip": "창가(수도교 뷰) 요청. 더 맛있다는 평은 José María 쪽이 많음",
+  "url": "https://www.mesondecandido.es/en/",
+  "photo": {
+   "file": "photos/food/candido.jpg",
+   "kind": "shop",
+   "credit": "peuplier · CC BY 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Alberto_C%C3%A1ndido,_Mes%C3%B3n_de_C%C3%A1ndido.jpg"
+  }
+ },
+ "gallo": {
+  "match": [
+   "Venta El Gallo"
+  ],
+  "name": "Venta El Gallo",
+  "city": "그라나다 사크로몬테",
+  "kind": "동굴 플라멩코 공연 + 식사",
+  "since": "",
+  "signature": [
+   "삼브라 (사크로몬테 집시 플라멩코)",
+   "저녁 포함 메뉴 (안달루시아 코스)"
+  ],
+  "order": "공연만(€25)이 가성비. 저녁 포함은 €55인데 음식 평은 보통",
+  "price": "1인 €25 (공연) / €55 (저녁 포함)",
+  "rating": {
+   "score": 3.7,
+   "n": 513,
+   "src": "트립어드바이저",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g187441-d1590347-Reviews-Venta_El_Gallo-Granada_Province_of_Granada_Andalucia.html"
+  },
+  "review": "동굴 안 공연 자체는 가깝고 강렬하다는 평. 음식과 호객은 아쉬움. 테라스에서 알함브라 야경",
+  "tip": "공연 앞줄은 먼저 온 순서. 돌아갈 땐 식당에서 택시 호출",
+  "url": "https://www.ventaelgallo.es/",
+  "photo": {
+   "file": "photos/food/gallo.jpg",
+   "kind": "shop",
+   "credit": "Manuel Ramallo · CC0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Venta_El_Gallo_-_Sacromonte_-_Granada_-_Espa%C3%B1a_01.jpg"
+  }
+ },
+ "mallorquina": {
+  "match": [
+   "La Mallorquina"
+  ],
+  "name": "La Mallorquina",
+  "city": "마드리드",
+  "kind": "솔 광장 1894년 제과점",
+  "since": "1894년",
+  "signature": [
+   "나폴리타나 데 크레마 (커스터드 페이스트리)",
+   "추로스 + 초콜라테",
+   "토스타다 콘 토마테"
+  ],
+  "order": "1층은 서서, 2층 카페는 앉아서. 아침 2인 €10 안팎",
+  "price": "1인 €5–8",
+  "rating": {
+   "score": 4.1,
+   "n": 4045,
+   "src": "트립어드바이저",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g187514-d2071743-Reviews-Pasteleria_La_Mallorquina_Puerta_Del_Sol-Madrid.html"
+  },
+  "review": "나폴리타나는 마드리드 최고라는 평. 아침 8시대는 한산",
+  "tip": "호텔 조식 대신 여기. 솔 광장 8번지",
+  "url": "https://pastelerialamallorquina.es/",
+  "photo": {
+   "file": "photos/food/mallorquina.jpg",
+   "kind": "shop",
+   "credit": "Tamorlan · CC BY 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Tocinillos_de_cielo-_(La_Mallorquina).jpg"
+  }
+ },
+ "comercio": {
+  "match": [
+   "Bar El Comercio"
+  ],
+  "name": "Bar El Comercio",
+  "city": "세비야",
+  "kind": "1904년 추로스 바",
+  "since": "1904년",
+  "signature": [
+   "추로스 + 초콜라테",
+   "토스타다 콘 하몽"
+  ],
+  "order": "추로스 1인분을 둘이 나누고 초콜라테 두 잔",
+  "price": "1인 €4–6",
+  "rating": {
+   "score": 4.4,
+   "n": 1117,
+   "src": "트립어드바이저",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g187443-d7097088-Reviews-Bar_El_Comercio-Seville_Province_of_Seville_Andalucia.html"
+  },
+  "review": "세비야 추로스 1위로 자주 꼽힘. 타일 벽 옛 바",
+  "tip": "08:00 오픈. 알카사르 가기 전 아침으로",
+  "url": "",
+  "photo": {
+   "file": "photos/food/comercio.jpg",
+   "kind": "dish",
+   "credit": "Azulino · CC BY 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Churros_en_Sevilla.jpg"
+  }
+ },
+ "futbol": {
+  "match": [
+   "Café Fútbol"
+  ],
+  "name": "Café Fútbol",
+  "city": "그라나다",
+  "kind": "1922년 추로스 카페",
+  "since": "1922년",
+  "signature": [
+   "추로스 + 초콜라테",
+   "엔사이마다"
+  ],
+  "order": "추로스 1인분 + 초콜라테",
+  "price": "1인 €4–6",
+  "rating": {
+   "score": null,
+   "n": null,
+   "src": "트립어드바이저",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g187441-d3730041-Reviews-Cafe_Futbol-Granada_Province_of_Granada_Andalucia.html"
+  },
+  "review": "그라나다 추로스 명가. 광장 테라스 자리. 평점은 검색에서 확인 못 함(2026-11)",
+  "tip": "마리아나 피네다 광장, 호텔에서 도보",
+  "url": "",
+  "photo": {
+   "file": "photos/food/futbol.jpg",
+   "kind": "shop",
+   "credit": "F Delventhal · CC BY 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Caf%C3%A9_F%C3%BAtbol,_Granada.jpg"
+  }
+ },
+ "viader": {
+  "match": [
+   "Granja Viader"
+  ],
+  "name": "Granja M. Viader",
+  "city": "바르셀로나",
+  "kind": "1870년 우유가게 카페 (카카올랏 발상지)",
+  "since": "1870년",
+  "signature": [
+   "수이소 (핫초코 + 생크림)",
+   "멜 이 마토 (치즈 + 꿀)",
+   "추로스"
+  ],
+  "order": "수이소 하나 + 멜 이 마토 하나 나눠 먹기",
+  "price": "1인 €5–8",
+  "rating": {
+   "score": 4.2,
+   "n": 999,
+   "src": "트립어드바이저",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g187497-d1224854-Reviews-Granja_M_Viader-Barcelona_Catalonia.html"
+  },
+  "review": "옛 타일과 대리석 테이블, 진한 핫초코. 일요일·월요일 아침 휴무 주의",
+  "tip": "람블라스 옆 골목, 호텔 Lleó에서 4분",
+  "url": "",
+  "photo": {
+   "file": "photos/food/viader.jpg",
+   "kind": "shop",
+   "credit": "Enric · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:466_Granja_Viader,_c._Xucl%C3%A0_4-6_(Barcelona).jpg"
+  }
+ }
+}
