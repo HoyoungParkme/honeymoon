@@ -42,13 +42,22 @@ with sync_playwright() as p:
             page.wait_for_timeout(2500)
             # 쿠키 배너는 가리기만 한다 (동의 버튼은 누르지 않는다)
             try:
-                page.add_style_tag(content="[id*='cookie'],[class*='cookie'],[id*='consent'],[class*='consent'],[id*='gdpr'],[class*='gdpr']{display:none!important}")
+                # html/body 자체는 제외한다 (사이트가 body에 cookie-* 클래스를 붙이면 페이지 전체가 사라진다)
+                page.add_style_tag(content="body [id*='cookie'],body [class*='cookie'],body [id*='consent'],body [class*='consent'],body [id*='gdpr'],body [class*='gdpr']{display:none!important}")
             except Exception:  # 리다이렉트 중이면 배너 숨기기는 건너뛴다
                 page.wait_for_load_state("domcontentloaded")
                 page.wait_for_timeout(1500)
             rec["title"] = (page.evaluate("document.querySelector('meta[property=\"og:title\"]')?.content || document.title") or "").strip()[:120]
             rec["desc"] = (page.evaluate("document.querySelector('meta[property=\"og:description\"],meta[name=\"description\"]')?.content || ''") or "").strip()[:200]
-            page.screenshot(path=os.path.join(OUT, key + ".jpg"), type="jpeg", quality=70)
+            shot = os.path.join(OUT, key + ".jpg")
+            page.screenshot(path=shot, type="jpeg", quality=70)
+            if os.path.getsize(shot) < 12000:  # 거의 흰 화면이면 렌더링을 더 기다렸다가 한 번 더 찍는다
+                try:
+                    page.wait_for_load_state("networkidle", timeout=15000)
+                except Exception:
+                    pass
+                page.wait_for_timeout(4000)
+                page.screenshot(path=shot, type="jpeg", quality=70)
             rec["ok"] = True
             print("ok ", rec["host"], rec["title"][:50], flush=True)
         except Exception as e:  # 막힌 사이트는 제목 없이 기록만 남긴다

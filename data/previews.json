@@ -20,13 +20,6 @@
   "desc": "Get your tickets for the Royal Palace of Madrid online through the official Patrimonio Nacional website. Discover the most beautiful monuments.",
   "ok": true
  },
- "https://www.esmadrid.com/en/restaurants/bola": {
-  "file": "previews/ddfcda00aec6.jpg",
-  "host": "esmadrid.com",
-  "title": "La Bola",
-  "desc": "The byword for good cocido, at La Bola they’re still cooking it to the old 19th century recipe.",
-  "ok": true
- },
  "https://mercadodesanmiguel.es/en/": {
   "file": "previews/1abf884cda25.jpg",
   "host": "mercadodesanmiguel.es",
@@ -118,13 +111,6 @@
   "desc": "Everything about La Terazza de EME rooftop bar in Seville. Opening hours, booking link, dress code, pictures and much more.",
   "ok": true
  },
- "https://www.lonelyplanet.com/articles/best-tapas-restaurants-seville": {
-  "file": "previews/2f5888d5a081.jpg",
-  "host": "lonelyplanet.com",
-  "title": "The best tapas in Seville (and what to order) - Lonely Planet",
-  "desc": "Get to know Seville’s best tapas with this guide to where to eat them, what to try and top tips on the local dining etiquette.",
-  "ok": true
- },
  "https://alcazarsevilla.org/wp-content/uploads/2025/02/BOP-ORDENANZA-PATRONATO-2025.pdf": {
   "file": "",
   "host": "alcazarsevilla.org",
@@ -137,13 +123,6 @@
   "host": "catedraldesevilla.es",
   "title": "Schedules and rates | Official Website of the Cathedral of Seville",
   "desc": "IN THIS SECTION: The Cabildo of the Cathedral informs that during the cultural visit, capacity limitations will be enforced alongside all necessary security measures. This approach is designed to acco",
-  "ok": true
- },
- "https://www.elrinconcillo.es/history": {
-  "file": "previews/6eaf64b11e1c.jpg",
-  "host": "elrinconcillo.es",
-  "title": "History - El Rinconcillo",
-  "desc": "FOUR CENTURIES OF HISTORY\nTHE MOST TRADITIONAL SPOT OF SEVILLE  \nEl Rinconcillo, founded in 1670, holds the title of the most ancient bar of Seville. In 1858, the De Rueda family (the current owners o",
   "ok": true
  },
  "https://www.ticketlens.com/en/p370860326/seville/casa-de-la-memoria": {
@@ -172,13 +151,6 @@
   "host": "granadadirect.com",
   "title": "5 Baños Árabes en Granada - Lo Mejor de Cada Hammam",
   "desc": "Información práctica sobre los baños árabes en Granada: instalaciones de cada hammam, tratamientos, precios y todo lo que necesitas para tu visita",
-  "ok": true
- },
- "https://en.andalucia.org/listing/mirador-de-morayma/5461101/": {
-  "file": "previews/06b08b65ae2f.jpg",
-  "host": "en.andalucia.org",
-  "title": "Mirador de Morayma",
-  "desc": "This restaurant in Granada is located in an authentic &quot;Carmen&quot; (traditional villa) in the Moorish district of Albayz&#237;n. With the best views of the Nasrid palaces of the Alhambra, it ser",
   "ok": true
  },
  "https://andalucia.com/cities/granada/tapas.htm": {
@@ -255,13 +227,6 @@
   "file": "previews/4aa6bcffd02d.jpg",
   "host": "fgc.cat",
   "title": "What are the conditions, prices, and discounts (children, students) for the TransMontserrat combined ticket, and how can",
-  "desc": "",
-  "ok": true
- },
- "https://www.boqueria.barcelona/": {
-  "file": "previews/03c165c7ddc4.jpg",
-  "host": "boqueria.barcelona",
-  "title": "www.boqueria.barcelona",
   "desc": "",
   "ok": true
  },
@@ -348,5 +313,40 @@
   "title": "",
   "desc": "",
   "ok": false
+ },
+ "https://www.boqueria.barcelona/": {
+  "file": "previews/03c165c7ddc4.jpg",
+  "host": "boqueria.barcelona",
+  "title": "www.boqueria.barcelona",
+  "desc": "",
+  "ok": true
+ },
+ "https://www.esmadrid.com/en/restaurants/bola": {
+  "file": "previews/ddfcda00aec6.jpg",
+  "host": "esmadrid.com",
+  "title": "La Bola",
+  "desc": "The byword for good cocido, at La Bola they’re still cooking it to the old 19th century recipe.",
+  "ok": true
+ },
+ "https://www.lonelyplanet.com/articles/best-tapas-restaurants-seville": {
+  "file": "previews/2f5888d5a081.jpg",
+  "host": "lonelyplanet.com",
+  "title": "The best tapas in Seville (and what to order) - Lonely Planet",
+  "desc": "Get to know Seville’s best tapas with this guide to where to eat them, what to try and top tips on the local dining etiquette.",
+  "ok": true
+ },
+ "https://www.elrinconcillo.es/history": {
+  "file": "",
+  "host": "elrinconcillo.es",
+  "title": "",
+  "desc": "",
+  "ok": false
+ },
+ "https://en.andalucia.org/listing/mirador-de-morayma/5461101/": {
+  "file": "previews/06b08b65ae2f.jpg",
+  "host": "en.andalucia.org",
+  "title": "Mirador de Morayma",
+  "desc": "This restaurant in Granada is located in an authentic &quot;Carmen&quot; (traditional villa) in the Moorish district of Albayz&#237;n. With the best views of the Nasrid palaces of the Alhambra, it ser",
+  "ok": true
  }
 }
