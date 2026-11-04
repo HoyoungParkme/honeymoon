@@ -1,0 +1,19 @@
+/* 지구본 홈·코스 선택 페이지 공통. 색은 web/style.css 다크 모드와 같은 남색 계열 */
+:root {
+  --bg: #0B1220; --card: #111A2E; --card2: #16213A; --line: #1A2540; --line2: #243150;
+  --ink: #F4EFE6; --sub: #C8D0DF; --mute: #A9B4C6; --dim: #6F7D97; --gold: #E8B04B;
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: 'Noto Sans KR', system-ui, sans-serif; font-size: 15px; line-height: 1.55; }
+a { color: var(--ink); text-decoration: none; }
+button { font: inherit; color: inherit; }
+.kicker { font-size: 12px; font-weight: 700; letter-spacing: .22em; color: var(--gold); }
+.topbar { padding: 18px 16px; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; border-bottom: 1px solid var(--line); }
+.topbar .back { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-size: 14px; font-weight: 700; color: var(--mute); }
+.topbar .back:hover { color: var(--ink); }
+.topbar .sp { flex: 1; }
+.btn-gold { display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 24px; border-radius: 999px; background: var(--gold); color: var(--bg); font-weight: 900; font-size: 15px; border: 0; cursor: pointer; }
+.btn-gold:hover { filter: brightness(1.08); }
+.wrap { max-width: 1280px; margin: 0 auto; padding: 0 16px; }
+@media (min-width: 900px) { .topbar { padding: 22px 72px; } .wrap { padding: 0 72px; } }

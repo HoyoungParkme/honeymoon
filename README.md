@@ -4,9 +4,20 @@
 계획 문서(Claude Doc): https://claude.ai/artifact/BnHjHEmNBqwBe5xmc9ozpY
 사이트(GitHub Pages): https://hoyoungparkme.github.io/honeymoon/ · 리포: https://github.com/HoyoungParkme/honeymoon
 
-## 웹앱 실행
+## 사이트 구조 (2026-11-04)
 
-이 폴더(README가 있는 곳)에서 아래를 실행하고, 브라우저로 http://localhost:8000/web/ 을 연다.
+| 페이지 | 파일 | 하는 일 |
+|---|---|---|
+| 지구본 홈 | `index.html` | d3-geo 정사 투영 지구본(`data/land.geojson`, Natural Earth 110m). 드래그·화살표로 회전, 만지기 전엔 자전. 스페인 핀만 활성, 나머지는 흐린 핀 |
+| 코스 선택 | `spain.html` | 코스 카드 3장. 누르면 총비용 막대(`data/budget.json`)와 10일 요약이 펼쳐지고 "이 코스 일정 보기"로 `web/#c{n}-d1` 진입 |
+| 일정 | `web/` | 기존 일정 화면. 남색 다크 톤 기본, 위에 지구본/스페인/코스 일정 경로 표시줄 |
+| 공통 색 | `site.css` | 홈·코스 선택의 남색 팔레트. `web/style.css` 다크 토큰과 같은 값 |
+
+새 여행지를 넣을 땐 `index.html`의 `PINS`에 한 줄(이름·좌표·href) 추가하고, `spain.html`을 본떠 그 나라 페이지를 만들면 된다.
+
+## 로컬 실행
+
+이 폴더(README가 있는 곳)에서 아래를 실행하고, 브라우저로 http://localhost:8000/ 을 연다 (일정만 보려면 `/web/`).
 
 ```bash
 python -m http.server 8000
@@ -29,7 +40,7 @@ flowchart LR
 
 | 파일 | 하는 일 |
 |---|---|
-| `web/index.html` | 화면 뼈대 (코스·날짜 탭, 일정 칸, 지도 칸) |
+| `web/index.html` | 일정 화면 뼈대 (경로 표시줄, 코스·날짜 탭, 일정 칸, 지도 칸) |
 | `web/app.js` | 데이터 4개를 읽어 화면을 그림. 원화 환산 `won()`·요금 분해 `splitFare()`는 보드 템플릿과 같은 규칙 |
 | `web/style.css` | 보드와 같은 색. 폭 1000px 미만(폰)은 지도를 위에 고정하고 일정만 스크롤. 다크 모드 지원 |
 | `web/tiles/` | 아티팩트용 내장 지도 타일 (JPEG 묶음 17장 + `atlas.json`). 아티팩트는 외부 지도 서버를 못 불러서 미리 받아 둔다 |

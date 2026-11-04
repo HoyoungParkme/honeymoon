@@ -1,4 +1,188 @@
 <!doctype html>
-<html lang="ko"><head><meta charset="utf-8"><title>스페인 신혼여행</title>
-<meta http-equiv="refresh" content="0; url=web/"></head>
-<body><a href="web/">웹앱으로 이동</a></body></html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>신혼여행 · 어디로 떠날까</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap">
+<link rel="stylesheet" href="site.css">
+<style>
+  .home { min-height: 100vh; display: flex; flex-wrap: wrap; align-items: stretch; }
+  .intro { flex: 1 1 340px; min-width: 0; padding: 48px 24px 32px; display: flex; flex-direction: column; justify-content: space-between; gap: 40px; }
+  .intro h1 { margin: 0; font-size: 56px; line-height: 1.1; font-weight: 900; letter-spacing: -.01em; }
+  .intro p { margin: 6px 0 0; font-size: 17px; line-height: 1.6; color: var(--mute); }
+  .pins { display: flex; flex-direction: column; gap: 10px; }
+  .pin-row { display: flex; align-items: center; gap: 14px; min-height: 60px; padding: 10px 16px 10px 14px; border-radius: 14px; }
+  .pin-row.on { background: var(--ink); color: var(--bg); }
+  .pin-row.on:hover { background: #fff; }
+  .pin-row.off { border: 1px solid var(--line2); color: var(--dim); min-height: 48px; }
+  .pin-row .dot { width: 14px; height: 14px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 0 4px rgba(232,176,75,.3); flex: 0 0 auto; }
+  .pin-row.off .dot { background: #2A3A5C; box-shadow: none; }
+  .pin-row .txt { display: flex; flex-direction: column; flex: 1; min-width: 0; }
+  .pin-row .txt b { font-size: 16px; font-weight: 900; }
+  .pin-row .txt small { font-size: 12px; color: #4A5160; }
+  .stage { flex: 1 1 520px; min-width: 0; padding: 24px 16px 32px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; }
+  .globe-wrap { position: relative; width: min(640px, 92vw); aspect-ratio: 1 / 1; touch-action: none; }
+  canvas { display: block; width: 100%; height: 100%; border-radius: 50%; cursor: grab; }
+  canvas:active { cursor: grabbing; }
+  .pin { position: absolute; transform: translate(-50%, -100%); display: flex; flex-direction: column; align-items: center; gap: 0; background: none; border: 0; padding: 0; cursor: pointer; }
+  .pin svg { display: block; filter: drop-shadow(0 4px 8px rgba(0,0,0,.5)); }
+  .pin .lbl { position: absolute; left: 100%; top: 0; margin-left: 10px; white-space: nowrap; padding: 8px 12px; border-radius: 10px; background: var(--ink); color: var(--bg); box-shadow: 0 10px 30px rgba(0,0,0,.45); text-align: left; line-height: 1.3; }
+  .pin .lbl b { display: block; font-size: 14px; font-weight: 900; }
+  .pin .lbl small { font-size: 11px; color: #4A5160; }
+  .pin.dim { opacity: .45; cursor: default; }
+  .pin.dim svg { width: 24px; height: 31px; }
+  .pin.dim .lbl { display: none; }
+  .pin.dim:hover { opacity: .9; }
+  .pin.dim:hover .lbl { display: block; background: var(--card2); color: var(--mute); box-shadow: none; }
+  .pin.dim .lbl small { color: var(--dim); }
+  .pin[hidden] { display: none; }
+  .ctrl { display: flex; align-items: center; gap: 14px; }
+  .ctrl button { width: 44px; height: 44px; border-radius: 50%; border: 1px solid var(--line2); background: transparent; color: var(--ink); cursor: pointer; display: inline-flex; align-items: center; justify-content: center; }
+  .ctrl button:hover { background: var(--card); }
+  .ctrl span { font-size: 13px; color: var(--mute); }
+  @media (min-width: 900px) {
+    .intro { padding: 64px 40px 56px 72px; }
+    .intro h1 { font-size: 64px; }
+    .stage { padding: 40px 56px 40px 24px; }
+  }
+</style>
+</head>
+<body>
+<main class="home">
+  <section class="intro">
+    <div>
+      <div class="kicker">2027 · HONEYMOON</div>
+      <h1 style="margin-top: 18px;">어디로<br>떠날까</h1>
+      <p>핀이 꽂힌 나라를 누르면<br>그 나라의 코스가 열려요.</p>
+    </div>
+    <nav class="pins" aria-label="여행지">
+      <a class="pin-row on" href="spain.html">
+        <span class="dot"></span>
+        <span class="txt"><b>스페인</b><small>5.9 – 5.18 · 코스 3개</small></span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg>
+      </a>
+      <div class="pin-row off">
+        <span class="dot"></span>
+        <span class="txt" style="font-size: 14px;">다음 여행지</span>
+        <span style="font-size: 12px;">준비 중</span>
+      </div>
+    </nav>
+  </section>
+
+  <section class="stage">
+    <div class="globe-wrap" id="globeWrap">
+      <canvas id="globe" role="img" aria-label="돌릴 수 있는 지구본. 스페인에 노란 핀이 꽂혀 있다"></canvas>
+      <div id="pins"></div>
+    </div>
+    <div class="ctrl">
+      <button type="button" id="left" aria-label="왼쪽으로 돌리기"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"></path></svg></button>
+      <span>드래그하거나 화살표로 돌려 보세요</span>
+      <button type="button" id="right" aria-label="오른쪽으로 돌리기"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"></path></svg></button>
+    </div>
+  </section>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+(function () {
+  'use strict';
+  // 핀: 지금은 스페인만 켜져 있다. 새 여행지는 여기에 한 줄 추가하고 href 를 주면 된다
+  var PINS = [
+    { id: 'spain', name: '스페인', sub: '코스 3개 · 10일', lon: -3.7, lat: 40.4, href: 'spain.html' },
+    { id: 'italy', name: '이탈리아', sub: '준비 중', lon: 12.5, lat: 41.9 },
+    { id: 'japan', name: '일본', sub: '준비 중', lon: 139.7, lat: 35.7 }
+  ];
+  var canvas = document.getElementById('globe');
+  var wrap = document.getElementById('globeWrap');
+  var pinLayer = document.getElementById('pins');
+  var ctx = canvas.getContext('2d');
+  var projection = d3.geoOrthographic().rotate([3.7, -38]);
+  var path = d3.geoPath(projection, ctx);
+  var land = null, size = 0, dpr = Math.min(window.devicePixelRatio || 1, 2);
+  var sphere = { type: 'Sphere' };
+  var graticule = d3.geoGraticule10();
+  var idle = true;   // 사용자가 만지기 전엔 천천히 돈다
+
+  // 핀 버튼은 한 번만 만들고 위치만 옮긴다
+  PINS.forEach(function (p) {
+    var el = document.createElement(p.href ? 'a' : 'div');
+    el.className = 'pin' + (p.href ? '' : ' dim');
+    if (p.href) el.href = p.href; else el.setAttribute('aria-hidden', 'true');
+    el.innerHTML =
+      '<svg width="34" height="44" viewBox="0 0 34 44" aria-hidden="true"><path d="M17 1C8 1 1 8 1 17c0 11 16 26 16 26s16-15 16-26C33 8 26 1 17 1z" fill="' + (p.href ? '#E8B04B' : '#2A3A5C') + '" stroke="#0B1220" stroke-width="2"/><circle cx="17" cy="17" r="6" fill="#0B1220"/></svg>' +
+      '<span class="lbl"><b>' + p.name + '</b><small>' + p.sub + '</small></span>';
+    if (p.href) el.setAttribute('aria-label', p.name + ' 코스 보기');
+    p.el = el;
+    pinLayer.appendChild(el);
+  });
+
+  function resize() {
+    size = wrap.clientWidth;
+    canvas.width = size * dpr; canvas.height = size * dpr;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    projection.translate([size / 2, size / 2]).scale(size / 2 - 6);
+    draw();
+  }
+
+  function draw() {
+    ctx.clearRect(0, 0, size, size);
+    // 바다
+    var g = ctx.createRadialGradient(size * 0.4, size * 0.35, size * 0.05, size * 0.5, size * 0.5, size * 0.55);
+    g.addColorStop(0, '#2A5CA8'); g.addColorStop(0.7, '#1B3F7A'); g.addColorStop(1, '#0F2650');
+    ctx.beginPath(); path(sphere); ctx.fillStyle = g; ctx.fill();
+    // 육지
+    if (land) {
+      ctx.beginPath(); path(land); ctx.fillStyle = '#EDE6D6'; ctx.fill();
+      ctx.lineWidth = 0.5; ctx.strokeStyle = '#0F2650'; ctx.stroke();
+    }
+    // 위경선·테두리
+    ctx.beginPath(); path(graticule); ctx.lineWidth = 0.6; ctx.strokeStyle = 'rgba(255,255,255,.10)'; ctx.stroke();
+    ctx.beginPath(); path(sphere); ctx.lineWidth = 1.5; ctx.strokeStyle = 'rgba(127,163,230,.45)'; ctx.stroke();
+    placePins();
+  }
+
+  // 핀: 뒷면이면 숨긴다 (중심에서 90도 넘게 떨어지면 뒷면)
+  function placePins() {
+    var r = projection.rotate();
+    var centre = [-r[0], -r[1]];
+    PINS.forEach(function (p) {
+      var back = d3.geoDistance([p.lon, p.lat], centre) > Math.PI / 2 - 0.02;
+      p.el.hidden = back;
+      if (back) return;
+      var xy = projection([p.lon, p.lat]);
+      p.el.style.left = xy[0] + 'px';
+      p.el.style.top = xy[1] + 'px';
+    });
+  }
+
+  function rotateBy(dx, dy) {
+    var r = projection.rotate();
+    projection.rotate([r[0] + dx, Math.max(-75, Math.min(75, r[1] + dy))]);
+    draw();
+  }
+
+  // 드래그로 돌리기
+  var k = 0.35, last = null;
+  canvas.addEventListener('pointerdown', function (e) { idle = false; last = [e.clientX, e.clientY]; canvas.setPointerCapture(e.pointerId); });
+  canvas.addEventListener('pointermove', function (e) {
+    if (!last) return;
+    rotateBy((e.clientX - last[0]) * k, -(e.clientY - last[1]) * k * 0.8);
+    last = [e.clientX, e.clientY];
+  });
+  canvas.addEventListener('pointerup', function () { last = null; });
+  canvas.addEventListener('pointercancel', function () { last = null; });
+  document.getElementById('left').addEventListener('click', function () { idle = false; rotateBy(-25, 0); });
+  document.getElementById('right').addEventListener('click', function () { idle = false; rotateBy(25, 0); });
+
+  // 만지기 전엔 천천히 자전
+  d3.timer(function () { if (idle && land) rotateBy(0.08, 0); });
+
+  window.addEventListener('resize', resize);
+  resize();
+  fetch('data/land.geojson').then(function (r) { return r.json(); }).then(function (geo) { land = geo; draw(); });
+})();
+</script>
+</body>
+</html>

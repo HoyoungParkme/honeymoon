@@ -19,17 +19,24 @@
   --radius: 16px;
 }
 
-/* 다크 모드: 바탕·글자만 뒤집고 코스 색은 그대로 둔다 */
+/* 다크 모드(기본): 지구본 홈·코스 선택 페이지(site.css)와 같은 남색 계열. 코스 색은 그대로 둔다 */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #15171C; --card: #1E2127; --ink: #ECEAE4; --sub: #B9BDC6; --mute: #9AA0AB;
-    --line: #2E323A; --line-soft: #2A2E35; --panel: #262A31; --fare: #E0B060; --warn: #F0907A; --warn-bg: #3A2520;
+    --bg: #0B1220; --card: #111A2E; --ink: #F4EFE6; --sub: #C8D0DF; --mute: #A9B4C6;
+    --line: #1A2540; --line-soft: #1A2540; --panel: #16213A; --fare: #E8B04B; --warn: #F0907A; --warn-bg: #3A2520;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #15171C; --card: #1E2127; --ink: #ECEAE4; --sub: #B9BDC6; --mute: #9AA0AB;
-  --line: #2E323A; --line-soft: #2A2E35; --panel: #262A31; --fare: #E0B060; --warn: #F0907A; --warn-bg: #3A2520;
+  --bg: #0B1220; --card: #111A2E; --ink: #F4EFE6; --sub: #C8D0DF; --mute: #A9B4C6;
+  --line: #1A2540; --line-soft: #1A2540; --panel: #16213A; --fare: #E8B04B; --warn: #F0907A; --warn-bg: #3A2520;
 }
+
+/* 경로 표시줄: 지구본 / 스페인 / 코스 일정 */
+.crumbs { max-width: 1440px; margin: 0 auto; padding: 10px 16px 0; display: flex; align-items: center; gap: 10px; font-size: 13px; color: var(--mute); }
+.crumbs a { color: var(--sub); font-weight: 700; min-height: 32px; display: inline-flex; align-items: center; }
+.crumbs a:hover { color: var(--ink); }
+.crumbs .here { font-weight: 700; color: var(--accent); }
+.crumbs .other { margin-left: auto; padding: 0 12px; border: 1px solid var(--line); border-radius: 999px; font-size: 12px; }
 
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }

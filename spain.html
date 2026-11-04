@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>스페인 · 세 가지 길</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap">
+<link rel="stylesheet" href="site.css">
+<style>
+  .hero { padding: 40px 0 24px; display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 16px 32px; }
+  .hero h1 { margin: 10px 0 0; font-size: 40px; font-weight: 900; line-height: 1.1; letter-spacing: -.01em; }
+  .hero .eyebrow { font-size: 13px; font-weight: 700; letter-spacing: .18em; color: var(--mute); }
+  .facts { display: flex; gap: 28px; font-size: 13px; color: var(--mute); padding-bottom: 6px; }
+  .facts span { display: flex; flex-direction: column; gap: 2px; }
+  .facts b { font-size: 20px; color: var(--ink); }
+  .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+  .card { position: relative; cursor: pointer; text-align: left; padding: 0; border: 2px solid var(--line); border-radius: 20px; overflow: hidden; background: var(--card); min-height: 360px; display: flex; flex-direction: column; justify-content: flex-end; transition: transform .2s, border-color .2s, box-shadow .2s; }
+  .card img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: opacity .2s; }
+  .card .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(11,18,32,0) 25%, rgba(11,18,32,.92) 75%); }
+  .card .no { position: absolute; left: 18px; top: 16px; font-size: 12px; font-weight: 700; letter-spacing: .12em; padding: 6px 10px; border-radius: 999px; background: rgba(11,18,32,.7); }
+  .card .body { position: relative; padding: 0 20px 20px; display: flex; flex-direction: column; gap: 8px; }
+  .card .ttl { font-size: 24px; font-weight: 900; line-height: 1.25; }
+  .card .tag { font-size: 13px; color: var(--sub); line-height: 1.5; }
+  .card .tot { display: flex; align-items: baseline; gap: 8px; margin-top: 6px; }
+  .card .tot b { font-size: 28px; font-weight: 900; color: var(--gold); }
+  .card .tot small { font-size: 12px; color: var(--mute); }
+  .card .meta { font-size: 12px; color: var(--mute); }
+  .card[aria-pressed="true"] { border-color: var(--gold); transform: translateY(-6px); box-shadow: 0 18px 40px rgba(0,0,0,.5); }
+  .cards.has-pick .card[aria-pressed="false"] img { opacity: .55; }
+  .empty { margin: 20px 0 56px; border: 1px dashed var(--line2); border-radius: 20px; padding: 36px; text-align: center; color: var(--dim); }
+  .panel { margin: 20px 0 56px; border: 1px solid var(--line2); border-radius: 24px; background: var(--card); padding: 28px 24px; display: flex; flex-direction: column; gap: 28px; }
+  .panel[hidden] { display: none; }
+  .ptop { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 16px 40px; }
+  .ptop .lead { display: flex; flex-direction: column; gap: 6px; flex: 1 1 320px; }
+  .ptop .lead .lbl { font-size: 12px; font-weight: 700; letter-spacing: .14em; }
+  .ptop .big { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  .ptop .big b { font-size: 44px; font-weight: 900; line-height: 1; }
+  .ptop .big span { font-size: 14px; color: var(--mute); }
+  .bar { display: flex; height: 14px; border-radius: 7px; overflow: hidden; background: var(--line); }
+  .bar span { display: block; }
+  .legend { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px 16px; margin-top: 12px; }
+  .legend div { display: flex; flex-direction: column; gap: 3px; font-size: 12px; color: var(--mute); }
+  .legend i { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin-right: 6px; }
+  .legend b { font-size: 16px; color: var(--ink); }
+  .four { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
+  .four div { display: flex; flex-direction: column; gap: 6px; padding: 14px 16px; border-radius: 14px; background: var(--bg); }
+  .four .k { font-size: 11px; font-weight: 700; letter-spacing: .12em; color: var(--dim); }
+  .four .k.good { color: #7FD1A8; } .four .k.warn { color: #F0907A; }
+  .four .v { font-size: 13px; line-height: 1.55; color: var(--sub); }
+  .days { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; }
+  .days li { display: flex; flex-direction: column; gap: 4px; padding: 12px 12px 12px 14px; border-radius: 12px; background: var(--bg); border-left: 3px solid var(--acc); }
+  .days .n { font-size: 11px; font-weight: 700; color: var(--acc); }
+  .days .c { font-size: 13px; font-weight: 700; }
+  .days .t { font-size: 12px; line-height: 1.45; color: var(--mute); }
+  .sec { font-size: 11px; font-weight: 700; letter-spacing: .12em; color: var(--dim); margin-bottom: 12px; }
+  @media (min-width: 900px) { .hero h1 { font-size: 56px; } .panel { padding: 32px 36px; } }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <a class="back" href="./"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"></path></svg>지구본</a>
+  <span class="sp"></span>
+  <span class="kicker">2027 · HONEYMOON</span>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div>
+      <div class="eyebrow">ESPAÑA</div>
+      <h1>스페인, 세 가지 길</h1>
+    </div>
+    <div class="facts">
+      <span><b>5.9 – 5.18</b>10일 · 9박</span>
+      <span><b>1,000만 원</b>2인 총예산</span>
+      <span><b>1인 기준</b>원화 표기</span>
+    </div>
+  </section>
+
+  <section class="cards" id="cards" aria-label="코스 고르기"></section>
+
+  <div class="empty" id="empty">코스를 하나 고르면 총비용과 10일 요약이 여기에 펼쳐집니다.</div>
+
+  <section class="panel" id="panel" hidden aria-live="polite">
+    <div class="ptop">
+      <div class="lead">
+        <span class="lbl" id="pLbl"></span>
+        <span class="big"><b id="pTotal"></b><span id="pPct"></span></span>
+      </div>
+      <a class="btn-gold" id="pGo" href="web/">이 코스 일정 보기 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+    </div>
+    <div>
+      <div class="bar" id="pBar"></div>
+      <div class="legend" id="pLegend"></div>
+    </div>
+    <div class="four">
+      <div><span class="k">항공</span><span class="v" id="pFlight"></span></div>
+      <div><span class="k">숙소</span><span class="v" id="pStay"></span></div>
+      <div><span class="k good">좋은 점</span><span class="v" id="pGood"></span></div>
+      <div><span class="k warn">주의</span><span class="v" id="pWatch"></span></div>
+    </div>
+    <div>
+      <div class="sec">10일 요약</div>
+      <ol class="days" id="pDays"></ol>
+    </div>
+  </section>
+</main>
+
+<script>
+(function () {
+  'use strict';
+  var $ = function (id) { return document.getElementById(id); };
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+  var budget, courses, picked = null;
+
+  function get(name) { return fetch('data/' + name).then(function (r) { if (!r.ok) throw new Error(name); return r.json(); }); }
+
+  function renderCards() {
+    var keys = Object.keys(budget.courses);
+    $('cards').innerHTML = keys.map(function (k) {
+      var c = budget.courses[k];
+      return '<button type="button" class="card" data-k="' + k + '" aria-pressed="' + (k === picked) + '">' +
+        '<img src="' + esc(c.photo) + '" alt="' + esc(c.alt) + '"><span class="shade"></span>' +
+        '<span class="no" style="color:' + c.accent + '">' + esc(c.no) + '</span>' +
+        '<span class="body"><span class="ttl">' + esc(c.title) + '</span><span class="tag">' + esc(c.tag) + '</span>' +
+        '<span class="tot"><b>약 ' + c.total + '만 원</b><small>1인</small></span>' +
+        '<span class="meta">' + esc(c.flightShort) + ' · ' + esc(c.stayShort) + '</span></span></button>';
+    }).join('');
+    $('cards').classList.toggle('has-pick', !!picked);
+  }
+
+  function renderPanel() {
+    if (!picked) { $('panel').hidden = true; $('empty').hidden = false; return; }
+    var c = budget.courses[picked];
+    var days = courses[picked].days;
+    $('empty').hidden = true; $('panel').hidden = false;
+    $('panel').style.setProperty('--acc', c.accent);
+    $('pLbl').textContent = c.no + ' · 총비용 (1인)'; $('pLbl').style.color = c.accent;
+    $('pTotal').textContent = '약 ' + c.total + '만 원';
+    $('pPct').textContent = '예산 ' + budget.budgetTotal.toLocaleString('ko-KR') + '만 원 중 ' + Math.round(c.total / budget.budgetTotal * 100) + '%';
+    $('pGo').href = 'web/#c' + picked.replace('course', '') + '-d1';
+    $('pBar').innerHTML = c.parts.map(function (v, i) {
+      return '<span style="width:' + (v / budget.budgetTotal * 100).toFixed(1) + '%;background:' + budget.categories[i].color + '"></span>';
+    }).join('');
+    $('pLegend').innerHTML = c.parts.map(function (v, i) {
+      return '<div><span><i style="background:' + budget.categories[i].color + '"></i>' + esc(budget.categories[i].label) + '</span><b>' + Math.round(v) + '만</b></div>';
+    }).join('');
+    $('pFlight').textContent = c.flight; $('pStay').textContent = c.stay; $('pGood').textContent = c.good; $('pWatch').textContent = c.watch;
+    $('pDays').innerHTML = days.map(function (d) {
+      return '<li><span class="n">DAY ' + d.n + ' · ' + esc(d.date) + '</span><span class="c">' + esc(d.city) + '</span><span class="t">' + esc(d.title) + '</span></li>';
+    }).join('');
+    $('panel').scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+
+  $('cards').addEventListener('click', function (e) {
+    var b = e.target.closest('.card'); if (!b) return;
+    picked = b.dataset.k; renderCards(); renderPanel();
+  });
+
+  Promise.all([get('budget.json'), get('courses.json')]).then(function (res) {
+    budget = res[0]; courses = res[1];
+    var m = /^#c(\d)$/.exec(location.hash);
+    if (m && budget.courses['course' + m[1]]) picked = 'course' + m[1];
+    renderCards(); renderPanel();
+  }).catch(function (e) { $('cards').innerHTML = '<p style="color:#F0907A">데이터를 불러오지 못했어요: ' + esc(e.message) + '</p>'; });
+})();
+</script>
+</body>
+</html>
