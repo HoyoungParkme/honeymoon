@@ -2,6 +2,7 @@
 
 캔버스 아티팩트: https://claude.ai/artifact/GKtdAUkPMTJAEwkoy9ye1t
 계획 문서(Claude Doc): https://claude.ai/artifact/BnHjHEmNBqwBe5xmc9ozpY
+사이트(GitHub Pages): https://hoyoungparkme.github.io/honeymoon/ · 리포: https://github.com/HoyoungParkme/honeymoon
 
 ## 웹앱 실행
 
@@ -115,7 +116,7 @@ python -I tools/build_atlas.py <타일_저장_폴더> web
 2. ~~캔버스 보드 실제 렌더링 눈으로 확인~~ → 완료 (2026-11-03, Chrome에서 19장 전부 확인). 지도 52장·사진 13장 모두 표시, 잘린 보드 없음.
 3. ~~미확인 항목 검증 → 반영~~ → 완료 (2026-11-04, 보드 20장·웹앱 재발행).
 4. 항공권·숙소 실제 예약 시점 가격으로 Main 보드 예산표 갱신. 여행사 직항 스케줄(위)과 허니문리조트 지상비 299만 원을 비교 기준으로.
-5. 사이트 배포: GitHub `HoyoungParkme/spain-honeymoon` 에 올리고 GitHub Pages(main 브랜치 루트)로 연결. 루트 `index.html`이 `web/`로 넘긴다.
+5. ~~사이트 배포~~ → 완료 (2026-11-04). 리포 `HoyoungParkme/honeymoon`(여행지가 늘어도 쓰게 범용 이름), GitHub Pages는 main 브랜치 루트. 루트 `index.html`이 `web/`로 넘긴다. 다른 여행지를 넣을 땐 폴더를 나누고 루트 `index.html`을 목록으로 바꾸면 된다.
 
 ## 다시 만들기 순서
 
