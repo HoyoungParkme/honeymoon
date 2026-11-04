@@ -1,7 +1,7 @@
-/* 지구본 홈·코스 선택 페이지 공통. 색은 web/style.css 다크 모드와 같은 남색 계열 */
+/* 지구본 홈·코스 선택 페이지 공통. "돌" 톤: 밝은 회백 바탕 + 벽돌색 포인트 (web/style.css 라이트와 같은 값) */
 :root {
-  --bg: #0B1220; --card: #111A2E; --card2: #16213A; --line: #1A2540; --line2: #243150;
-  --ink: #F4EFE6; --sub: #C8D0DF; --mute: #A9B4C6; --dim: #6F7D97; --gold: #E8B04B;
+  --bg: #F2F3F5; --card: #FFFFFF; --card2: #F7F8FA; --line: #E2E5EA; --line2: #D3D8E0;
+  --ink: #15181E; --sub: #3E4654; --mute: #5B6270; --dim: #6B7280; --gold: #B8432A;
 }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
@@ -13,7 +13,7 @@ button { font: inherit; color: inherit; }
 .topbar .back { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-size: 14px; font-weight: 700; color: var(--mute); }
 .topbar .back:hover { color: var(--ink); }
 .topbar .sp { flex: 1; }
-.btn-gold { display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 24px; border-radius: 999px; background: var(--gold); color: var(--bg); font-weight: 900; font-size: 15px; border: 0; cursor: pointer; }
+.btn-gold { display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 24px; border-radius: 999px; background: #1C2230; color: #FFFFFF; font-weight: 900; font-size: 15px; border: 0; cursor: pointer; }
 .btn-gold:hover { filter: brightness(1.08); }
 .wrap { max-width: 1280px; margin: 0 auto; padding: 0 16px; }
 @media (min-width: 900px) { .topbar { padding: 22px 72px; } .wrap { padding: 0 72px; } }

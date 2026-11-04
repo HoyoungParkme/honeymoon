@@ -15,22 +15,23 @@
   .pins { display: flex; flex-direction: column; gap: 10px; }
   .pin-row { display: flex; align-items: center; gap: 14px; min-height: 60px; padding: 10px 16px 10px 14px; border-radius: 14px; }
   .pin-row.on { background: var(--ink); color: var(--bg); }
-  .pin-row.on:hover { background: #fff; }
+  .pin-row.on:hover { background: #2A3340; }
   .pin-row.off { border: 1px solid var(--line2); color: var(--dim); min-height: 48px; }
-  .pin-row .dot { width: 14px; height: 14px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 0 4px rgba(232,176,75,.3); flex: 0 0 auto; }
-  .pin-row.off .dot { background: #2A3A5C; box-shadow: none; }
+  .pin-row .dot { width: 14px; height: 14px; border-radius: 50%; background: var(--gold); box-shadow: 0 0 0 4px rgba(184,67,42,.25); flex: 0 0 auto; }
+  .pin-row.off .dot { background: #C7CCD5; box-shadow: none; }
   .pin-row .txt { display: flex; flex-direction: column; flex: 1; min-width: 0; }
   .pin-row .txt b { font-size: 16px; font-weight: 900; }
-  .pin-row .txt small { font-size: 12px; color: #4A5160; }
+  .pin-row .txt small { font-size: 12px; color: #B8C0CC; }
+  .pin-row.off .txt small { color: var(--dim); }
   .stage { flex: 1 1 520px; min-width: 0; padding: 24px 16px 32px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; }
   .globe-wrap { position: relative; width: min(640px, 92vw); aspect-ratio: 1 / 1; touch-action: none; }
   canvas { display: block; width: 100%; height: 100%; border-radius: 50%; cursor: grab; }
   canvas:active { cursor: grabbing; }
   .pin { position: absolute; transform: translate(-50%, -100%); display: flex; flex-direction: column; align-items: center; gap: 0; background: none; border: 0; padding: 0; cursor: pointer; }
-  .pin svg { display: block; filter: drop-shadow(0 4px 8px rgba(0,0,0,.5)); }
-  .pin .lbl { position: absolute; left: 100%; top: 0; margin-left: 10px; white-space: nowrap; padding: 8px 12px; border-radius: 10px; background: var(--ink); color: var(--bg); box-shadow: 0 10px 30px rgba(0,0,0,.45); text-align: left; line-height: 1.3; }
+  .pin svg { display: block; filter: drop-shadow(0 4px 8px rgba(0,0,0,.3)); }
+  .pin .lbl { position: absolute; left: 100%; top: 0; margin-left: 10px; white-space: nowrap; padding: 8px 12px; border-radius: 10px; background: var(--ink); color: #FFFFFF; box-shadow: 0 10px 30px rgba(0,0,0,.25); text-align: left; line-height: 1.3; }
   .pin .lbl b { display: block; font-size: 14px; font-weight: 900; }
-  .pin .lbl small { font-size: 11px; color: #4A5160; }
+  .pin .lbl small { font-size: 11px; color: #B8C0CC; }
   .pin.dim { opacity: .45; cursor: default; }
   .pin.dim svg { width: 24px; height: 31px; }
   .pin.dim .lbl { display: none; }
@@ -122,7 +123,7 @@
     el.className = 'pin' + (p.href ? '' : ' dim');
     if (p.href) el.href = p.href; else el.setAttribute('aria-hidden', 'true');
     el.innerHTML =
-      '<svg width="34" height="44" viewBox="0 0 34 44" aria-hidden="true"><path d="M17 1C8 1 1 8 1 17c0 11 16 26 16 26s16-15 16-26C33 8 26 1 17 1z" fill="' + (p.href ? '#E8B04B' : '#2A3A5C') + '" stroke="#0B1220" stroke-width="2"/><circle cx="17" cy="17" r="6" fill="#0B1220"/></svg>' +
+      '<svg width="34" height="44" viewBox="0 0 34 44" aria-hidden="true"><path d="M17 1C8 1 1 8 1 17c0 11 16 26 16 26s16-15 16-26C33 8 26 1 17 1z" fill="' + (p.href ? '#B8432A' : '#A7ADB8') + '" stroke="#FFFFFF" stroke-width="2"/><circle cx="17" cy="17" r="6" fill="#FFFFFF"/></svg>' +
       '<span class="lbl"><b>' + p.name + '</b><small>' + p.sub + '</small></span>';
     if (p.href) el.setAttribute('aria-label', p.name + ' 코스 보기');
     p.el = el;
@@ -144,18 +145,18 @@
     ctx.beginPath(); ctx.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2); ctx.clip();
     // 바다
     var g = ctx.createRadialGradient(size * 0.4, size * 0.35, size * 0.05, size * 0.5, size * 0.5, size * 0.55 * zoom);
-    g.addColorStop(0, '#2A5CA8'); g.addColorStop(0.7, '#1B3F7A'); g.addColorStop(1, '#0F2650');
+    g.addColorStop(0, '#D6E4F2'); g.addColorStop(0.7, '#B7CDE4'); g.addColorStop(1, '#93AFCF');
     ctx.beginPath(); path(sphere); ctx.fillStyle = g; ctx.fill();
     // 육지
     if (land) {
-      ctx.beginPath(); path(land); ctx.fillStyle = '#EDE6D6'; ctx.fill();
-      ctx.lineWidth = 0.5; ctx.strokeStyle = '#0F2650'; ctx.stroke();
+      ctx.beginPath(); path(land); ctx.fillStyle = '#FBF8F1'; ctx.fill();
+      ctx.lineWidth = 0.5; ctx.strokeStyle = '#7F93AC'; ctx.stroke();
     }
     // 국경선 (확대할수록 조금 진하게)
     if (borders) {
       ctx.beginPath(); path(borders);
       ctx.lineWidth = 0.6 + (zoom - 1) * 0.2;
-      ctx.strokeStyle = 'rgba(15,38,80,' + Math.min(0.75, 0.35 + (zoom - 1) * 0.12) + ')';
+      ctx.strokeStyle = 'rgba(90,108,135,' + Math.min(0.8, 0.4 + (zoom - 1) * 0.12) + ')';
       ctx.setLineDash([]); ctx.stroke();
     }
     // 위경선·테두리

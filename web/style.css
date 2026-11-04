@@ -1,13 +1,13 @@
 /* 색·간격은 캔버스 보드(tools/board_template.dc.html)와 같은 값을 쓴다 */
 :root {
-  --bg: #F7F4EE;
+  --bg: #F2F3F5;
   --card: #FFFFFF;
-  --ink: #1C2230;
-  --sub: #4A5160;
+  --ink: #15181E;
+  --sub: #3E4654;
   --mute: #5B6270;
-  --line: #E3DDD2;
-  --line-soft: #EAE4DA;
-  --panel: #F3EFE7;
+  --line: #E2E5EA;
+  --line-soft: #E9ECF0;
+  --panel: #F7F8FA;
   --fare: #8A5300;
   --warn: #9C3A22;
   --warn-bg: #FBF0EA;

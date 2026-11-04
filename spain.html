@@ -18,15 +18,15 @@
   .card { position: relative; cursor: pointer; text-align: left; padding: 0; border: 2px solid var(--line); border-radius: 20px; overflow: hidden; background: var(--card); min-height: 360px; display: flex; flex-direction: column; justify-content: flex-end; transition: transform .2s, border-color .2s, box-shadow .2s; }
   .card img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: opacity .2s; }
   .card .shade { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(11,18,32,0) 25%, rgba(11,18,32,.92) 75%); }
-  .card .no { position: absolute; left: 18px; top: 16px; font-size: 12px; font-weight: 700; letter-spacing: .12em; padding: 6px 10px; border-radius: 999px; background: rgba(11,18,32,.7); }
-  .card .body { position: relative; padding: 0 20px 20px; display: flex; flex-direction: column; gap: 8px; }
+  .card .no { position: absolute; left: 18px; top: 16px; font-size: 12px; font-weight: 700; letter-spacing: .12em; padding: 6px 10px; border-radius: 999px; background: rgba(11,18,32,.7); color: #FFFFFF; }
+  .card .body { position: relative; padding: 0 20px 20px; display: flex; flex-direction: column; gap: 8px; color: #FFFFFF; }
   .card .ttl { font-size: 24px; font-weight: 900; line-height: 1.25; }
-  .card .tag { font-size: 13px; color: var(--sub); line-height: 1.5; }
+  .card .tag { font-size: 13px; color: #D5D8DE; line-height: 1.5; }
   .card .tot { display: flex; align-items: baseline; gap: 8px; margin-top: 6px; }
-  .card .tot b { font-size: 28px; font-weight: 900; color: var(--gold); }
-  .card .tot small { font-size: 12px; color: var(--mute); }
-  .card .meta { font-size: 12px; color: var(--mute); }
-  .card[aria-pressed="true"] { border-color: var(--gold); transform: translateY(-6px); box-shadow: 0 18px 40px rgba(0,0,0,.5); }
+  .card .tot b { font-size: 28px; font-weight: 900; color: #F2B66B; }
+  .card .tot small { font-size: 12px; color: #C8D0DF; }
+  .card .meta { font-size: 12px; color: #C8D0DF; }
+  .card[aria-pressed="true"] { border-color: var(--gold); transform: translateY(-6px); box-shadow: 0 18px 40px rgba(0,0,0,.22); }
   .cards.has-pick .card[aria-pressed="false"] img { opacity: .55; }
   .empty { margin: 20px 0 56px; border: 1px dashed var(--line2); border-radius: 20px; padding: 36px; text-align: center; color: var(--dim); }
   .panel { margin: 20px 0 56px; border: 1px solid var(--line2); border-radius: 24px; background: var(--card); padding: 28px 24px; display: flex; flex-direction: column; gap: 28px; }
@@ -46,7 +46,7 @@
   .four { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
   .four div { display: flex; flex-direction: column; gap: 6px; padding: 14px 16px; border-radius: 14px; background: var(--bg); }
   .four .k { font-size: 11px; font-weight: 700; letter-spacing: .12em; color: var(--dim); }
-  .four .k.good { color: #7FD1A8; } .four .k.warn { color: #F0907A; }
+  .four .k.good { color: #2F6B4D; } .four .k.warn { color: #9C3A22; }
   .four .v { font-size: 13px; line-height: 1.55; color: var(--sub); }
   .days { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; }
   .days li { display: flex; flex-direction: column; gap: 4px; padding: 12px 12px 12px 14px; border-radius: 12px; background: var(--bg); border-left: 3px solid var(--acc); }
@@ -162,7 +162,7 @@
     var m = /^#c(\d)$/.exec(location.hash);
     if (m && budget.courses['course' + m[1]]) picked = 'course' + m[1];
     renderCards(); renderPanel();
-  }).catch(function (e) { $('cards').innerHTML = '<p style="color:#F0907A">데이터를 불러오지 못했어요: ' + esc(e.message) + '</p>'; });
+  }).catch(function (e) { $('cards').innerHTML = '<p style="color:#9C3A22">데이터를 불러오지 못했어요: ' + esc(e.message) + '</p>'; });
 })();
 </script>
 </body>
