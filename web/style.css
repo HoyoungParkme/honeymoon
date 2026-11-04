@@ -33,6 +33,7 @@
 
 /* 경로 표시줄: 지구본 / 스페인 / 코스 일정 */
 .crumbs { max-width: 1440px; margin: 0 auto; padding: 10px 16px 0; display: flex; align-items: center; gap: 10px; font-size: 13px; color: var(--mute); }
+.crumbs a, .crumbs .here { white-space: nowrap; }
 .crumbs a { color: var(--sub); font-weight: 700; min-height: 32px; display: inline-flex; align-items: center; }
 .crumbs a:hover { color: var(--ink); }
 .crumbs .here { font-weight: 700; color: var(--accent); }
