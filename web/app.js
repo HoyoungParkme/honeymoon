@@ -135,9 +135,10 @@
         return r.json();
       });
     };
-    return Promise.all(['courses.json', 'index.json', 'coords.json', 'routes.json'].map(get)).then(function (res) {
+    var previews = get('previews.json').catch(function () { return {}; });  // 없어도 앱은 돈다
+    return Promise.all(['courses.json', 'index.json', 'coords.json', 'routes.json'].map(get).concat([previews])).then(function (res) {
       attachSegments(res[0], res[1], res[2], res[3]);
-      trip = { courses: res[0], coords: res[2], routes: res[3] };
+      trip = { courses: res[0], coords: res[2], routes: res[3], previews: res[4] || {} };
     });
   }
 
@@ -316,6 +317,32 @@
     map.fitBounds(layer.getBounds(), { padding: [36, 36], maxZoom: 16 });
   }
 
+  // 행의 링크(예매·식당·출처) 미리보기 카드. tools/fetch_previews.py 가 만든 스크린샷·제목을 쓴다
+  function previewHtml(it) {
+    if (!it.link) return '<p class="preview-empty">이 행은 예매·식당 링크가 없어요. 지도 링크는 행 안의 "' + esc(it.mapLabel || '지도 ↗') + '"를 눌러요.</p>';
+    var p = trip.previews[it.link] || {};
+    var host = p.host || it.link.replace(/^https?:\/\/(www\.)?/, '').split('/')[0];
+    var kind = /ticket|entrada|renfe|omio|trenes|vueling|alsa|everyrail|patrimonio|alhambra|alcazar|parkguell|sagrada|fgc|crtm/i.test(it.link) ? '예매·요금' :
+               /restaurant|tapas|bar|eat|food|gastro|table|rinconcillo|botin|menu|mercado|boqueria/i.test(it.link + ' ' + (it.line || '')) ? '식당' : '출처';
+    return '<a class="pv" href="' + esc(it.link) + '" target="_blank" rel="noopener">' +
+      '<span class="shot">' + (p.file ? '<img src="' + esc(ASSET + p.file) + '" alt="' + esc(p.title || host) + ' 페이지 화면" loading="lazy">' : '<span class="noimg">미리보기 없음 · 눌러서 열기</span>') + '</span>' +
+      '<span class="meta"><span class="kind">' + kind + '</span>' +
+      '<span class="title">' + esc(p.title || it.line || it.head) + '</span>' +
+      (p.desc ? '<span class="desc">' + esc(p.desc) + '</span>' : '') +
+      '<span class="host">' + esc(host) + '<b>열기 ↗</b></span></span></a>';
+  }
+
+  function renderPreview(it, row) {
+    var html = previewHtml(it);
+    $('preview').innerHTML = html;                                   // 데스크톱: 지도 아래
+    document.querySelectorAll('.row-preview').forEach(function (e) { e.remove(); });
+    if (row && it.link) {                                            // 폰: 그 행 아래
+      var li = document.createElement('li');
+      li.className = 'row-preview'; li.innerHTML = html;
+      row.insertAdjacentElement('afterend', li);
+    }
+  }
+
   // 행을 고르면 그 행의 장소(또는 출발·도착)를 지도에서 강조하고 맞춰 보여 준다
   function select(i, scroll) {
     var d = trip.courses[state.course].days[state.day];
@@ -327,6 +354,7 @@
       row.classList.add('on');
       if (scroll) row.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
     }
+    renderPreview(it, row);
     if (it.seg == null) return;              // 기차·비행기 장거리 구간은 지도 밖
     if (it.seg !== state.seg) { state.seg = it.seg; renderMap(); }
     Object.keys(pins).forEach(function (n) { pins[n].getElement() && pins[n].getElement().firstChild.classList.remove('on'); });
@@ -360,6 +388,7 @@
     renderHeader();
     renderPlan();
     renderMap();
+    $('preview').innerHTML = '<p class="preview-empty">일정 행을 누르면 그 행의 예매·식당 페이지 미리보기가 여기에 떠요.</p>';
     window.scrollTo({ top: 0 });
   }
 
