@@ -171,8 +171,8 @@
     }).join('');
 
     var total = course.days.reduce(function (s, d) { return s + d.cost; }, 0);
-    $('courseBar').innerHTML = '<b>' + esc(course.name) + '</b> · ' + course.days.length + '일 · 이동·입장 합계 1인 약 <b>' +
-      esc(won('€' + Math.round(total))) + '</b> (숙박·식비·항공 별도)';
+    $('courseBar').innerHTML = '<b>' + esc(course.name) + '</b> · ' + course.days.length + '일 · 현지 이동·입장권만 1인 약 <b>' +
+      esc(won('€' + Math.round(total))) + '</b> (2인 ' + esc(won('€' + Math.round(total * 2))) + ') · 숙박·식비·항공은 <a href="../spain.html#c' + state.course.replace('course', '') + '">코스 총액</a>에';
 
     $('dayTabs').innerHTML = course.days.map(function (d, i) {
       return '<button class="day-tab" role="tab" data-d="' + i + '" aria-selected="' + (i === state.day) + '">' +
@@ -198,7 +198,7 @@
       '<dt>' + esc(d.start) + ' 출발</dt><dd>' + esc(d.startNote || '') + '</dd></dl>';
     if (d.sleepName) {
       h += '<div class="stay"><b>오늘 숙소</b> ' + esc(d.sleepName) + ' · 1박 ' + esc(won(d.sleepPrice || '')) +
-        (d.sleepUrl ? ' <a href="' + esc(d.sleepUrl) + '" target="_blank" rel="noopener">요금 보기 ↗</a>' : '') + '</div>';
+        (d.sleepUrl ? ' <a href="' + esc(d.sleepUrl) + '" target="_blank" rel="noopener">숙소 요금 (카약) ↗</a>' : '') + '</div>';
     }
     h += '</div>';
     if (d.photo && d.photo.file) {
@@ -237,9 +237,13 @@
       (it.note ? '<span class="note">' + esc(won(it.note)) + '</span>' : '') + '</div>' +
       '<div class="side"><span class="dur">' + esc(it.dur) + '</span>' + (f ? '<span class="fare">' + f + '</span>' : '') + '</div>' +
       '<div class="links">' +
-      (it.mapUrl ? '<a href="' + esc(it.mapUrl) + '" target="_blank" rel="noopener">' + esc(it.mapLabel || '지도 ↗') + '</a>' : '') +
-      (it.link ? '<a class="src" href="' + esc(it.link) + '" target="_blank" rel="noopener">출처·예매 ↗</a>' : '') +
+      (it.mapUrl ? '<a href="' + esc(it.mapUrl) + '" target="_blank" rel="noopener">' + esc(mapLabel(it)) + '</a>' : '') +
+      (it.link ? '<a class="src" href="' + esc(it.link) + '" target="_blank" rel="noopener">' + esc(LINK_LABEL[linkKind(it)]) + ' ↗</a><span class="chip" title="행을 누르면 이 페이지 미리보기가 떠요">미리보기</span>' : '') +
       '</div></li>';
+  }
+  function mapLabel(it) {
+    var l = it.mapLabel || '지도 ↗';
+    return l.replace('경로 지도', '길찾기 (구글 지도)').replace(/^위치/, '구글 지도');
   }
 
   // ── 지도 ──
@@ -317,13 +321,19 @@
     map.fitBounds(layer.getBounds(), { padding: [36, 36], maxZoom: 16 });
   }
 
+  // 링크 종류: 예매·요금 / 식당 / 출처 (행의 링크 이름과 미리보기 카드가 같이 쓴다)
+  function linkKind(it) {
+    return /ticket|entrada|renfe|omio|trenes|vueling|alsa|everyrail|patrimonio|alhambra|alcazar|parkguell|sagrada|fgc|crtm/i.test(it.link) ? '예매·요금' :
+           /restaurant|tapas|bar|eat|food|gastro|table|rinconcillo|botin|menu|mercado|boqueria/i.test(it.link + ' ' + (it.line || '')) ? '식당' : '출처';
+  }
+  var LINK_LABEL = { '예매·요금': '예매·요금 보기', '식당': '식당 홈페이지', '출처': '출처 보기' };
+
   // 행의 링크(예매·식당·출처) 미리보기 카드. tools/fetch_previews.py 가 만든 스크린샷·제목을 쓴다
   function previewHtml(it) {
-    if (!it.link) return '<p class="preview-empty">이 행은 예매·식당 링크가 없어요. 지도 링크는 행 안의 "' + esc(it.mapLabel || '지도 ↗') + '"를 눌러요.</p>';
+    if (!it.link) return '<p class="preview-empty">이 행은 예매·식당 링크가 없어요. 지도 링크는 행 안의 "' + esc(mapLabel(it)) + '"를 눌러요.</p>';
     var p = trip.previews[it.link] || {};
     var host = p.host || it.link.replace(/^https?:\/\/(www\.)?/, '').split('/')[0];
-    var kind = /ticket|entrada|renfe|omio|trenes|vueling|alsa|everyrail|patrimonio|alhambra|alcazar|parkguell|sagrada|fgc|crtm/i.test(it.link) ? '예매·요금' :
-               /restaurant|tapas|bar|eat|food|gastro|table|rinconcillo|botin|menu|mercado|boqueria/i.test(it.link + ' ' + (it.line || '')) ? '식당' : '출처';
+    var kind = linkKind(it);
     return '<a class="pv" href="' + esc(it.link) + '" target="_blank" rel="noopener">' +
       '<span class="shot">' + (p.file ? '<img src="' + esc(ASSET + p.file) + '" alt="' + esc(p.title || host) + ' 페이지 화면" loading="lazy">' : '<span class="noimg">미리보기 없음 · 눌러서 열기</span>') + '</span>' +
       '<span class="meta"><span class="kind">' + kind + '</span>' +
@@ -383,9 +393,27 @@
     if (hit >= 0) select(hit, true);
   }
 
+  // 폰: 지도를 접었다 펼친다 (선택은 이 브라우저에 저장)
+  function syncMapToggle() {
+    var btn = $('mapToggle'); if (!btn) return;
+    var col = document.querySelector('.col-map');
+    var collapsed = false; try { collapsed = localStorage.getItem('map-collapsed') === '1'; } catch (e) {}
+    col.classList.toggle('collapsed', collapsed);
+    btn.textContent = collapsed ? '지도 펼치기' : '지도 접기';
+    btn.setAttribute('aria-expanded', String(!collapsed));
+    if (!collapsed && map) setTimeout(function () { map.invalidateSize(); }, 50);
+  }
+  document.addEventListener('click', function (e) {
+    if (e.target.id !== 'mapToggle') return;
+    var col = document.querySelector('.col-map'); var now = !col.classList.contains('collapsed');
+    try { localStorage.setItem('map-collapsed', now ? '1' : '0'); } catch (err) {}
+    syncMapToggle();
+  });
+
   function render() {
     readHash();
     renderHeader();
+    syncMapToggle();
     var bl = $('bookLink'); if (bl) bl.href = '../booking.html#c' + (location.hash.match(/^#c(\d)/) || [0, 1])[1];
     renderPlan();
     renderMap();

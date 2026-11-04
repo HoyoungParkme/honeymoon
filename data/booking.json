@@ -155,7 +155,8 @@
          "tag": "비교",
          "url": "https://www.google.com/travel/flights?hl=ko&curr=KRW"
         }
-       ]
+       ],
+       "due": "지금"
       }
      ]
     },
@@ -196,7 +197,8 @@
          "tag": "비교",
          "url": "https://www.kayak.com/Madrid-Hotels-Room-Mate-Alba.4990223.ksp"
         }
-       ]
+       ],
+       "due": "열리면"
       },
       {
        "what": "Las Casas de la Judería (4성)",
@@ -231,7 +233,8 @@
          "tag": "비교",
          "url": "https://www.kayak.de/Sevilla-Hotels-Las-Casas-de-La-Juderia.18176.ksp"
         }
-       ]
+       ],
+       "due": "열리면"
       },
       {
        "what": "Hotel Porcel Alixares (4성)",
@@ -266,7 +269,8 @@
          "tag": "비교",
          "url": "https://www.kayak.com/Granada-Hotels-Hotel-Alixares.38046.ksp"
         }
-       ]
+       ],
+       "due": "지금"
       },
       {
        "what": "Catalonia Catedral (4성)",
@@ -301,7 +305,8 @@
          "tag": "비교",
          "url": "https://www.kayak.com/Barcelona-Hotels-Catalonia-Catedral.314408.ksp"
         }
-       ]
+       ],
+       "due": "열리면"
       }
      ]
     },
@@ -332,7 +337,8 @@
          "tag": "한국어",
          "url": "https://kr.trip.com/trains/"
         }
-       ]
+       ],
+       "due": "2개월 전"
       },
       {
        "what": "마드리드 → 코르도바 → 세비야 고속열차",
@@ -367,7 +373,8 @@
          "tag": "한국어",
          "url": "https://kr.trip.com/trains/"
         }
-       ]
+       ],
+       "due": "열리면"
       },
       {
        "what": "세비야 → 그라나다 열차",
@@ -392,7 +399,8 @@
          "tag": "한국어",
          "url": "https://kr.trip.com/trains/"
         }
-       ]
+       ],
+       "due": "열리면"
       },
       {
        "what": "부엘링 그라나다 → 바르셀로나 국내선",
@@ -417,7 +425,8 @@
          "tag": "한국어",
          "url": "https://www.skyscanner.co.kr/"
         }
-       ]
+       ],
+       "due": "지금"
       },
       {
        "what": "바르셀로나 아에로부스 왕복권",
@@ -432,7 +441,8 @@
          "tag": "공식",
          "url": "https://aerobusbarcelona.es/"
         }
-       ]
+       ],
+       "due": "현장"
       },
       {
        "what": "몬세라트 Trans Montserrat 통합권",
@@ -452,7 +462,8 @@
          "tag": "한국어",
          "url": "https://www.klook.com/ko/search/?query=%EB%AA%AC%EC%84%B8%EB%9D%BC%ED%8A%B8"
         }
-       ]
+       ],
+       "due": "현장"
       }
      ]
     },
@@ -488,7 +499,8 @@
          "tag": "한국어",
          "url": "https://kr.trip.com/travel-guide/attraction/granada/alhambra-10521581/"
         }
-       ]
+       ],
+       "due": "열리면"
       },
       {
        "what": "사그라다 파밀리아 (09:00 입장, 탑 없이)",
@@ -513,7 +525,8 @@
          "tag": "한국어",
          "url": "https://www.myrealtrip.com/search?q=%EC%82%AC%EA%B7%B8%EB%9D%BC%EB%8B%A4%20%ED%8C%8C%EB%B0%80%EB%A6%AC%EC%95%84"
         }
-       ]
+       ],
+       "due": "3개월 전"
       },
       {
        "what": "세비야 알카사르 (09:30 입장)",
@@ -538,7 +551,8 @@
          "tag": "한국어",
          "url": "https://www.myrealtrip.com/search?q=%EC%84%B8%EB%B9%84%EC%95%BC%20%EC%95%8C%EC%B9%B4%EC%82%AC%EB%A5%B4"
         }
-       ]
+       ],
+       "due": "2개월 전"
       },
       {
        "what": "마드리드 왕궁 입장권 (09:30 슬롯)",
@@ -558,7 +572,8 @@
          "tag": "한국어",
          "url": "https://www.klook.com/ko/search/?query=%EB%A7%88%EB%93%9C%EB%A6%AC%EB%93%9C%20%EC%99%95%EA%B6%81"
         }
-       ]
+       ],
+       "due": "2개월 전"
       },
       {
        "what": "카사 바트요 (12:00)",
@@ -578,7 +593,8 @@
          "tag": "한국어",
          "url": "https://www.klook.com/ko/search/?query=%EC%B9%B4%EC%82%AC%20%EB%B0%94%ED%8A%B8%EC%9A%94"
         }
-       ]
+       ],
+       "due": "2개월 전"
       },
       {
        "what": "구엘 공원 (15:30 슬롯)",
@@ -598,7 +614,8 @@
          "tag": "한국어",
          "url": "https://www.klook.com/ko/search/?query=%EA%B5%AC%EC%97%98%20%EA%B3%B5%EC%9B%90"
         }
-       ]
+       ],
+       "due": "1개월 전"
       },
       {
        "what": "Hammam Al Ándalus 아랍 목욕탕 (목욕 + 마사지 15분)",
@@ -618,7 +635,8 @@
          "tag": "한국어",
          "url": "https://www.klook.com/ko/search/?query=%EA%B7%B8%EB%9D%BC%EB%82%98%EB%8B%A4%20%ED%95%98%EB%A7%98"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "Casa de la Memoria 플라멩코 19:30",
@@ -638,7 +656,8 @@
          "tag": "한국어",
          "url": "https://www.klook.com/ko/search/?query=%EC%84%B8%EB%B9%84%EC%95%BC%20%ED%94%8C%EB%9D%BC%EB%A9%A9%EC%BD%94"
         }
-       ]
+       ],
+       "due": "1개월 전"
       },
       {
        "what": "세비야 대성당 + 히랄다 탑",
@@ -653,7 +672,8 @@
          "tag": "공식",
          "url": "https://www.catedraldesevilla.es/en/cultural-visit/"
         }
-       ]
+       ],
+       "due": "1개월 전"
       },
       {
        "what": "메스키타 입장권",
@@ -673,7 +693,8 @@
          "tag": "한국어",
          "url": "https://www.klook.com/ko/search/?query=%EB%A9%94%EC%8A%A4%ED%82%A4%ED%83%80"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "포르트 벨 선셋 세일링 (18:30)",
@@ -693,7 +714,8 @@
          "tag": "비교",
          "url": "https://www.getyourguide.com/s/?q=barcelona%20sunset%20sailing"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "세타스 데 세비야 전망대 야경",
@@ -708,7 +730,8 @@
          "tag": "공식",
          "url": "https://setasdesevilla.com/en/"
         }
-       ]
+       ],
+       "due": "현장"
       },
       {
        "what": "프라도 미술관 무료 시간 (18:00–20:00)",
@@ -723,7 +746,8 @@
          "tag": "공식",
          "url": "https://www.museodelprado.es/en/visit/opening-times-and-prices"
         }
-       ]
+       ],
+       "due": "미리"
       }
      ]
     },
@@ -749,7 +773,8 @@
          "tag": "비교",
          "url": "https://www.thefork.com/search/?q=Botin%20Madrid"
         }
-       ]
+       ],
+       "due": "2개월 전"
       },
       {
        "what": "Mirador de Morayma (알함브라 뷰 디너)",
@@ -769,7 +794,8 @@
          "tag": "비교",
          "url": "https://www.thefork.com/search/?q=Mirador%20de%20Morayma"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "Taberna La Bola (코시도 마드릴레뇨)",
@@ -784,7 +810,8 @@
          "tag": "공식",
          "url": "https://labola.es/en/"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "Cal Pep (바 자리 해산물 타파스)",
@@ -799,7 +826,8 @@
          "tag": "공식",
          "url": "https://www.calpep.com/"
         }
-       ]
+       ],
+       "due": "1개월 전"
       },
       {
        "what": "7 Portes (1836년 파에야)",
@@ -819,7 +847,8 @@
          "tag": "비교",
          "url": "https://www.thefork.com/search/?q=7%20Portes"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "Bodegas Campos",
@@ -839,7 +868,8 @@
          "tag": "비교",
          "url": "https://www.thefork.com/search/?q=Bodegas%20Campos"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "Eslava",
@@ -859,7 +889,8 @@
          "tag": "비교",
          "url": "https://www.thefork.com/search/?q=Eslava%20Sevilla"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "El Rinconcillo (1670년 타파스 바)",
@@ -874,7 +905,8 @@
          "tag": "공식",
          "url": "https://www.elrinconcillo.es/"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "Taberna El Botero",
@@ -889,7 +921,8 @@
          "tag": "비교",
          "url": "https://www.thefork.com/search/?q=El%20Botero%20Toledo"
         }
-       ]
+       ],
+       "due": "2주 전"
       }
      ]
     }
@@ -929,7 +962,8 @@
          "tag": "비교",
          "url": "https://www.google.com/travel/flights?hl=ko&curr=KRW"
         }
-       ]
+       ],
+       "due": "지금"
       }
      ]
     },
@@ -970,7 +1004,8 @@
          "tag": "비교",
          "url": "https://www.kayak.ie/Madrid-Hotels-Regente.18463.ksp"
         }
-       ]
+       ],
+       "due": "열리면"
       },
       {
        "what": "Hotel Rey Alfonso X (4성)",
@@ -1005,7 +1040,8 @@
          "tag": "비교",
          "url": "https://www.kayak.ie/Sevilla-Hotels-Hotel-Rey-Alfonso-X.51888.ksp"
         }
-       ]
+       ],
+       "due": "열리면"
       },
       {
        "what": "Casa del Capitel Nazarí (3성)",
@@ -1040,7 +1076,8 @@
          "tag": "비교",
          "url": "https://www.kayak.ie/Granada-Hotels-Casa-del-Capitel-Nazari.51314.ksp"
         }
-       ]
+       ],
+       "due": "열리면"
       },
       {
        "what": "Hotel Lleó (3성)",
@@ -1075,7 +1112,8 @@
          "tag": "비교",
          "url": "https://www.kayak.ie/Barcelona-Hotels-Hotel-Lleo.90898.ksp"
         }
-       ]
+       ],
+       "due": "열리면"
       }
      ]
     },
@@ -1106,7 +1144,8 @@
          "tag": "한국어",
          "url": "https://kr.trip.com/trains/"
         }
-       ]
+       ],
+       "due": "2개월 전"
       },
       {
        "what": "마드리드 → 코르도바 → 세비야 고속열차",
@@ -1141,7 +1180,8 @@
          "tag": "한국어",
          "url": "https://kr.trip.com/trains/"
         }
-       ]
+       ],
+       "due": "열리면"
       },
       {
        "what": "세비야 → 그라나다 ALSA 버스",
@@ -1161,7 +1201,8 @@
          "tag": "한국어",
          "url": "https://www.omio.co.kr/"
         }
-       ]
+       ],
+       "due": "1개월 전"
       },
       {
        "what": "부엘링 그라나다 → 바르셀로나 국내선",
@@ -1186,7 +1227,8 @@
          "tag": "한국어",
          "url": "https://www.skyscanner.co.kr/"
         }
-       ]
+       ],
+       "due": "지금"
       },
       {
        "what": "바르셀로나 아에로부스 왕복권",
@@ -1201,7 +1243,8 @@
          "tag": "공식",
          "url": "https://aerobusbarcelona.es/"
         }
-       ]
+       ],
+       "due": "현장"
       },
       {
        "what": "몬세라트 Trans Montserrat 통합권",
@@ -1221,7 +1264,8 @@
          "tag": "한국어",
          "url": "https://www.klook.com/ko/search/?query=%EB%AA%AC%EC%84%B8%EB%9D%BC%ED%8A%B8"
         }
-       ]
+       ],
+       "due": "현장"
       }
      ]
     },
@@ -1257,7 +1301,8 @@
          "tag": "한국어",
          "url": "https://kr.trip.com/travel-guide/attraction/granada/alhambra-10521581/"
         }
-       ]
+       ],
+       "due": "열리면"
       },
       {
        "what": "사그라다 파밀리아 (09:00 입장, 탑 없이)",
@@ -1282,7 +1327,8 @@
          "tag": "한국어",
          "url": "https://www.myrealtrip.com/search?q=%EC%82%AC%EA%B7%B8%EB%9D%BC%EB%8B%A4%20%ED%8C%8C%EB%B0%80%EB%A6%AC%EC%95%84"
         }
-       ]
+       ],
+       "due": "3개월 전"
       },
       {
        "what": "세비야 알카사르 (09:30 입장)",
@@ -1307,7 +1353,8 @@
          "tag": "한국어",
          "url": "https://www.myrealtrip.com/search?q=%EC%84%B8%EB%B9%84%EC%95%BC%20%EC%95%8C%EC%B9%B4%EC%82%AC%EB%A5%B4"
         }
-       ]
+       ],
+       "due": "2개월 전"
       },
       {
        "what": "마드리드 왕궁 입장권 (09:30 슬롯)",
@@ -1327,7 +1374,8 @@
          "tag": "한국어",
          "url": "https://www.klook.com/ko/search/?query=%EB%A7%88%EB%93%9C%EB%A6%AC%EB%93%9C%20%EC%99%95%EA%B6%81"
         }
-       ]
+       ],
+       "due": "2개월 전"
       },
       {
        "what": "카사 바트요 (12:00)",
@@ -1347,7 +1395,8 @@
          "tag": "한국어",
          "url": "https://www.klook.com/ko/search/?query=%EC%B9%B4%EC%82%AC%20%EB%B0%94%ED%8A%B8%EC%9A%94"
         }
-       ]
+       ],
+       "due": "2개월 전"
       },
       {
        "what": "구엘 공원 (15:30 슬롯)",
@@ -1367,7 +1416,8 @@
          "tag": "한국어",
          "url": "https://www.klook.com/ko/search/?query=%EA%B5%AC%EC%97%98%20%EA%B3%B5%EC%9B%90"
         }
-       ]
+       ],
+       "due": "1개월 전"
       },
       {
        "what": "Casa de la Memoria 플라멩코 19:30",
@@ -1387,7 +1437,8 @@
          "tag": "한국어",
          "url": "https://www.klook.com/ko/search/?query=%EC%84%B8%EB%B9%84%EC%95%BC%20%ED%94%8C%EB%9D%BC%EB%A9%A9%EC%BD%94"
         }
-       ]
+       ],
+       "due": "1개월 전"
       },
       {
        "what": "세비야 대성당 + 히랄다 탑",
@@ -1402,7 +1453,8 @@
          "tag": "공식",
          "url": "https://www.catedraldesevilla.es/en/cultural-visit/"
         }
-       ]
+       ],
+       "due": "1개월 전"
       },
       {
        "what": "메스키타 입장권",
@@ -1422,7 +1474,8 @@
          "tag": "한국어",
          "url": "https://www.klook.com/ko/search/?query=%EB%A9%94%EC%8A%A4%ED%82%A4%ED%83%80"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "포르트 벨 선셋 세일링 (18:30)",
@@ -1442,7 +1495,8 @@
          "tag": "비교",
          "url": "https://www.getyourguide.com/s/?q=barcelona%20sunset%20sailing"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "세타스 데 세비야 전망대 야경",
@@ -1457,7 +1511,8 @@
          "tag": "공식",
          "url": "https://setasdesevilla.com/en/"
         }
-       ]
+       ],
+       "due": "현장"
       },
       {
        "what": "프라도 미술관 무료 시간 (18:00–20:00)",
@@ -1472,7 +1527,8 @@
          "tag": "공식",
          "url": "https://www.museodelprado.es/en/visit/opening-times-and-prices"
         }
-       ]
+       ],
+       "due": "미리"
       }
      ]
     },
@@ -1498,7 +1554,8 @@
          "tag": "비교",
          "url": "https://www.thefork.com/search/?q=Botin%20Madrid"
         }
-       ]
+       ],
+       "due": "2개월 전"
       },
       {
        "what": "Mirador de Morayma (알함브라 뷰 디너)",
@@ -1518,7 +1575,8 @@
          "tag": "비교",
          "url": "https://www.thefork.com/search/?q=Mirador%20de%20Morayma"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "Taberna La Bola (코시도 마드릴레뇨)",
@@ -1533,7 +1591,8 @@
          "tag": "공식",
          "url": "https://labola.es/en/"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "Cal Pep (바 자리 해산물 타파스)",
@@ -1548,7 +1607,8 @@
          "tag": "공식",
          "url": "https://www.calpep.com/"
         }
-       ]
+       ],
+       "due": "1개월 전"
       },
       {
        "what": "7 Portes (1836년 파에야)",
@@ -1568,7 +1628,8 @@
          "tag": "비교",
          "url": "https://www.thefork.com/search/?q=7%20Portes"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "Bodegas Campos",
@@ -1588,7 +1649,8 @@
          "tag": "비교",
          "url": "https://www.thefork.com/search/?q=Bodegas%20Campos"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "Eslava",
@@ -1608,7 +1670,8 @@
          "tag": "비교",
          "url": "https://www.thefork.com/search/?q=Eslava%20Sevilla"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "El Rinconcillo (1670년 타파스 바)",
@@ -1623,7 +1686,8 @@
          "tag": "공식",
          "url": "https://www.elrinconcillo.es/"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "Taberna El Botero",
@@ -1638,7 +1702,8 @@
          "tag": "비교",
          "url": "https://www.thefork.com/search/?q=El%20Botero%20Toledo"
         }
-       ]
+       ],
+       "due": "2주 전"
       }
      ]
     }
@@ -1678,7 +1743,8 @@
          "tag": "비교",
          "url": "https://www.google.com/travel/flights?hl=ko&curr=KRW"
         }
-       ]
+       ],
+       "due": "지금"
       }
      ]
     },
@@ -1719,7 +1785,8 @@
          "tag": "비교",
          "url": "https://www.kayak.ie/Madrid-Hotels-Regente.18463.ksp"
         }
-       ]
+       ],
+       "due": "열리면"
       },
       {
        "what": "Las Casas de la Judería (4성)",
@@ -1754,7 +1821,8 @@
          "tag": "비교",
          "url": "https://www.kayak.de/Sevilla-Hotels-Las-Casas-de-La-Juderia.18176.ksp"
         }
-       ]
+       ],
+       "due": "열리면"
       },
       {
        "what": "Casa del Capitel Nazarí (3성)",
@@ -1789,7 +1857,8 @@
          "tag": "비교",
          "url": "https://www.kayak.ie/Granada-Hotels-Casa-del-Capitel-Nazari.51314.ksp"
         }
-       ]
+       ],
+       "due": "열리면"
       },
       {
        "what": "Parador de Granada",
@@ -1824,7 +1893,8 @@
          "tag": "비교",
          "url": "https://www.kayak.com/Granada-Hotels-Parador-de-Granada.75190.ksp"
         }
-       ]
+       ],
+       "due": "열리면"
       },
       {
        "what": "Hotel Regente (3성)",
@@ -1859,7 +1929,8 @@
          "tag": "비교",
          "url": "https://www.kayak.ie/Madrid-Hotels-Regente.18463.ksp"
         }
-       ]
+       ],
+       "due": "열리면"
       }
      ]
     },
@@ -1890,7 +1961,8 @@
          "tag": "한국어",
          "url": "https://kr.trip.com/trains/"
         }
-       ]
+       ],
+       "due": "2개월 전"
       },
       {
        "what": "마드리드 → 코르도바 → 세비야 고속열차",
@@ -1925,7 +1997,8 @@
          "tag": "한국어",
          "url": "https://kr.trip.com/trains/"
         }
-       ]
+       ],
+       "due": "열리면"
       },
       {
        "what": "세비야 → 그라나다 ALSA 버스",
@@ -1945,7 +2018,8 @@
          "tag": "한국어",
          "url": "https://www.omio.co.kr/"
         }
-       ]
+       ],
+       "due": "1개월 전"
       },
       {
        "what": "그라나다 → 마드리드 AVE",
@@ -1970,7 +2044,8 @@
          "tag": "한국어",
          "url": "https://kr.trip.com/trains/"
         }
-       ]
+       ],
+       "due": "열리면"
       },
       {
        "what": "마드리드 ↔ 세고비아 Avant 왕복",
@@ -1990,7 +2065,8 @@
          "tag": "한국어",
          "url": "https://www.omio.co.kr/"
         }
-       ]
+       ],
+       "due": "2개월 전"
       }
      ]
     },
@@ -2026,7 +2102,8 @@
          "tag": "한국어",
          "url": "https://kr.trip.com/travel-guide/attraction/granada/alhambra-10521581/"
         }
-       ]
+       ],
+       "due": "열리면"
       },
       {
        "what": "세비야 알카사르 (09:30 입장)",
@@ -2051,7 +2128,8 @@
          "tag": "한국어",
          "url": "https://www.myrealtrip.com/search?q=%EC%84%B8%EB%B9%84%EC%95%BC%20%EC%95%8C%EC%B9%B4%EC%82%AC%EB%A5%B4"
         }
-       ]
+       ],
+       "due": "2개월 전"
       },
       {
        "what": "마드리드 왕궁 입장권 (09:30 슬롯)",
@@ -2071,7 +2149,8 @@
          "tag": "한국어",
          "url": "https://www.klook.com/ko/search/?query=%EB%A7%88%EB%93%9C%EB%A6%AC%EB%93%9C%20%EC%99%95%EA%B6%81"
         }
-       ]
+       ],
+       "due": "2개월 전"
       },
       {
        "what": "Hammam Al Ándalus 아랍 목욕탕 (목욕 + 마사지 15분)",
@@ -2091,7 +2170,8 @@
          "tag": "한국어",
          "url": "https://www.klook.com/ko/search/?query=%EA%B7%B8%EB%9D%BC%EB%82%98%EB%8B%A4%20%ED%95%98%EB%A7%98"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "Venta El Gallo 사크로몬테 동굴 플라멩코 21:00",
@@ -2111,7 +2191,8 @@
          "tag": "한국어",
          "url": "https://www.klook.com/ko/search/?query=%EC%82%AC%ED%81%AC%EB%A1%9C%EB%AA%AC%ED%85%8C%20%ED%94%8C%EB%9D%BC%EB%A9%A9%EC%BD%94"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "Casa de la Memoria 플라멩코 19:30",
@@ -2131,7 +2212,8 @@
          "tag": "한국어",
          "url": "https://www.klook.com/ko/search/?query=%EC%84%B8%EB%B9%84%EC%95%BC%20%ED%94%8C%EB%9D%BC%EB%A9%A9%EC%BD%94"
         }
-       ]
+       ],
+       "due": "1개월 전"
       },
       {
        "what": "세비야 대성당 + 히랄다 탑",
@@ -2146,7 +2228,8 @@
          "tag": "공식",
          "url": "https://www.catedraldesevilla.es/en/cultural-visit/"
         }
-       ]
+       ],
+       "due": "1개월 전"
       },
       {
        "what": "메스키타 입장권",
@@ -2166,7 +2249,8 @@
          "tag": "한국어",
          "url": "https://www.klook.com/ko/search/?query=%EB%A9%94%EC%8A%A4%ED%82%A4%ED%83%80"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "세고비아 알카사르 (탑 포함)",
@@ -2181,7 +2265,8 @@
          "tag": "공식",
          "url": "https://www.alcazardesegovia.com/en/"
         }
-       ]
+       ],
+       "due": "현장"
       },
       {
        "what": "세타스 데 세비야 전망대 야경",
@@ -2196,7 +2281,8 @@
          "tag": "공식",
          "url": "https://setasdesevilla.com/en/"
         }
-       ]
+       ],
+       "due": "현장"
       },
       {
        "what": "프라도 미술관 무료 시간 (18:00–20:00)",
@@ -2211,7 +2297,8 @@
          "tag": "공식",
          "url": "https://www.museodelprado.es/en/visit/opening-times-and-prices"
         }
-       ]
+       ],
+       "due": "미리"
       }
      ]
     },
@@ -2237,7 +2324,8 @@
          "tag": "비교",
          "url": "https://www.thefork.com/search/?q=Botin%20Madrid"
         }
-       ]
+       ],
+       "due": "2개월 전"
       },
       {
        "what": "Mirador de Morayma (알함브라 뷰 디너)",
@@ -2257,7 +2345,8 @@
          "tag": "비교",
          "url": "https://www.thefork.com/search/?q=Mirador%20de%20Morayma"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "Mesón de Cándido (수도교 앞 새끼돼지)",
@@ -2277,7 +2366,8 @@
          "tag": "비교",
          "url": "https://www.thefork.com/search/?q=Meson%20de%20Candido"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "Casa Lucio (계란 요리 우에보스 로토스)",
@@ -2292,7 +2382,8 @@
          "tag": "공식",
          "url": "https://casalucio.es/"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "Taberna La Bola (코시도 마드릴레뇨)",
@@ -2307,7 +2398,8 @@
          "tag": "공식",
          "url": "https://labola.es/en/"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "Bodegas Campos",
@@ -2327,7 +2419,8 @@
          "tag": "비교",
          "url": "https://www.thefork.com/search/?q=Bodegas%20Campos"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "Eslava",
@@ -2347,7 +2440,8 @@
          "tag": "비교",
          "url": "https://www.thefork.com/search/?q=Eslava%20Sevilla"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "El Rinconcillo (1670년 타파스 바)",
@@ -2362,7 +2456,8 @@
          "tag": "공식",
          "url": "https://www.elrinconcillo.es/"
         }
-       ]
+       ],
+       "due": "2주 전"
       },
       {
        "what": "Taberna El Botero",
@@ -2377,7 +2472,8 @@
          "tag": "비교",
          "url": "https://www.thefork.com/search/?q=El%20Botero%20Toledo"
         }
-       ]
+       ],
+       "due": "2주 전"
       }
      ]
     }

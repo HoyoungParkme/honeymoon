@@ -137,10 +137,30 @@ button { font: inherit; color: inherit; }
 /* 폰: 지도를 위에 붙여 두고 일정만 스크롤한다 */
 @media (max-width: 999px) {
   .col-map { position: sticky; top: 0; z-index: 500; margin: -16px -16px 0; padding: 8px 16px; background: var(--bg); }
-  #map { height: 32vh; min-height: 220px; }
+  #map { height: 26vh; min-height: 180px; }
   .map-caption { display: none; }
-  .row { scroll-margin-top: calc(32vh + 120px); }
+  .row { scroll-margin-top: calc(26vh + 110px); }
+  .col-map.collapsed #map, .col-map.collapsed .legend, .col-map.collapsed .seg-tabs { display: none; }
+  .col-map.collapsed .map-card { padding: 6px 10px; }
+  .col-map.collapsed ~ .col-plan .row { scroll-margin-top: 60px; }
+  /* 머리 부분 압축: 코스 탭 한 줄 스크롤, 큰 제목·요약 줄 숨김 */
+  .top-inner { padding: 10px 16px 6px; gap: 8px; }
+  .brand-kicker { display: none; }
+  .brand h1 { font-size: 17px; }
+  .course-tabs { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; max-width: 100%; }
+  .course-tab { flex: 0 0 auto; padding: 6px 12px; font-size: 13px; }
+  .course-bar { display: none; }
+  .day-tabs { padding-bottom: 8px; mask-image: linear-gradient(to right, #000 88%, transparent); -webkit-mask-image: linear-gradient(to right, #000 88%, transparent); }
+  .day-tab { min-width: 80px; padding: 5px 10px; }
+  .crumbs .desk { display: none; }
+  .photo img { aspect-ratio: 16 / 7; }
 }
+.map-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.map-head:has(.seg-tabs:empty) { justify-content: flex-end; }
+.map-toggle { display: none; border: 1px solid var(--line); background: var(--bg); border-radius: 999px; padding: 6px 12px; font-size: 12px; font-weight: 700; color: var(--sub); cursor: pointer; }
+@media (max-width: 999px) { .map-toggle { display: inline-flex; } }
+.row .chip { font-size: 11px; font-weight: 700; color: var(--mute); border: 1px dashed var(--line); border-radius: 999px; padding: 1px 8px; }
+.row.on .chip { color: var(--accent); border-color: var(--accent); }
 
 @media (min-width: 1000px) {
   .layout { grid-template-columns: minmax(0, 1fr) minmax(380px, 44%); align-items: start; }
