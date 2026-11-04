@@ -1,0 +1,4 @@
+tools/_measure.*
+tools/_vals.js
+__pycache__/
+.claude/

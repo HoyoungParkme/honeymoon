@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>코스 3 · 6~7일차</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#1E56A0}a:hover{color:#163F75}
+</style>
+</helmet>
+<div style="width: 1280px; height: 5241px; box-sizing: border-box; padding: 56px; background: #F7F4EE; color: #1C2230; font-family: 'Noto Sans KR', sans-serif; display: flex; flex-direction: column; gap: 28px;">
+
+  <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 24px;">
+    <div style="display: flex; flex-direction: column; gap: 8px;">
+      <span style="align-self: flex-start; font-size: 13px; font-weight: 700; color: #FFFFFF; background: {{accent}}; border-radius: 999px; padding: 5px 12px;">코스 3 · 안달루시아 + 세고비아 (직항) · DAY 6–7</span>
+      <h1 style="margin: 0; font-size: 36px; font-weight: 900; line-height: 1.2;">코스 3 · 6~7일차</h1>
+    </div>
+    <div style="font-size: 13px; color: #4A5160; line-height: 1.6; text-align: right; flex-shrink: 0;">금액은 1인 기준 원화 환산 (1유로 = 1,500원, 1달러 = 1,330원)<br>'지도 ↗'는 구글 지도 길찾기, 지도 위 번호는 표의 번호와 같아<br>요금·시간은 2026년 11월 기준, 미확인 표시는 꼭 다시 확인</div>
+  </div>
+
+  <sc-for list="{{days}}" as="d" hint-placeholder-count="3">
+    <div style="background: #FFFFFF; border: 1px solid #E3DDD2; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 18px;">
+
+      <div style="display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 24px; align-items: stretch;">
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="display: flex; align-items: baseline; gap: 14px;">
+            <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.06em; color: {{accent}};">DAY {{d.n}}</span>
+            <span style="font-size: 30px; font-weight: 900;">{{d.date}} ({{d.dow}})</span>
+            <span style="font-size: 14px; font-weight: 700; color: #FFFFFF; background: {{accent}}; border-radius: 999px; padding: 4px 12px;">{{d.city}}</span>
+          </div>
+          <div style="font-size: 22px; font-weight: 900; line-height: 1.3;">{{d.title}}</div>
+          <sc-if value="{{d.note}}" hint-placeholder-val="{{ false }}"><div style="font-size: 13px; line-height: 1.55; color: #9C3A22; background: #FBF0EA; border-radius: 10px; padding: 10px 14px;">{{d.note}}</div></sc-if>
+          <div style="display: grid; grid-template-columns: 90px minmax(0, 1fr); gap: 6px 14px; font-size: 14px; line-height: 1.55; background: #F3EFE7; border-radius: 12px; padding: 14px 16px;">
+            <span style="font-weight: 700; color: {{accent}};">{{d.wake}} 기상</span><span>{{d.sleepAt}}</span>
+            <span style="font-weight: 700; color: {{accent}};">아침 A</span><span>{{d.bfA}}</span>
+            <span style="font-weight: 700; color: {{accent}};">아침 B</span><span>{{d.bfB}}</span>
+            <span style="font-weight: 700; color: {{accent}};">{{d.start}} 출발</span><span>{{d.startNote}}</span>
+          </div>
+          <sc-if value="{{d.sleepName}}" hint-placeholder-val="{{ true }}">
+            <div style="font-size: 14px; line-height: 1.55;"><span style="font-weight: 700; color: {{accent}};">오늘 숙소</span> {{d.sleepName}} · 1박 {{d.sleepPrice}} <a href="{{d.sleepUrl}}" style="font-weight: 700; text-decoration: underline;">요금 보기 ↗</a></div>
+          </sc-if>
+        </div>
+        <figure style="margin: 0; display: flex; flex-direction: column; gap: 4px;">
+          <img src="{{d.photo.src}}" alt="{{d.photo.alt}}" style="width: 260px; height: 190px; object-fit: cover; border-radius: 12px; display: block; background: #E3DDD2;">
+          <a href="{{d.photo.page}}" style="font-size: 10px; color: #5B6270; text-decoration: none; line-height: 1.4;">{{d.photo.credit}}</a>
+        </figure>
+      </div>
+
+      <sc-for list="{{d.maps}}" as="mp" hint-placeholder-count="1">
+        <figure style="margin: 0; display: flex; flex-direction: column; gap: 6px;">
+          <img src="{{mp.src}}" alt="{{mp.alt}}" style="width: 100%; height: 620px; object-fit: cover; border-radius: 12px; display: block; border: 1px solid #E3DDD2; background: #E3DDD2;">
+          <span style="font-size: 12px; color: #5B6270; line-height: 1.5;">{{mp.caption}} · 지도 © OpenStreetMap 기여자</span>
+        </figure>
+      </sc-for>
+
+      <div style="display: flex; flex-direction: column;">
+        <sc-for list="{{d.items}}" as="it" hint-placeholder-count="8">
+          <div style="display: grid; grid-template-columns: 54px 66px minmax(0, 1fr) 190px 100px; gap: 12px; padding: 10px 0; border-bottom: 1px dashed #EAE4DA; align-items: start; font-size: 14px; line-height: 1.5;">
+            <span style="font-weight: 700; color: {{accent}}; font-variant-numeric: tabular-nums;">{{it.time}}</span>
+            <span style="font-size: 12px; font-weight: 700; color: #FFFFFF; background: {{it.badgeColor}}; border-radius: 6px; padding: 3px 0; text-align: center;">{{it.badge}}</span>
+            <div style="display: flex; flex-direction: column; gap: 2px; min-width: 0;">
+              <span style="font-weight: 700;">{{it.head}}</span>
+              <sc-if value="{{it.line}}" hint-placeholder-val="{{ false }}"><span>{{it.line}}</span></sc-if>
+              <sc-if value="{{it.note}}" hint-placeholder-val="{{ false }}"><span style="font-size: 13px; color: #5B6270;">{{it.note}}</span></sc-if>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 2px; text-align: right;">
+              <span style="font-weight: 700;">{{it.dur}}</span>
+              <sc-if value="{{it.fareMain}}" hint-placeholder-val="{{ true }}"><span style="font-size: 15px; font-weight: 700; color: #8A5300; white-space: nowrap;">{{it.fareMain}}</span></sc-if>
+              <sc-for list="{{it.fareLines}}" as="fl" hint-placeholder-count="0">
+                <span style="font-size: 12px; font-weight: 500; color: #8A5300; white-space: nowrap; line-height: 1.4;">{{fl.t}}</span>
+              </sc-for>
+              <sc-if value="{{it.fareNote}}" hint-placeholder-val="{{ false }}"><span style="font-size: 12px; color: #5B6270; line-height: 1.4;">{{it.fareNote}}</span></sc-if>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 4px; text-align: right;">
+              <a href="{{it.mapUrl}}" style="font-size: 13px; font-weight: 700; text-decoration: underline;">{{it.mapLabel}}</a>
+              <sc-if value="{{it.link}}" hint-placeholder-val="{{ false }}"><a href="{{it.link}}" style="font-size: 13px; font-weight: 700; color: #8A5300; text-decoration: underline;">출처·예매 ↗</a></sc-if>
+            </div>
+          </div>
+        </sc-for>
+      </div>
+      <div style="font-size: 13px; color: #4A5160;">일정 끝 {{d.end}} · 오늘 이동·입장 비용 1인 약 {{d.dayCost}} (식비 별도)</div>
+    </div>
+  </sc-for>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#B8432A","options":["#1E56A0","#2F7A57","#B8432A"]},"$preview":{"width":1280,"height":5241}}'>
+class Component extends DCLogic {
+  renderVals() {
+    var self = this;
+    var raw = [{"n": 6, "date": "5/14", "dow": "금", "city": "그라나다", "title": "하맘에서 쉬고 알바이신 일몰", "note": "", "start": "07:10", "end": "23:18", "items": [{"time": "07:10", "kind": "move", "mode": "taxi", "head": "1 Las Casas de la Judería → 2 플라사 데 아르마스 버스터미널", "line": "", "note": "걸으면 28~30분, 짐 있으면 택시", "dur": "택시 10분", "fare": "€7–8 (차량당)", "eur": 7.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.38530,-5.98710&destination=37.39190,-6.00140&travelmode=driving", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "07:40", "kind": "stop", "mode": "", "head": "2 플라사 데 아르마스 버스터미널", "line": "ALSA 08:00 버스 탑승 (alsa.com 예매)", "note": "", "dur": "대기 20분 → 15분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Estaci%C3%B3n%20de%20Autobuses%20Plaza%20de%20Armas%2C%20Sevilla", "mapLabel": "위치 ↗", "link": "https://www.omio.es/autobuses/sevilla/granada"}, {"time": "07:55", "kind": "move", "mode": "bus", "head": "2 플라사 데 아르마스 버스터미널 → 3 그라나다 버스터미널", "line": "ALSA 고속버스 · Plaza de Armas → Granada 버스터미널", "note": "", "dur": "버스 180분", "fare": "€21–29", "eur": 21.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.39190,-6.00140&destination=37.20010,-3.61700&travelmode=transit", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "10:55", "kind": "move", "mode": "taxi", "head": "3 그라나다 버스터미널 → 4 Casa del Capitel Nazarí", "line": "", "note": "버스 33번 → Catedral 25분 + 도보 7분도 가능", "dur": "택시 15분", "fare": "€8–11 (차량당)", "eur": 8.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.20010,-3.61700&destination=37.17810,-3.59550&travelmode=driving", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "11:10", "kind": "stop", "mode": "", "head": "4 Casa del Capitel Nazarí", "line": "체크인 · 짐 풀기 · 가벼운 점심", "note": "", "dur": "60분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cuesta%20Aceituneros%206%2C%20Granada", "mapLabel": "위치 ↗", "link": ""}, {"time": "12:10", "kind": "move", "mode": "walk", "head": "4 Casa del Capitel Nazarí → 5 누에바 광장", "line": "", "note": "", "dur": "도보 3분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.17810,-3.59550&destination=37.17730,-3.59700&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "12:13", "kind": "move", "mode": "walk", "head": "5 누에바 광장 → 6 Hammam Al Ándalus", "line": "", "note": "", "dur": "도보 2분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.17730,-3.59700&destination=37.17710,-3.59620&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "12:15", "kind": "stop", "mode": "", "head": "6 Hammam Al Ándalus", "line": "아랍식 목욕탕 Hammam Al Ándalus (90분 + 마사지 15분)", "note": "시간대별 가격 변동, 예약 필수", "dur": "110분", "fare": "€65", "eur": 65.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Calle%20Santa%20Ana%2016%2C%20Granada", "mapLabel": "위치 ↗", "link": "https://www.granadadirect.com/ocio/banos-arabes/"}, {"time": "14:05", "kind": "move", "mode": "bus", "head": "5 누에바 광장 → 7 버스 정류장 Plaza Larga", "line": "C31번 알바이신 방면 · Plaza Nueva → Plaza Larga (기사에게 'San Nicolás' 말하기)", "note": "걸으면 칼데레리아 누에바 거리로 오르막 20~30분", "dur": "버스 12분", "fare": "€1.60 기사에게 현금·카드 (60분 내 환승 무료)", "eur": 1.6, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.17730,-3.59700&destination=37.18230,-3.59340&travelmode=transit", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "14:17", "kind": "move", "mode": "walk", "head": "7 버스 정류장 Plaza Larga → 8 산 니콜라스 전망대", "line": "", "note": "아르코 데 라스 페사스 통과", "dur": "도보 6분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.18230,-3.59340&destination=37.18100,-3.59260&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "20:15", "kind": "stop", "mode": "", "head": "8 산 니콜라스 전망대", "line": "산 니콜라스 전망대 — 알함브라 일몰 (5월 일몰 약 21:10)", "note": "", "dur": "대기 352분 → 70분", "fare": "무료", "eur": 0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mirador%20de%20San%20Nicol%C3%A1s%2C%20Granada", "mapLabel": "위치 ↗", "link": ""}, {"time": "21:25", "kind": "move", "mode": "walk", "head": "8 산 니콜라스 전망대 → 9 Mirador de Morayma", "line": "", "note": "산 아구스틴 길 → 차피스 언덕 내리막 (미확인)", "dur": "도보 9분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.18100,-3.59260&destination=37.17990,-3.58870&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "21:34", "kind": "stop", "mode": "", "head": "9 Mirador de Morayma", "line": "저녁: Mirador de Morayma — 알함브라 뷰 테라스 (전화 예약 +34 958 22 82 90)", "note": "", "dur": "90분", "fare": "€40–55", "eur": 40.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Calle%20Pianista%20Garc%C3%ADa%20Carrillo%202%2C%20Granada", "mapLabel": "위치 ↗", "link": "https://en.andalucia.org/listing/mirador-de-morayma/5461101/"}, {"time": "23:04", "kind": "move", "mode": "walk", "head": "9 Mirador de Morayma → 4 Casa del Capitel Nazarí", "line": "", "note": "차피스 언덕 → 트리스테스 산책로 → 다로 강변 → 누에바 광장 (미확인)", "dur": "도보 14분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.17990,-3.58870&destination=37.17810,-3.59550&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}], "maps": [{"src": "/_blob/02434350450eee09b734aa5ff7d820ce", "alt": "그라나다 이동 경로 지도", "caption": "지도 1 · 1 Las Casas de la Judería → 2 플라사 데 아르마스 버스터미널 → 3 그라나다 버스터미널 → 4 Casa del Capitel Nazarí → 5 누에바 광장 → 6 Hammam Al Ándalus → 7 버스 정류장 Plaza Larga → 8 산 니콜라스 전망대 → 9 Mirador de Morayma", "file": "maps/c3_d06_s1.jpg"}], "photo": {"src": "/_blob/017bd107e02f237b6ee3d5e2f290e0c2", "alt": "산 니콜라스에서 본 알함브라", "credit": "사진: 산 니콜라스에서 본 알함브라 · Slaunger · CC BY-SA 3.0", "page": "https://commons.wikimedia.org/wiki/File:Alhambra_evening_panorama_Mirador_San_Nicolas_sRGB-1.jpg", "file": "photos/alhambra_view.jpg"}, "wake": "05:55", "sleepAt": "Las Casas de la Judería (4성) 객실 (어젯밤 숙소)", "bfA": "호텔 조식 — 유료 옵션, 금액은 예약 화면에서 확인 (보통 €12–20)", "bfB": "Bar El Comercio (Calle Lineros 9, 1904년 추로스 바) 약 €4–6", "startNote": "짐 챙겨 호텔 로비에서 나가기", "sleepName": "Casa del Capitel Nazarí (3성)", "sleepUrl": "https://www.kayak.ie/Granada-Hotels-Casa-del-Capitel-Nazari.51314.ksp", "sleepPrice": "€110–150 (추정) (2인 1실, 카약 검색가)"}, {"n": 7, "date": "5/15", "dow": "토", "city": "그라나다", "title": "알함브라 데이, 성벽 안에서 하룻밤", "note": "", "start": "07:45", "end": "22:27", "items": [{"time": "07:45", "kind": "move", "mode": "walk", "head": "1 Casa del Capitel Nazarí → 2 이사벨 라 카톨리카 광장 (C30 정류장)", "line": "", "note": "", "dur": "도보 3분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.17810,-3.59550&destination=37.17570,-3.59850&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "07:48", "kind": "move", "mode": "bus", "head": "2 이사벨 라 카톨리카 광장 (C30 정류장) → 3 알함브라 매표소 (Generalife 정류장)", "line": "C30번 알함브라 방면 · Plaza Isabel la Católica → Alhambra–Generalife 2 (종점)", "note": "8~12분 간격, 첫차 약 07:00. 걸으면 고메레스 언덕길 20~30분", "dur": "버스 12분", "fare": "€1.60 기사에게 현금·카드 (60분 내 환승 무료)", "eur": 1.6, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.17570,-3.59850&destination=37.17600,-3.58050&travelmode=transit", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "08:25", "kind": "stop", "mode": "", "head": "3 알함브라 매표소 (Generalife 정류장)", "line": "알함브라 입장 (08:30 개장과 동시에). 티켓 바코드 + 여권 원본", "note": "환불·변경 불가, 여권 이름과 동일하게. 여행사들은 3개월 전 구매 안내, 온라인은 전날 23:59까지", "dur": "대기 25분 → 10분", "fare": "€22.27 (온라인) + 수수료", "eur": 22.27, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Pabell%C3%B3n%20de%20Acceso%20Alhambra", "mapLabel": "위치 ↗", "link": "https://tickets.alhambra-patronato.es/en/?p=3090"}, {"time": "08:35", "kind": "stop", "mode": "", "head": "3 알함브라 매표소 (Generalife 정류장)", "line": "헤네랄리페 정원", "note": "입구 바로 옆", "dur": "45분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Pabell%C3%B3n%20de%20Acceso%20Alhambra", "mapLabel": "위치 ↗", "link": ""}, {"time": "09:20", "kind": "move", "mode": "walk", "head": "3 알함브라 매표소 (Generalife 정류장) → 4 알카사바", "line": "", "note": "파세오 데 라스 토레스 따라 서쪽", "dur": "도보 18분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.17600,-3.58050&destination=37.17680,-3.59170&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "09:38", "kind": "stop", "mode": "", "head": "4 알카사바", "line": "알카사바 요새 · 벨라 탑 전망", "note": "", "dur": "35분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Alcazaba%2C%20Alhambra", "mapLabel": "위치 ↗", "link": ""}, {"time": "10:13", "kind": "move", "mode": "walk", "head": "4 알카사바 → 5 나스르 궁전", "line": "", "note": "", "dur": "도보 4분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.17680,-3.59170&destination=37.17720,-3.58950&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "10:20", "kind": "stop", "mode": "", "head": "5 나스르 궁전", "line": "나스르 궁전 (티켓에 찍힌 시간 정각 입장, 10:30 슬롯 기준)", "note": "10분 전에 궁전 입구 줄에 서기. 늦으면 입장 거부", "dur": "대기 3분 → 75분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Palacios%20Nazar%C3%ADes", "mapLabel": "위치 ↗", "link": ""}, {"time": "11:35", "kind": "move", "mode": "walk", "head": "5 나스르 궁전 → 6 카를로스 5세 궁전", "line": "", "note": "", "dur": "도보 2분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.17720,-3.58950&destination=37.17680,-3.58950&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "11:37", "kind": "stop", "mode": "", "head": "6 카를로스 5세 궁전", "line": "카를로스 5세 궁전 — 르네상스 원형 안뜰 (알함브라 박물관 무료, 여행사 투어 코스)", "note": "", "dur": "15분", "fare": "무료", "eur": 0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Palacio%20de%20Carlos%20V%2C%20Alhambra", "mapLabel": "위치 ↗", "link": ""}, {"time": "11:52", "kind": "move", "mode": "walk", "head": "6 카를로스 5세 궁전 → 7 버스 정류장 Palacio de Carlos V", "line": "", "note": "", "dur": "도보 2분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.17680,-3.58950&destination=37.17660,-3.58820&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "11:54", "kind": "move", "mode": "bus", "head": "7 버스 정류장 Palacio de Carlos V → 2 이사벨 라 카톨리카 광장 (C30 정류장)", "line": "C30번 센트로 방면 · Palacio de Carlos V → Plaza Isabel la Católica", "note": "걸으면 고메레스 언덕 내리막 15분", "dur": "버스 11분", "fare": "€1.60 기사에게 현금·카드 (60분 내 환승 무료)", "eur": 1.6, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.17660,-3.58820&destination=37.17570,-3.59850&travelmode=transit", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "12:05", "kind": "move", "mode": "walk", "head": "2 이사벨 라 카톨리카 광장 (C30 정류장) → 8 Los Diamantes", "line": "", "note": "레예스 카톨리코스 거리 → 나바스 거리", "dur": "도보 6분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.17570,-3.59850&destination=37.17420,-3.59850&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "12:11", "kind": "stop", "mode": "", "head": "8 Los Diamantes", "line": "점심: Los Diamantes — 음료마다 타파스 무료, 튀긴 생선·새우", "note": "", "dur": "50분", "fare": "€15–25", "eur": 15.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Calle%20Navas%2028%2C%20Granada", "mapLabel": "위치 ↗", "link": "https://andalucia.com/cities/granada/tapas.htm"}, {"time": "13:01", "kind": "move", "mode": "walk", "head": "8 Los Diamantes → 1 Casa del Capitel Nazarí", "line": "", "note": "", "dur": "도보 8분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.17420,-3.59850&destination=37.17810,-3.59550&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "13:09", "kind": "stop", "mode": "", "head": "1 Casa del Capitel Nazarí", "line": "짐 찾기", "note": "", "dur": "15분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Cuesta%20Aceituneros%206%2C%20Granada", "mapLabel": "위치 ↗", "link": ""}, {"time": "13:24", "kind": "move", "mode": "walk", "head": "1 Casa del Capitel Nazarí → 9 누에바 광장", "line": "", "note": "", "dur": "도보 3분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.17810,-3.59550&destination=37.17730,-3.59700&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "13:27", "kind": "move", "mode": "taxi", "head": "9 누에바 광장 → 10 파라도르 데 그라나다", "line": "누에바 광장 택시 승강장 → Parador", "note": "알함브라 차단기에서 예약 확인증 보여주면 통과", "dur": "택시 10분", "fare": "€7 (차량당, 토요일 요금)", "eur": 7.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.17730,-3.59700&destination=37.17600,-3.58700&travelmode=driving", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "13:37", "kind": "stop", "mode": "", "head": "10 파라도르 데 그라나다", "line": "파라도르 체크인 · 관람객 빠진 성벽 안 산책 · 정원", "note": "15세기 수도원 개조, 객실 40개", "dur": "300분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Parador%20de%20Granada", "mapLabel": "위치 ↗", "link": ""}, {"time": "18:37", "kind": "move", "mode": "walk", "head": "10 파라도르 데 그라나다 → 7 버스 정류장 Palacio de Carlos V", "line": "", "note": "", "dur": "도보 3분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.17600,-3.58700&destination=37.17660,-3.58820&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "18:40", "kind": "move", "mode": "bus", "head": "7 버스 정류장 Palacio de Carlos V → 2 이사벨 라 카톨리카 광장 (C30 정류장)", "line": "C30번 센트로 방면 · Palacio de Carlos V → Plaza Isabel la Católica", "note": "", "dur": "버스 11분", "fare": "€1.60 기사에게 현금·카드 (60분 내 환승 무료)", "eur": 1.6, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.17660,-3.58820&destination=37.17570,-3.59850&travelmode=transit", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "18:51", "kind": "move", "mode": "walk", "head": "2 이사벨 라 카톨리카 광장 (C30 정류장) → 9 누에바 광장", "line": "", "note": "", "dur": "도보 2분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.17570,-3.59850&destination=37.17730,-3.59700&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "18:53", "kind": "stop", "mode": "", "head": "9 누에바 광장", "line": "저녁: 누에바 광장 주변 타파스 바 (음료 시키면 타파스 무료)", "note": "", "dur": "80분", "fare": "€15–25", "eur": 15.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Plaza%20Nueva%2C%20Granada", "mapLabel": "위치 ↗", "link": ""}, {"time": "20:13", "kind": "move", "mode": "bus", "head": "9 누에바 광장 → 11 Venta El Gallo (사크로몬테 동굴 플라멩코)", "line": "C34번 사크로몬테 방면 · Plaza Nueva → Camino del Sacromonte (Barranco de los Negros 근처, 정류장명 미확인) + 오르막 5분", "note": "15~20분 간격. 택시 €10", "dur": "버스 15분", "fare": "€1.60 기사에게 현금·카드 (60분 내 환승 무료)", "eur": 1.6, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.17730,-3.59700&destination=37.18160,-3.58500&travelmode=transit", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "21:00", "kind": "stop", "mode": "", "head": "11 Venta El Gallo (사크로몬테 동굴 플라멩코)", "line": "사크로몬테 동굴 플라멩코 Venta El Gallo 21:15 공연", "note": "", "dur": "대기 32분 → 75분", "fare": "€25 (공연만)", "eur": 25.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Barranco%20de%20los%20Negros%205%2C%20Granada", "mapLabel": "위치 ↗", "link": "https://www.granadadirect.com/ocio/flamenco-granada/"}, {"time": "22:15", "kind": "move", "mode": "taxi", "head": "11 Venta El Gallo (사크로몬테 동굴 플라멩코) → 10 파라도르 데 그라나다", "line": "식당에서 택시 불러 줌", "note": "C34 심야 운행 미확인이라 택시. 파라도르 투숙객 차량 통과", "dur": "택시 12분", "fare": "€10 (차량당, 야간 요금)", "eur": 10.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=37.18160,-3.58500&destination=37.17600,-3.58700&travelmode=driving", "mapLabel": "경로 지도 ↗", "link": ""}], "maps": [{"src": "/_blob/78e2279e948f5df98c3dc15af418c1a1", "alt": "그라나다 이동 경로 지도", "caption": "지도 1 · 1 Casa del Capitel Nazarí → 2 이사벨 라 카톨리카 광장 (C30 정류장) → 3 알함브라 매표소 (Generalife 정류장) → 4 알카사바 → 5 나스르 궁전 → 6 카를로스 5세 궁전 → 7 버스 정류장 Palacio de Carlos V → 8 Los Diamantes → 9 누에바 광장 → 10 파라도르 데 그라나다 → 11 Venta El Gallo (사크로몬테 동굴 플라멩코)", "file": "maps/c3_d07_s1.jpg"}], "photo": {"src": "/_blob/9f52bd2c3ba116e87cc3bba5c11283a7", "alt": "알함브라 사자의 정원", "credit": "사진: 알함브라 사자의 정원 · Jebulon · CC0", "page": "https://commons.wikimedia.org/wiki/File:Fountain_patio_de_los_Leones_Alhambra_Granada_Spain.jpg", "file": "photos/leones.jpg"}, "wake": "06:30", "sleepAt": "Casa del Capitel Nazarí (3성) 객실 (어젯밤 숙소)", "bfA": "호텔 조식 — 공식 사이트로 예약하면 포함", "bfB": "Café Fútbol (Plaza Mariana Pineda 6, 추로스 명가) 약 €4–6", "startNote": "짐 챙겨 호텔 로비에서 나가기", "sleepName": "Parador de Granada", "sleepUrl": "https://www.kayak.com/Granada-Hotels-Parador-de-Granada.75190.ksp", "sleepPrice": "€350–420 (2인 1실, 카약 검색가)"}];
+    var badge = { walk: ['도보', '#1E56A0'], metro: ['메트로', '#B8432A'], train: ['열차', '#B8432A'], rack: ['산악열차', '#B8432A'], funicular: ['푸니쿨라', '#B8432A'], bus: ['버스', '#2F7A57'], tram: ['트램', '#2F7A57'], taxi: ['택시', '#7A5C99'], plane: ['비행기', '#7A5C99'], stop: ['장소', '#1C2230'] };
+    var days = raw.map(function (d) {
+      var cost = 0;
+      var items = d.items.map(function (it) {
+        var b = badge[it.kind === 'stop' ? 'stop' : it.mode] || ['이동', '#555'];
+        cost += it.eur || 0;
+        var fare = self.splitFare(it.fare || '');
+        return {
+          time: it.time, badge: b[0], badgeColor: b[1],
+          head: it.head, line: self.won(it.line), note: self.won(it.note),
+          dur: it.dur, fareMain: fare.main, fareLines: fare.lines, fareNote: fare.note,
+          mapUrl: it.mapUrl, mapLabel: it.mapLabel, link: it.link || ''
+        };
+      });
+      return {
+        n: d.n, date: d.date, dow: d.dow, city: d.city, title: d.title, note: d.note || '',
+        wake: d.wake, sleepAt: d.sleepAt, bfA: self.won(d.bfA), bfB: self.won(d.bfB), start: d.start, startNote: d.startNote,
+        sleepName: d.sleepName || '', sleepUrl: d.sleepUrl || '', sleepPrice: self.won(d.sleepPrice || ''),
+        photo: d.photo, maps: d.maps, items: items, end: d.end,
+        dayCost: self.won('€' + Math.round(cost))
+      };
+    });
+    return { accent: this.props.accent ?? '#B8432A', days: days };
+  }
+
+  // 요금 문구를 '굵은 합계 한 줄 + 항목별 한 줄씩 + 회색 설명'으로 나눈다
+  splitFare(text) {
+    var self = this;
+    var money = /(€|\$)\s?(\d+(?:\.\d+)?)(?:\s?[–~-]\s?(?:€|\$)?(\d+(?:\.\d+)?))?/;
+    if (!text) return { main: '', lines: [], note: '' };
+    // "A + B + C" 꼴: 항목별로 줄을 나누고 맨 위에 합계를 쓴다
+    if (text.indexOf(' + ') > 0) {
+      var parts = text.split(' + ');
+      var low = 0, high = 0, unknown = false;
+      parts.forEach(function (p) {
+        var m = money.exec(p);
+        if (!m) { unknown = true; return; }
+        var rate = m[1] === '€' ? 1500 : 1330;
+        low += parseFloat(m[2]) * rate;
+        high += (m[3] ? parseFloat(m[3]) : parseFloat(m[2])) * rate;
+      });
+      var total = self.won('€' + (low / 1500) + (high > low ? '–' + (high / 1500) : ''));
+      return { main: '합계 약 ' + total + (unknown ? ' +α' : ''), lines: parts.map(function (p) { return { t: self.won(p) }; }), note: '' };
+    }
+    // "편도 €7.45 · 왕복 €12.85 (설명)" 꼴: 항목별 줄, 괄호 설명은 회색으로
+    var note = '';
+    var paren = /\s*\(([^)]*)\)\s*$/.exec(text);
+    if (paren && !money.test(paren[1])) { note = paren[1]; text = text.slice(0, paren.index); }
+    if (text.indexOf(' · ') > 0) {
+      return { main: '', lines: text.split(' · ').map(function (p) { return { t: self.won(p) }; }), note: note };
+    }
+    // 금액 하나짜리: 금액을 굵게, 나머지 말은 설명으로
+    var m = money.exec(text);
+    if (!m) return text.length <= 8 ? { main: text, lines: [], note: note } : { main: '', lines: [{ t: text }], note: note };
+    var rest = (text.slice(0, m.index) + text.slice(m.index + m[0].length)).replace(/\(\s*\)/g, '').trim();
+    return { main: self.won(m[0]), lines: [], note: [rest, note].filter(Boolean).join(' · ') };
+  }
+
+  // 유로·달러 금액을 원화로 바꿔 쓴다 (1유로 = 1,500원, 1달러 = 1,330원)
+  won(text) {
+    if (!text) return text || '';
+    var fmt = function (v) {
+      var step = v >= 100000 ? 1000 : (v >= 10000 ? 100 : 10);
+      return (Math.round(v / step) * step).toLocaleString('ko-KR');
+    };
+    var range = function (rate) {
+      return function (m, a, b) {
+        var low = parseFloat(a) * rate;
+        return b ? fmt(low) + '–' + fmt(parseFloat(b) * rate) + '원' : fmt(low) + '원';
+      };
+    };
+    return text
+      .replace(/€\s?(\d+(?:\.\d+)?)(?:\s?[–~-]\s?€?(\d+(?:\.\d+)?))?/g, range(1500))
+      .replace(/\$(\d+(?:\.\d+)?)(?:\s?[–~-]\s?\$?(\d+(?:\.\d+)?))?/g, range(1330));
+  }
+}
+</script>
+</body>
+</html>

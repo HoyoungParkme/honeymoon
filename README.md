@@ -1,0 +1,101 @@
+# 스페인 신혼여행 2027.05.09–05.18 · 작업 패키지
+
+캔버스 아티팩트: https://claude.ai/artifact/GKtdAUkPMTJAEwkoy9ye1t
+계획 문서(Claude Doc): https://claude.ai/artifact/BnHjHEmNBqwBe5xmc9ozpY
+
+## 웹앱 실행
+
+이 폴더(README가 있는 곳)에서 아래를 실행하고, 브라우저로 http://localhost:8765/web/ 을 연다.
+
+```bash
+python -m http.server 8765
+```
+
+- 파일을 더블클릭해서 열면(`file://`) 브라우저가 JSON 읽기를 막는다. 꼭 위처럼 로컬 서버로 연다.
+- 주소 끝 `#c2-d5` = 코스 2의 5일차. 키보드 ← → 로 날짜를 넘긴다.
+- 일정 행을 누르면 지도에서 그 장소(출발·도착)를 강조하고, 지도 마커를 누르면 해당 행으로 간다.
+- 하루에 지도 구간이 여러 개면(기차로 도시 이동) 지도 위 탭으로 바꾼다. 행을 누르면 자동으로 바뀐다.
+
+```mermaid
+flowchart LR
+  C[data/courses.json<br>일정 행] --> A[web/app.js]
+  I[data/index.json<br>구간·마커 번호] --> A
+  K[data/coords.json<br>위경도] --> A
+  R[data/routes.json<br>도보 경로] --> A
+  A --> T[코스 탭 → 날짜 탭 → 타임라인]
+  A --> M[Leaflet 지도<br>OpenStreetMap 타일]
+```
+
+| 파일 | 하는 일 |
+|---|---|
+| `web/index.html` | 화면 뼈대 (코스·날짜 탭, 일정 칸, 지도 칸) |
+| `web/app.js` | 데이터 4개를 읽어 화면을 그림. 원화 환산 `won()`·요금 분해 `splitFare()`는 보드 템플릿과 같은 규칙 |
+| `web/style.css` | 보드와 같은 색. 폭 1000px 미만(폰)은 지도를 위에 고정하고 일정만 스크롤. 다크 모드 지원 |
+| `web/tiles/` | 아티팩트용 내장 지도 타일 (JPEG 묶음 17장 + `atlas.json`). 아티팩트는 외부 지도 서버를 못 불러서 미리 받아 둔다 |
+
+**아티팩트로 발행한 것:** https://claude.ai/artifact/9r8LCZsxDFabCCSZkg2iFG (링크만으로 작동, 비공개). 로컬에서 `?atlas` 를 붙이면 내장 타일로 똑같이 확인할 수 있다.
+
+일정(장소·경로)이 바뀌어 지도 범위가 달라지면 타일을 다시 만든다:
+
+```bash
+python -I tools/fetch_tiles.py tools/tiles.json <타일_저장_폴더>
+```
+
+```bash
+python -I tools/build_atlas.py <타일_저장_폴더> web
+```
+
+`tools/tiles.json`(받을 타일 목록, 줌 12–16)은 `data/index.json`·`coords.json`·`routes.json`에서 계산한 것이라 장소가 바뀌면 다시 계산해야 한다.
+
+## 폴더 구성
+
+| 폴더 | 내용 |
+|---|---|
+| `web/` | 웹앱 (위 "웹앱 실행" 참고) |
+| `artifact/project/` | 캔버스 보드 원본 19장 (`Main`, `Transit`, `C{코스}P{페이지}.dc.html`) + `canvas.json` 배치 |
+| `data/courses.json` | **웹개발용 단일 JSON.** 코스 3개 × 10일, 행마다 시각·교통편·노선·요금(유로 원문)·구글지도 링크·출처 링크. `maps[].file`, `photo.file`이 zip 안 이미지 경로 |
+| `data/coords.json` | 장소 107곳 위경도 (Nominatim 지오코딩) |
+| `data/routes.json` | 도보 구간 실제 경로 폴리라인 캐시 (OSRM foot) |
+| `data/index.json` | 지도 파일 ↔ 코스/일차/구간/마커 번호 대응표 |
+| `maps/` | 일차별 경로 지도 52장 (JPG, 1200×640, OpenStreetMap 타일) |
+| `photos/` | 랜드마크 사진 17장 (Wikimedia Commons, 저작자는 `credits.json`) |
+| `tools/itinerary.py` | **원본 데이터.** 날짜별 `mv()`(이동)/`st()`(체류) 목록, 시각은 `add_times()`가 순서대로 계산 |
+| `tools/places.py` | 장소 키 → 한글명·주소 |
+| `tools/build_boards.py` | itinerary → 보드 HTML 생성 (Playwright로 높이 측정 후 8000px 단위로 분할) |
+| `tools/board_template.dc.html` | 보드 템플릿 (원화 변환 `won()`, 요금 분해 `splitFare()` 포함) |
+| `tools/render_maps.py` | Leaflet + Playwright로 지도 PNG 렌더 |
+
+## 결정 사항
+
+- 목적지 스페인. 마드리드 IN · 바르셀로나 OUT(코스 1·2) / 마드리드 IN·OUT(코스 3). 관광 빡세게, 4성 위주 + 특별한 밤 1–2번.
+- 총예산 1,000만 원(항공 포함, 2인). 세 코스 모두 그 아래로 설계.
+  - 코스 1 스페인 일주 (경유 항공, 카타르항공) — 4성 숙소 + 그라나다 하맘
+  - 코스 2 스페인 일주 (직항, 가성비 3성 섞음)
+  - 코스 3 안달루시아 + 세고비아 (직항, 파라도르 1박)
+- 표기: 전부 원화 (1€=1,500원, $1=1,330원 고정 환율), 1인 기준. 숙소는 2인 1실 카약 검색가.
+- 보드 형식: 날마다 기상 시각 → 아침 A(호텔 조식)/B(동네 카페) → 출발 → 지도 이미지(마커 번호 = 표 번호) → 시각별 행(교통편·노선·방면·승하차역·소요·요금·구글지도 길찾기·예매 링크) → 하루 비용 합계.
+- 요금 칸: "합계 굵게 + 항목별 한 줄 + 회색 설명" 구조.
+- 교통카드: 마드리드 Multi 카드 + 10회권, 바르셀로나 T-casual, 그라나다 버스 현금/카드, 세비야 도보 위주.
+
+## 미확인 항목 검증 결과 (2026-11-03 조사)
+
+보드·`tools/itinerary.py`에는 아직 반영 안 됨. "보드 값" → "확인 값"으로 고쳐야 한다.
+
+| 항목 | 보드 값 | 확인 값 | 출처 | 반영 |
+|---|---|---|---|---|
+| 대한항공 마드리드 도착 터미널 | T1 또는 T4 | **T1** (아시아나는 Aena 목록에 없음 → 항공권으로 확인) | aena.es 항공사 목록 | 코스 2·3 1일차, 코스 3 10일차 |
+| Sol↔Atocha 세르카니아스 무료 | 미확인 €1.70 | **AVE·Alvia·Euromed·Intercity 표만 무료**(출발 4시간 전~도착 4시간 후). **Avant(톨레도·세고비아)는 해당 없음** → 톨레도·세고비아 날은 €1.70 그대로, 코르도바 AVE 날(4일차)과 그라나다→마드리드 AVE 날(코스 3 8일차)은 €0 | renfe.com 조건(normativa) | 코스 2·3 3·4·8·9일차 |
+| 톨레도 시내버스 | 약 €1.50 | **€1.40** (2026.3 개편은 정기권·거주자 할인만 변경, 1회권 동일) | unauto.es/tarifas | 3일차 |
+| 세고비아 11번 버스 | €2.00 | **€2.25** (AVE역 연결 11·12번 전용 요금. 일반 노선은 €1.15) | segovia.es 교통 안내 | 코스 3 9일차 |
+| 그라나다 고속철(AVE) 운행 | 재개 여부 미확인 | **2026-02-17 재개** (Adamuz 사고로 1월 중단 → 복구). 마드리드–그라나다 정상 운행 | RTVE 2026-02-16, Renfe 공지 | 코스 3 8일차 (변경 없음) |
+| 바르셀로나 24번 버스 정류장 | 이름 미확인 | **"Ctra. del Carmel – Albert Llanas"** (TMB 정류장명 그대로). 바로 앞 정류장은 "C N Catalunya – Park Güell" | TMB·Transit 노선표 | 코스 1·2 8일차 (이름만 확정) |
+| 부엘링 GRX→BCN | 16:30경, 수하물 미확인 | 하루 평균 4편(09:05~22:55 사이), 5월 초 편도 **€41부터**. 위탁수하물 25kg **웹 €18–99**(공항 €50–160), Optima 요금엔 포함 | vueling.com, flightconnections | 코스 1·2 7일차 |
+| 알함브라 나스르 궁전 예매 | 3개월 전 오픈 | 공식: 전날 23:59까지 온라인 예매, 1인·카드당 월 10장 한도, **표에 찍힌 시각에만 입장**. 일반권 **€22.27** + 수수료. 판매 개시 시점은 공식 페이지에 없음 → 2027.5 날짜가 열리는지 tickets.alhambra-patronato.es 에서 수시 확인 | alhambra-patronato.es | 코스 1·2·3 7일차 (요금 확인) |
+| 호텔 조식 | €12–20 추정 | 공식 사이트엔 요금 미게시(예약 시 옵션). 확인된 것: Regente **€11.95**, Porcel Alixares **약 €16**, Casa del Capitel Nazarí는 **공식 사이트 예약 시 포함**. 나머지(Room Mate Alba, Las Casas de la Judería, Rey Alfonso X, Catalonia Catedral, Lleó, Parador)는 유료 옵션, 금액은 예약 화면에서 확인 | 각 호텔 공식 사이트 | 조식 A 문구 |
+
+## 남은 할 일
+
+1. ~~웹앱 개발~~ → 완료 (2026-11-03, `web/`). 남은 것: `photos/cibeles.jpg` 누락(해당 날은 사진 없이 표시).
+2. ~~캔버스 보드 실제 렌더링 눈으로 확인~~ → 완료 (2026-11-03, Chrome에서 19장 전부 확인). 지도 52장·사진 13장 모두 표시, 잘린 보드 없음.
+3. ~~미확인 항목 검증~~ → 완료 (위 표). 남은 것: 확인 값을 `tools/itinerary.py`에 반영 → `build_boards.py` 재실행 → 아티팩트 재발행.
+4. 항공권·숙소 실제 예약 시점 가격으로 Main 보드 예산표 갱신.

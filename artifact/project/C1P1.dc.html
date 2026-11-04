@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>코스 1 · 1~2일차</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#1E56A0}a:hover{color:#163F75}
+</style>
+</helmet>
+<div style="width: 1280px; height: 4963px; box-sizing: border-box; padding: 56px; background: #F7F4EE; color: #1C2230; font-family: 'Noto Sans KR', sans-serif; display: flex; flex-direction: column; gap: 28px;">
+
+  <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 24px;">
+    <div style="display: flex; flex-direction: column; gap: 8px;">
+      <span style="align-self: flex-start; font-size: 13px; font-weight: 700; color: #FFFFFF; background: {{accent}}; border-radius: 999px; padding: 5px 12px;">코스 1 · 스페인 일주 (경유) · DAY 1–2</span>
+      <h1 style="margin: 0; font-size: 36px; font-weight: 900; line-height: 1.2;">코스 1 · 1~2일차</h1>
+    </div>
+    <div style="font-size: 13px; color: #4A5160; line-height: 1.6; text-align: right; flex-shrink: 0;">금액은 1인 기준 원화 환산 (1유로 = 1,500원, 1달러 = 1,330원)<br>'지도 ↗'는 구글 지도 길찾기, 지도 위 번호는 표의 번호와 같아<br>요금·시간은 2026년 11월 기준, 미확인 표시는 꼭 다시 확인</div>
+  </div>
+
+  <sc-for list="{{days}}" as="d" hint-placeholder-count="3">
+    <div style="background: #FFFFFF; border: 1px solid #E3DDD2; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 18px;">
+
+      <div style="display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 24px; align-items: stretch;">
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="display: flex; align-items: baseline; gap: 14px;">
+            <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.06em; color: {{accent}};">DAY {{d.n}}</span>
+            <span style="font-size: 30px; font-weight: 900;">{{d.date}} ({{d.dow}})</span>
+            <span style="font-size: 14px; font-weight: 700; color: #FFFFFF; background: {{accent}}; border-radius: 999px; padding: 4px 12px;">{{d.city}}</span>
+          </div>
+          <div style="font-size: 22px; font-weight: 900; line-height: 1.3;">{{d.title}}</div>
+          <sc-if value="{{d.note}}" hint-placeholder-val="{{ false }}"><div style="font-size: 13px; line-height: 1.55; color: #9C3A22; background: #FBF0EA; border-radius: 10px; padding: 10px 14px;">{{d.note}}</div></sc-if>
+          <div style="display: grid; grid-template-columns: 90px minmax(0, 1fr); gap: 6px 14px; font-size: 14px; line-height: 1.55; background: #F3EFE7; border-radius: 12px; padding: 14px 16px;">
+            <span style="font-weight: 700; color: {{accent}};">{{d.wake}} 기상</span><span>{{d.sleepAt}}</span>
+            <span style="font-weight: 700; color: {{accent}};">아침 A</span><span>{{d.bfA}}</span>
+            <span style="font-weight: 700; color: {{accent}};">아침 B</span><span>{{d.bfB}}</span>
+            <span style="font-weight: 700; color: {{accent}};">{{d.start}} 출발</span><span>{{d.startNote}}</span>
+          </div>
+          <sc-if value="{{d.sleepName}}" hint-placeholder-val="{{ true }}">
+            <div style="font-size: 14px; line-height: 1.55;"><span style="font-weight: 700; color: {{accent}};">오늘 숙소</span> {{d.sleepName}} · 1박 {{d.sleepPrice}} <a href="{{d.sleepUrl}}" style="font-weight: 700; text-decoration: underline;">요금 보기 ↗</a></div>
+          </sc-if>
+        </div>
+        <figure style="margin: 0; display: flex; flex-direction: column; gap: 4px;">
+          <img src="{{d.photo.src}}" alt="{{d.photo.alt}}" style="width: 260px; height: 190px; object-fit: cover; border-radius: 12px; display: block; background: #E3DDD2;">
+          <a href="{{d.photo.page}}" style="font-size: 10px; color: #5B6270; text-decoration: none; line-height: 1.4;">{{d.photo.credit}}</a>
+        </figure>
+      </div>
+
+      <sc-for list="{{d.maps}}" as="mp" hint-placeholder-count="1">
+        <figure style="margin: 0; display: flex; flex-direction: column; gap: 6px;">
+          <img src="{{mp.src}}" alt="{{mp.alt}}" style="width: 100%; height: 620px; object-fit: cover; border-radius: 12px; display: block; border: 1px solid #E3DDD2; background: #E3DDD2;">
+          <span style="font-size: 12px; color: #5B6270; line-height: 1.5;">{{mp.caption}} · 지도 © OpenStreetMap 기여자</span>
+        </figure>
+      </sc-for>
+
+      <div style="display: flex; flex-direction: column;">
+        <sc-for list="{{d.items}}" as="it" hint-placeholder-count="8">
+          <div style="display: grid; grid-template-columns: 54px 66px minmax(0, 1fr) 190px 100px; gap: 12px; padding: 10px 0; border-bottom: 1px dashed #EAE4DA; align-items: start; font-size: 14px; line-height: 1.5;">
+            <span style="font-weight: 700; color: {{accent}}; font-variant-numeric: tabular-nums;">{{it.time}}</span>
+            <span style="font-size: 12px; font-weight: 700; color: #FFFFFF; background: {{it.badgeColor}}; border-radius: 6px; padding: 3px 0; text-align: center;">{{it.badge}}</span>
+            <div style="display: flex; flex-direction: column; gap: 2px; min-width: 0;">
+              <span style="font-weight: 700;">{{it.head}}</span>
+              <sc-if value="{{it.line}}" hint-placeholder-val="{{ false }}"><span>{{it.line}}</span></sc-if>
+              <sc-if value="{{it.note}}" hint-placeholder-val="{{ false }}"><span style="font-size: 13px; color: #5B6270;">{{it.note}}</span></sc-if>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 2px; text-align: right;">
+              <span style="font-weight: 700;">{{it.dur}}</span>
+              <sc-if value="{{it.fareMain}}" hint-placeholder-val="{{ true }}"><span style="font-size: 15px; font-weight: 700; color: #8A5300; white-space: nowrap;">{{it.fareMain}}</span></sc-if>
+              <sc-for list="{{it.fareLines}}" as="fl" hint-placeholder-count="0">
+                <span style="font-size: 12px; font-weight: 500; color: #8A5300; white-space: nowrap; line-height: 1.4;">{{fl.t}}</span>
+              </sc-for>
+              <sc-if value="{{it.fareNote}}" hint-placeholder-val="{{ false }}"><span style="font-size: 12px; color: #5B6270; line-height: 1.4;">{{it.fareNote}}</span></sc-if>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 4px; text-align: right;">
+              <a href="{{it.mapUrl}}" style="font-size: 13px; font-weight: 700; text-decoration: underline;">{{it.mapLabel}}</a>
+              <sc-if value="{{it.link}}" hint-placeholder-val="{{ false }}"><a href="{{it.link}}" style="font-size: 13px; font-weight: 700; color: #8A5300; text-decoration: underline;">출처·예매 ↗</a></sc-if>
+            </div>
+          </div>
+        </sc-for>
+      </div>
+      <div style="font-size: 13px; color: #4A5160;">일정 끝 {{d.end}} · 오늘 이동·입장 비용 1인 약 {{d.dayCost}} (식비 별도)</div>
+    </div>
+  </sc-for>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#1E56A0","options":["#1E56A0","#2F7A57","#B8432A"]},"$preview":{"width":1280,"height":4963}}'>
+class Component extends DCLogic {
+  renderVals() {
+    var self = this;
+    var raw = [{"n": 1, "date": "5/9", "dow": "일", "city": "마드리드", "title": "경유 끝, 마드리드 첫 저녁", "note": "", "start": "14:15", "end": "20:40", "items": [{"time": "14:15", "kind": "stop", "mode": "", "head": "1 마드리드 바라하스 공항 T4", "line": "카타르항공 도착 (14:15). 입국심사 EES 얼굴·지문 등록 → 수하물", "note": "", "dur": "60분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Terminal%204%2C%20Aeropuerto%20Adolfo%20Su%C3%A1rez%20Madrid-Barajas", "mapLabel": "위치 ↗", "link": ""}, {"time": "15:15", "kind": "stop", "mode": "", "head": "1 마드리드 바라하스 공항 T4", "line": "메트로 8호선 매표기: Multi 카드 €2.50 + 1회권 + '공항 할증' 구매 (1인 1장)", "note": "", "dur": "10분", "fare": "Multi 카드 €2.50 + 1회권 €1.50~2 + 공항 할증 €3", "eur": 7.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Terminal%204%2C%20Aeropuerto%20Adolfo%20Su%C3%A1rez%20Madrid-Barajas", "mapLabel": "위치 ↗", "link": "https://crtm.es/billetes-transporte-publico-aeropuerto-madrid"}, {"time": "15:25", "kind": "move", "mode": "metro", "head": "1 마드리드 바라하스 공항 T4 → 2 누에보스 미니스테리오스역", "line": "8호선 Nuevos Ministerios 방면 · Aeropuerto T4 → Nuevos Ministerios (종점)", "note": "", "dur": "메트로 20분", "fare": "위 1회권", "eur": 0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.49250,-3.59340&destination=40.44620,-3.69220&travelmode=transit", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "15:45", "kind": "move", "mode": "metro", "head": "2 누에보스 미니스테리오스역 → 3 트리부날역", "line": "10호선 Puerta del Sur 방면 · Nuevos Ministerios → Tribunal (3정거장)", "note": "", "dur": "메트로 8분", "fare": "환승 무료", "eur": 0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.44620,-3.69220&destination=40.42620,-3.70100&travelmode=transit", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "15:53", "kind": "move", "mode": "metro", "head": "3 트리부날역 → 4 안톤 마르틴역", "line": "1호선 Valdecarros 방면 · Tribunal → Antón Martín (4정거장)", "note": "짐이 무거우면 택시 €33 정액(25~40분)", "dur": "메트로 9분", "fare": "환승 무료", "eur": 0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.42620,-3.70100&destination=40.41210,-3.69900&travelmode=transit", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "16:02", "kind": "move", "mode": "walk", "head": "4 안톤 마르틴역 → 5 Room Mate Alba 호텔", "line": "", "note": "아토차 거리 → 우에르타스 거리", "dur": "도보 4분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.41210,-3.69900&destination=40.41375,-3.70032&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "16:06", "kind": "stop", "mode": "", "head": "5 Room Mate Alba 호텔", "line": "체크인 · 샤워 · 휴식", "note": "", "dur": "150분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Calle%20de%20las%20Huertas%2016%2C%20Madrid", "mapLabel": "위치 ↗", "link": ""}, {"time": "18:36", "kind": "move", "mode": "walk", "head": "5 Room Mate Alba 호텔 → 6 솔역 (Puerta del Sol)", "line": "", "note": "", "dur": "도보 6분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.41375,-3.70032&destination=40.41690,-3.70350&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "18:42", "kind": "stop", "mode": "", "head": "6 솔역 (Puerta del Sol)", "line": "솔 광장 (0km 표지, 곰 동상)", "note": "", "dur": "20분", "fare": "무료", "eur": 0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Puerta%20del%20Sol%2C%20Madrid", "mapLabel": "위치 ↗", "link": ""}, {"time": "19:02", "kind": "move", "mode": "walk", "head": "6 솔역 (Puerta del Sol) → 7 마요르 광장", "line": "", "note": "마요르 거리", "dur": "도보 5분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.41690,-3.70350&destination=40.41539,-3.70700&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "19:07", "kind": "stop", "mode": "", "head": "7 마요르 광장", "line": "마요르 광장 저녁 산책", "note": "", "dur": "30분", "fare": "무료", "eur": 0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Plaza%20Mayor%2C%20Madrid", "mapLabel": "위치 ↗", "link": ""}, {"time": "19:37", "kind": "move", "mode": "walk", "head": "7 마요르 광장 → 8 Casa Labra", "line": "", "note": "포스타스 거리 → 솔 북쪽 테투안 거리", "dur": "도보 5분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.41539,-3.70700&destination=40.41716,-3.70461&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "19:42", "kind": "stop", "mode": "", "head": "8 Casa Labra", "line": "첫 저녁: Casa Labra (1860년) — 대구 튀김, 크로케타. 22:30까지", "note": "", "dur": "50분", "fare": "€15–25", "eur": 15.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Calle%20de%20Tetu%C3%A1n%2012%2C%20Madrid", "mapLabel": "위치 ↗", "link": "https://www.timeout.es/madrid/es/bares-y-pubs/casa-labra"}, {"time": "20:32", "kind": "move", "mode": "walk", "head": "8 Casa Labra → 5 Room Mate Alba 호텔", "line": "", "note": "", "dur": "도보 8분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.41716,-3.70461&destination=40.41375,-3.70032&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}], "maps": [{"src": "/_blob/53ef90dd44b46609c046584c39cdb3e6", "alt": "마드리드 이동 경로 지도", "caption": "지도 1 · 1 마드리드 바라하스 공항 T4 → 2 누에보스 미니스테리오스역 → 3 트리부날역 → 4 안톤 마르틴역 → 5 Room Mate Alba 호텔 → 6 솔역 (Puerta del Sol) → 7 마요르 광장 → 8 Casa Labra", "file": "maps/c1_d01_s1.jpg"}], "photo": {"src": "/_blob/897c60d4d3341791280c51e211735df7", "alt": "마드리드 마요르 광장", "credit": "사진: 마드리드 마요르 광장 · Carlos Delgado · CC BY-SA 3.0", "page": "https://commons.wikimedia.org/wiki/File:Plaza_Mayor_de_Madrid_-_01.jpg", "file": "photos/plaza_mayor.jpg"}, "wake": "기내", "sleepAt": "전날 인천 출발, 비행기 안에서 아침", "bfA": "기내식", "bfB": "공항 도착층 카페 (커피+빵 약 €5)", "startNote": "마드리드 공항 도착 시각부터 시작", "sleepName": "Room Mate Alba (4성)", "sleepUrl": "https://www.kayak.com/Madrid-Hotels-Room-Mate-Alba.4990223.ksp", "sleepPrice": "€195–270 (2인 1실, 카약 검색가)"}, {"n": 2, "date": "5/10", "dow": "월", "city": "마드리드", "title": "왕궁에서 프라도까지", "note": "", "start": "08:45", "end": "22:57", "items": [{"time": "08:45", "kind": "move", "mode": "walk", "head": "1 Room Mate Alba 호텔 → 2 마드리드 왕궁", "line": "", "note": "솔 광장 → 마요르 거리 → 바일렌 거리. 메트로 환승이 더 오래 걸려", "dur": "도보 21분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.41375,-3.70032&destination=40.41800,-3.71430&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "09:30", "kind": "stop", "mode": "", "head": "2 마드리드 왕궁", "line": "마드리드 왕궁 관람 (09:30 입장 슬롯)", "note": "15분 단위 시간 지정, 큰 가방 자제", "dur": "대기 24분 → 120분", "fare": "€18.77", "eur": 18.77, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Palacio%20Real%20de%20Madrid", "mapLabel": "위치 ↗", "link": "https://tickets.patrimonionacional.es/en/tickets/palacio-real-de-madrid"}, {"time": "11:30", "kind": "move", "mode": "walk", "head": "2 마드리드 왕궁 → 3 알무데나 대성당", "line": "", "note": "아르메리아 광장 건너편", "dur": "도보 2분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.41800,-3.71430&destination=40.41590,-3.71460&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "11:32", "kind": "stop", "mode": "", "head": "3 알무데나 대성당", "line": "알무데나 대성당 외관·내부", "note": "", "dur": "30분", "fare": "무료", "eur": 0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Catedral%20de%20la%20Almudena%2C%20Madrid", "mapLabel": "위치 ↗", "link": ""}, {"time": "12:02", "kind": "move", "mode": "walk", "head": "3 알무데나 대성당 → 4 사바티니 정원", "line": "", "note": "바일렌 거리 따라 북쪽", "dur": "도보 8분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.41590,-3.71460&destination=40.42030,-3.71370&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "12:10", "kind": "stop", "mode": "", "head": "4 사바티니 정원", "line": "사바티니 정원에서 왕궁 북쪽 면 보기", "note": "", "dur": "20분", "fare": "무료", "eur": 0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Jardines%20de%20Sabatini%2C%20Madrid", "mapLabel": "위치 ↗", "link": ""}, {"time": "12:30", "kind": "move", "mode": "walk", "head": "4 사바티니 정원 → 5 Taberna La Bola", "line": "", "note": "", "dur": "도보 5분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.42030,-3.71370&destination=40.42000,-3.71051&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "12:35", "kind": "stop", "mode": "", "head": "5 Taberna La Bola", "line": "점심: Taberna La Bola — 항아리 코시도 (예약 권장)", "note": "", "dur": "75분", "fare": "€31–45", "eur": 31.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Calle%20de%20la%20Bola%205%2C%20Madrid", "mapLabel": "위치 ↗", "link": "https://www.esmadrid.com/en/restaurants/bola"}, {"time": "13:50", "kind": "move", "mode": "walk", "head": "5 Taberna La Bola → 6 비야 광장", "line": "", "note": "오페라 광장 → 마요르 거리 → 비야 광장", "dur": "도보 6분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.42000,-3.71051&destination=40.41530,-3.71030&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "13:56", "kind": "stop", "mode": "", "head": "6 비야 광장", "line": "비야 광장 — 15세기 옛 시청사·루하네스 탑 (여행사 시내투어 코스)", "note": "", "dur": "15분", "fare": "무료", "eur": 0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Plaza%20de%20la%20Villa%2C%20Madrid", "mapLabel": "위치 ↗", "link": ""}, {"time": "14:11", "kind": "move", "mode": "walk", "head": "6 비야 광장 → 7 산 미겔 시장", "line": "", "note": "", "dur": "도보 3분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.41530,-3.71030&destination=40.41540,-3.70900&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "14:14", "kind": "stop", "mode": "", "head": "7 산 미겔 시장", "line": "산 미겔 시장 — 1916년 철골 시장, 타파스 한두 접시 맛보기", "note": "", "dur": "35분", "fare": "€5–10", "eur": 5.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mercado%20de%20San%20Miguel%2C%20Madrid", "mapLabel": "위치 ↗", "link": "https://mercadodesanmiguel.es/en/"}, {"time": "14:49", "kind": "move", "mode": "walk", "head": "7 산 미겔 시장 → 8 마요르 광장", "line": "", "note": "쿠치예로스 아치로 올라가기", "dur": "도보 2분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.41540,-3.70900&destination=40.41539,-3.70700&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "14:51", "kind": "stop", "mode": "", "head": "8 마요르 광장", "line": "마요르 광장 한 바퀴", "note": "", "dur": "25분", "fare": "무료", "eur": 0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Plaza%20Mayor%2C%20Madrid", "mapLabel": "위치 ↗", "link": ""}, {"time": "15:16", "kind": "move", "mode": "walk", "head": "8 마요르 광장 → 9 솔역 (Puerta del Sol)", "line": "", "note": "", "dur": "도보 5분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.41539,-3.70700&destination=40.41690,-3.70350&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "15:21", "kind": "move", "mode": "metro", "head": "9 솔역 (Puerta del Sol) → 10 레티로역", "line": "2호선 Las Rosas 방면 · Sol → Retiro (3정거장)", "note": "걸으면 23분", "dur": "메트로 8분", "fare": "10회권 1회 차감 (€0.73)", "eur": 0.73, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.41690,-3.70350&destination=40.42080,-3.68790&travelmode=transit", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "15:29", "kind": "move", "mode": "walk", "head": "10 레티로역 → 11 알칼라 문 (레티로 입구)", "line": "", "note": "", "dur": "도보 2분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.42080,-3.68790&destination=40.42000,-3.68890&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "15:31", "kind": "stop", "mode": "", "head": "11 알칼라 문 (레티로 입구)", "line": "레티로 공원 산책 (알칼라 문 → 호수)", "note": "", "dur": "60분", "fare": "무료", "eur": 0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Puerta%20de%20Alcal%C3%A1%2C%20Madrid", "mapLabel": "위치 ↗", "link": ""}, {"time": "16:31", "kind": "move", "mode": "walk", "head": "11 알칼라 문 (레티로 입구) → 12 프라도 미술관 (고야 문)", "line": "", "note": "알폰소 12세 거리 따라 남쪽, 고야 문으로", "dur": "도보 13분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.42000,-3.68890&destination=40.41400,-3.69210&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "18:00", "kind": "stop", "mode": "", "head": "12 프라도 미술관 (고야 문)", "line": "프라도 미술관 (18–20시 무료 입장 시간)", "note": "월~토 18:00–20:00 무료. 줄이 길면 17:30부터 서기", "dur": "대기 76분 → 110분", "fare": "무료", "eur": 0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Museo%20del%20Prado%2C%20Madrid", "mapLabel": "위치 ↗", "link": "https://www.museodelprado.es/en/visit/opening-times-and-prices"}, {"time": "19:50", "kind": "move", "mode": "walk", "head": "12 프라도 미술관 (고야 문) → 13 시르쿨로 데 베야스 아르테스", "line": "", "note": "프라도 대로 → 알칼라 거리", "dur": "도보 10분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.41400,-3.69210&destination=40.41821,-3.69651&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "20:00", "kind": "stop", "mode": "", "head": "13 시르쿨로 데 베야스 아르테스", "line": "시르쿨로 데 베야스 아르테스 옥상 (5월 일몰 약 21:20)", "note": "", "dur": "60분", "fare": "€5.50", "eur": 5.5, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Calle%20de%20Alcal%C3%A1%2042%2C%20Madrid", "mapLabel": "위치 ↗", "link": "https://circulobellasartes.com/?p=118688"}, {"time": "21:00", "kind": "move", "mode": "walk", "head": "13 시르쿨로 데 베야스 아르테스 → 14 Sobrino de Botín", "line": "", "note": "알칼라 → 솔 → 마요르 광장 → 쿠치예로스 아치", "dur": "도보 15분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.41821,-3.69651&destination=40.41417,-3.70798&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "21:15", "kind": "stop", "mode": "", "head": "14 Sobrino de Botín", "line": "저녁: Sobrino de Botín — 새끼돼지 통구이 (예약 필수)", "note": "", "dur": "90분", "fare": "€50–65", "eur": 50.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Calle%20de%20Cuchilleros%2017%2C%20Madrid", "mapLabel": "위치 ↗", "link": "https://www.timeout.com/madrid/restaurants-and-cafes/el-sobrino-de-botin"}, {"time": "22:45", "kind": "move", "mode": "walk", "head": "14 Sobrino de Botín → 1 Room Mate Alba 호텔", "line": "", "note": "", "dur": "도보 12분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.41417,-3.70798&destination=40.41375,-3.70032&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}], "maps": [{"src": "/_blob/4911a67797905141340bf13461371c8f", "alt": "마드리드 이동 경로 지도", "caption": "지도 1 · 1 Room Mate Alba 호텔 → 2 마드리드 왕궁 → 3 알무데나 대성당 → 4 사바티니 정원 → 5 Taberna La Bola → 6 비야 광장 → 7 산 미겔 시장 → 8 마요르 광장 → 9 솔역 (Puerta del Sol) → 10 레티로역 → 11 알칼라 문 (레티로 입구) → 12 프라도 미술관 (고야 문) → 13 시르쿨로 데 베야스 아르테스 → 14 Sobrino de Botín", "file": "maps/c1_d02_s1.jpg"}], "photo": {"src": "/_blob/f91a80cf4ef03d2a4bf2b9429340fbb4", "alt": "마드리드 왕궁", "credit": "사진: 마드리드 왕궁 · Carlos Delgado · CC BY-SA 3.0", "page": "https://commons.wikimedia.org/wiki/File:Palacio_Real_de_Madrid_-_13.jpg", "file": "photos/palacio_real.jpg"}, "wake": "07:30", "sleepAt": "Room Mate Alba (4성) 객실 (어젯밤 숙소)", "bfA": "호텔 조식 — 유료 옵션, 금액은 예약 화면에서 확인 (보통 €12–20)", "bfB": "La Mallorquina (솔 광장 8번지, 1894년 제과점) 추로스·토스타다 약 €5–8", "startNote": "호텔 로비에서 나가기", "sleepName": "Room Mate Alba (4성)", "sleepUrl": "https://www.kayak.com/Madrid-Hotels-Room-Mate-Alba.4990223.ksp", "sleepPrice": "€195–270 (2인 1실, 카약 검색가)"}];
+    var badge = { walk: ['도보', '#1E56A0'], metro: ['메트로', '#B8432A'], train: ['열차', '#B8432A'], rack: ['산악열차', '#B8432A'], funicular: ['푸니쿨라', '#B8432A'], bus: ['버스', '#2F7A57'], tram: ['트램', '#2F7A57'], taxi: ['택시', '#7A5C99'], plane: ['비행기', '#7A5C99'], stop: ['장소', '#1C2230'] };
+    var days = raw.map(function (d) {
+      var cost = 0;
+      var items = d.items.map(function (it) {
+        var b = badge[it.kind === 'stop' ? 'stop' : it.mode] || ['이동', '#555'];
+        cost += it.eur || 0;
+        var fare = self.splitFare(it.fare || '');
+        return {
+          time: it.time, badge: b[0], badgeColor: b[1],
+          head: it.head, line: self.won(it.line), note: self.won(it.note),
+          dur: it.dur, fareMain: fare.main, fareLines: fare.lines, fareNote: fare.note,
+          mapUrl: it.mapUrl, mapLabel: it.mapLabel, link: it.link || ''
+        };
+      });
+      return {
+        n: d.n, date: d.date, dow: d.dow, city: d.city, title: d.title, note: d.note || '',
+        wake: d.wake, sleepAt: d.sleepAt, bfA: self.won(d.bfA), bfB: self.won(d.bfB), start: d.start, startNote: d.startNote,
+        sleepName: d.sleepName || '', sleepUrl: d.sleepUrl || '', sleepPrice: self.won(d.sleepPrice || ''),
+        photo: d.photo, maps: d.maps, items: items, end: d.end,
+        dayCost: self.won('€' + Math.round(cost))
+      };
+    });
+    return { accent: this.props.accent ?? '#1E56A0', days: days };
+  }
+
+  // 요금 문구를 '굵은 합계 한 줄 + 항목별 한 줄씩 + 회색 설명'으로 나눈다
+  splitFare(text) {
+    var self = this;
+    var money = /(€|\$)\s?(\d+(?:\.\d+)?)(?:\s?[–~-]\s?(?:€|\$)?(\d+(?:\.\d+)?))?/;
+    if (!text) return { main: '', lines: [], note: '' };
+    // "A + B + C" 꼴: 항목별로 줄을 나누고 맨 위에 합계를 쓴다
+    if (text.indexOf(' + ') > 0) {
+      var parts = text.split(' + ');
+      var low = 0, high = 0, unknown = false;
+      parts.forEach(function (p) {
+        var m = money.exec(p);
+        if (!m) { unknown = true; return; }
+        var rate = m[1] === '€' ? 1500 : 1330;
+        low += parseFloat(m[2]) * rate;
+        high += (m[3] ? parseFloat(m[3]) : parseFloat(m[2])) * rate;
+      });
+      var total = self.won('€' + (low / 1500) + (high > low ? '–' + (high / 1500) : ''));
+      return { main: '합계 약 ' + total + (unknown ? ' +α' : ''), lines: parts.map(function (p) { return { t: self.won(p) }; }), note: '' };
+    }
+    // "편도 €7.45 · 왕복 €12.85 (설명)" 꼴: 항목별 줄, 괄호 설명은 회색으로
+    var note = '';
+    var paren = /\s*\(([^)]*)\)\s*$/.exec(text);
+    if (paren && !money.test(paren[1])) { note = paren[1]; text = text.slice(0, paren.index); }
+    if (text.indexOf(' · ') > 0) {
+      return { main: '', lines: text.split(' · ').map(function (p) { return { t: self.won(p) }; }), note: note };
+    }
+    // 금액 하나짜리: 금액을 굵게, 나머지 말은 설명으로
+    var m = money.exec(text);
+    if (!m) return text.length <= 8 ? { main: text, lines: [], note: note } : { main: '', lines: [{ t: text }], note: note };
+    var rest = (text.slice(0, m.index) + text.slice(m.index + m[0].length)).replace(/\(\s*\)/g, '').trim();
+    return { main: self.won(m[0]), lines: [], note: [rest, note].filter(Boolean).join(' · ') };
+  }
+
+  // 유로·달러 금액을 원화로 바꿔 쓴다 (1유로 = 1,500원, 1달러 = 1,330원)
+  won(text) {
+    if (!text) return text || '';
+    var fmt = function (v) {
+      var step = v >= 100000 ? 1000 : (v >= 10000 ? 100 : 10);
+      return (Math.round(v / step) * step).toLocaleString('ko-KR');
+    };
+    var range = function (rate) {
+      return function (m, a, b) {
+        var low = parseFloat(a) * rate;
+        return b ? fmt(low) + '–' + fmt(parseFloat(b) * rate) + '원' : fmt(low) + '원';
+      };
+    };
+    return text
+      .replace(/€\s?(\d+(?:\.\d+)?)(?:\s?[–~-]\s?€?(\d+(?:\.\d+)?))?/g, range(1500))
+      .replace(/\$(\d+(?:\.\d+)?)(?:\s?[–~-]\s?\$?(\d+(?:\.\d+)?))?/g, range(1330));
+  }
+}
+</script>
+</body>
+</html>

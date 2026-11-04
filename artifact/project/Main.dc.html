@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>3코스 비교</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#1E56A0}a:hover{color:#163F75}
+</style>
+</helmet>
+<div style="width: 1440px; height: 2000px; box-sizing: border-box; padding: 72px; background: #F7F4EE; color: #1C2230; font-family: 'Noto Sans KR', sans-serif; display: flex; flex-direction: column; gap: 40px;">
+
+  <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 32px;">
+    <div style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="font-size: 15px; font-weight: 700; letter-spacing: 0.08em; color: #B8432A;">HONEYMOON · SPAIN · 2027.05.09 – 05.18</div>
+      <h1 style="margin: 0; font-size: 56px; font-weight: 900; line-height: 1.15;">1,000만 원 안에서 고르는<br>스페인 신혼여행 3코스</h1>
+      <p style="margin: 0; font-size: 18px; color: #4A5160; line-height: 1.6;">세 코스 모두 2인 총액이 1,000만 원 아래야. 차이는 항공(직항/경유), 숙소 등급, 바르셀로나를 가느냐에서 나와.</p>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 6px; font-size: 14px; color: #4A5160; text-align: right; flex-shrink: 0;">
+      <span>성인 2명 · 9박 10일</span>
+      <span>원화 환산 · 1유로 = 1,500원</span>
+      <span>가격은 2026년 11월 현재가 기준 추정</span>
+    </div>
+  </div>
+
+  <div style="display: flex; flex-wrap: wrap; gap: 20px; font-size: 14px; color: #4A5160; align-items: center;">
+    <span style="font-weight: 700; color: #1C2230;">예산 구성</span>
+    <sc-for list="{{legend}}" as="lg" hint-placeholder-count="6">
+      <span style="display: inline-flex; align-items: center; gap: 8px;"><span style="width: 14px; height: 14px; border-radius: 4px; background: {{lg.color}}; display: inline-block;"></span>{{lg.label}}</span>
+    </sc-for>
+  </div>
+
+  <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px;">
+    <sc-for list="{{courses}}" as="c" hint-placeholder-count="3">
+      <div style="background: #FFFFFF; border: 1px solid #E3DDD2; border-radius: 20px; padding: 32px; display: flex; flex-direction: column; gap: 22px;">
+        <sc-if value="{{c.photo}}" hint-placeholder-val="{{ true }}">
+          <figure style="margin: -32px -32px 0; display: flex; flex-direction: column; gap: 6px;">
+            <img src="{{c.photo.src}}" alt="{{c.photo.alt}}" style="width: 100%; height: 240px; object-fit: cover; border-radius: 20px 20px 0 0; display: block; background: #E3DDD2;">
+            <a href="{{c.photo.page}}" style="font-size: 11px; color: #5B6270; text-decoration: none; padding: 0 32px;">{{c.photo.credit}}</a>
+          </figure>
+        </sc-if>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <span style="align-self: flex-start; font-size: 14px; font-weight: 700; color: #FFFFFF; background: {{c.color}}; border-radius: 999px; padding: 6px 14px;">{{c.no}}</span>
+          <div style="font-size: 28px; font-weight: 900; line-height: 1.3;">{{c.title}}</div>
+          <div style="font-size: 16px; color: #4A5160;">{{c.tag}}</div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="display: flex; align-items: baseline; gap: 10px;">
+            <span style="font-size: 40px; font-weight: 900; color: {{c.color}};">{{c.total}}</span>
+            <span style="font-size: 15px; color: #4A5160;">2인 총액</span>
+          </div>
+          <div style="position: relative; height: 18px; border-radius: 6px; background: #EEEAE2; display: flex; overflow: hidden;">
+            <sc-for list="{{c.parts}}" as="p" hint-placeholder-count="6">
+              <span style="height: 18px; width: {{p.w}}; background: {{p.color}}; display: block;"></span>
+            </sc-for>
+          </div>
+          <div style="display: flex; justify-content: space-between; font-size: 12px; color: #5B6270;"><span>0</span><span>1,000만 원</span></div>
+          <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px 16px; font-size: 14px;">
+            <sc-for list="{{c.parts}}" as="p" hint-placeholder-count="6">
+              <div style="display: flex; justify-content: space-between; gap: 8px; border-bottom: 1px dashed #E3DDD2; padding: 4px 0;"><span style="color: #4A5160;">{{p.label}}</span><span style="font-weight: 700;">{{p.text}}</span></div>
+            </sc-for>
+          </div>
+        </div>
+
+        <div style="display: flex; flex-direction: column; gap: 6px;">
+          <div style="font-size: 13px; font-weight: 700; color: {{c.color}};">동선</div>
+          <div style="font-size: 15px; line-height: 1.6;">{{c.route}}</div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 6px;">
+          <div style="font-size: 13px; font-weight: 700; color: {{c.color}};">항공</div>
+          <div style="font-size: 15px; line-height: 1.6;">{{c.flight}}</div>
+          <div style="font-size: 13px; line-height: 1.6; color: #5B6270;">{{c.times}}</div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 6px;">
+          <div style="font-size: 13px; font-weight: 700; color: {{c.color}};">숙소</div>
+          <div style="font-size: 15px; line-height: 1.6;">{{c.stay}}</div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 6px;">
+          <div style="font-size: 13px; font-weight: 700; color: {{c.color}};">특별한 순간</div>
+          <div style="font-size: 15px; line-height: 1.6;">{{c.special}}</div>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px;">
+          <div style="background: #EEF5F0; border-radius: 12px; padding: 14px; display: flex; flex-direction: column; gap: 6px;">
+            <span style="font-size: 13px; font-weight: 700; color: #2F6B4D;">좋은 점</span>
+            <span style="font-size: 14px; line-height: 1.55;">{{c.good}}</span>
+          </div>
+          <div style="background: #FBF0EA; border-radius: 12px; padding: 14px; display: flex; flex-direction: column; gap: 6px;">
+            <span style="font-size: 13px; font-weight: 700; color: #9C3A22;">아쉬운 점</span>
+            <span style="font-size: 14px; line-height: 1.55;">{{c.watch}}</span>
+          </div>
+        </div>
+      </div>
+    </sc-for>
+  </div>
+
+  <div style="display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 28px;">
+    <div style="background: #FFFFFF; border: 1px solid #E3DDD2; border-radius: 20px; padding: 32px; display: flex; flex-direction: column; gap: 16px;">
+      <div style="font-size: 22px; font-weight: 900;">어떤 코스든 지금 바로 잡을 것</div>
+      <sc-for list="{{todo}}" as="t" hint-placeholder-count="5">
+        <div style="display: grid; grid-template-columns: 36px minmax(0, 1fr) auto; gap: 14px; align-items: baseline; font-size: 15px; line-height: 1.55;">
+          <span style="font-size: 20px; font-weight: 900; color: #B8432A;">{{t.n}}</span>
+          <span><b>{{t.what}}</b> · {{t.why}}</span>
+          <span style="text-align: right;">
+            <sc-if value="{{t.url}}" hint-placeholder-val="{{ false }}"><a href="{{t.url}}" style="font-weight: 700; color: #8A5300; text-decoration: underline;">{{t.price}} ↗</a></sc-if>
+            <sc-if value="{{t.plain}}" hint-placeholder-val="{{ true }}"><span style="font-weight: 700; color: #8A5300;">{{t.price}}</span></sc-if>
+          </span>
+        </div>
+      </sc-for>
+    </div>
+    <div style="background: #1C2230; color: #F7F4EE; border-radius: 20px; padding: 32px; display: flex; flex-direction: column; gap: 14px;">
+      <div style="font-size: 13px; font-weight: 700; letter-spacing: 0.08em; color: #F2B66B;">가장 큰 변수</div>
+      <div style="font-size: 22px; font-weight: 900; line-height: 1.4;">마드리드–안달루시아 고속선이 10/28 충돌 사고로 멈춰 있어</div>
+      <p style="margin: 0; font-size: 15px; line-height: 1.7; color: #D5D8DE;">재개 날짜는 아직 공식 발표가 없어(비공식 목표 11/14). 1월 사고 때는 29일 만에 재개됐어. 열차표는 환불 가능 요금으로 사고, 5월에도 안 다니면 마드리드→세비야를 국내선으로 바꾸고 코르도바를 빼면 돼.</p>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":2000}}'>
+class Component extends DCLogic {
+  renderVals() {
+    var cats = [
+      { key: 'air', label: '국제선 항공', color: '#23395D' },
+      { key: 'stay', label: '숙소 9박', color: '#B8432A' },
+      { key: 'move', label: '현지 교통', color: '#2F7A57' },
+      { key: 'ticket', label: '입장권·체험', color: '#D9A13B' },
+      { key: 'food', label: '식비', color: '#7A5C99' },
+      { key: 'etc', label: '관광세·예비비', color: '#A7ADB8' }
+    ];
+    var build = function (vals) {
+      return cats.map(function (c, i) {
+        var v = vals[i];
+        return { label: c.label, color: c.color, w: (v / 1000 * 100).toFixed(2) + '%', text: (Math.round(v * 10) / 10) + '만' };
+      });
+    };
+    var data = {
+      legend: cats,
+      courses: [
+        {
+          no: '코스 1', color: '#1E56A0', title: '스페인 일주 · 경유', tag: '항공을 아끼고 숙소는 4성으로',
+          total: '약 961만 원', parts: build([232.8, 324, 101.5, 84, 180, 38.5]),
+          route: '마드리드 → 톨레도 → 코르도바 → 세비야 → 그라나다 → 바르셀로나 → 몬세라트',
+          flight: '카타르항공 도하 1회 경유 다구간 · 1인 116.4만 원 · 편도 약 18~20시간',
+          times: '갈 때 5/9 01:20 인천 → 14:15 마드리드 · 올 때 바르셀로나 오후 출발(예: 16:35 → 5/19 17:05 인천, 실제 편 확인 필요)',
+          stay: '4성 위주 · Room Mate Alba(마드리드) · Las Casas de la Judería(세비야) · Porcel Alixares(그라나다) · Catalonia Catedral(바르셀로나, 루프탑 수영장)',
+          special: '그라나다 아랍식 목욕탕 하맘 · 알바이신에서 보는 알함브라 일몰 디너',
+          good: '4성 숙소, 첫날 오후부터 관광, 하맘까지 포함',
+          watch: '편도 20시간 경유, 귀국일은 오전만 관광'
+        },
+        {
+          no: '코스 2', color: '#2F7A57', title: '스페인 일주 · 직항 가성비', tag: '직항으로 편하게, 숙소는 3성 중심',
+          total: '약 985만 원', parts: build([373.7, 245.3, 93, 64.5, 171, 37.2]),
+          route: '마드리드 → 톨레도 → 코르도바 → 세비야 → 그라나다 → 바르셀로나 → 몬세라트',
+          flight: '아시아나·대한항공 직항 다구간(마드리드 IN · 바르셀로나 OUT) · 1인 186.9만 원',
+          times: '갈 때 5/9 09:55 인천 → 18:00 마드리드 · 올 때 5/18 20:50 바르셀로나 → 5/19 16:20 인천(귀국편 직항 여부 확인 필요)',
+          stay: '3성 중심 · Regente(마드리드) · Rey Alfonso X(세비야, 4성) · Casa del Capitel Nazarí(그라나다) · Hotel Lleó(바르셀로나)',
+          special: '알바이신 알함브라 뷰 디너 · 바르셀로나 마지막 날 저녁까지',
+          good: '직항이라 체력 소모가 적고 귀국일도 하루 종일 관광',
+          watch: '숙소 3성, 세비야→그라나다 버스 3시간, 하맘 제외'
+        },
+        {
+          no: '코스 3', color: '#B8432A', title: '안달루시아 + 세고비아 · 직항', tag: '바르셀로나 대신 알함브라 성벽 안에서 1박',
+          total: '약 988만 원', parts: build([353.2, 273.8, 82.5, 69, 180, 30]),
+          route: '마드리드 → 톨레도 → 코르도바 → 세비야 → 그라나다 → 마드리드 → 세고비아',
+          flight: '대한항공 마드리드 왕복 직항 · 1인 176.6만 원',
+          times: '갈 때 5/9 09:55 인천 → 18:00 마드리드 · 올 때 5/18 20:00 마드리드 → 5/19 16:00 인천',
+          stay: 'Regente(마드리드 5박) · Las Casas de la Judería(세비야) · Casa del Capitel Nazarí + 파라도르 데 그라나다',
+          special: '알함브라 성벽 안 파라도르 1박 · 사크로몬테 동굴 플라멩코 · 세고비아 새끼돼지 통구이',
+          good: '직항 + 파라도르, 안달루시아를 여유 있게',
+          watch: '가우디·바르셀로나 없음, 그라나다→마드리드는 고속선 운행에 달림'
+        }
+      ],
+      todo: [
+        { n: '1', what: '국제선 항공권', why: '코스를 고르면 바로. 네이버 가격은 카드 실적 조건가라 결제 직전 금액 확인', price: '1인 116~187만' },
+        { n: '2', what: '알함브라 입장권', why: '5월 초는 3월 말에 매진된 후기. 공식 사이트, 여권과 같은 영문 이름, 환불 불가', price: '€22.27' },
+        { n: '3', what: '파라도르 데 그라나다(코스 3)', why: '객실 40개. 2027년 5월 예약이 열리는 즉시 환불 가능 요금으로', price: '1박 €350~420' },
+        { n: '4', what: '나머지 호텔', why: '무료 취소 요금으로 먼저 잡아두고 나중에 갈아타기', price: '각 코스 표 참고' },
+        { n: '5', what: '시간 지정 입장권', why: '사그라다 파밀리아·카사 바트요·구엘 공원은 2~3달 전, 세비야 알카사르는 약 2달 전', price: '€15.5~36' }
+      ]
+    };
+    return this.decorate(data);
+  }
+
+  decorate(data) {
+    var self = this;
+    var photos = this.photos();
+    var heroes = ['plaza_espana', 'park_guell', 'leones'];
+    var todoLinks = {
+      '1': 'https://flight.naver.com/flights/international/SEL:city-MAD:airport-20270509/BCN:airport-SEL:city-20270518',
+      '2': 'https://tickets.alhambra-patronato.es/en/?p=3090',
+      '3': 'https://www.paradores.es/en/parador-de-granada'
+    };
+    data.courses = data.courses.map(function (c, i) {
+      c.photo = photos[heroes[i]] || null;
+      return c;
+    });
+    data.todo = data.todo.map(function (t) {
+      var url = todoLinks[t.n] || '';
+      return { n: t.n, what: t.what, why: t.why, price: self.won(t.price), url: url, plain: !url };
+    });
+    return data;
+  }
+
+  // 유로 금액을 원화로 바꿔 쓴다 (1유로 = 1,500원)
+  won(text) {
+    if (!text) return text;
+    var fmt = function (v) {
+      var step = v >= 100000 ? 1000 : (v >= 10000 ? 100 : 10);
+      return (Math.round(v / step) * step).toLocaleString('ko-KR');
+    };
+    return text.replace(/€\s?(\d+(?:\.\d+)?)(?:\s?[–~-]\s?€?(\d+(?:\.\d+)?))?/g, function (m, a, b) {
+      var low = parseFloat(a) * 1500;
+      return b ? fmt(low) + '–' + fmt(parseFloat(b) * 1500) + '원' : fmt(low) + '원';
+    });
+  }
+
+  // 위키미디어 커먼즈 사진 (저작자·라이선스 표기 포함)
+  photos() {
+    var P = function (src, alt, artist, license, page) {
+      return { src: src, alt: alt, page: page, credit: '사진: ' + artist + ' · ' + license + ' · Wikimedia Commons' };
+    };
+    return {
+      plaza_espana: P('/_blob/100c07ce624023ecd2bb763a60a39c8e', '세비야 스페인 광장', 'Carlos Delgado', 'CC BY-SA 4.0', 'https://commons.wikimedia.org/wiki/File:Plaza_de_Espa%C3%B1a_(Sevilla)_-_01.jpg'),
+      park_guell: P('/_blob/946f0674adeb1147b16da6a393b6e7bc', '바르셀로나 구엘 공원', 'Bernard Gagnon', 'CC BY-SA 3.0', 'https://commons.wikimedia.org/wiki/File:Park_G%C3%BCell_02.jpg'),
+      leones: P('/_blob/9f52bd2c3ba116e87cc3bba5c11283a7', '알함브라 사자의 정원 분수', 'Jebulon', 'CC0', 'https://commons.wikimedia.org/wiki/File:Fountain_patio_de_los_Leones_Alhambra_Granada_Spain.jpg')
+    };
+  }
+}
+</script>
+</body>
+</html>

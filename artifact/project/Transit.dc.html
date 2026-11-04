@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>교통카드 구매 가이드</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#1E56A0}a:hover{color:#163F75}
+</style>
+</helmet>
+<div style="width: 1440px; height: 1700px; box-sizing: border-box; padding: 72px; background: #F7F4EE; color: #1C2230; font-family: 'Noto Sans KR', sans-serif; display: flex; flex-direction: column; gap: 32px;">
+
+  <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 32px;">
+    <div style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="font-size: 15px; font-weight: 700; letter-spacing: 0.08em; color: #1E56A0;">TRANSIT GUIDE</div>
+      <h1 style="margin: 0; font-size: 48px; font-weight: 900; line-height: 1.2;">도시별 교통카드 · 티켓, 어디서 얼마에 사나</h1>
+    </div>
+    <span style="font-size: 14px; color: #4A5160; text-align: right; flex-shrink: 0; line-height: 1.6;">요금은 2026년 11월 기준, 원화 환산(1유로 = 1,500원, 1달러 = 1,330원).<br>현지에서는 유로로 내. 마드리드 할인 요금은 2026년 12월 31일까지만 확정이야.<br>금액을 누르면 출처 페이지가 열려.</span>
+  </div>
+
+  <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px;">
+    <sc-for list="{{tips}}" as="t" hint-placeholder-count="3">
+      <div style="background: #1C2230; color: #F7F4EE; border-radius: 14px; padding: 18px 20px; display: flex; flex-direction: column; gap: 6px;">
+        <span style="font-size: 13px; font-weight: 700; color: #F2B66B;">{{t.k}}</span>
+        <span style="font-size: 15px; line-height: 1.55;">{{t.v}}</span>
+      </div>
+    </sc-for>
+  </div>
+
+  <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px;">
+    <sc-for list="{{cities}}" as="c" hint-placeholder-count="6">
+      <div style="background: #FFFFFF; border: 1px solid #E3DDD2; border-radius: 18px; padding: 24px; display: flex; flex-direction: column; gap: 12px;">
+        <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 10px;">
+          <span style="font-size: 22px; font-weight: 900;">{{c.name}}</span>
+          <span style="font-size: 12px; font-weight: 700; color: #4A5160; background: #F3EFE7; border-radius: 999px; padding: 4px 10px; white-space: nowrap;">{{c.courses}}</span>
+        </div>
+        <sc-for list="{{c.rows}}" as="r" hint-placeholder-count="5">
+          <div style="display: flex; flex-direction: column; gap: 3px; padding: 8px 0; border-bottom: 1px dashed #EAE4DA;">
+            <div style="display: flex; justify-content: space-between; gap: 10px; align-items: baseline;">
+              <span style="font-size: 15px; font-weight: 700;">{{r.what}}</span>
+              <span style="text-align: right;">
+                <sc-if value="{{r.url}}" hint-placeholder-val="{{ false }}"><a href="{{r.url}}" style="font-size: 13px; font-weight: 700; color: #1E56A0; text-decoration: underline;">{{r.price}} ↗</a></sc-if>
+                <sc-if value="{{r.plain}}" hint-placeholder-val="{{ true }}"><span style="font-size: 13px; font-weight: 700; color: #1E56A0;">{{r.price}}</span></sc-if>
+              </span>
+            </div>
+            <span style="font-size: 13px; line-height: 1.55; color: #4A5160;">{{r.where}}</span>
+          </div>
+        </sc-for>
+      </div>
+    </sc-for>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1700}}'>
+class Component extends DCLogic {
+  renderVals() {
+    var self = this;
+    var R = function (what, price, where) {
+      var url = self.linkFor(what);
+      return { what: what, price: self.won(price), where: self.won(where), url: url, plain: !url };
+    };
+    return {
+      tips: [
+        { k: '1인 1장', v: '마드리드 Multi 카드와 바르셀로나 T-casual은 둘이 같이 못 써. 그라나다 Credibús만 한 장으로 둘이 탈 수 있어' },
+        { k: '카드로 바로 내는 곳', v: '마드리드 203 공항버스, 코르도바 버스, 그라나다 시내버스, 세비야 버스는 기사에게 컨택리스 결제 가능' },
+        { k: '미리 사둘 것', v: '고속열차(Renfe·Iryo·OUIGO), ALSA 버스, 부엘링. 현장에서 사는 건 시내 교통카드와 공항버스' }
+      ],
+      cities: [
+        { name: '마드리드', courses: '코스 1·2·3', rows: [
+          R('Multi 교통카드', '€2.50', '메트로역 자동발매기. 무기명, 1인 1장'),
+          R('10회권 (10 viajes)', '€7.30', '발매기에서 Multi 카드에 충전. 메트로 존A + 시내버스 공용'),
+          R('공항 메트로', '1회권 + 할증 €3', '공항역 발매기. 10회권이 있어도 공항 할증은 1인당 따로'),
+          R('공항버스 203 Exprés', '€5', '기사에게 현금(€20 이하 지폐) 또는 컨택리스. 24시간, 낮엔 Atocha까지'),
+          R('공항 택시', '정액 €33 (차량당)', 'M-30 안쪽까지. 공항 택시 승강장'),
+          R('관광패스 존A', '1일 €10.30 · 3일 €23.10', '공항 할증 면제. 역 발매기, T2·T4·Sol·Atocha 사무소')
+        ] },
+        { name: '톨레도 · 코르도바', courses: '코스 1·2·3', rows: [
+          R('Avant 마드리드 ↔ 톨레도', '편도 €13–16.5', 'renfe.com·앱, 출발 약 60일 전 오픈. 아토차역 출발, 33분'),
+          R('톨레도역 → 구시가지', '약 €1.50 (미확인)', '시내버스 기사에게 현금. 도보 20~25분, 택시 약 €5–7'),
+          R('마드리드 → 코르도바', '€9–45', 'Renfe·Iryo·OUIGO. OUIGO는 큰 캐리어 +€5부터. 고속선 운행 재개 확인'),
+          R('코르도바 짐 보관', '하루 €3–6', '역 옆 버스터미널 락커(일찍 참) 또는 무인 보관소 Córdoba Locker'),
+          R('코르도바역 → 메스키타', '약 €1.30–1.50', 'Aucorsa 3번 버스, 차내 컨택리스. 걸으면 25~30분')
+        ] },
+        { name: '세비야', courses: '코스 1·2·3', rows: [
+          R('코르도바 → 세비야 열차', '€7–37', '45~55분. Renfe 등에서 예매'),
+          R('버스·트램 1회권', '€1.40', '기사에게 현금 또는 카드. Santa Justa역 → 시내는 32·C1번'),
+          R('관광카드', '1일 €5 · 3일 €10', '보증금 여부 미확인. 구시가지는 대부분 걸어서 다녀'),
+          R('공항버스 EA', '편도 €6 · 왕복 €8', '공항 매표소·기계·차내, 현금이나 카드'),
+          R('세비야 → 그라나다', '버스 €19–24 · 기차 $45–75', 'ALSA 약 3시간(alsa.com) / Renfe 약 2시간 40분')
+        ] },
+        { name: '그라나다', courses: '코스 1·2·3', rows: [
+          R('시내버스 1회권', '€1.60', '기사에게 현금(€10 이하) 또는 카드. 60분 안에 환승 무료'),
+          R('Credibús 카드', '카드 €2 + 충전 €5~20', '기사에게 현금으로만 구매·충전. 둘이면 인원수만큼 찍기, 1회 약 €0.53'),
+          R('알함브라·알바이신 버스', '1회권과 같음', 'C30 → 알함브라 · C31 → 알바이신 · C32 알함브라 ↔ 알바이신 · C34 → 사크로몬테'),
+          R('공항버스 Alsa 245', '€3.10', 'Gran Vía 대성당 앞 정류장, 약 60분, 차내 구매'),
+          R('그라나다 → 마드리드', 'AVE €23–30~ · Iberia $30–85', '코스 3. 직통 열차 약 3시간 15분 / 항공 약 1시간 10분')
+        ] },
+        { name: '바르셀로나', courses: '코스 1·2', rows: [
+          R('Aerobús', '편도 €7.45 · 왕복 €12.85', '정류장 발매기에서 카드 결제. 왕복권 90일 유효. 공식 사이트 aerobusbarcelona.es'),
+          R('공항 메트로 L9 Sud', '€5.90', '공항역 발매기. T-casual은 공항역에서 못 써'),
+          R('T-casual', '€13 + 카드 €1', '10회, 존1, 75분 안에 환승. 1인 1장, 메트로역 발매기'),
+          R('Hola Barcelona', '48h €17.77 · 72h €25.94', '공항 메트로 포함. 온라인 바우처를 TMB 발매기에서 교환'),
+          R('그라나다 → 바르셀로나 부엘링', '약 $48–53 + 수하물', '약 1시간 26분. 위탁수하물 요금은 미확인')
+        ] },
+        { name: '몬세라트 · 세고비아', courses: '몬세라트 1·2 · 세고비아 3', rows: [
+          R('Trans Montserrat', '€50', '메트로 왕복 + FGC R5 왕복 + 산악열차(또는 케이블카) + 푸니쿨라. 에스파냐 광장 FGC역 안내소나 온라인, 날짜 지정 없음'),
+          R('Tot Montserrat', '€71.50', '위 구성 + 박물관 + 점심. T-casual(존1)로는 몬세라트에 못 가'),
+          R('Avant 차마르틴 → 세고비아', '편도 평균 약 €22', '25~27분, renfe.com. 차마르틴은 메트로 1·10호선'),
+          R('세고비아 11번 버스', '약 €1–2 (미확인)', '기오마르역 → 수도교 약 15분, 현금·카드'),
+          R('Avanza 버스 (싼 대안)', '약 €7', 'Moncloa → 세고비아 약 1시간 20분')
+        ] }
+      ]
+    };
+  }
+
+  // 유로·달러 금액을 원화로 바꿔 쓴다 (1유로 = 1,500원, 1달러 = 1,330원)
+  won(text) {
+    if (!text) return text;
+    var fmt = function (v) {
+      var step = v >= 100000 ? 1000 : (v >= 10000 ? 100 : 10);
+      return (Math.round(v / step) * step).toLocaleString('ko-KR');
+    };
+    var range = function (rate) {
+      return function (m, a, b) {
+        var low = parseFloat(a) * rate;
+        return b ? fmt(low) + '–' + fmt(parseFloat(b) * rate) + '원' : fmt(low) + '원';
+      };
+    };
+    return text
+      .replace(/€\s?(\d+(?:\.\d+)?)(?:\s?[–~-]\s?€?(\d+(?:\.\d+)?))?/g, range(1500))
+      .replace(/\$(\d+(?:\.\d+)?)(?:\s?[–~-]\s?\$?(\d+(?:\.\d+)?))?/g, range(1330));
+  }
+
+  // 항목 이름으로 출처 링크를 찾는다 (먼저 나온 키가 이긴다)
+  linkFor(text) {
+    var links = [
+      ['Multi 교통카드', 'https://crtm.es/media/s1qi0nmo/bocm-20251231-precios_transporte.pdf'],
+      ['10회권', 'https://crtm.es/media/s1qi0nmo/bocm-20251231-precios_transporte.pdf'],
+      ['공항 메트로 L9', 'https://static-web.tmb.cat/en/barcelona-fares-metro-bus'],
+      ['공항 메트로', 'https://crtm.es/billetes-transporte-publico-aeropuerto-madrid'],
+      ['공항버스 203', 'https://www.esmadrid.com/bus-expres-aeropuerto-madrid'],
+      ['공항 택시', 'https://www.spain.info/es/avion/aeropuerto-adolfo-suarez-madrid-barajas/'],
+      ['관광패스 존A', 'https://crtm.es/billetes-y-tarifas/buscador/billete-turistico/'],
+      ['Avant 마드리드', 'https://everyrail.com/trains/madrid-to-toledo/'],
+      ['톨레도역', 'https://lamaletainquieta.com/como-ir-madrid-toledo/'],
+      ['마드리드 → 코르도바', 'https://everyrail.com/trains/madrid-to-cordoba/'],
+      ['코르도바 짐 보관', 'https://www.trvlogue.com/en/cordoba-luggage-storage-lockers'],
+      ['코르도바역', 'https://www.ouigo.com/es/en/how-to-get-around-cordoba-from-the-station'],
+      ['코르도바 → 세비야', 'https://www.trenes.com/ave/cordoba-sevilla/'],
+      ['버스·트램 1회권', 'https://sevillasecreta.co/precios-tussam-descuentos-sevilla-2026/'],
+      ['관광카드', 'https://www.redtransporte.com/sevilla/precios-abonos.html'],
+      ['공항버스 EA', 'https://sevillasecreta.co/precios-tussam-descuentos-sevilla-2026/'],
+      ['세비야 → 그라나다', 'https://www.omio.es/autobuses/sevilla/granada'],
+      ['시내버스 1회권', 'https://www.granadadirect.com/transporte/tarifas-autobuses-granada/'],
+      ['Credibús', 'https://turismo.granada.org/en/bus-urbano'],
+      ['알함브라·알바이신 버스', 'https://www.granadadirect.com/transporte/autobuses-alhambra-bus/'],
+      ['공항버스 Alsa 245', 'https://lovegranada.com/buses/airport-bus'],
+      ['그라나다 → 마드리드', 'https://everyrail.com/trains/madrid-to-granada/'],
+      ['Aerobús', 'https://www.trvlogue.com/en/barcelona-airport-bus-guide'],
+      ['T-casual', 'https://www.atm.cat/titols-i-tarifes/t-casual'],
+      ['Hola Barcelona', 'https://barcelonahacks.com/hola-bcn-card/'],
+      ['부엘링', 'https://www.kayak.com/flight-routes/Granada-Federico-Garcia-Lorca-GRX/Barcelona-El-Prat-BCN'],
+      ['Trans Montserrat', 'https://www.fgc.cat/en/fgc-faq/what-are-the-conditions-prices-and-discounts-children-students-for-the-transmontserrat-combined-ticket-and-how-can-date-changes-be-managed/'],
+      ['Tot Montserrat', 'https://barcelonaurbana.com/ca/blog/montserrat-preus-cremallera-aeri-i-tren'],
+      ['Avant 차마르틴', 'https://www.omio.com.ar/trenes/madrid-chamartin/segovia-guiomar-ashif'],
+      ['세고비아 11번', 'https://turismodesegovia.com/en/como-moverte'],
+      ['Avanza', 'https://www.omio.es/autobuses/madrid/segovia']
+    ];
+    for (var i = 0; i < links.length; i++) {
+      if (text.indexOf(links[i][0]) !== -1) return links[i][1];
+    }
+    return '';
+  }
+}
+</script>
+</body>
+</html>

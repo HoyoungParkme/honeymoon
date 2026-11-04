@@ -1,0 +1,592 @@
+{
+ "mad_t4": {
+  "lat": 40.4925,
+  "lon": -3.5934,
+  "src": "manual"
+ },
+ "mad_t1": {
+  "lat": 40.4738,
+  "lon": -3.57,
+  "src": "manual"
+ },
+ "hotelA_mad": {
+  "lat": 40.4137501,
+  "lon": -3.700323,
+  "src": "16, Calle de las Huertas, Barrio de las Letras, Cortes, Centro, Madrid, Comunida"
+ },
+ "hotelB_mad": {
+  "lat": 40.4196993,
+  "lon": -3.704275,
+  "src": "Hotel Regente, 9, Calle de Mesonero Romanos, Barrio de los Austrias, Sol, Centro"
+ },
+ "nuevos_ministerios": {
+  "lat": 40.4462,
+  "lon": -3.6922,
+  "src": "manual"
+ },
+ "tribunal": {
+  "lat": 40.4262,
+  "lon": -3.701,
+  "src": "manual"
+ },
+ "anton_martin": {
+  "lat": 40.4121,
+  "lon": -3.699,
+  "src": "manual"
+ },
+ "alonso_martinez": {
+  "lat": 40.4283,
+  "lon": -3.6962,
+  "src": "manual"
+ },
+ "callao": {
+  "lat": 40.42,
+  "lon": -3.7059,
+  "src": "manual"
+ },
+ "sol": {
+  "lat": 40.4169,
+  "lon": -3.7035,
+  "src": "manual"
+ },
+ "opera": {
+  "lat": 40.4183,
+  "lon": -3.7093,
+  "src": "manual"
+ },
+ "retiro_metro": {
+  "lat": 40.4208,
+  "lon": -3.6879,
+  "src": "manual"
+ },
+ "la_latina": {
+  "lat": 40.4087,
+  "lon": -3.709,
+  "src": "manual"
+ },
+ "atocha_metro": {
+  "lat": 40.4067,
+  "lon": -3.6896,
+  "src": "manual"
+ },
+ "atocha_station": {
+  "lat": 40.4067,
+  "lon": -3.6896,
+  "src": "manual"
+ },
+ "chamartin": {
+  "lat": 40.4722,
+  "lon": -3.6826,
+  "src": "manual"
+ },
+ "plaza_mayor": {
+  "lat": 40.4153949,
+  "lon": -3.7069974,
+  "src": "Plaza Mayor, Barrio de los Austrias, Sol, Centro, Madrid, Comunidad de Madrid, 2"
+ },
+ "casa_labra": {
+  "lat": 40.4171561,
+  "lon": -3.7046107,
+  "src": "Casa Labra, 12, Calle de Tetuán, Barrio de los Austrias, Sol, Centro, Madrid, Co"
+ },
+ "palacio_real": {
+  "lat": 40.418,
+  "lon": -3.7143,
+  "src": "manual"
+ },
+ "almudena": {
+  "lat": 40.4159,
+  "lon": -3.7146,
+  "src": "manual"
+ },
+ "sabatini": {
+  "lat": 40.4203,
+  "lon": -3.7137,
+  "src": "manual"
+ },
+ "puerta_alcala": {
+  "lat": 40.42,
+  "lon": -3.6889,
+  "src": "manual"
+ },
+ "prado": {
+  "lat": 40.414,
+  "lon": -3.6921,
+  "src": "manual"
+ },
+ "cba": {
+  "lat": 40.4182071,
+  "lon": -3.6965142,
+  "src": "Círculo de Bellas Artes, 42, Calle de Alcalá, Barrio de las Letras, Cortes, Cent"
+ },
+ "botin": {
+  "lat": 40.4141745,
+  "lon": -3.707981,
+  "src": "Botín, 17, Calle de Cuchilleros, Barrio de la Latina, Sol, Centro, Madrid, Comun"
+ },
+ "cibeles": {
+  "lat": 40.4193,
+  "lon": -3.6931,
+  "src": "manual"
+ },
+ "casa_lucio": {
+  "lat": 40.4120917,
+  "lon": -3.7096742,
+  "src": "Casa Lucio, 35, Calle de la Cava Baja, Barrio de la Latina, Palacio, Centro, Mad"
+ },
+ "palacio_cristal": {
+  "lat": 40.4133,
+  "lon": -3.6823,
+  "src": "manual"
+ },
+ "toledo_station": {
+  "lat": 39.8615,
+  "lon": -4.0096,
+  "src": "manual"
+ },
+ "zocodover": {
+  "lat": 39.8588,
+  "lon": -4.022,
+  "src": "manual"
+ },
+ "toledo_cathedral": {
+  "lat": 39.8571,
+  "lon": -4.0237,
+  "src": "manual"
+ },
+ "el_botero": {
+  "lat": 39.8563445,
+  "lon": -4.0249409,
+  "src": "Casa el Botero, 5, Calle de la Ciudad, Santa Bárbara, Toledo, Castilla-La Mancha"
+ },
+ "mirador_valle": {
+  "lat": 39.8508,
+  "lon": -4.0196,
+  "src": "manual"
+ },
+ "guiomar": {
+  "lat": 40.9138,
+  "lon": -4.0914,
+  "src": "manual"
+ },
+ "acueducto": {
+  "lat": 40.948,
+  "lon": -4.1178,
+  "src": "manual"
+ },
+ "segovia_cathedral": {
+  "lat": 40.95,
+  "lon": -4.1252,
+  "src": "manual"
+ },
+ "candido": {
+  "lat": 40.9481,
+  "lon": -4.1176,
+  "src": "manual"
+ },
+ "alcazar_segovia": {
+  "lat": 40.9523,
+  "lon": -4.1318,
+  "src": "manual"
+ },
+ "cordoba_station": {
+  "lat": 37.8883,
+  "lon": -4.7897,
+  "src": "manual"
+ },
+ "cordoba_lockers": {
+  "lat": 37.8886,
+  "lon": -4.7916,
+  "src": "manual"
+ },
+ "stop_san_fernando": {
+  "lat": 37.8822,
+  "lon": -4.7757,
+  "src": "manual"
+ },
+ "mezquita": {
+  "lat": 37.879,
+  "lon": -4.7794,
+  "src": "manual"
+ },
+ "flores": {
+  "lat": 37.88,
+  "lon": -4.7797,
+  "src": "manual"
+ },
+ "puente_romano": {
+  "lat": 37.8772,
+  "lon": -4.778,
+  "src": "manual"
+ },
+ "bodegas_campos": {
+  "lat": 37.8799,
+  "lon": -4.7735,
+  "src": "manual"
+ },
+ "stop_potro": {
+  "lat": 37.8794,
+  "lon": -4.7742,
+  "src": "manual"
+ },
+ "santa_justa": {
+  "lat": 37.392,
+  "lon": -5.9751,
+  "src": "manual"
+ },
+ "stop_prado": {
+  "lat": 37.3818,
+  "lon": -5.987,
+  "src": "manual"
+ },
+ "hotelA_sev": {
+  "lat": 37.3853,
+  "lon": -5.9871,
+  "src": "manual"
+ },
+ "hotelB_sev": {
+  "lat": 37.3857,
+  "lon": -5.9898,
+  "src": "manual"
+ },
+ "eme": {
+  "lat": 37.3869,
+  "lon": -5.9923,
+  "src": "manual"
+ },
+ "las_teresas": {
+  "lat": 37.3858,
+  "lon": -5.9892,
+  "src": "manual"
+ },
+ "alcazar_sev": {
+  "lat": 37.3849,
+  "lon": -5.9906,
+  "src": "manual"
+ },
+ "cathedral_sev": {
+  "lat": 37.3858,
+  "lon": -5.9929,
+  "src": "manual"
+ },
+ "rinconcillo": {
+  "lat": 37.3936,
+  "lon": -5.9893,
+  "src": "manual"
+ },
+ "plaza_espana": {
+  "lat": 37.3772,
+  "lon": -5.9869,
+  "src": "manual"
+ },
+ "maria_luisa": {
+  "lat": 37.3745,
+  "lon": -5.989,
+  "src": "manual"
+ },
+ "tram_plaza_nueva": {
+  "lat": 37.3889,
+  "lon": -5.9955,
+  "src": "manual"
+ },
+ "casa_memoria": {
+  "lat": 37.3914,
+  "lon": -5.9942,
+  "src": "manual"
+ },
+ "eslava": {
+  "lat": 37.3952,
+  "lon": -5.9965,
+  "src": "manual"
+ },
+ "plaza_armas": {
+  "lat": 37.3919,
+  "lon": -6.0014,
+  "src": "manual"
+ },
+ "granada_station": {
+  "lat": 37.1841,
+  "lon": -3.609,
+  "src": "manual"
+ },
+ "granada_bus": {
+  "lat": 37.2001,
+  "lon": -3.617,
+  "src": "manual"
+ },
+ "hotelA_gra": {
+  "lat": 37.1736,
+  "lon": -3.5826,
+  "src": "manual"
+ },
+ "hotelB_gra": {
+  "lat": 37.1781,
+  "lon": -3.5955,
+  "src": "manual"
+ },
+ "parador": {
+  "lat": 37.176,
+  "lon": -3.587,
+  "src": "manual"
+ },
+ "stop_catedral_gra": {
+  "lat": 37.1772,
+  "lon": -3.5992,
+  "src": "manual"
+ },
+ "plaza_isabel": {
+  "lat": 37.1757,
+  "lon": -3.5985,
+  "src": "manual"
+ },
+ "plaza_nueva_gra": {
+  "lat": 37.1773,
+  "lon": -3.597,
+  "src": "manual"
+ },
+ "hammam": {
+  "lat": 37.1771,
+  "lon": -3.5962,
+  "src": "manual"
+ },
+ "plaza_larga": {
+  "lat": 37.1823,
+  "lon": -3.5934,
+  "src": "manual"
+ },
+ "san_nicolas": {
+  "lat": 37.181,
+  "lon": -3.5926,
+  "src": "manual"
+ },
+ "morayma": {
+  "lat": 37.1799,
+  "lon": -3.5887,
+  "src": "manual"
+ },
+ "generalife_stop": {
+  "lat": 37.176,
+  "lon": -3.5805,
+  "src": "manual"
+ },
+ "alcazaba": {
+  "lat": 37.1768,
+  "lon": -3.5917,
+  "src": "manual"
+ },
+ "nasrid": {
+  "lat": 37.1772,
+  "lon": -3.5895,
+  "src": "manual"
+ },
+ "stop_carlos_v": {
+  "lat": 37.1766,
+  "lon": -3.5882,
+  "src": "manual"
+ },
+ "diamantes": {
+  "lat": 37.1742,
+  "lon": -3.5985,
+  "src": "manual"
+ },
+ "grx": {
+  "lat": 37.1887,
+  "lon": -3.7774,
+  "src": "manual"
+ },
+ "venta_gallo": {
+  "lat": 37.1816,
+  "lon": -3.585,
+  "src": "manual"
+ },
+ "bcn_t1": {
+  "lat": 41.2879,
+  "lon": 2.0735,
+  "src": "manual"
+ },
+ "aerobus_catalunya": {
+  "lat": 41.387,
+  "lon": 2.17,
+  "src": "manual"
+ },
+ "hotelA_bcn": {
+  "lat": 41.3851,
+  "lon": 2.1734,
+  "src": "manual"
+ },
+ "hotelB_bcn": {
+  "lat": 41.3853,
+  "lon": 2.1683,
+  "src": "manual"
+ },
+ "cal_pep": {
+  "lat": 41.3837,
+  "lon": 2.1829,
+  "src": "manual"
+ },
+ "jaume_i": {
+  "lat": 41.3845,
+  "lon": 2.1776,
+  "src": "manual"
+ },
+ "verdaguer": {
+  "lat": 41.399,
+  "lon": 2.169,
+  "src": "manual"
+ },
+ "sagrada_metro": {
+  "lat": 41.4038,
+  "lon": 2.1738,
+  "src": "manual"
+ },
+ "sagrada": {
+  "lat": 41.4032,
+  "lon": 2.175,
+  "src": "manual"
+ },
+ "pg_gracia_metro": {
+  "lat": 41.3917,
+  "lon": 2.165,
+  "src": "manual"
+ },
+ "casa_batllo": {
+  "lat": 41.3917,
+  "lon": 2.165,
+  "src": "manual"
+ },
+ "cerveceria": {
+  "lat": 41.3932,
+  "lon": 2.1611,
+  "src": "manual"
+ },
+ "bus24_stop": {
+  "lat": 41.3952,
+  "lon": 2.1607,
+  "src": "manual"
+ },
+ "park_guell": {
+  "lat": 41.415,
+  "lon": 2.154,
+  "src": "manual"
+ },
+ "bunkers": {
+  "lat": 41.4192,
+  "lon": 2.1618,
+  "src": "manual"
+ },
+ "alfons_x": {
+  "lat": 41.4098,
+  "lon": 2.1663,
+  "src": "manual"
+ },
+ "barceloneta_metro": {
+  "lat": 41.3817,
+  "lon": 2.1854,
+  "src": "manual"
+ },
+ "set_portes": {
+  "lat": 41.3822,
+  "lon": 2.1829,
+  "src": "manual"
+ },
+ "liceu": {
+  "lat": 41.3806,
+  "lon": 2.1721,
+  "src": "manual"
+ },
+ "catalunya_metro": {
+  "lat": 41.387,
+  "lon": 2.17,
+  "src": "manual"
+ },
+ "espanya_fgc": {
+  "lat": 41.3752,
+  "lon": 2.1495,
+  "src": "manual"
+ },
+ "monistrol": {
+  "lat": 41.6103,
+  "lon": 1.8465,
+  "src": "manual"
+ },
+ "montserrat": {
+  "lat": 41.5932,
+  "lon": 1.8381,
+  "src": "manual"
+ },
+ "sant_joan": {
+  "lat": 41.5985,
+  "lon": 1.8364,
+  "src": "manual"
+ },
+ "xampanyet": {
+  "lat": 41.3851,
+  "lon": 2.1813,
+  "src": "manual"
+ },
+ "barceloneta_beach": {
+  "lat": 41.3784,
+  "lon": 2.1925,
+  "src": "manual"
+ },
+ "la_bola": {
+  "lat": 40.4199972,
+  "lon": -3.7105112,
+  "src": "La Bola, 5, Calle de la Bola, Palacio, Centro, Madrid, Comunidad de Madrid, 2801"
+ },
+ "plaza_villa": {
+  "lat": 40.4153,
+  "lon": -3.7103,
+  "src": "manual"
+ },
+ "mercado_san_miguel": {
+  "lat": 40.4154,
+  "lon": -3.709,
+  "src": "manual"
+ },
+ "universidad_sev": {
+  "lat": 37.3806,
+  "lon": -5.9918,
+  "src": "manual"
+ },
+ "torre_oro": {
+  "lat": 37.3823,
+  "lon": -5.9965,
+  "src": "manual"
+ },
+ "plaza_toros": {
+  "lat": 37.3858,
+  "lon": -5.9985,
+  "src": "manual"
+ },
+ "setas": {
+  "lat": 37.3932,
+  "lon": -5.9918,
+  "src": "manual"
+ },
+ "carlos_v": {
+  "lat": 37.1768,
+  "lon": -3.5895,
+  "src": "manual"
+ },
+ "casa_mila": {
+  "lat": 41.3954,
+  "lon": 2.1619,
+  "src": "manual"
+ },
+ "port_vell": {
+  "lat": 41.3797,
+  "lon": 2.1823,
+  "src": "manual"
+ },
+ "boqueria": {
+  "lat": 41.3817,
+  "lon": 2.1717,
+  "src": "manual"
+ },
+ "bcn_cathedral": {
+  "lat": 41.384,
+  "lon": 2.1762,
+  "src": "manual"
+ }
+}

@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>코스 2 · 10~10일차</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#1E56A0}a:hover{color:#163F75}
+</style>
+</helmet>
+<div style="width: 1280px; height: 2370px; box-sizing: border-box; padding: 56px; background: #F7F4EE; color: #1C2230; font-family: 'Noto Sans KR', sans-serif; display: flex; flex-direction: column; gap: 28px;">
+
+  <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 24px;">
+    <div style="display: flex; flex-direction: column; gap: 8px;">
+      <span style="align-self: flex-start; font-size: 13px; font-weight: 700; color: #FFFFFF; background: {{accent}}; border-radius: 999px; padding: 5px 12px;">코스 2 · 스페인 일주 (직항 가성비) · DAY 10–10</span>
+      <h1 style="margin: 0; font-size: 36px; font-weight: 900; line-height: 1.2;">코스 2 · 10~10일차</h1>
+    </div>
+    <div style="font-size: 13px; color: #4A5160; line-height: 1.6; text-align: right; flex-shrink: 0;">금액은 1인 기준 원화 환산 (1유로 = 1,500원, 1달러 = 1,330원)<br>'지도 ↗'는 구글 지도 길찾기, 지도 위 번호는 표의 번호와 같아<br>요금·시간은 2026년 11월 기준, 미확인 표시는 꼭 다시 확인</div>
+  </div>
+
+  <sc-for list="{{days}}" as="d" hint-placeholder-count="3">
+    <div style="background: #FFFFFF; border: 1px solid #E3DDD2; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 18px;">
+
+      <div style="display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 24px; align-items: stretch;">
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="display: flex; align-items: baseline; gap: 14px;">
+            <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.06em; color: {{accent}};">DAY {{d.n}}</span>
+            <span style="font-size: 30px; font-weight: 900;">{{d.date}} ({{d.dow}})</span>
+            <span style="font-size: 14px; font-weight: 700; color: #FFFFFF; background: {{accent}}; border-radius: 999px; padding: 4px 12px;">{{d.city}}</span>
+          </div>
+          <div style="font-size: 22px; font-weight: 900; line-height: 1.3;">{{d.title}}</div>
+          <sc-if value="{{d.note}}" hint-placeholder-val="{{ false }}"><div style="font-size: 13px; line-height: 1.55; color: #9C3A22; background: #FBF0EA; border-radius: 10px; padding: 10px 14px;">{{d.note}}</div></sc-if>
+          <div style="display: grid; grid-template-columns: 90px minmax(0, 1fr); gap: 6px 14px; font-size: 14px; line-height: 1.55; background: #F3EFE7; border-radius: 12px; padding: 14px 16px;">
+            <span style="font-weight: 700; color: {{accent}};">{{d.wake}} 기상</span><span>{{d.sleepAt}}</span>
+            <span style="font-weight: 700; color: {{accent}};">아침 A</span><span>{{d.bfA}}</span>
+            <span style="font-weight: 700; color: {{accent}};">아침 B</span><span>{{d.bfB}}</span>
+            <span style="font-weight: 700; color: {{accent}};">{{d.start}} 출발</span><span>{{d.startNote}}</span>
+          </div>
+          <sc-if value="{{d.sleepName}}" hint-placeholder-val="{{ true }}">
+            <div style="font-size: 14px; line-height: 1.55;"><span style="font-weight: 700; color: {{accent}};">오늘 숙소</span> {{d.sleepName}} · 1박 {{d.sleepPrice}} <a href="{{d.sleepUrl}}" style="font-weight: 700; text-decoration: underline;">요금 보기 ↗</a></div>
+          </sc-if>
+        </div>
+        <figure style="margin: 0; display: flex; flex-direction: column; gap: 4px;">
+          <img src="{{d.photo.src}}" alt="{{d.photo.alt}}" style="width: 260px; height: 190px; object-fit: cover; border-radius: 12px; display: block; background: #E3DDD2;">
+          <a href="{{d.photo.page}}" style="font-size: 10px; color: #5B6270; text-decoration: none; line-height: 1.4;">{{d.photo.credit}}</a>
+        </figure>
+      </div>
+
+      <sc-for list="{{d.maps}}" as="mp" hint-placeholder-count="1">
+        <figure style="margin: 0; display: flex; flex-direction: column; gap: 6px;">
+          <img src="{{mp.src}}" alt="{{mp.alt}}" style="width: 100%; height: 620px; object-fit: cover; border-radius: 12px; display: block; border: 1px solid #E3DDD2; background: #E3DDD2;">
+          <span style="font-size: 12px; color: #5B6270; line-height: 1.5;">{{mp.caption}} · 지도 © OpenStreetMap 기여자</span>
+        </figure>
+      </sc-for>
+
+      <div style="display: flex; flex-direction: column;">
+        <sc-for list="{{d.items}}" as="it" hint-placeholder-count="8">
+          <div style="display: grid; grid-template-columns: 54px 66px minmax(0, 1fr) 190px 100px; gap: 12px; padding: 10px 0; border-bottom: 1px dashed #EAE4DA; align-items: start; font-size: 14px; line-height: 1.5;">
+            <span style="font-weight: 700; color: {{accent}}; font-variant-numeric: tabular-nums;">{{it.time}}</span>
+            <span style="font-size: 12px; font-weight: 700; color: #FFFFFF; background: {{it.badgeColor}}; border-radius: 6px; padding: 3px 0; text-align: center;">{{it.badge}}</span>
+            <div style="display: flex; flex-direction: column; gap: 2px; min-width: 0;">
+              <span style="font-weight: 700;">{{it.head}}</span>
+              <sc-if value="{{it.line}}" hint-placeholder-val="{{ false }}"><span>{{it.line}}</span></sc-if>
+              <sc-if value="{{it.note}}" hint-placeholder-val="{{ false }}"><span style="font-size: 13px; color: #5B6270;">{{it.note}}</span></sc-if>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 2px; text-align: right;">
+              <span style="font-weight: 700;">{{it.dur}}</span>
+              <sc-if value="{{it.fareMain}}" hint-placeholder-val="{{ true }}"><span style="font-size: 15px; font-weight: 700; color: #8A5300; white-space: nowrap;">{{it.fareMain}}</span></sc-if>
+              <sc-for list="{{it.fareLines}}" as="fl" hint-placeholder-count="0">
+                <span style="font-size: 12px; font-weight: 500; color: #8A5300; white-space: nowrap; line-height: 1.4;">{{fl.t}}</span>
+              </sc-for>
+              <sc-if value="{{it.fareNote}}" hint-placeholder-val="{{ false }}"><span style="font-size: 12px; color: #5B6270; line-height: 1.4;">{{it.fareNote}}</span></sc-if>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 4px; text-align: right;">
+              <a href="{{it.mapUrl}}" style="font-size: 13px; font-weight: 700; text-decoration: underline;">{{it.mapLabel}}</a>
+              <sc-if value="{{it.link}}" hint-placeholder-val="{{ false }}"><a href="{{it.link}}" style="font-size: 13px; font-weight: 700; color: #8A5300; text-decoration: underline;">출처·예매 ↗</a></sc-if>
+            </div>
+          </div>
+        </sc-for>
+      </div>
+      <div style="font-size: 13px; color: #4A5160;">일정 끝 {{d.end}} · 오늘 이동·입장 비용 1인 약 {{d.dayCost}} (식비 별도)</div>
+    </div>
+  </sc-for>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#2F7A57","options":["#1E56A0","#2F7A57","#B8432A"]},"$preview":{"width":1280,"height":2370}}'>
+class Component extends DCLogic {
+  renderVals() {
+    var self = this;
+    var raw = [{"n": 10, "date": "5/18", "dow": "화", "city": "바르셀로나 → 인천", "title": "보른 산책하고 귀국", "note": "", "start": "09:30", "end": "20:55", "items": [{"time": "09:30", "kind": "stop", "mode": "", "head": "1 Hotel Lleó", "line": "체크아웃, 짐은 호텔에 맡기기", "note": "", "dur": "20분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Carrer%20de%20Pelai%2022%2C%20Barcelona", "mapLabel": "위치 ↗", "link": ""}, {"time": "09:50", "kind": "move", "mode": "walk", "head": "1 Hotel Lleó → 2 보케리아 시장", "line": "", "note": "람블라 따라 남쪽", "dur": "도보 5분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=41.38530,2.16830&destination=41.38170,2.17170&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "09:55", "kind": "stop", "mode": "", "head": "2 보케리아 시장", "line": "보케리아 시장 — 생과일 주스·하몬 한 컵 (여행사 자유일정 추천 1순위)", "note": "", "dur": "35분", "fare": "€5–10", "eur": 5.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mercat%20de%20la%20Boqueria%2C%20Barcelona", "mapLabel": "위치 ↗", "link": "https://www.boqueria.barcelona/"}, {"time": "10:30", "kind": "move", "mode": "walk", "head": "2 보케리아 시장 → 3 바르셀로나 대성당 (고딕 지구)", "line": "", "note": "포르타페리사 거리 → 비스베 거리 (비스베 다리)", "dur": "도보 7분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=41.38170,2.17170&destination=41.38400,2.17620&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "10:37", "kind": "stop", "mode": "", "head": "3 바르셀로나 대성당 (고딕 지구)", "line": "바르셀로나 대성당 · 고딕 지구 골목", "note": "", "dur": "30분", "fare": "무료 (평일 12:30 전 예배 시간. 관광 입장 €11, 미확인)", "eur": 11.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Catedral%20de%20Barcelona", "mapLabel": "위치 ↗", "link": ""}, {"time": "11:07", "kind": "move", "mode": "walk", "head": "3 바르셀로나 대성당 (고딕 지구) → 4 El Xampanyet", "line": "", "note": "자우메 1세 광장 → 아르헨테리아 거리 → 몬카다 거리", "dur": "도보 8분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=41.38400,2.17620&destination=41.38510,2.18130&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "11:15", "kind": "stop", "mode": "", "head": "4 El Xampanyet", "line": "보른 지구·피카소 미술관 골목 산책 후 점심: El Xampanyet — 멸치·카바 (12:00 오픈)", "note": "", "dur": "110분", "fare": "€20–30", "eur": 20.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Carrer%20de%20Montcada%2022%2C%20Barcelona", "mapLabel": "위치 ↗", "link": "https://barcelonanavigator.com/el-xampanyet/"}, {"time": "13:05", "kind": "move", "mode": "walk", "head": "4 El Xampanyet → 5 바르셀로네타 해변", "line": "", "note": "보른 산책로 → 팔라우 광장 → 조안 데 보르보 산책로", "dur": "도보 20분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=41.38510,2.18130&destination=41.37840,2.19250&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "13:25", "kind": "stop", "mode": "", "head": "5 바르셀로네타 해변", "line": "바르셀로네타 해변에서 마지막 지중해", "note": "", "dur": "60분", "fare": "무료", "eur": 0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Platja%20de%20la%20Barceloneta", "mapLabel": "위치 ↗", "link": ""}, {"time": "14:25", "kind": "move", "mode": "walk", "head": "5 바르셀로네타 해변 → 1 Hotel Lleó", "line": "", "note": "L4 Barceloneta → Jaume I/Urquinaona도 가능", "dur": "도보 35분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=41.37840,2.19250&destination=41.38530,2.16830&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "15:00", "kind": "stop", "mode": "", "head": "1 Hotel Lleó", "line": "짐 찾기", "note": "", "dur": "15분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Carrer%20de%20Pelai%2022%2C%20Barcelona", "mapLabel": "위치 ↗", "link": ""}, {"time": "15:15", "kind": "move", "mode": "walk", "head": "1 Hotel Lleó → 6 아에로부스 정류장 (카탈루냐 광장, 엘 코르테 잉글레스 앞)", "line": "", "note": "엘 코르테 잉글레스 앞, 그라시아 거리 건너편 정류장. 'A1 / T1' 표시 확인", "dur": "도보 3분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=41.38530,2.16830&destination=41.38700,2.17000&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "17:40", "kind": "stop", "mode": "", "head": "6 아에로부스 정류장 (카탈루냐 광장, 엘 코르테 잉글레스 앞)", "line": "Aerobús A1 탑승 (17:45까지)", "note": "", "dur": "대기 142분 → 5분", "fare": "5/15에 산 왕복권 사용", "eur": 0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Pla%C3%A7a%20de%20Catalunya%2014%2C%20Barcelona", "mapLabel": "위치 ↗", "link": ""}, {"time": "17:45", "kind": "move", "mode": "bus", "head": "6 아에로부스 정류장 (카탈루냐 광장, 엘 코르테 잉글레스 앞) → 7 바르셀로나 엘 프라트 공항 T1", "line": "Aerobús A1 · Plaça de Catalunya → T1", "note": "", "dur": "버스 40분", "fare": "왕복권", "eur": 0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=41.38700,2.17000&destination=41.28790,2.07350&travelmode=transit", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "18:25", "kind": "stop", "mode": "", "head": "7 바르셀로나 엘 프라트 공항 T1", "line": "체크인·출국 (20:50 출발, 코스 1은 카타르 16:35 출발이라 전체를 3시간 앞당기고 대성당·해변은 생략)", "note": "다구간 귀국편은 예매 시 시간 확정", "dur": "150분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Terminal%201%2C%20Aeroport%20de%20Barcelona", "mapLabel": "위치 ↗", "link": ""}], "maps": [{"src": "/_blob/4db02da327cb3cf83f4b7ddad37b5a5b", "alt": "바르셀로나 → 인천 이동 경로 지도", "caption": "지도 1 · 1 Hotel Lleó → 2 보케리아 시장 → 3 바르셀로나 대성당 (고딕 지구) → 4 El Xampanyet → 5 바르셀로네타 해변 → 6 아에로부스 정류장 (카탈루냐 광장, 엘 코르테 잉글레스 앞) → 7 바르셀로나 엘 프라트 공항 T1", "file": "maps/c2_d10_s1.jpg"}], "photo": {"src": "/_blob/c7bf06ae20821cebea523ed843a0e23b", "alt": "고딕 지구 비스베 다리", "credit": "사진: 고딕 지구 비스베 다리 · Jordiferrer · CC BY-SA 4.0", "page": "https://commons.wikimedia.org/wiki/File:Pont_del_carrer_del_Bisbe_-_a_sota.JPG", "file": "photos/gothic.jpg"}, "wake": "08:15", "sleepAt": "Hotel Lleó (3성) 객실 (어젯밤 숙소)", "bfA": "호텔 조식 — 유료 옵션, 금액은 예약 화면에서 확인 (보통 €12–20)", "bfB": "Granja Viader (Carrer d'en Xuclà 4, 호텔에서 4분) 핫초코·추로스 약 €5–8", "startNote": "짐 챙겨 호텔 로비에서 나가기", "sleepName": "기내 (인천행 야간 비행)", "sleepUrl": "https://www.skyscanner.co.kr", "sleepPrice": "항공권에 포함"}];
+    var badge = { walk: ['도보', '#1E56A0'], metro: ['메트로', '#B8432A'], train: ['열차', '#B8432A'], rack: ['산악열차', '#B8432A'], funicular: ['푸니쿨라', '#B8432A'], bus: ['버스', '#2F7A57'], tram: ['트램', '#2F7A57'], taxi: ['택시', '#7A5C99'], plane: ['비행기', '#7A5C99'], stop: ['장소', '#1C2230'] };
+    var days = raw.map(function (d) {
+      var cost = 0;
+      var items = d.items.map(function (it) {
+        var b = badge[it.kind === 'stop' ? 'stop' : it.mode] || ['이동', '#555'];
+        cost += it.eur || 0;
+        var fare = self.splitFare(it.fare || '');
+        return {
+          time: it.time, badge: b[0], badgeColor: b[1],
+          head: it.head, line: self.won(it.line), note: self.won(it.note),
+          dur: it.dur, fareMain: fare.main, fareLines: fare.lines, fareNote: fare.note,
+          mapUrl: it.mapUrl, mapLabel: it.mapLabel, link: it.link || ''
+        };
+      });
+      return {
+        n: d.n, date: d.date, dow: d.dow, city: d.city, title: d.title, note: d.note || '',
+        wake: d.wake, sleepAt: d.sleepAt, bfA: self.won(d.bfA), bfB: self.won(d.bfB), start: d.start, startNote: d.startNote,
+        sleepName: d.sleepName || '', sleepUrl: d.sleepUrl || '', sleepPrice: self.won(d.sleepPrice || ''),
+        photo: d.photo, maps: d.maps, items: items, end: d.end,
+        dayCost: self.won('€' + Math.round(cost))
+      };
+    });
+    return { accent: this.props.accent ?? '#2F7A57', days: days };
+  }
+
+  // 요금 문구를 '굵은 합계 한 줄 + 항목별 한 줄씩 + 회색 설명'으로 나눈다
+  splitFare(text) {
+    var self = this;
+    var money = /(€|\$)\s?(\d+(?:\.\d+)?)(?:\s?[–~-]\s?(?:€|\$)?(\d+(?:\.\d+)?))?/;
+    if (!text) return { main: '', lines: [], note: '' };
+    // "A + B + C" 꼴: 항목별로 줄을 나누고 맨 위에 합계를 쓴다
+    if (text.indexOf(' + ') > 0) {
+      var parts = text.split(' + ');
+      var low = 0, high = 0, unknown = false;
+      parts.forEach(function (p) {
+        var m = money.exec(p);
+        if (!m) { unknown = true; return; }
+        var rate = m[1] === '€' ? 1500 : 1330;
+        low += parseFloat(m[2]) * rate;
+        high += (m[3] ? parseFloat(m[3]) : parseFloat(m[2])) * rate;
+      });
+      var total = self.won('€' + (low / 1500) + (high > low ? '–' + (high / 1500) : ''));
+      return { main: '합계 약 ' + total + (unknown ? ' +α' : ''), lines: parts.map(function (p) { return { t: self.won(p) }; }), note: '' };
+    }
+    // "편도 €7.45 · 왕복 €12.85 (설명)" 꼴: 항목별 줄, 괄호 설명은 회색으로
+    var note = '';
+    var paren = /\s*\(([^)]*)\)\s*$/.exec(text);
+    if (paren && !money.test(paren[1])) { note = paren[1]; text = text.slice(0, paren.index); }
+    if (text.indexOf(' · ') > 0) {
+      return { main: '', lines: text.split(' · ').map(function (p) { return { t: self.won(p) }; }), note: note };
+    }
+    // 금액 하나짜리: 금액을 굵게, 나머지 말은 설명으로
+    var m = money.exec(text);
+    if (!m) return text.length <= 8 ? { main: text, lines: [], note: note } : { main: '', lines: [{ t: text }], note: note };
+    var rest = (text.slice(0, m.index) + text.slice(m.index + m[0].length)).replace(/\(\s*\)/g, '').trim();
+    return { main: self.won(m[0]), lines: [], note: [rest, note].filter(Boolean).join(' · ') };
+  }
+
+  // 유로·달러 금액을 원화로 바꿔 쓴다 (1유로 = 1,500원, 1달러 = 1,330원)
+  won(text) {
+    if (!text) return text || '';
+    var fmt = function (v) {
+      var step = v >= 100000 ? 1000 : (v >= 10000 ? 100 : 10);
+      return (Math.round(v / step) * step).toLocaleString('ko-KR');
+    };
+    var range = function (rate) {
+      return function (m, a, b) {
+        var low = parseFloat(a) * rate;
+        return b ? fmt(low) + '–' + fmt(parseFloat(b) * rate) + '원' : fmt(low) + '원';
+      };
+    };
+    return text
+      .replace(/€\s?(\d+(?:\.\d+)?)(?:\s?[–~-]\s?€?(\d+(?:\.\d+)?))?/g, range(1500))
+      .replace(/\$(\d+(?:\.\d+)?)(?:\s?[–~-]\s?\$?(\d+(?:\.\d+)?))?/g, range(1330));
+  }
+}
+</script>
+</body>
+</html>

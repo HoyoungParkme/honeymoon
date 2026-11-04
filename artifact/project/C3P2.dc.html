@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>코스 3 · 3~3일차</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#1E56A0}a:hover{color:#163F75}
+</style>
+</helmet>
+<div style="width: 1280px; height: 4014px; box-sizing: border-box; padding: 56px; background: #F7F4EE; color: #1C2230; font-family: 'Noto Sans KR', sans-serif; display: flex; flex-direction: column; gap: 28px;">
+
+  <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 24px;">
+    <div style="display: flex; flex-direction: column; gap: 8px;">
+      <span style="align-self: flex-start; font-size: 13px; font-weight: 700; color: #FFFFFF; background: {{accent}}; border-radius: 999px; padding: 5px 12px;">코스 3 · 안달루시아 + 세고비아 (직항) · DAY 3–3</span>
+      <h1 style="margin: 0; font-size: 36px; font-weight: 900; line-height: 1.2;">코스 3 · 3~3일차</h1>
+    </div>
+    <div style="font-size: 13px; color: #4A5160; line-height: 1.6; text-align: right; flex-shrink: 0;">금액은 1인 기준 원화 환산 (1유로 = 1,500원, 1달러 = 1,330원)<br>'지도 ↗'는 구글 지도 길찾기, 지도 위 번호는 표의 번호와 같아<br>요금·시간은 2026년 11월 기준, 미확인 표시는 꼭 다시 확인</div>
+  </div>
+
+  <sc-for list="{{days}}" as="d" hint-placeholder-count="3">
+    <div style="background: #FFFFFF; border: 1px solid #E3DDD2; border-radius: 18px; padding: 28px; display: flex; flex-direction: column; gap: 18px;">
+
+      <div style="display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 24px; align-items: stretch;">
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+          <div style="display: flex; align-items: baseline; gap: 14px;">
+            <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.06em; color: {{accent}};">DAY {{d.n}}</span>
+            <span style="font-size: 30px; font-weight: 900;">{{d.date}} ({{d.dow}})</span>
+            <span style="font-size: 14px; font-weight: 700; color: #FFFFFF; background: {{accent}}; border-radius: 999px; padding: 4px 12px;">{{d.city}}</span>
+          </div>
+          <div style="font-size: 22px; font-weight: 900; line-height: 1.3;">{{d.title}}</div>
+          <sc-if value="{{d.note}}" hint-placeholder-val="{{ false }}"><div style="font-size: 13px; line-height: 1.55; color: #9C3A22; background: #FBF0EA; border-radius: 10px; padding: 10px 14px;">{{d.note}}</div></sc-if>
+          <div style="display: grid; grid-template-columns: 90px minmax(0, 1fr); gap: 6px 14px; font-size: 14px; line-height: 1.55; background: #F3EFE7; border-radius: 12px; padding: 14px 16px;">
+            <span style="font-weight: 700; color: {{accent}};">{{d.wake}} 기상</span><span>{{d.sleepAt}}</span>
+            <span style="font-weight: 700; color: {{accent}};">아침 A</span><span>{{d.bfA}}</span>
+            <span style="font-weight: 700; color: {{accent}};">아침 B</span><span>{{d.bfB}}</span>
+            <span style="font-weight: 700; color: {{accent}};">{{d.start}} 출발</span><span>{{d.startNote}}</span>
+          </div>
+          <sc-if value="{{d.sleepName}}" hint-placeholder-val="{{ true }}">
+            <div style="font-size: 14px; line-height: 1.55;"><span style="font-weight: 700; color: {{accent}};">오늘 숙소</span> {{d.sleepName}} · 1박 {{d.sleepPrice}} <a href="{{d.sleepUrl}}" style="font-weight: 700; text-decoration: underline;">요금 보기 ↗</a></div>
+          </sc-if>
+        </div>
+        <figure style="margin: 0; display: flex; flex-direction: column; gap: 4px;">
+          <img src="{{d.photo.src}}" alt="{{d.photo.alt}}" style="width: 260px; height: 190px; object-fit: cover; border-radius: 12px; display: block; background: #E3DDD2;">
+          <a href="{{d.photo.page}}" style="font-size: 10px; color: #5B6270; text-decoration: none; line-height: 1.4;">{{d.photo.credit}}</a>
+        </figure>
+      </div>
+
+      <sc-for list="{{d.maps}}" as="mp" hint-placeholder-count="1">
+        <figure style="margin: 0; display: flex; flex-direction: column; gap: 6px;">
+          <img src="{{mp.src}}" alt="{{mp.alt}}" style="width: 100%; height: 620px; object-fit: cover; border-radius: 12px; display: block; border: 1px solid #E3DDD2; background: #E3DDD2;">
+          <span style="font-size: 12px; color: #5B6270; line-height: 1.5;">{{mp.caption}} · 지도 © OpenStreetMap 기여자</span>
+        </figure>
+      </sc-for>
+
+      <div style="display: flex; flex-direction: column;">
+        <sc-for list="{{d.items}}" as="it" hint-placeholder-count="8">
+          <div style="display: grid; grid-template-columns: 54px 66px minmax(0, 1fr) 190px 100px; gap: 12px; padding: 10px 0; border-bottom: 1px dashed #EAE4DA; align-items: start; font-size: 14px; line-height: 1.5;">
+            <span style="font-weight: 700; color: {{accent}}; font-variant-numeric: tabular-nums;">{{it.time}}</span>
+            <span style="font-size: 12px; font-weight: 700; color: #FFFFFF; background: {{it.badgeColor}}; border-radius: 6px; padding: 3px 0; text-align: center;">{{it.badge}}</span>
+            <div style="display: flex; flex-direction: column; gap: 2px; min-width: 0;">
+              <span style="font-weight: 700;">{{it.head}}</span>
+              <sc-if value="{{it.line}}" hint-placeholder-val="{{ false }}"><span>{{it.line}}</span></sc-if>
+              <sc-if value="{{it.note}}" hint-placeholder-val="{{ false }}"><span style="font-size: 13px; color: #5B6270;">{{it.note}}</span></sc-if>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 2px; text-align: right;">
+              <span style="font-weight: 700;">{{it.dur}}</span>
+              <sc-if value="{{it.fareMain}}" hint-placeholder-val="{{ true }}"><span style="font-size: 15px; font-weight: 700; color: #8A5300; white-space: nowrap;">{{it.fareMain}}</span></sc-if>
+              <sc-for list="{{it.fareLines}}" as="fl" hint-placeholder-count="0">
+                <span style="font-size: 12px; font-weight: 500; color: #8A5300; white-space: nowrap; line-height: 1.4;">{{fl.t}}</span>
+              </sc-for>
+              <sc-if value="{{it.fareNote}}" hint-placeholder-val="{{ false }}"><span style="font-size: 12px; color: #5B6270; line-height: 1.4;">{{it.fareNote}}</span></sc-if>
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 4px; text-align: right;">
+              <a href="{{it.mapUrl}}" style="font-size: 13px; font-weight: 700; text-decoration: underline;">{{it.mapLabel}}</a>
+              <sc-if value="{{it.link}}" hint-placeholder-val="{{ false }}"><a href="{{it.link}}" style="font-size: 13px; font-weight: 700; color: #8A5300; text-decoration: underline;">출처·예매 ↗</a></sc-if>
+            </div>
+          </div>
+        </sc-for>
+      </div>
+      <div style="font-size: 13px; color: #4A5160;">일정 끝 {{d.end}} · 오늘 이동·입장 비용 1인 약 {{d.dayCost}} (식비 별도)</div>
+    </div>
+  </sc-for>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"accent":{"editor":"color","default":"#B8432A","options":["#1E56A0","#2F7A57","#B8432A"]},"$preview":{"width":1280,"height":4014}}'>
+class Component extends DCLogic {
+  renderVals() {
+    var self = this;
+    var raw = [{"n": 3, "date": "5/11", "dow": "화", "city": "톨레도", "title": "중세 도시 톨레도 당일치기", "note": "", "start": "08:10", "end": "19:06", "items": [{"time": "08:10", "kind": "move", "mode": "walk", "head": "1 Hotel Regente → 2 솔역 (Puerta del Sol)", "line": "", "note": "", "dur": "도보 7분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.41970,-3.70427&destination=40.41690,-3.70350&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "08:17", "kind": "move", "mode": "train", "head": "솔역 (Puerta del Sol) → 마드리드 푸에르타 데 아토차역", "line": "세르카니아스 C-3/C-4 Atocha 방면 · Sol → Atocha (1정거장, 4분)", "note": "메트로로 가면 Callao 3호선 → Sol → 1호선 → Atocha, 20~25분", "dur": "열차 8분", "fare": "€1.70 (Avant 표는 Combinado Cercanías 대상이 아니라 유료)", "eur": 1.7, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.41690,-3.70350&destination=40.40670,-3.68960&travelmode=transit", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "08:40", "kind": "stop", "mode": "", "head": "마드리드 푸에르타 데 아토차역", "line": "Avant 열차 탑승 (08:50 출발 기준, 예매 시 시간 확정)", "note": "첫차 06:45. 60일 전 renfe.com 오픈", "dur": "대기 15분 → 5분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Plaza%20del%20Emperador%20Carlos%20V%2C%20Madrid", "mapLabel": "위치 ↗", "link": "https://everyrail.com/trains/madrid-to-toledo/"}, {"time": "08:45", "kind": "move", "mode": "train", "head": "마드리드 푸에르타 데 아토차역 → 톨레도역", "line": "Renfe Avant · Madrid-Puerta de Atocha → Toledo", "note": "", "dur": "열차 33분", "fare": "편도 €11–13 (왕복 약 €22)", "eur": 33.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.40670,-3.68960&destination=39.86150,-4.00960&travelmode=transit", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "09:18", "kind": "move", "mode": "bus", "head": "1 톨레도역 → 2 소코도베르 광장", "line": "Unauto 61·62번 (또는 5번) 센트로 방면 · 역 앞 정류장 (출구에서 오른쪽) → Plaza de Zocodover", "note": "걸으면 오르막 20~25분, 택시 €5–7", "dur": "버스 12분", "fare": "€1.40 기사에게 현금 (unauto.es 1회권)", "eur": 1.4, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=39.86150,-4.00960&destination=39.85880,-4.02200&travelmode=transit", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "09:30", "kind": "stop", "mode": "", "head": "2 소코도베르 광장", "line": "소코도베르 광장", "note": "", "dur": "15분", "fare": "무료", "eur": 0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Plaza%20de%20Zocodover%2C%20Toledo", "mapLabel": "위치 ↗", "link": ""}, {"time": "09:45", "kind": "move", "mode": "walk", "head": "2 소코도베르 광장 → 3 톨레도 대성당", "line": "", "note": "코메르시오 거리 → 옴브레 데 팔로 거리", "dur": "도보 6분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=39.85880,-4.02200&destination=39.85710,-4.02370&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "09:51", "kind": "stop", "mode": "", "head": "3 톨레도 대성당", "line": "톨레도 대성당", "note": "", "dur": "90분", "fare": "€12 (블로그 기준, 공식 미게시)", "eur": 12.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Catedral%20de%20Toledo", "mapLabel": "위치 ↗", "link": "https://lamaletainquieta.com/catedral-de-toledo/"}, {"time": "11:21", "kind": "move", "mode": "walk", "head": "3 톨레도 대성당 → 4 Taberna El Botero", "line": "", "note": "", "dur": "도보 3분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=39.85710,-4.02370&destination=39.85634,-4.02494&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "11:24", "kind": "stop", "mode": "", "head": "4 Taberna El Botero", "line": "점심: Taberna El Botero — 크로케타 테이스팅", "note": "", "dur": "75분", "fare": "€30–40", "eur": 30.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Calle%20de%20la%20Ciudad%205%2C%20Toledo", "mapLabel": "위치 ↗", "link": "https://miraespanha.com/en/where-to-eat-in-toledo/"}, {"time": "12:39", "kind": "move", "mode": "taxi", "head": "4 Taberna El Botero → 5 미라도르 델 바예 전망대", "line": "소코도베르 택시 승강장 → Mirador del Valle", "note": "기사에게 20분 기다려 달라고 하거나 Radio Taxi +34 925 255 050", "dur": "택시 10분", "fare": "€8–10 (차량당, 미확인)", "eur": 8.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=39.85634,-4.02494&destination=39.85080,-4.01960&travelmode=driving", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "12:49", "kind": "stop", "mode": "", "head": "5 미라도르 델 바예 전망대", "line": "타호강 건너편 전망대에서 톨레도 전경", "note": "", "dur": "30분", "fare": "무료", "eur": 0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Mirador%20del%20Valle%2C%20Toledo", "mapLabel": "위치 ↗", "link": ""}, {"time": "13:19", "kind": "move", "mode": "taxi", "head": "5 미라도르 델 바예 전망대 → 1 톨레도역", "line": "", "note": "", "dur": "택시 12분", "fare": "€8–10 (차량당, 미확인)", "eur": 8.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=39.85080,-4.01960&destination=39.86150,-4.00960&travelmode=driving", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "17:15", "kind": "stop", "mode": "", "head": "1 톨레도역", "line": "열차 대기 (17:30경 Avant, 예매 시 확정)", "note": "", "dur": "대기 224분 → 10분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Estaci%C3%B3n%20de%20Toledo", "mapLabel": "위치 ↗", "link": ""}, {"time": "17:25", "kind": "move", "mode": "train", "head": "톨레도역 → 마드리드 푸에르타 데 아토차역", "line": "Renfe Avant · Toledo → Madrid-Puerta de Atocha", "note": "", "dur": "열차 33분", "fare": "편도 €11–13", "eur": 11.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=39.86150,-4.00960&destination=40.40670,-3.68960&travelmode=transit", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "17:58", "kind": "move", "mode": "metro", "head": "1 마드리드 푸에르타 데 아토차역 → 2 솔역 (Puerta del Sol)", "line": "1호선 Pinar de Chamartín 방면 · Atocha → Sol (4정거장)", "note": "세르카니아스로 가면 4분, €1.70", "dur": "메트로 10분", "fare": "10회권 1회 차감 (€0.73)", "eur": 0.73, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.40670,-3.68960&destination=40.41690,-3.70350&travelmode=transit", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "18:08", "kind": "move", "mode": "walk", "head": "2 솔역 (Puerta del Sol) → 3 Casa Labra", "line": "", "note": "", "dur": "도보 3분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.41690,-3.70350&destination=40.41716,-3.70461&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}, {"time": "18:11", "kind": "stop", "mode": "", "head": "3 Casa Labra", "line": "저녁: Casa Labra — 대구 튀김·크로케타 (서서 먹는 바)", "note": "", "dur": "50분", "fare": "€15–25", "eur": 15.0, "mapUrl": "https://www.google.com/maps/search/?api=1&query=Calle%20de%20Tetu%C3%A1n%2012%2C%20Madrid", "mapLabel": "위치 ↗", "link": "https://www.timeout.es/madrid/es/bares-y-pubs/casa-labra"}, {"time": "19:01", "kind": "move", "mode": "walk", "head": "3 Casa Labra → 4 Hotel Regente", "line": "", "note": "", "dur": "도보 5분", "fare": "", "eur": 0.0, "mapUrl": "https://www.google.com/maps/dir/?api=1&origin=40.41716,-3.70461&destination=40.41970,-3.70427&travelmode=walking", "mapLabel": "경로 지도 ↗", "link": ""}], "maps": [{"src": "/_blob/0cc4f4753108436bb4dc4180b241690e", "alt": "톨레도 이동 경로 지도", "caption": "지도 1 · 1 Hotel Regente → 2 솔역 (Puerta del Sol)", "file": "maps/c3_d03_s1.jpg"}, {"src": "/_blob/d2206042d09e033b784c91e7e5d0a9d6", "alt": "톨레도 이동 경로 지도", "caption": "지도 2 · 1 톨레도역 → 2 소코도베르 광장 → 3 톨레도 대성당 → 4 Taberna El Botero → 5 미라도르 델 바예 전망대", "file": "maps/c3_d03_s2.jpg"}, {"src": "/_blob/06cbdb1853a567b0d8a949aa380a0381", "alt": "톨레도 이동 경로 지도", "caption": "지도 3 · 1 마드리드 푸에르타 데 아토차역 → 2 솔역 (Puerta del Sol) → 3 Casa Labra → 4 Hotel Regente", "file": "maps/c3_d03_s3.jpg"}], "photo": {"src": "/_blob/0487beae47b110f88d56fe8b429307da", "alt": "타호강 너머 톨레도", "credit": "사진: 타호강 너머 톨레도 · Diliff · CC BY-SA 3.0", "page": "https://commons.wikimedia.org/wiki/File:Tagus_River_Panorama_-_Toledo,_Spain_-_Dec_2006.jpg", "file": "photos/toledo.jpg"}, "wake": "06:55", "sleepAt": "Hotel Regente (3성) 객실 (어젯밤 숙소)", "bfA": "호텔 조식 — €11.95 (예약 시 옵션 추가)", "bfB": "La Mallorquina (솔 광장 8번지, 호텔에서 6분) 추로스·토스타다 약 €5–8", "startNote": "호텔 로비에서 나가기", "sleepName": "Hotel Regente (3성)", "sleepUrl": "https://www.kayak.ie/Madrid-Hotels-Regente.18463.ksp", "sleepPrice": "€150–200 (추정) (2인 1실, 카약 검색가)"}];
+    var badge = { walk: ['도보', '#1E56A0'], metro: ['메트로', '#B8432A'], train: ['열차', '#B8432A'], rack: ['산악열차', '#B8432A'], funicular: ['푸니쿨라', '#B8432A'], bus: ['버스', '#2F7A57'], tram: ['트램', '#2F7A57'], taxi: ['택시', '#7A5C99'], plane: ['비행기', '#7A5C99'], stop: ['장소', '#1C2230'] };
+    var days = raw.map(function (d) {
+      var cost = 0;
+      var items = d.items.map(function (it) {
+        var b = badge[it.kind === 'stop' ? 'stop' : it.mode] || ['이동', '#555'];
+        cost += it.eur || 0;
+        var fare = self.splitFare(it.fare || '');
+        return {
+          time: it.time, badge: b[0], badgeColor: b[1],
+          head: it.head, line: self.won(it.line), note: self.won(it.note),
+          dur: it.dur, fareMain: fare.main, fareLines: fare.lines, fareNote: fare.note,
+          mapUrl: it.mapUrl, mapLabel: it.mapLabel, link: it.link || ''
+        };
+      });
+      return {
+        n: d.n, date: d.date, dow: d.dow, city: d.city, title: d.title, note: d.note || '',
+        wake: d.wake, sleepAt: d.sleepAt, bfA: self.won(d.bfA), bfB: self.won(d.bfB), start: d.start, startNote: d.startNote,
+        sleepName: d.sleepName || '', sleepUrl: d.sleepUrl || '', sleepPrice: self.won(d.sleepPrice || ''),
+        photo: d.photo, maps: d.maps, items: items, end: d.end,
+        dayCost: self.won('€' + Math.round(cost))
+      };
+    });
+    return { accent: this.props.accent ?? '#B8432A', days: days };
+  }
+
+  // 요금 문구를 '굵은 합계 한 줄 + 항목별 한 줄씩 + 회색 설명'으로 나눈다
+  splitFare(text) {
+    var self = this;
+    var money = /(€|\$)\s?(\d+(?:\.\d+)?)(?:\s?[–~-]\s?(?:€|\$)?(\d+(?:\.\d+)?))?/;
+    if (!text) return { main: '', lines: [], note: '' };
+    // "A + B + C" 꼴: 항목별로 줄을 나누고 맨 위에 합계를 쓴다
+    if (text.indexOf(' + ') > 0) {
+      var parts = text.split(' + ');
+      var low = 0, high = 0, unknown = false;
+      parts.forEach(function (p) {
+        var m = money.exec(p);
+        if (!m) { unknown = true; return; }
+        var rate = m[1] === '€' ? 1500 : 1330;
+        low += parseFloat(m[2]) * rate;
+        high += (m[3] ? parseFloat(m[3]) : parseFloat(m[2])) * rate;
+      });
+      var total = self.won('€' + (low / 1500) + (high > low ? '–' + (high / 1500) : ''));
+      return { main: '합계 약 ' + total + (unknown ? ' +α' : ''), lines: parts.map(function (p) { return { t: self.won(p) }; }), note: '' };
+    }
+    // "편도 €7.45 · 왕복 €12.85 (설명)" 꼴: 항목별 줄, 괄호 설명은 회색으로
+    var note = '';
+    var paren = /\s*\(([^)]*)\)\s*$/.exec(text);
+    if (paren && !money.test(paren[1])) { note = paren[1]; text = text.slice(0, paren.index); }
+    if (text.indexOf(' · ') > 0) {
+      return { main: '', lines: text.split(' · ').map(function (p) { return { t: self.won(p) }; }), note: note };
+    }
+    // 금액 하나짜리: 금액을 굵게, 나머지 말은 설명으로
+    var m = money.exec(text);
+    if (!m) return text.length <= 8 ? { main: text, lines: [], note: note } : { main: '', lines: [{ t: text }], note: note };
+    var rest = (text.slice(0, m.index) + text.slice(m.index + m[0].length)).replace(/\(\s*\)/g, '').trim();
+    return { main: self.won(m[0]), lines: [], note: [rest, note].filter(Boolean).join(' · ') };
+  }
+
+  // 유로·달러 금액을 원화로 바꿔 쓴다 (1유로 = 1,500원, 1달러 = 1,330원)
+  won(text) {
+    if (!text) return text || '';
+    var fmt = function (v) {
+      var step = v >= 100000 ? 1000 : (v >= 10000 ? 100 : 10);
+      return (Math.round(v / step) * step).toLocaleString('ko-KR');
+    };
+    var range = function (rate) {
+      return function (m, a, b) {
+        var low = parseFloat(a) * rate;
+        return b ? fmt(low) + '–' + fmt(parseFloat(b) * rate) + '원' : fmt(low) + '원';
+      };
+    };
+    return text
+      .replace(/€\s?(\d+(?:\.\d+)?)(?:\s?[–~-]\s?€?(\d+(?:\.\d+)?))?/g, range(1500))
+      .replace(/\$(\d+(?:\.\d+)?)(?:\s?[–~-]\s?\$?(\d+(?:\.\d+)?))?/g, range(1330));
+  }
+}
+</script>
+</body>
+</html>

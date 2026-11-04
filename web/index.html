@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>스페인 신혼여행</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap">
+<link rel="stylesheet" href="leaflet.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-inner">
+    <div class="brand">
+      <span class="brand-kicker">2027.05.09 – 05.18 · 2인</span>
+      <h1>스페인 신혼여행</h1>
+    </div>
+    <nav class="course-tabs" id="courseTabs" aria-label="코스 선택"></nav>
+  </div>
+  <div class="course-bar" id="courseBar"></div>
+  <nav class="day-tabs" id="dayTabs" aria-label="날짜 선택"></nav>
+</header>
+
+<main class="layout" id="app">
+  <section class="col-plan" id="plan"><p class="loading">일정을 불러오는 중…</p></section>
+  <aside class="col-map">
+    <div class="map-card">
+      <div class="seg-tabs" id="segTabs"></div>
+      <div id="map" role="region" aria-label="이동 경로 지도"></div>
+      <div class="legend">
+        <span><i style="--c:var(--walk)"></i>도보 (실제 경로)</span>
+        <span><i class="dash" style="--c:var(--rail)"></i>메트로·열차</span>
+        <span><i class="dash" style="--c:var(--bus)"></i>버스·트램</span>
+        <span><i class="dash" style="--c:var(--taxi)"></i>택시</span>
+      </div>
+      <p class="map-caption" id="mapCaption"></p>
+    </div>
+  </aside>
+</main>
+
+<footer class="foot">
+  금액은 1인 기준 원화 환산 (1유로 = 1,500원, 1달러 = 1,330원) · 요금·시간은 2026년 11월 기준, 예약 전 다시 확인<br>
+  지도 © OpenStreetMap 기여자 · 사진 Wikimedia Commons (사진 아래 저작자 표기)
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

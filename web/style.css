@@ -1,0 +1,202 @@
+/* 색·간격은 캔버스 보드(tools/board_template.dc.html)와 같은 값을 쓴다 */
+:root {
+  --bg: #F7F4EE;
+  --card: #FFFFFF;
+  --ink: #1C2230;
+  --sub: #4A5160;
+  --mute: #5B6270;
+  --line: #E3DDD2;
+  --line-soft: #EAE4DA;
+  --panel: #F3EFE7;
+  --fare: #8A5300;
+  --warn: #9C3A22;
+  --warn-bg: #FBF0EA;
+  --walk: #1E56A0;
+  --rail: #B8432A;
+  --bus: #2F7A57;
+  --taxi: #7A5C99;
+  --accent: #1E56A0;
+  --radius: 16px;
+}
+
+/* 다크 모드: 바탕·글자만 뒤집고 코스 색은 그대로 둔다 */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #15171C; --card: #1E2127; --ink: #ECEAE4; --sub: #B9BDC6; --mute: #9AA0AB;
+    --line: #2E323A; --line-soft: #2A2E35; --panel: #262A31; --fare: #E0B060; --warn: #F0907A; --warn-bg: #3A2520;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #15171C; --card: #1E2127; --ink: #ECEAE4; --sub: #B9BDC6; --mute: #9AA0AB;
+  --line: #2E323A; --line-soft: #2A2E35; --panel: #262A31; --fare: #E0B060; --warn: #F0907A; --warn-bg: #3A2520;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Noto Sans KR', system-ui, sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+}
+a { color: var(--walk); }
+a:hover { color: #163F75; }
+button { font: inherit; color: inherit; }
+
+/* ── 상단: 코스 탭 · 코스 요약 · 날짜 탭 ── */
+.top { background: var(--card); border-bottom: 1px solid var(--line); }
+.top-inner {
+  max-width: 1440px; margin: 0 auto; padding: 18px 16px 10px;
+  display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 24px;
+}
+.brand-kicker { font-size: 12px; font-weight: 700; letter-spacing: .04em; color: var(--mute); }
+.brand h1 { margin: 2px 0 0; font-size: 24px; font-weight: 900; line-height: 1.2; }
+
+.course-tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+.course-tab {
+  border: 1.5px solid var(--line); background: var(--card); border-radius: 999px;
+  padding: 7px 14px; font-size: 14px; font-weight: 700; cursor: pointer; color: var(--sub);
+}
+.course-tab:hover { border-color: var(--tab-c); color: var(--tab-c); }
+.course-tab[aria-selected="true"] { background: var(--tab-c); border-color: var(--tab-c); color: #fff; }
+
+.course-bar {
+  max-width: 1440px; margin: 0 auto; padding: 0 16px 10px;
+  font-size: 13px; color: var(--sub);
+}
+.course-bar b { color: var(--accent); }
+
+.day-tabs {
+  max-width: 1440px; margin: 0 auto; padding: 0 16px 12px;
+  display: flex; gap: 8px; overflow-x: auto; scrollbar-width: thin;
+}
+.day-tab {
+  flex: 0 0 auto; display: flex; flex-direction: column; align-items: flex-start;
+  border: 1px solid var(--line); background: var(--bg); border-radius: 12px;
+  padding: 6px 12px; cursor: pointer; text-align: left; min-width: 92px;
+}
+.day-tab .d { font-size: 11px; font-weight: 700; color: var(--accent); letter-spacing: .05em; }
+.day-tab .t { font-size: 15px; font-weight: 900; }
+.day-tab .c { font-size: 12px; color: var(--mute); }
+.day-tab[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.day-tab[aria-selected="true"] .d, .day-tab[aria-selected="true"] .c { color: rgba(255,255,255,.85); }
+
+/* ── 본문 2단: 일정 | 지도 ── */
+.layout {
+  max-width: 1440px; margin: 0 auto; padding: 16px;
+  display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px;
+}
+.col-map { order: -1; }
+.map-card {
+  background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 10px; display: flex; flex-direction: column; gap: 8px;
+}
+#map { height: 42vh; min-height: 260px; border-radius: 10px; background: #F2EFE9; }
+.seg-tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+.seg-tabs:empty { display: none; }
+.seg-tab {
+  border: 1px solid var(--line); background: var(--bg); border-radius: 8px;
+  padding: 4px 10px; font-size: 13px; font-weight: 700; cursor: pointer;
+}
+.seg-tab[aria-selected="true"] { background: var(--ink); border-color: var(--ink); color: #fff; }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 12px; color: var(--sub); }
+.legend i { display: inline-block; width: 22px; border-top: 3px solid var(--c); vertical-align: middle; margin-right: 6px; }
+.legend i.dash { border-top-style: dashed; }
+.map-caption { margin: 0; font-size: 12px; color: var(--mute); }
+.map-empty { margin: 0; padding: 24px; text-align: center; color: var(--mute); font-size: 14px; }
+
+/* 폰: 지도를 위에 붙여 두고 일정만 스크롤한다 */
+@media (max-width: 999px) {
+  .col-map { position: sticky; top: 0; z-index: 500; margin: -16px -16px 0; padding: 8px 16px; background: var(--bg); }
+  #map { height: 32vh; min-height: 220px; }
+  .map-caption { display: none; }
+  .row { scroll-margin-top: calc(32vh + 120px); }
+}
+
+@media (min-width: 1000px) {
+  .layout { grid-template-columns: minmax(0, 1fr) minmax(380px, 44%); align-items: start; }
+  .col-map { order: 0; position: sticky; top: 12px; }
+  #map { height: calc(100vh - 150px); }
+}
+
+/* ── 하루 카드 ── */
+.loading, .error { padding: 32px; text-align: center; color: var(--mute); }
+.error { color: var(--warn); }
+.day { display: flex; flex-direction: column; gap: 14px; }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 18px; }
+
+.hero { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; }
+@media (min-width: 640px) { .hero { grid-template-columns: minmax(0, 1fr) 220px; } }
+.hero-meta { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; }
+.hero-meta .n { font-size: 12px; font-weight: 700; letter-spacing: .06em; color: var(--accent); }
+.hero-meta .date { font-size: 26px; font-weight: 900; }
+.pill { font-size: 13px; font-weight: 700; color: #fff; background: var(--accent); border-radius: 999px; padding: 3px 11px; }
+.hero h2 { margin: 6px 0 10px; font-size: 20px; font-weight: 900; line-height: 1.35; }
+.day-note { font-size: 13px; color: var(--warn); background: var(--warn-bg); border-radius: 10px; padding: 9px 13px; margin-bottom: 10px; }
+.morning {
+  display: grid; grid-template-columns: 84px minmax(0, 1fr); gap: 5px 12px;
+  font-size: 14px; background: var(--panel); border-radius: 12px; padding: 12px 14px;
+}
+.morning dt { font-weight: 700; color: var(--accent); }
+.morning dd { margin: 0; }
+.stay { margin-top: 10px; font-size: 14px; }
+.stay b { color: var(--accent); }
+.photo { margin: 0; display: flex; flex-direction: column; gap: 4px; }
+.photo img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 12px; display: block; background: var(--line); }
+.photo a { font-size: 10px; color: var(--mute); text-decoration: none; line-height: 1.4; }
+
+/* ── 타임라인 ── */
+.timeline { list-style: none; margin: 0; padding: 4px 0; }
+.leg-break {
+  margin: 6px 0; padding: 8px 12px; border-radius: 10px; background: var(--panel);
+  font-size: 12px; font-weight: 700; color: var(--sub);
+}
+.row {
+  display: grid; grid-template-columns: 48px 62px minmax(0, 1fr); gap: 4px 10px;
+  padding: 11px 8px; border-bottom: 1px dashed var(--line-soft); border-radius: 8px;
+  cursor: pointer; scroll-margin-top: 12px;
+}
+.row:hover { background: var(--panel); }
+.row.on { background: var(--panel); box-shadow: inset 3px 0 0 var(--accent); }
+.row time { font-weight: 700; color: var(--accent); font-variant-numeric: tabular-nums; }
+.badge {
+  align-self: start; font-size: 12px; font-weight: 700; color: #fff; background: var(--c);
+  border-radius: 6px; padding: 2px 0; text-align: center;
+}
+.row .main { min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.row .head { font-weight: 700; }
+.row .note { font-size: 13px; color: var(--mute); }
+.row .side {
+  grid-column: 3; display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px; font-size: 13px;
+}
+.dur { font-weight: 700; color: var(--sub); }
+.fare { display: flex; flex-direction: column; color: var(--fare); }
+.fare .fm { font-size: 15px; font-weight: 700; }
+.fare .fl { font-size: 12px; font-weight: 500; }
+.fare .fn { font-size: 12px; color: var(--mute); }
+.links { grid-column: 3; display: flex; gap: 12px; font-size: 13px; font-weight: 700; }
+.links:empty { display: none; }
+.links a.src { color: var(--fare); }
+
+@media (min-width: 1240px) {
+  .row { grid-template-columns: 50px 64px minmax(0, 1fr) 170px 96px; }
+  .row .side { grid-column: auto; flex-direction: column; align-items: flex-end; text-align: right; }
+  .fare { align-items: flex-end; }
+  .links { grid-column: auto; flex-direction: column; align-items: flex-end; gap: 4px; }
+}
+
+.day-total { font-size: 13px; color: var(--sub); padding: 12px 8px 0; }
+.day-total b { color: var(--ink); }
+
+/* ── 지도 마커 ── */
+/* 지도 위 마커는 지도 배경(밝은 색)에 맞춰 항상 진한 색 */
+.pin {
+  background: #1C2230; color: #fff; border: 2px solid #fff; border-radius: 50%;
+  width: 28px; height: 28px; line-height: 24px; text-align: center; font-weight: 700; font-size: 13px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.4); transition: transform .15s;
+}
+.pin.on { background: var(--accent); transform: scale(1.25); }
+
+.foot { max-width: 1440px; margin: 0 auto; padding: 8px 16px 32px; font-size: 12px; color: var(--mute); }
