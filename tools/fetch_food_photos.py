@@ -111,4 +111,57 @@ for key, (shop_qs, dish_qs) in SUBJECTS.items():
         print("ERR dl", key, e)
     json.dump(credits, open(CREDITS, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     time.sleep(1)
+
+# ---------- 대표 음식 사진 (가게당 1~2장, <키>_d1.jpg …) ----------
+DISHES = {
+    "botin": ["Cochinillo asado", "Sopa de ajo"],
+    "labra": ["Tajada de bacalao", "Croquetas de bacalao"],
+    "bola": ["Cocido madrileño"],
+    "san_miguel": ["Tapas Mercado de San Miguel"],
+    "botero": ["Carcamusas"],
+    "campos": ["Salmorejo cordobés", "Rabo de toro"],
+    "teresas": ["Jamón ibérico de bellota", "Espinacas con garbanzos"],
+    "rinconcillo": ["Espinacas con garbanzos", "Bacalao con tomate"],
+    "eslava": ["Solomillo al whisky", "Tapas Sevilla"],
+    "diamantes": ["Pescaíto frito", "Berenjenas con miel"],
+    "morayma": ["Remojón granadino", "Rabo de toro"],
+    "calpep": ["Gambas a la plancha", "Tortilla de patatas"],
+    "catalana": ["Patatas bravas", "Pincho de tortilla de patatas"],
+    "portes": ["Paella de marisco", "Crema catalana"],
+    "xampanyet": ["Boquerones en vinagre", "Copa de cava"],
+    "boqueria": ["Zumo de frutas La Boqueria", "Jamón ibérico"],
+    "lucio": ["Huevos rotos", "Callos a la madrileña"],
+    "candido": ["Cochinillo asado Segovia", "Judiones de La Granja"],
+    "gallo": ["Zambra Sacromonte", "Flamenco Sacromonte"],
+    "mallorquina": ["Napolitana de crema", "Churros con chocolate"],
+    "comercio": ["Churros con chocolate"],
+    "futbol": ["Churros con chocolate"],
+    "viader": ["Suizo chocolate nata", "Mel i mató"],
+}
+for key, qs in DISHES.items():
+    rec = credits.setdefault(key, {})
+    dishes = rec.setdefault("dishes", [])
+    used = {rec.get("title")} | {d["title"] for d in dishes}
+    for i, q in enumerate(qs, 1):
+        fn = "%s_d%d.jpg" % (key, i)
+        if any(d.get("file") == fn for d in dishes) and os.path.exists(os.path.join(OUT, fn)) and "--force" not in sys.argv:
+            continue
+        try:
+            res = [r for r in search(q) if r["title"] not in used]
+        except Exception as e:
+            print("ERR", key, q, e); res = []
+        if not res:
+            print("none", key, q); continue
+        pick = res[0]
+        try:
+            open(os.path.join(OUT, fn), "wb").write(fetch(pick["thumb"]))
+        except Exception as e:
+            print("ERR dl", key, q, e); continue
+        used.add(pick["title"])
+        dishes = [d for d in dishes if d.get("file") != fn]
+        dishes.append(dict(pick, file=fn, dish=q))
+        rec["dishes"] = dishes
+        print("ok ", fn, pick["title"][:50], pick["license"])
+        json.dump(credits, open(CREDITS, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        time.sleep(1)
 print("done", len(credits))

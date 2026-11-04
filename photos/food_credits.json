@@ -6,7 +6,27 @@
   "license": "CC BY-SA 4.0",
   "artist": "Ank Kumar",
   "kind": "shop",
-  "query": "Restaurante Botín Madrid"
+  "query": "Restaurante Botín Madrid",
+  "dishes": [
+   {
+    "title": "File:Cochinillo asado-Madrid.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Cochinillo_asado-Madrid.jpg/1280px-Cochinillo_asado-Madrid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Cochinillo_asado-Madrid.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Tamorlan",
+    "file": "botin_d1.jpg",
+    "dish": "Cochinillo asado"
+   },
+   {
+    "title": "File:Sopa castelhana.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Sopa_castelhana.JPG/1280px-Sopa_castelhana.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Sopa_castelhana.JPG",
+    "license": "CC BY 3.0",
+    "artist": "Adriao",
+    "file": "botin_d2.jpg",
+    "dish": "Sopa de ajo"
+   }
+  ]
  },
  "labra": {
   "title": "File:Casa Labra-2009.jpg",
@@ -15,7 +35,18 @@
   "license": "CC BY 3.0",
   "artist": "Tamorlan",
   "kind": "shop",
-  "query": "Casa Labra Madrid"
+  "query": "Casa Labra Madrid",
+  "dishes": [
+   {
+    "title": "File:Croquetas de bacalao, patata cocida, huevo, ajo y perejil (España).jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Croquetas_de_bacalao%2C_patata_cocida%2C_huevo%2C_ajo_y_perejil_%28Espa%C3%B1a%29.jpg/1280px-Croquetas_de_bacalao%2C_patata_cocida%2C_huevo%2C_ajo_y_perejil_%28Espa%C3%B1a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Croquetas_de_bacalao,_patata_cocida,_huevo,_ajo_y_perejil_(Espa%C3%B1a).jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Juan Emilio Prades Bel",
+    "file": "labra_d2.jpg",
+    "dish": "Croquetas de bacalao"
+   }
+  ]
  },
  "bola": {
   "title": "File:Madrid (RPS 07-10-2014) Taberna La Bola.png",
@@ -24,7 +55,18 @@
   "license": "CC BY-SA 4.0",
   "artist": "Raimundo Pastor",
   "kind": "shop",
-  "query": "Taberna La Bola Madrid"
+  "query": "Taberna La Bola Madrid",
+  "dishes": [
+   {
+    "title": "File:Cocido madrileño.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Cocido_madrile%C3%B1o.jpg/1280px-Cocido_madrile%C3%B1o.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Cocido_madrile%C3%B1o.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Smnt",
+    "file": "bola_d1.jpg",
+    "dish": "Cocido madrileño"
+   }
+  ]
  },
  "san_miguel": {
   "title": "File:Interior Mercado de San Miguel 1.jpg",
@@ -33,7 +75,18 @@
   "license": "CC BY-SA 4.0",
   "artist": "Steven Lek",
   "kind": "shop",
-  "query": "Mercado de San Miguel Madrid interior"
+  "query": "Mercado de San Miguel Madrid interior",
+  "dishes": [
+   {
+    "title": "File:Mercado de San Miguel Tapas (46939424655).jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Mercado_de_San_Miguel_Tapas_%2846939424655%29.jpg/1280px-Mercado_de_San_Miguel_Tapas_%2846939424655%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Mercado_de_San_Miguel_Tapas_(46939424655).jpg",
+    "license": "CC BY 2.0",
+    "artist": "Brian Adamson from London",
+    "file": "san_miguel_d1.jpg",
+    "dish": "Tapas Mercado de San Miguel"
+   }
+  ]
  },
  "botero": {
   "title": "File:Carcamusas，Toledo傳統菜，辣醬燉牛肉 (10077288014).jpg",
@@ -42,7 +95,18 @@
   "license": "CC BY-SA 2.0",
   "artist": "WeI-chieh Chiu from Taipei, Taiwan",
   "kind": "dish",
-  "query": "Carcamusas"
+  "query": "Carcamusas",
+  "dishes": [
+   {
+    "title": "File:CARCAMUSAS.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/CARCAMUSAS.JPG/1280px-CARCAMUSAS.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:CARCAMUSAS.JPG",
+    "license": "CC BY 3.0",
+    "artist": "Adriao",
+    "file": "botero_d1.jpg",
+    "dish": "Carcamusas"
+   }
+  ]
  },
  "campos": {
   "title": "File:Restaurante Bodegas Campos.jpg",
@@ -51,7 +115,27 @@
   "license": "CC BY-SA 4.0",
   "artist": "CFA1877",
   "kind": "shop",
-  "query": "Bodegas Campos Córdoba"
+  "query": "Bodegas Campos Córdoba",
+  "dishes": [
+   {
+    "title": "File:Salmorejo cordouan.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Salmorejo_cordouan.JPG/1280px-Salmorejo_cordouan.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Salmorejo_cordouan.JPG",
+    "license": "CC0",
+    "artist": "P.Lechien",
+    "file": "campos_d1.jpg",
+    "dish": "Salmorejo cordobés"
+   },
+   {
+    "title": "File:Rabo de toro-Estofado (01).JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Rabo_de_toro-Estofado_%2801%29.JPG/1280px-Rabo_de_toro-Estofado_%2801%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Rabo_de_toro-Estofado_(01).JPG",
+    "license": "CC BY-SA 3.0",
+    "artist": "Tamorlan",
+    "file": "campos_d2.jpg",
+    "dish": "Rabo de toro"
+   }
+  ]
  },
  "teresas": {
   "title": "File:Bar Las Teresas.jpg",
@@ -60,7 +144,27 @@
   "license": "CC BY-SA 4.0",
   "artist": "CarlosVdeHabsburgo",
   "kind": "shop",
-  "query": "Las Teresas Sevilla bar"
+  "query": "Las Teresas Sevilla bar",
+  "dishes": [
+   {
+    "title": "File:Jamón ibérico de bellota.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/0/03/Jam%C3%B3n_ib%C3%A9rico_de_bellota.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Jam%C3%B3n_ib%C3%A9rico_de_bellota.jpg",
+    "license": "CC BY 2.0",
+    "artist": "La Cesta Bar Restaurante from Madrid, ES",
+    "file": "teresas_d1.jpg",
+    "dish": "Jamón ibérico de bellota"
+   },
+   {
+    "title": "File:Potaje de vigilia.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Potaje_de_vigilia.jpg/1280px-Potaje_de_vigilia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Potaje_de_vigilia.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Toniher",
+    "file": "teresas_d2.jpg",
+    "dish": "Espinacas con garbanzos"
+   }
+  ]
  },
  "rinconcillo": {
   "title": "File:El Rinconcillo (Sevilla).jpg",
@@ -69,7 +173,27 @@
   "license": "CC BY-SA 4.0",
   "artist": "CarlosVdeHabsburgo",
   "kind": "shop",
-  "query": "El Rinconcillo Sevilla"
+  "query": "El Rinconcillo Sevilla",
+  "dishes": [
+   {
+    "title": "File:Potaje de vigilia.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Potaje_de_vigilia.jpg/1280px-Potaje_de_vigilia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Potaje_de_vigilia.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Toniher",
+    "file": "rinconcillo_d1.jpg",
+    "dish": "Espinacas con garbanzos"
+   },
+   {
+    "title": "File:Bacalao con salsa de tomate (España).jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Bacalao_con_salsa_de_tomate_%28Espa%C3%B1a%29.jpg/1280px-Bacalao_con_salsa_de_tomate_%28Espa%C3%B1a%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bacalao_con_salsa_de_tomate_(Espa%C3%B1a).jpg",
+    "license": "CC BY 4.0",
+    "artist": "Juan Emilio Prades Bel",
+    "file": "rinconcillo_d2.jpg",
+    "dish": "Bacalao con tomate"
+   }
+  ]
  },
  "eslava": {
   "title": "File:Tapas Sevilla 01.jpg",
@@ -78,7 +202,27 @@
   "license": "CC BY-SA 3.0",
   "artist": "No machine-readable author provided. JackAttackFR assumed (b",
   "kind": "dish",
-  "query": "Tapas Sevilla"
+  "query": "Tapas Sevilla",
+  "dishes": [
+   {
+    "title": "File:Tapas Sevilla 02.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Tapas_Sevilla_02.jpg/1280px-Tapas_Sevilla_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Tapas_Sevilla_02.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "미상",
+    "file": "eslava_d2.jpg",
+    "dish": "Tapas Sevilla"
+   },
+   {
+    "title": "File:Solomillo al whisky.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Solomillo_al_whisky.JPG/1280px-Solomillo_al_whisky.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Solomillo_al_whisky.JPG",
+    "license": "CC BY-SA 3.0",
+    "artist": "Miguelbremen",
+    "file": "eslava_d1.jpg",
+    "dish": "Solomillo al whisky"
+   }
+  ]
  },
  "morayma": {
   "title": "File:Granada, La Alhambra 10.jpg",
@@ -87,7 +231,18 @@
   "license": "CC BY-SA 4.0",
   "artist": "LBM1948",
   "kind": "shop",
-  "query": "Mirador de Morayma Granada"
+  "query": "Mirador de Morayma Granada",
+  "dishes": [
+   {
+    "title": "File:Rabo de toro-Estofado (01).JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Rabo_de_toro-Estofado_%2801%29.JPG/1280px-Rabo_de_toro-Estofado_%2801%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Rabo_de_toro-Estofado_(01).JPG",
+    "license": "CC BY-SA 3.0",
+    "artist": "Tamorlan",
+    "file": "morayma_d2.jpg",
+    "dish": "Rabo de toro"
+   }
+  ]
  },
  "portes": {
   "title": "File:Pijama (Restaurant 7 Portes de Barcelona).jpg",
@@ -96,7 +251,27 @@
   "license": "CC BY-SA 4.0",
   "artist": "Xavier Dengra",
   "kind": "shop",
-  "query": "7 Portes Barcelona restaurant"
+  "query": "7 Portes Barcelona restaurant",
+  "dishes": [
+   {
+    "title": "File:Paella de fruit de mer.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Paella_de_fruit_de_mer.jpg/1280px-Paella_de_fruit_de_mer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Paella_de_fruit_de_mer.jpg",
+    "license": "CC0",
+    "artist": "Wilfredor",
+    "file": "portes_d1.jpg",
+    "dish": "Paella de marisco"
+   },
+   {
+    "title": "File:Food in Catalonia 06.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Food_in_Catalonia_06.jpg/1280px-Food_in_Catalonia_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Food_in_Catalonia_06.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Kritzolina",
+    "file": "portes_d2.jpg",
+    "dish": "Crema catalana"
+   }
+  ]
  },
  "xampanyet": {
   "title": "File:053 El Xampanyet, c. Montcada 22 (Barcelona).jpg",
@@ -105,7 +280,27 @@
   "license": "CC BY-SA 4.0",
   "artist": "Enric",
   "kind": "shop",
-  "query": "El Xampanyet Barcelona"
+  "query": "El Xampanyet Barcelona",
+  "dishes": [
+   {
+    "title": "File:Boquerones en vinagre.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Boquerones_en_vinagre.jpg/1280px-Boquerones_en_vinagre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Boquerones_en_vinagre.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "Kent Wang",
+    "file": "xampanyet_d1.jpg",
+    "dish": "Boquerones en vinagre"
+   },
+   {
+    "title": "File:Copa de Cava, St Paul's, EC4.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/Copa_de_Cava%2C_St_Paul%27s%2C_EC4.jpg/1280px-Copa_de_Cava%2C_St_Paul%27s%2C_EC4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Copa_de_Cava,_St_Paul%27s,_EC4.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "Ewan-M",
+    "file": "xampanyet_d2.jpg",
+    "dish": "Copa de cava"
+   }
+  ]
  },
  "boqueria": {
   "title": "File:La Boqueria.JPG",
@@ -114,7 +309,18 @@
   "license": "Public domain",
   "artist": "Dungodung",
   "kind": "shop",
-  "query": "Mercat de la Boqueria Barcelona"
+  "query": "Mercat de la Boqueria Barcelona",
+  "dishes": [
+   {
+    "title": "File:Jamón ibérico, Setúbal, Portugal, 2012-05-11, DD 01.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Jam%C3%B3n_ib%C3%A9rico%2C_Set%C3%BAbal%2C_Portugal%2C_2012-05-11%2C_DD_01.JPG/1280px-Jam%C3%B3n_ib%C3%A9rico%2C_Set%C3%BAbal%2C_Portugal%2C_2012-05-11%2C_DD_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Jam%C3%B3n_ib%C3%A9rico,_Set%C3%BAbal,_Portugal,_2012-05-11,_DD_01.JPG",
+    "license": "CC BY-SA 3.0",
+    "artist": "Diego Delso",
+    "file": "boqueria_d2.jpg",
+    "dish": "Jamón ibérico"
+   }
+  ]
  },
  "lucio": {
   "title": "File:Casa Lucio-2009.jpg",
@@ -123,7 +329,27 @@
   "license": "CC BY 3.0",
   "artist": "Tamorlan",
   "kind": "shop",
-  "query": "Casa Lucio Madrid"
+  "query": "Casa Lucio Madrid",
+  "dishes": [
+   {
+    "title": "File:Huevos rotos con jamón.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Huevos_rotos_con_jam%C3%B3n.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Huevos_rotos_con_jam%C3%B3n.jpg",
+    "license": "CC BY 2.0",
+    "artist": "jlastras",
+    "file": "lucio_d1.jpg",
+    "dish": "Huevos rotos"
+   },
+   {
+    "title": "File:Callos a la Madrileña spanish.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/9/93/Callos_a_la_Madrile%C3%B1a_spanish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Callos_a_la_Madrile%C3%B1a_spanish.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Javier Lastras",
+    "file": "lucio_d2.jpg",
+    "dish": "Callos a la madrileña"
+   }
+  ]
  },
  "candido": {
   "title": "File:Alberto Cándido, Mesón de Cándido.jpg",
@@ -132,7 +358,27 @@
   "license": "CC BY 2.0",
   "artist": "peuplier",
   "kind": "shop",
-  "query": "Mesón de Cándido Segovia"
+  "query": "Mesón de Cándido Segovia",
+  "dishes": [
+   {
+    "title": "File:Cochinillo, Segovia, España, 2017 01.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Cochinillo%2C_Segovia%2C_Espa%C3%B1a%2C_2017_01.jpg/1280px-Cochinillo%2C_Segovia%2C_Espa%C3%B1a%2C_2017_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Cochinillo,_Segovia,_Espa%C3%B1a,_2017_01.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Benjamín Núñez González",
+    "file": "candido_d1.jpg",
+    "dish": "Cochinillo asado Segovia"
+   },
+   {
+    "title": "File:Judiones de la Granja 098.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Judiones_de_la_Granja_098.jpg/1280px-Judiones_de_la_Granja_098.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Judiones_de_la_Granja_098.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Tamorlan",
+    "file": "candido_d2.jpg",
+    "dish": "Judiones de La Granja"
+   }
+  ]
  },
  "gallo": {
   "title": "File:Venta El Gallo - Sacromonte - Granada - España 01.jpg",
@@ -141,7 +387,18 @@
   "license": "CC0",
   "artist": "Manuel Ramallo",
   "kind": "shop",
-  "query": "Venta El Gallo Sacromonte"
+  "query": "Venta El Gallo Sacromonte",
+  "dishes": [
+   {
+    "title": "File:Flamenco granada-10.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Flamenco_granada-10.jpg/1280px-Flamenco_granada-10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Flamenco_granada-10.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Yair Haklai",
+    "file": "gallo_d2.jpg",
+    "dish": "Flamenco Sacromonte"
+   }
+  ]
  },
  "mallorquina": {
   "title": "File:Tocinillos de cielo- (La Mallorquina).jpg",
@@ -150,7 +407,27 @@
   "license": "CC BY 3.0",
   "artist": "Tamorlan",
   "kind": "shop",
-  "query": "La Mallorquina Madrid pastelería"
+  "query": "La Mallorquina Madrid pastelería",
+  "dishes": [
+   {
+    "title": "File:Napolitana de crema - Ojos Negros.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Napolitana_de_crema_-_Ojos_Negros.jpg/1280px-Napolitana_de_crema_-_Ojos_Negros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Napolitana_de_crema_-_Ojos_Negros.jpg",
+    "license": "CC BY 2.0",
+    "artist": "Mover el Bigote",
+    "file": "mallorquina_d1.jpg",
+    "dish": "Napolitana de crema"
+   },
+   {
+    "title": "File:Chocolate con churros en La Giralda.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Chocolate_con_churros_en_La_Giralda.jpg/1280px-Chocolate_con_churros_en_La_Giralda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Chocolate_con_churros_en_La_Giralda.jpg",
+    "license": "CC BY-SA 2.5",
+    "artist": "Unknown authorUnknown author",
+    "file": "mallorquina_d2.jpg",
+    "dish": "Churros con chocolate"
+   }
+  ]
  },
  "comercio": {
   "title": "File:Churros en Sevilla.jpg",
@@ -159,7 +436,18 @@
   "license": "CC BY 4.0",
   "artist": "Azulino",
   "kind": "dish",
-  "query": "Churros Sevilla"
+  "query": "Churros Sevilla",
+  "dishes": [
+   {
+    "title": "File:Chocolate con churros en La Giralda.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Chocolate_con_churros_en_La_Giralda.jpg/1280px-Chocolate_con_churros_en_La_Giralda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Chocolate_con_churros_en_La_Giralda.jpg",
+    "license": "CC BY-SA 2.5",
+    "artist": "Unknown authorUnknown author",
+    "file": "comercio_d1.jpg",
+    "dish": "Churros con chocolate"
+   }
+  ]
  },
  "futbol": {
   "title": "File:Café Fútbol, Granada.jpg",
@@ -168,7 +456,18 @@
   "license": "CC BY 2.0",
   "artist": "F Delventhal",
   "kind": "shop",
-  "query": "Café Fútbol Granada"
+  "query": "Café Fútbol Granada",
+  "dishes": [
+   {
+    "title": "File:Chocolate con churros en La Giralda.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Chocolate_con_churros_en_La_Giralda.jpg/1280px-Chocolate_con_churros_en_La_Giralda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Chocolate_con_churros_en_La_Giralda.jpg",
+    "license": "CC BY-SA 2.5",
+    "artist": "Unknown authorUnknown author",
+    "file": "futbol_d1.jpg",
+    "dish": "Churros con chocolate"
+   }
+  ]
  },
  "viader": {
   "title": "File:466 Granja Viader, c. Xuclà 4-6 (Barcelona).jpg",
@@ -177,7 +476,18 @@
   "license": "CC BY-SA 4.0",
   "artist": "Enric",
   "kind": "shop",
-  "query": "Granja Viader Barcelona"
+  "query": "Granja Viader Barcelona",
+  "dishes": [
+   {
+    "title": "File:Mel i Mato (Camp Portel).jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Mel_i_Mato_%28Camp_Portel%29.jpg/1280px-Mel_i_Mato_%28Camp_Portel%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Mel_i_Mato_(Camp_Portel).jpg",
+    "license": "CC BY 3.0",
+    "artist": "Tamorlan",
+    "file": "viader_d2.jpg",
+    "dish": "Mel i mató"
+   }
+  ]
  },
  "diamantes": {
   "title": "File:Pescaíto frito. chiclana.jpg",
@@ -186,7 +496,27 @@
   "license": "CC BY-SA 4.0",
   "artist": "Xemenendura",
   "kind": "dish",
-  "query": "Pescaíto frito"
+  "query": "Pescaíto frito",
+  "dishes": [
+   {
+    "title": "File:Pescaito frito.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Pescaito_frito.jpg/1280px-Pescaito_frito.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pescaito_frito.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Juan Emilio Prades Bel",
+    "file": "diamantes_d1.jpg",
+    "dish": "Pescaíto frito"
+   },
+   {
+    "title": "File:Berenjenas con miel de caña La Gamba de ORO.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Berenjenas_con_miel_de_ca%C3%B1a_La_Gamba_de_ORO.jpg/1280px-Berenjenas_con_miel_de_ca%C3%B1a_La_Gamba_de_ORO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Berenjenas_con_miel_de_ca%C3%B1a_La_Gamba_de_ORO.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Lagambadeoro",
+    "file": "diamantes_d2.jpg",
+    "dish": "Berenjenas con miel"
+   }
+  ]
  },
  "calpep": {
   "title": "File:Gambas alla plancha, Playa de La Aldea, Gran Canaria.jpg",
@@ -195,7 +525,27 @@
   "license": "CC BY-SA 4.0",
   "artist": "Gerda Arendt",
   "kind": "dish",
-  "query": "Gambas a la plancha"
+  "query": "Gambas a la plancha",
+  "dishes": [
+   {
+    "title": "File:Gambas a la plancha-Mad.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Gambas_a_la_plancha-Mad.jpg/1280px-Gambas_a_la_plancha-Mad.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Gambas_a_la_plancha-Mad.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Tamorlan",
+    "file": "calpep_d1.jpg",
+    "dish": "Gambas a la plancha"
+   },
+   {
+    "title": "File:Bocadillo de Tortilla de patatas - 34.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Bocadillo_de_Tortilla_de_patatas_-_34.jpg/1280px-Bocadillo_de_Tortilla_de_patatas_-_34.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bocadillo_de_Tortilla_de_patatas_-_34.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Tamorlan",
+    "file": "calpep_d2.jpg",
+    "dish": "Tortilla de patatas"
+   }
+  ]
  },
  "catalana": {
   "title": "File:Patatas bravas. Tapa de bar (España).jpg",
@@ -204,6 +554,26 @@
   "license": "CC BY 4.0",
   "artist": "Juan Emilio Prades Bel",
   "kind": "dish",
-  "query": "Patatas bravas tapa"
+  "query": "Patatas bravas tapa",
+  "dishes": [
+   {
+    "title": "File:Patatas bravas con salsa rosa picante.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Patatas_bravas_con_salsa_rosa_picante.jpg/1280px-Patatas_bravas_con_salsa_rosa_picante.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Patatas_bravas_con_salsa_rosa_picante.jpg",
+    "license": "CC BY 4.0",
+    "artist": "Juan Emilio Prades Bel",
+    "file": "catalana_d1.jpg",
+    "dish": "Patatas bravas"
+   },
+   {
+    "title": "File:Pincho tortilla-33.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Pincho_tortilla-33.jpg/1280px-Pincho_tortilla-33.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pincho_tortilla-33.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Centenoyespelta",
+    "file": "catalana_d2.jpg",
+    "dish": "Pincho de tortilla de patatas"
+   }
+  ]
  }
 }

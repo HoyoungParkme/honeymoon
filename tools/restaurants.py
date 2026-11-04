@@ -153,6 +153,10 @@ for key, r in R.items():
     photo = None
     if c and os.path.exists(os.path.join(ROOT, "photos", "food", key + ".jpg")):
         photo = {"file": "photos/food/%s.jpg" % key, "kind": c.get("kind", "shop"), "credit": "%s · %s · Wikimedia Commons" % (c.get("artist", "미상"), c.get("license", "")), "page": c.get("page", "")}
-    out[key] = dict(r, photo=photo)
+    dishes = []
+    for d in (c or {}).get("dishes", []):
+        if os.path.exists(os.path.join(ROOT, "photos", "food", d["file"])):
+            dishes.append({"file": "photos/food/" + d["file"], "dish": d.get("dish", ""), "credit": "%s · %s · Wikimedia Commons" % (d.get("artist", "미상"), d.get("license", "")), "page": d.get("page", "")})
+    out[key] = dict(r, photo=photo, dishes=dishes)
 json.dump(out, open(os.path.join(ROOT, "data", "restaurants.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-print("restaurants.json:", len(out), "places,", sum(1 for v in out.values() if v["photo"]), "with photo")
+print("restaurants.json:", len(out), "places,", sum(1 for v in out.values() if v["photo"]), "with photo,", sum(len(v["dishes"]) for v in out.values()), "dish photos")

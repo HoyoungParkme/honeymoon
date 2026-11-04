@@ -145,6 +145,9 @@ button { font: inherit; color: inherit; }
 .pv.rest .dishes { display: flex; flex-wrap: wrap; gap: 6px; }
 .pv.rest .dishes i { font-style: normal; font-size: 12px; font-weight: 700; padding: 4px 10px; border-radius: 999px; background: var(--panel); border: 1px solid var(--line); }
 .pv.rest .desc { -webkit-line-clamp: unset; display: block; }
+.pv.rest .gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 8px; }
+.pv.rest .gallery a { display: flex; flex-direction: column; gap: 3px; color: var(--mute); font-size: 11px; text-decoration: none; }
+.pv.rest .gallery img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 10px; background: var(--panel); display: block; }
 .pv.rest .quote { padding-left: 10px; border-left: 3px solid var(--line); color: var(--sub); }
 .pv.rest .host { flex-wrap: wrap; gap: 6px 12px; margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--line); }
 .pv.rest .host .price { margin-left: 0; color: var(--fare); } .pv.rest .host a { color: var(--accent); font-weight: 700; margin-left: auto; }

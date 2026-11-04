@@ -349,6 +349,7 @@
       '<span class="sub">' + esc(r.kind) + (r.since ? ' · ' + esc(r.since) : '') + '</span>' +
       '<span class="rate">' + stars(rt.score) + (rt.n ? '<span class="n">리뷰 ' + rt.n.toLocaleString('ko-KR') + '</span>' : '') + (rt.url ? '<a href="' + esc(rt.url) + '" target="_blank" rel="noopener">' + esc(rt.src || '트립어드바이저') + ' ↗</a>' : '') + '</span>' +
       '<span class="lbl">대표 메뉴</span><span class="dishes">' + r.signature.map(function (d) { return '<i>' + esc(d) + '</i>'; }).join('') + '</span>' +
+      ((r.dishes || []).length ? '<span class="gallery">' + r.dishes.map(function (d) { return '<a href="' + esc(d.page) + '" target="_blank" rel="noopener" title="' + esc(d.credit) + '"><img src="' + esc(ASSET + d.file) + '" alt="' + esc(d.dish) + '" loading="lazy"><span>' + esc(d.dish) + '</span></a>'; }).join('') + '</span>' : '') +
       (r.order ? '<span class="lbl">이렇게 시키면</span><span class="desc">' + esc(r.order) + '</span>' : '') +
       (r.review ? '<span class="lbl">리뷰 요약</span><span class="desc quote">' + esc(r.review) + '</span>' : '') +
       (r.tip ? '<span class="lbl">팁</span><span class="desc">' + esc(r.tip) + '</span>' : '') +

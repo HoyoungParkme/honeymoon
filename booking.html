@@ -44,7 +44,8 @@
   .item .kv dt { margin: 0; color: var(--dim); font-weight: 700; }
   .item .kv dd { margin: 0; color: var(--sub); }
   .item .kv dd a { color: var(--gold); font-weight: 700; }
-  .rphoto { display: inline-flex; flex-direction: column; gap: 2px; max-width: 320px; }
+  .rphotos { display: flex; flex-wrap: wrap; gap: 10px; }
+  .rphoto { display: inline-flex; flex-direction: column; gap: 2px; width: 200px; max-width: 100%; }
   .rphoto img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 10px; background: var(--line); }
   .rphoto span { font-size: 10px; color: var(--dim); }
   .item .links { grid-column: 2; display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
@@ -117,7 +118,9 @@
     return '<dt>대표 메뉴</dt><dd>' + r.signature.map(esc).join(' · ') + '</dd>' +
       '<dt>평점</dt><dd>' + esc(score) + (rt.url ? ' <a href="' + esc(rt.url) + '" target="_blank" rel="noopener">' + esc(rt.src || '트립어드바이저') + ' ↗</a>' : '') + '</dd>' +
       (r.review ? '<dt>리뷰 요약</dt><dd>' + esc(r.review) + '</dd>' : '') +
-      (r.photo ? '<dt>사진</dt><dd><a class="rphoto" href="' + esc(r.photo.page) + '" target="_blank" rel="noopener"><img src="' + esc(r.photo.file) + '" alt="' + esc(r.name) + '" loading="lazy"><span>' + esc((r.photo.kind === 'dish' ? '대표 음식 · ' : '') + r.photo.credit) + '</span></a></dd>' : '');
+      ((r.photo || (r.dishes || []).length) ? '<dt>사진</dt><dd class="rphotos">' +
+        (r.photo ? '<a class="rphoto" href="' + esc(r.photo.page) + '" target="_blank" rel="noopener"><img src="' + esc(r.photo.file) + '" alt="' + esc(r.name) + '" loading="lazy"><span>' + esc((r.photo.kind === 'dish' ? '대표 음식 · ' : '가게 · ') + r.photo.credit) + '</span></a>' : '') +
+        (r.dishes || []).map(function (d) { return '<a class="rphoto" href="' + esc(d.page) + '" target="_blank" rel="noopener"><img src="' + esc(d.file) + '" alt="' + esc(d.dish) + '" loading="lazy"><span>' + esc(d.dish + ' · ' + d.credit) + '</span></a>'; }).join('') + '</dd>' : '');
   }
   function dueHtml(d) { return '<span class="due' + (d === '지금' || d === '열리면' ? ' hot' : '') + '">' + esc(d) + '</span>'; }
   function tagClass(t) { return t === '한국어' ? 'ko' : (t === '공식' ? 'of' : ''); }
