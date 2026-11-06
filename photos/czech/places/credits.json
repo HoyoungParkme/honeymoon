@@ -651,5 +651,44 @@
   "license": "",
   "kind": "hotel",
   "ko": "NH Wien City (빈, 4성)"
+ },
+ "prg_airport": {
+  "title": "File:Prague Václav Havel Airport in 2019.02.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Prague_V%C3%A1clav_Havel_Airport_in_2019.02.jpg/960px-Prague_V%C3%A1clav_Havel_Airport_in_2019.02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Prague_V%C3%A1clav_Havel_Airport_in_2019.02.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "CAPTAIN RAJU",
+  "w": 900,
+  "h": 675,
+  "query": "Václav Havel Airport Prague",
+  "src": "commons",
+  "kind": "place",
+  "ko": "프라하 공항 (PRG)"
+ },
+ "na_knizeci": {
+  "title": "File:Na Knížecí a Staropramen.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Na_Kn%C3%AD%C5%BEec%C3%AD_a_Staropramen.jpg/960px-Na_Kn%C3%AD%C5%BEec%C3%AD_a_Staropramen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Na_Kn%C3%AD%C5%BEec%C3%AD_a_Staropramen.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "cs:ŠJů",
+  "w": 900,
+  "h": 675,
+  "query": "Na Knížecí bus station, Prague",
+  "src": "commons",
+  "kind": "place",
+  "ko": "나 크니제치 버스 정류장 (안델)"
+ },
+ "vltava_pier": {
+  "title": "File:Andante, v přístavišti.jpg",
+  "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Andante%2C_v_p%C5%99%C3%ADstavi%C5%A1ti.jpg/960px-Andante%2C_v_p%C5%99%C3%ADstavi%C5%A1ti.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+  "page": "https://commons.wikimedia.org/wiki/File:Andante,_v_p%C5%99%C3%ADstavi%C5%A1ti.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "cs:ŠJů",
+  "w": 900,
+  "h": 675,
+  "query": "File:Andante, v přístavišti.jpg",
+  "src": "commons",
+  "kind": "place",
+  "ko": "블타바강 크루즈 선착장 (체후프 다리)"
  }
 }

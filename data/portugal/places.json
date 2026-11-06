@@ -1,5 +1,11 @@
 {
  "places": {
+  "리스본 공항 (LIS)": {
+   "file": "photos/portugal/places/lis_airport.jpg",
+   "kind": "place",
+   "credit": "Sharon Hahn Darlin · CC BY 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Aeroporto_Humberto_Delgado_(Portela_Airport_Aeroporto_de_Lisboa),_Lisbon,_Portugal_(51323558287).jpg"
+  },
   "Avani Avenida Liberdade (리스본)": {
    "file": "photos/portugal/places/h_lis_avani.jpg",
    "kind": "hotel",
@@ -126,6 +132,12 @@
    "credit": "Rodrigo.Argenton · CC BY-SA 4.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Torre_de_Bel%C3%A9m_por_Rodrigo_Tetsuo_Argenton_(2).jpg"
   },
+  "산타 아폴로니아역": {
+   "file": "photos/portugal/places/santa_apolonia.jpg",
+   "kind": "place",
+   "credit": "RL0919 · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Lisbon_-_Santa_Apolonia_station_March_2019.png"
+  },
   "Descobertas Boutique Hotel (포르투 히베이라)": {
    "file": "photos/portugal/places/h_opo_descobertas.jpg",
    "kind": "hotel",
@@ -204,17 +216,35 @@
    "credit": "Feliciano Guimarães · CC BY 2.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:The_train_is_coming_to_Pinh%C3%A3o_station.jpg"
   },
+  "피냥 선착장 (하벨루 보트)": {
+   "file": "photos/portugal/places/pinhao_pier.jpg",
+   "kind": "place",
+   "credit": "Vanbasten 23 · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Pinh%C3%A3o_Pier.jpg"
+  },
   "포스 두 도우루 (대서양 하구)": {
    "file": "photos/portugal/places/foz.jpg",
    "kind": "place",
    "credit": "bebatut · CC BY-SA 2.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Foz_do_Douro_(26387458906).jpg"
   },
+  "포르투 캄파냥역": {
+   "file": "photos/portugal/places/campanha.jpg",
+   "kind": "place",
+   "credit": "Patrycja Rosa (ptrcnull) · CC BY 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:2025-08-04,_Platforms_at_Porto-Campanh%C3%A3_at_night.jpg"
+  },
   "LX 팩토리": {
    "file": "photos/portugal/places/lx_factory.jpg",
    "kind": "place",
    "credit": "TJ DeGroat from San Francisco, CA, Los estados unidos · CC BY 2.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:LX_Factory_Lisbon_(44353483285).jpg"
+  },
+  "카이스 두 소드레역": {
+   "file": "photos/portugal/places/cais_sodre.jpg",
+   "kind": "place",
+   "credit": "Koshelyev · Public domain · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:CaisSodreMetroLx2.JPG"
   },
   "바이후 알투": {
    "file": "photos/portugal/places/bairro_alto.jpg",
@@ -234,11 +264,23 @@
    "credit": "Sonse · CC BY 2.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:The_size_of_Lisbon_Oceanarium.jpg"
   },
+  "오리엔트역": {
+   "file": "photos/portugal/places/oriente.jpg",
+   "kind": "place",
+   "credit": "W.Rebel · CC BY 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Gare_do_Oriente_0540.jpg"
+  },
   "Hotel Mundial (리스본, 루프탑)": {
    "file": "photos/portugal/places/h_lis_mundial.jpg",
    "kind": "hotel",
    "credit": "사진: 호텔 공식 사이트",
    "page": "https://www.hotel-mundial.pt/en/"
+  },
+  "리스본 시내 렌터카 지점": {
+   "file": "photos/portugal/places/car_lisbon.jpg",
+   "kind": "place",
+   "credit": "Alvesgaspar · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Lisboa,_Pra%C3%A7a_do_Marqu%C3%AAs_de_Pombal_(7).jpg"
   },
   "오비두스 성곽 마을": {
    "file": "photos/portugal/places/obidos.jpg",
@@ -269,6 +311,12 @@
    "kind": "place",
    "credit": "John Samuel · CC BY-SA 4.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Canal_in_Aveiro_12.jpg"
+  },
+  "포르투 렌터카 반납 (캄파냥역)": {
+   "file": "photos/portugal/places/car_porto.jpg",
+   "kind": "place",
+   "credit": "Patrycja Rosa (ptrcnull) · CC BY 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:2025-08-04,_Platforms_at_Porto-Campanh%C3%A3_at_night.jpg"
   },
   "Hotel Acta The Avenue (포르투 알리아도스)": {
    "file": "photos/portugal/places/h_opo_acta.jpg",
@@ -311,6 +359,12 @@
    "kind": "place",
    "credit": "Vitor Oliveira from Torres Vedras, PORTUGAL · CC BY-SA 2.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Praia_de_Dona_Ana_-_Portugal_(9068382051).jpg"
+  },
+  "라고스 버스 터미널": {
+   "file": "photos/portugal/places/lagos_bus.jpg",
+   "kind": "place",
+   "credit": "Kolforn (Kolforn)\nI'd appreciate if you could mail me (Kolfo · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:2017-09-28_Lagos_Bus_Terminal_(2).JPG"
   }
  },
  "hotels": {

@@ -1,5 +1,11 @@
 {
  "places": {
+  "아테네 국제공항 (ATH)": {
+   "file": "photos/greece/places/ath_airport.jpg",
+   "kind": "place",
+   "credit": "Manfred Werner (Tsui) · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Athens_International_Airport_Eleftherios_Venizelos_%CE%94%CE%B9%CE%B5%CE%B8%CE%BD%CE%AE%CF%82_%CE%91%CE%B5%CF%81%CE%BF%CE%BB%CE%B9%CE%BC%CE%AD%CE%BD%CE%B1%CF%82_%CE%91%CE%B8%CE%B7%CE%BD%CF%8E%CE%BD_%CE%95%CE%BB%CE%B5%CF%85%CE%B8%CE%AD%CF%81%CE%B9%CE%BF%CF%82_%CE%92%CE%B5%CE%BD%CE%B9%CE%B6%CE%AD%CE%BB%CE%BF%CF%82_2019-12-01_i.jpg"
+  },
   "Electra Palace Athens (5성)": {
    "file": "photos/greece/places/h_ath_electra.jpg",
    "kind": "hotel",
@@ -60,6 +66,12 @@
    "credit": "Berthold Werner · CC BY-SA 3.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Greece_Cape_Sounion_BW_2017-10-09_10-12-43.jpg"
   },
+  "미코노스 공항 (JMK)": {
+   "file": "photos/greece/places/jmk_airport.jpg",
+   "kind": "place",
+   "credit": "Olaf Tausch · CC BY 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Mykonos_Flughafen_02.jpg"
+  },
   "Harmony Boutique Hotel (4성)": {
    "file": "photos/greece/places/h_myk_harmony.jpg",
    "kind": "hotel",
@@ -84,6 +96,12 @@
    "credit": "Joe deSousa · CC0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Windmills_of_Kato_Mili,_Mykonos_(39171204142).jpg"
   },
+  "미코노스 구항구 (델로스행)": {
+   "file": "photos/greece/places/mykonos_oldport.jpg",
+   "kind": "place",
+   "credit": "Bernard Gagnon · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Old_Port_of_Mykonos_02.jpg"
+  },
   "델로스 섬 유적": {
    "file": "photos/greece/places/delos.jpg",
    "kind": "place",
@@ -102,6 +120,18 @@
    "credit": "Pimi 69110 · CC BY-SA 4.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Phare_Armenistis_(%C3%AEle_de_Mykonos_Gr%C3%A8ce).jpg"
   },
+  "미코노스 신항구 (투를로스)": {
+   "file": "photos/greece/places/mykonos_newport.jpg",
+   "kind": "place",
+   "credit": "Vanbasten 23 · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Port_of_Mykonos.jpg"
+  },
+  "아티니오스 항구 (산토리니)": {
+   "file": "photos/greece/places/athinios.jpg",
+   "kind": "place",
+   "credit": "Norbert Nagel · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Highspeed_6_-_Hellenic_Seaways_-_Santorini_-_Greece_-_02.jpg"
+  },
   "Andronis Boutique Hotel (이아 동굴 스위트)": {
    "file": "photos/greece/places/h_oia_andronis.jpg",
    "kind": "hotel",
@@ -113,6 +143,12 @@
    "kind": "place",
    "credit": "Giles Laurent · CC BY-SA 4.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:1000_Three_domes_of_Oia_in_Santorini_Photo_by_Giles_Laurent.jpg"
+  },
+  "블리하다 항구 (카타마란 출발)": {
+   "file": "photos/greece/places/vlychada.jpg",
+   "kind": "place",
+   "credit": "Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Santorin_(GR),_Exomytis,_Marina_Exomitis-Vlychada_--_2017_--_2819.jpg"
   },
   "El Greco Resort (피라)": {
    "file": "photos/greece/places/h_fira_elgreco.jpg",
@@ -144,6 +180,12 @@
    "credit": "Emanuela Meme Giudic… · CC BY 3.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Santo_wines_-_panoramio.jpg"
   },
+  "피라 구항 (케이블카 아래)": {
+   "file": "photos/greece/places/fira_oldport.jpg",
+   "kind": "place",
+   "credit": "Norbert Nagel · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Donkey_trail_-_Fira_-_Thira_-_to_Mesa_Gialos_port_-_Santorini_-_Greece_-_04.jpg"
+  },
   "네아 카메니 화산섬 · 온천": {
    "file": "photos/greece/places/nea_kameni.jpg",
    "kind": "place",
@@ -167,6 +209,12 @@
    "kind": "place",
    "credit": "Edal Anton Lefterov · CC BY-SA 3.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Ruins-of-the-Kasteli-in-Pyrgos.jpg"
+  },
+  "산토리니 공항 (JTR)": {
+   "file": "photos/greece/places/jtr_airport.jpg",
+   "kind": "place",
+   "credit": "Lacu Schienred · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Santorini_Airport_Building.jpg"
   },
   "국립고고학박물관": {
    "file": "photos/greece/places/nat_arch_museum.jpg",
@@ -282,6 +330,12 @@
    "credit": "A.Savin · CC BY-SA 3.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Attica_06-13_Athens_50_View_from_Philopappos_-_Acropolis_Hill.jpg"
   },
+  "하니아 공항 (CHQ)": {
+   "file": "photos/greece/places/chq_airport.jpg",
+   "kind": "place",
+   "credit": "Marius Vassnes · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Airport_vehicles_at_Chania_Airport.jpg"
+  },
   "세이탄 리마니아 해변": {
    "file": "photos/greece/places/seitan_limania.jpg",
    "kind": "place",
@@ -335,6 +389,12 @@
    "kind": "place",
    "credit": "babbelfisk · CC BY-SA 3.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Lions_Square_-_panoramio.jpg"
+  },
+  "이라클리온 항구": {
+   "file": "photos/greece/places/heraklion_port.jpg",
+   "kind": "place",
+   "credit": "Moonik · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Venetian_Fortress_of_Koules_in_Heraklion,_Crete_004.jpg"
   },
   "Astra Suites (이메로비글리)": {
    "file": "photos/greece/places/h_imero_astra.jpg",

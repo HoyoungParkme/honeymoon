@@ -2,7 +2,7 @@
 사용: python -I tools/build_place_photos.py spain|greece|portugal|czech [--no-net]
 - 명소: 위키미디어 커먼즈 (검색어는 places 의 q, 바꿀 때는 place_photo_q.py 의 Q)
 - 호텔: 호텔 공식 사이트의 대표 사진(og:image). 없거나 막히면 커먼즈
-- 역·공항·정류장 같은 교통 지점과 식당(식당 카드가 따로 있음)은 건너뛴다
+- 식당(식당 카드가 따로 있음)은 건너뛴다. 역·공항·정류장도 사진을 넣는다
 사진이 틀리면 photos/<나라>/places/<키>.jpg 와 credits.json 의 그 키를 지우고, place_photo_q.py 에 검색어를 적어 다시 돌린다."""
 import html
 import importlib.util
@@ -19,7 +19,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
 import commons  # noqa: E402
-from place_photo_q import Q, OFFICIAL, INCLUDE, SKIP  # noqa: E402
+from place_photo_q import Q, OFFICIAL, SKIP  # noqa: E402
 
 sys.stdout.reconfigure(encoding="utf-8")
 K = sys.argv[1]
@@ -46,7 +46,6 @@ else:
     official = {k: m.get("official") for k, m in trip.HOTEL_META.items() if m.get("official")}
 official.update(OFFICIAL.get(K, {}))
 
-TRANSPORT = re.compile(r"역($| \(|·)|공항|정류장|터미널|렌터카|선착장|항구|구항|매표소|FGC|반납")
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 CTX = ssl.create_default_context()
 BAD = re.compile(r"\bmap\b|plan\b|logo|coat of arms|wappen|stamp|diagram|drawing|engraving|lithograph|painting|postcard|"
@@ -84,8 +83,6 @@ for key in used:
     if key in HOTELS:
         targets.append((key, "hotel"))
     elif key in SKIP.get(K, ()) or any(ko.startswith(m) for m in rest_match):
-        continue
-    elif TRANSPORT.search(ko) and key not in INCLUDE.get(K, ()):
         continue
     else:
         targets.append((key, "place"))

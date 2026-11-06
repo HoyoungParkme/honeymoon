@@ -1,5 +1,11 @@
 {
  "places": {
+  "마드리드 바라하스 공항 T4": {
+   "file": "photos/places/mad_t4.jpg",
+   "kind": "place",
+   "credit": "Diego Delso · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Terminal_4_del_aeropuerto_de_Madrid-Barajas,_Espa%C3%B1a,_2013-01-09,_DD_07.jpg"
+  },
   "Room Mate Alba 호텔": {
    "file": "photos/places/hotelA_mad.jpg",
    "kind": "hotel",
@@ -60,6 +66,12 @@
    "credit": "Zarateman · CC0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Madrid_-_C%C3%ADrculo_de_Bellas_Artes,_Azotea_07.jpg"
   },
+  "마드리드 푸에르타 데 아토차역": {
+   "file": "photos/places/atocha_station.jpg",
+   "kind": "place",
+   "credit": "Marc Ryckaert (MJJR) · CC BY 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Madrid_Atocha_R01.jpg"
+  },
   "소코도베르 광장": {
    "file": "photos/places/zocodover.jpg",
    "kind": "place",
@@ -78,6 +90,18 @@
    "credit": "Rafa Esteve · CC BY-SA 4.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Alcazar_Toledo_Mirador_Valle.jpg"
   },
+  "톨레도역": {
+   "file": "photos/places/toledo_station.jpg",
+   "kind": "place",
+   "credit": "King of Hearts · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Toledo_station_June_2016_panorama.jpg"
+  },
+  "코르도바 버스터미널 (짐 보관)": {
+   "file": "photos/places/cordoba_lockers.jpg",
+   "kind": "place",
+   "credit": "Américo Toledano · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_de_Autobuses_de_C%C3%B3rdoba_(Espa%C3%B1a)_5.jpg"
+  },
   "메스키타 (코르도바)": {
    "file": "photos/places/mezquita.jpg",
    "kind": "place",
@@ -95,6 +119,12 @@
    "kind": "place",
    "credit": "Jose María Ligero Loarte · CC BY-SA 4.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Centro_Hist%C3%B3rico,_16.9_--_2023_--_C%C3%B3rdoba,_Espa%C3%B1a.jpg"
+  },
+  "코르도바역": {
+   "file": "photos/places/cordoba_station.jpg",
+   "kind": "place",
+   "credit": "Gzzz · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_de_C%C3%B3rdoba-Central.jpg"
   },
   "Las Casas de la Judería": {
    "file": "photos/places/hotelA_sev.jpg",
@@ -162,6 +192,12 @@
    "credit": "Rainerkruckenberg · CC0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:SEVILLA_METROPOL-PARASOL_MEYER-H_20120530_174928.jpg"
   },
+  "세비야 산타 후스타역": {
+   "file": "photos/places/santa_justa.jpg",
+   "kind": "place",
+   "credit": "Américo Toledano · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_de_Sevilla_Santa_Justa_001.jpg"
+  },
   "Hotel Porcel Alixares": {
    "file": "photos/places/hotelA_gra.jpg",
    "kind": "hotel",
@@ -173,6 +209,12 @@
    "kind": "place",
    "credit": "Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Granada_-_View_from_Mirador_de_San_Nicol%C3%A1s_-_02.jpg"
+  },
+  "알함브라 매표소 (Generalife 정류장)": {
+   "file": "photos/places/generalife_stop.jpg",
+   "kind": "place",
+   "credit": "Elliott Brown from Birmingham, United Kingdom · CC BY-SA 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Camino_Viejo_del_Cementerio_-_The_Alhambra_-_Granada_-_open_top_bus_-_GranaVision_(14596478401).jpg"
   },
   "알카사바": {
    "file": "photos/places/alcazaba.jpg",
@@ -191,6 +233,24 @@
    "kind": "place",
    "credit": "Benjamin Smith · CC BY-SA 4.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Granada_-_Alhambra_-_Palacio_de_Carlos_V.jpg"
+  },
+  "버스 정류장 Catedral (그란 비아)": {
+   "file": "photos/places/stop_catedral_gra.jpg",
+   "kind": "place",
+   "credit": "monicat81 · CC BY-SA 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Gran_V%C3%ADa_de_Col%C3%B3n_(2973320148).jpg"
+  },
+  "그라나다 공항 (GRX)": {
+   "file": "photos/places/grx.jpg",
+   "kind": "place",
+   "credit": "Marostegui · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Terminal_del_Aeropuerto_de_Granada.jpg"
+  },
+  "바르셀로나 엘 프라트 공항 T1": {
+   "file": "photos/places/bcn_t1.jpg",
+   "kind": "place",
+   "credit": "Mariusmm · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Barcelona_metro_Aeroport_T1_L9.jpg"
   },
   "Catalonia Catedral": {
    "file": "photos/places/hotelA_bcn.jpg",
@@ -228,6 +288,12 @@
    "credit": "Barcelonatips · CC BY-SA 4.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Bunkers_del_Carmel_Barcelona.jpg"
   },
+  "에스파냐 광장 FGC역": {
+   "file": "photos/places/espanya_fgc.jpg",
+   "kind": "place",
+   "credit": "Didier Descouens · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:(Barcelona)_Font_de_la_Pla%C3%A7a_d%27Espanya_i_Pla%C3%A7a_de_toros_de_les_Arenes.jpg"
+  },
   "몬세라트 수도원": {
    "file": "photos/places/montserrat.jpg",
    "kind": "place",
@@ -239,6 +305,12 @@
    "kind": "place",
    "credit": "SomeRailfan · CC BY 4.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Funicular_de_Sant_Joan,_2023-04-11.jpg"
+  },
+  "포르트 벨 선착장 (모이 데 라 푸스타)": {
+   "file": "photos/places/port_vell.jpg",
+   "kind": "place",
+   "credit": "Txllxt TxllxT · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Moll_de_la_Fusta_-_View_NNE.jpg"
   },
   "바르셀로나 대성당 (고딕 지구)": {
    "file": "photos/places/bcn_cathedral.jpg",
@@ -252,6 +324,18 @@
    "credit": "DimiTalen · CC0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Promenade_and_beach,_Platja_de_la_Barceloneta,_Barcelona,_2015.jpg"
   },
+  "아에로부스 정류장 (카탈루냐 광장, 엘 코르테 잉글레스 앞)": {
+   "file": "photos/places/aerobus_catalunya.jpg",
+   "kind": "place",
+   "credit": "Matti Blume · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Placa_Catalunya,_Barcelona_(P1170663).jpg"
+  },
+  "마드리드 바라하스 공항 T1": {
+   "file": "photos/places/mad_t1.jpg",
+   "kind": "place",
+   "credit": "Jérôme · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Barajas_terminal_1_interior_2008.jpg"
+  },
   "Hotel Regente": {
    "file": "photos/places/hotelB_mad.jpg",
    "kind": "hotel",
@@ -263,6 +347,12 @@
    "kind": "hotel",
    "credit": "CarlosVdeHabsburgo · CC BY-SA 4.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Hotel_Alfonso_X.jpg"
+  },
+  "플라사 데 아르마스 버스터미널": {
+   "file": "photos/places/plaza_armas.jpg",
+   "kind": "place",
+   "credit": "Gzzz · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_de_autobuses_Plaza_de_Armas_2.jpg"
   },
   "Casa del Capitel Nazarí": {
    "file": "photos/places/hotelB_gra.jpg",
@@ -288,11 +378,23 @@
    "credit": "Øyvind Holmstad · CC BY-SA 4.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Aa_plaza_nueva_in_granada.jpg"
   },
+  "그라나다역": {
+   "file": "photos/places/granada_station.jpg",
+   "kind": "place",
+   "credit": "Andreuvv · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_de_Granada_04.jpg"
+  },
   "시벨레스 광장": {
    "file": "photos/places/cibeles.jpg",
    "kind": "place",
    "credit": "Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Fuente_de_Cibeles,_Plaza_de_Cibeles,_Madrid,_Espa%C3%B1a,_2017-05-18,_DD_10.jpg"
+  },
+  "마드리드 차마르틴역": {
+   "file": "photos/places/chamartin.jpg",
+   "kind": "place",
+   "credit": "Lojwe · CC0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_de_metro_de_Chamart%C3%ADn,_trenes_hist%C3%B3ricos.jpg"
   },
   "세고비아 수도교 (아소게호 광장)": {
    "file": "photos/places/acueducto.jpg",
@@ -311,6 +413,12 @@
    "kind": "place",
    "credit": "Rafa Esteve · CC BY-SA 4.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Segovia_-_Alc%C3%A1zar_de_Segovia_22_2017-10-24.jpg"
+  },
+  "세고비아-기오마르역": {
+   "file": "photos/places/guiomar.jpg",
+   "kind": "place",
+   "credit": "Ivan Gonzalez · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Estaci%C3%B3n_Ave_%22Segovia_Guiomar%22_-_panoramio.jpg"
   },
   "크리스탈 궁전 (레티로)": {
    "file": "photos/places/palacio_cristal.jpg",

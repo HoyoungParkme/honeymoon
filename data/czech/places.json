@@ -1,5 +1,11 @@
 {
  "places": {
+  "프라하 공항 (PRG)": {
+   "file": "photos/czech/places/prg_airport.jpg",
+   "kind": "place",
+   "credit": "CAPTAIN RAJU · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Prague_V%C3%A1clav_Havel_Airport_in_2019.02.jpg"
+  },
   "Grand Hotel Bohemia (프라하, 5성)": {
    "file": "photos/czech/places/h_prg_bohemia.jpg",
    "kind": "hotel",
@@ -102,6 +108,12 @@
    "credit": "Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Casa_municipal,_Praga,_Rep%C3%BAblica_Checa,_2022-07-02,_DD_09.jpg"
   },
+  "나 크니제치 버스 정류장 (안델)": {
+   "file": "photos/czech/places/na_knizeci.jpg",
+   "kind": "place",
+   "credit": "cs:ŠJů · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Na_Kn%C3%AD%C5%BEec%C3%AD_a_Staropramen.jpg"
+  },
   "Hotel Růže (체스키크룸로프, 4성)": {
    "file": "photos/czech/places/h_ck_ruze.jpg",
    "kind": "hotel",
@@ -143,6 +155,12 @@
    "kind": "place",
    "credit": "Eliška Jindříšková · CC BY-SA 4.0 · Wikimedia Commons",
    "page": "https://commons.wikimedia.org/wiki/File:Praha_Letn%C3%A1_Pra%C5%BEsk%C3%BD_metronom_02.jpg"
+  },
+  "블타바강 크루즈 선착장 (체후프 다리)": {
+   "file": "photos/czech/places/vltava_pier.jpg",
+   "kind": "place",
+   "credit": "cs:ŠJů · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Andante,_v_p%C5%99%C3%ADstavi%C5%A1ti.jpg"
   },
   "비셰흐라드 성채": {
    "file": "photos/czech/places/vysehrad.jpg",

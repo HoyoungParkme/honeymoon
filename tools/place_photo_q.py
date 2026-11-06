@@ -1,8 +1,16 @@
-"""build_place_photos.py 설정: 사진 검색어를 바꾸거나, 교통 지점이지만 사진을 넣을 곳·뺄 곳을 적는다 (나라 → 장소 키)."""
+"""build_place_photos.py 설정: 사진 검색어를 바꾸거나, 사진을 뺄 곳을 적는다 (나라 → 장소 키)."""
 
 # 장소 키 → 커먼즈 검색어 (앞에서부터 시도). 없으면 places 의 q 로 찾는다
 Q = {
     "spain": {
+        "generalife_stop": ["File:Camino Viejo del Cementerio - The Alhambra - Granada - open top bus - GranaVision (14596478401).jpg"],
+        "port_vell": ["File:Barcelona - Moll de la Fusta - View NNE.jpg"],
+        "mad_t4": ["File:Terminal 4 del aeropuerto de Madrid-Barajas, España, 2013-01-09, DD 07.jpg"],
+        "mad_t1": ["File:Barajas terminal 1 interior 2008.jpg"],
+        "guiomar": ["File:Estación Ave \"Segovia Guiomar\" - panoramio.jpg"],
+        "grx": ["File:Terminal del Aeropuerto de Granada.jpg"],
+        "chamartin": ["File:Estación de metro de Chamartín, trenes históricos.jpg"],
+        "atocha_station": ["File:Madrid Atocha R01.jpg"],
         "casa_mila": ["File:Antoni Gaudí-Casa Milà-Barcelona.jpg"],
         "toledo_cathedral": ["File:Vista de una parte exterior de la Catedral de Toledo.JPG"],
         "sol": ["File:Puerta del Sol (Madrid) 03.jpg"],
@@ -24,6 +32,11 @@ Q = {
         "parador": ["File:Convento San Francisco parador Alhambra Granada Spain.jpg"],
     },
     "greece": {
+        "vlychada": ["File:Santorin (GR), Exomytis, Marina Exomitis-Vlychada -- 2017 -- 2819.jpg"],
+        "mykonos_oldport": ["File:Old Port of Mykonos 02.jpg"],
+        "mykonos_newport": ["File:Port of Mykonos.jpg"],
+        "fira_oldport": ["File:Donkey trail - Fira - Thira - to Mesa Gialos port - Santorini - Greece - 04.jpg"],
+        "chq_airport": ["File:Airport vehicles at Chania Airport.jpg"],
         "matoyianni": ["Mykonos town alley", "Chora Mykonos street", "Mykonos old town"],
         "syntagma_guard": ["File:Evzones, Presidential Guard (41263332434).jpg"],
         "perissa": ["File:Beach - Perissa - Santorini - Greece - 02.jpg"],
@@ -35,6 +48,11 @@ Q = {
         "anafiotika": ["File:Anafiotika, Athens, 20240601 0923 0020.jpg"],
     },
     "portugal": {
+        "car_porto": ["File:2025-08-04, Platforms at Porto-Campanhã at night.jpg"],
+        "car_lisbon": ["Praça Marquês de Pombal Lisboa", "Marquês de Pombal Lisbon"],
+        "santa_apolonia": ["File:Lisbon - Santa Apolonia station March 2019.png"],
+        "oriente": ["File:Gare do Oriente 0540.jpg"],
+        "lagos_bus": ["File:2017-09-28 Lagos Bus Terminal (2).JPG"],
         "almas": ["Capela das Almas Porto facade", "Capela das Almas Porto"],
         "bairro_alto": ["File:Lisboa - Bairro Alto (5420829357).jpg"],
         "bolhao": ["File:Mercado do Bolhão stands.JPG"],
@@ -49,6 +67,7 @@ Q = {
         "mouros": ["Castelo dos Mouros Sintra walls", "Castelo dos Mouros"],
     },
     "czech": {
+        "vltava_pier": ["File:Andante, v přístavišti.jpg"],
         "ck_garden": ["File:381 01 Český Krumlov, Czech Republic - panoramio (1).jpg"],
         "strahov": ["File:Strahov knihovna Teolog 1.jpg"],
         "stephansdom": ["File:Stephansdom-Vienna-Austria.jpg"],
@@ -102,13 +121,6 @@ OFFICIAL = {
         "h_salz_europa": "https://www.austria-trend.at/en/hotels/europa-salzburg",
         "h_wien_nh": ("https://www.nh-hotels.com/en/hotel/nh-wien-city", "https://img.nh-hotels.net/2grN/wwGe7/original/F_NH_wien_city_063.jpg?output-quality=80&resize=1110:*"),
     },
-}
-
-# 이름에 '역·항구' 가 들어가도 볼거리라서 사진을 넣는 곳
-INCLUDE = {
-    "spain": {"sol"},
-    "greece": {"chania_harbour"},
-    "portugal": {"sao_bento", "pinhao"},
 }
 
 # 사진을 넣지 않는 곳 (커먼즈에 맞는 사진이 없음)
