@@ -3,7 +3,7 @@ itinerary.py(스페인)·build_boards.py·build_booking.py·build_country.py 가
 import re
 
 MODE_KO = {"walk": "도보", "metro": "메트로", "train": "열차", "rack": "산악열차", "funicular": "푸니쿨라",
-           "bus": "버스", "tram": "트램", "taxi": "택시", "plane": "비행기", "ferry": "페리", "boat": "보트"}
+           "bus": "버스", "tram": "트램", "taxi": "택시", "plane": "비행기", "ferry": "페리", "boat": "보트", "car": "렌터카"}
 
 
 def mv(frm, to, mode, mins, line="", stops="", fare="", note=""):

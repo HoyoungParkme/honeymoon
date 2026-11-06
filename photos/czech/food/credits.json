@@ -1,0 +1,405 @@
+{
+ "louvre": {
+  "shop": {
+   "title": "File:Praha Café Louvre.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Praha_Caf%C3%A9_Louvre.JPG/1280px-Praha_Caf%C3%A9_Louvre.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Praha_Caf%C3%A9_Louvre.JPG",
+   "license": "CC BY-SA 4.0",
+   "artist": "VitVit",
+   "query": "Café Louvre Prague",
+   "kind": "shop"
+  },
+  "dishes": [
+   {
+    "title": "File:Praha 2005-09-25 svíčková na smetaně-00.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Praha_2005-09-25_sv%C3%AD%C4%8Dkov%C3%A1_na_smetan%C4%9B-00.jpg/1280px-Praha_2005-09-25_sv%C3%AD%C4%8Dkov%C3%A1_na_smetan%C4%9B-00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Praha_2005-09-25_sv%C3%AD%C4%8Dkov%C3%A1_na_smetan%C4%9B-00.jpg",
+    "license": "CC BY-SA 2.0 de",
+    "artist": "Patrick-Emil Zörner (Paddy)",
+    "query": "Svíčková",
+    "file": "louvre_d1.jpg",
+    "dish": "Svíčková"
+   },
+   {
+    "title": "File:Boheminium Park cafe display case cakes and snacks.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Boheminium_Park_cafe_display_case_cakes_and_snacks.jpg/1280px-Boheminium_Park_cafe_display_case_cakes_and_snacks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Boheminium_Park_cafe_display_case_cakes_and_snacks.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Steffen Mokosch",
+    "query": "Czech cake cafe",
+    "file": "louvre_d2.jpg",
+    "dish": "Czech cake cafe"
+   }
+  ]
+ },
+ "kuchyn": {
+  "shop": {
+   "title": "File:Praha Panorama from Petřín 20170430.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Praha_Panorama_from_Pet%C5%99%C3%ADn_20170430.jpg/1280px-Praha_Panorama_from_Pet%C5%99%C3%ADn_20170430.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Praha_Panorama_from_Pet%C5%99%C3%ADn_20170430.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Uoaei1",
+   "query": "Prague view from Hradčany",
+   "kind": "view"
+  },
+  "dishes": [
+   {
+    "title": "File:Classic Vienna-style beef goulash.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Classic_Vienna-style_beef_goulash.jpg/1280px-Classic_Vienna-style_beef_goulash.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Classic_Vienna-style_beef_goulash.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Rkolarsky",
+    "query": "Czech goulash knedliky",
+    "file": "kuchyn_d1.jpg",
+    "dish": "Czech goulash knedliky"
+   },
+   {
+    "title": "File:Praha 2005-09-25 svíčková na smetaně-00.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Praha_2005-09-25_sv%C3%AD%C4%8Dkov%C3%A1_na_smetan%C4%9B-00.jpg/1280px-Praha_2005-09-25_sv%C3%AD%C4%8Dkov%C3%A1_na_smetan%C4%9B-00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Praha_2005-09-25_sv%C3%AD%C4%8Dkov%C3%A1_na_smetan%C4%9B-00.jpg",
+    "license": "CC BY-SA 2.0 de",
+    "artist": "Patrick-Emil Zörner (Paddy)",
+    "query": "Svíčková na smetaně",
+    "file": "kuchyn_d2.jpg",
+    "dish": "Svíčková na smetaně"
+   }
+  ]
+ },
+ "vycep": {
+  "dishes": []
+ },
+ "lokal": {
+  "dishes": [
+   {
+    "title": "File:Smažený sýr s dvojitou porcí tatarky v restauraci Metuje.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Sma%C5%BEen%C3%BD_s%C3%BDr_s_dvojitou_porc%C3%AD_tatarky_v_restauraci_Metuje.jpg/1280px-Sma%C5%BEen%C3%BD_s%C3%BDr_s_dvojitou_porc%C3%AD_tatarky_v_restauraci_Metuje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Sma%C5%BEen%C3%BD_s%C3%BDr_s_dvojitou_porc%C3%AD_tatarky_v_restauraci_Metuje.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ladislav Boháč",
+    "query": "Smažený sýr",
+    "file": "lokal_d1.jpg",
+    "dish": "Smažený sýr"
+   },
+   {
+    "title": "File:Pilsner Urquell beer glass (2).jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Pilsner_Urquell_beer_glass_%282%29.jpg/1280px-Pilsner_Urquell_beer_glass_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pilsner_Urquell_beer_glass_(2).jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "I would appreciate being notified if you use my work outside",
+    "query": "Pilsner Urquell beer glass",
+    "file": "lokal_d2.jpg",
+    "dish": "Pilsner Urquell beer glass"
+   }
+  ],
+  "shop": {
+   "title": "File:Smažený sýr s dvojitou porcí tatarky v restauraci Metuje.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Sma%C5%BEen%C3%BD_s%C3%BDr_s_dvojitou_porc%C3%AD_tatarky_v_restauraci_Metuje.jpg/1280px-Sma%C5%BEen%C3%BD_s%C3%BDr_s_dvojitou_porc%C3%AD_tatarky_v_restauraci_Metuje.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Sma%C5%BEen%C3%BD_s%C3%BDr_s_dvojitou_porc%C3%AD_tatarky_v_restauraci_Metuje.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Ladislav Boháč",
+   "query": "Smažený sýr",
+   "kind": "dish"
+  }
+ },
+ "kantyna": {
+  "shop": {
+   "title": "File:Steak Tartare in Dresden.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Steak_Tartare_in_Dresden.jpg/1280px-Steak_Tartare_in_Dresden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Steak_Tartare_in_Dresden.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Dr. Bernd Gross",
+   "query": "Tatarák",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Steak tartare, vegetable crisps and toasted bread - Petit Pois Restaurant 2024-07-11.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Steak_tartare%2C_vegetable_crisps_and_toasted_bread_-_Petit_Pois_Restaurant_2024-07-11.jpg/1280px-Steak_tartare%2C_vegetable_crisps_and_toasted_bread_-_Petit_Pois_Restaurant_2024-07-11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Steak_tartare,_vegetable_crisps_and_toasted_bread_-_Petit_Pois_Restaurant_2024-07-11.jpg",
+    "license": "CC0",
+    "artist": "Andy Li",
+    "query": "Tatarák",
+    "file": "kantyna_d1.jpg",
+    "dish": "Tatarák"
+   },
+   {
+    "title": "File:Beef steak tartare.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Beef_steak_tartare.jpg/1280px-Beef_steak_tartare.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Beef_steak_tartare.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Joli Rumi",
+    "query": "Beef tartare Czech",
+    "file": "kantyna_d2.jpg",
+    "dish": "Beef tartare Czech"
+   }
+  ]
+ },
+ "imperial": {
+  "shop": {
+   "title": "File:Cafe Imperial in Prague interior.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Cafe_Imperial_in_Prague_interior.jpg/1280px-Cafe_Imperial_in_Prague_interior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Cafe_Imperial_in_Prague_interior.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "DIMSFIKAS",
+   "query": "Café Imperial Prague interior",
+   "kind": "shop"
+  },
+  "dishes": [
+   {
+    "title": "File:Praha 2005-09-25 svíčková na smetaně-00.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Praha_2005-09-25_sv%C3%AD%C4%8Dkov%C3%A1_na_smetan%C4%9B-00.jpg/1280px-Praha_2005-09-25_sv%C3%AD%C4%8Dkov%C3%A1_na_smetan%C4%9B-00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Praha_2005-09-25_sv%C3%AD%C4%8Dkov%C3%A1_na_smetan%C4%9B-00.jpg",
+    "license": "CC BY-SA 2.0 de",
+    "artist": "Patrick-Emil Zörner (Paddy)",
+    "query": "Svíčková",
+    "file": "imperial_d1.jpg",
+    "dish": "Svíčková"
+   }
+  ]
+ },
+ "pinkasu": {
+  "shop": {
+   "title": "File:U Pinkasu - duben 1967 - 1.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/U_Pinkasu_-_duben_1967_-_1.jpg/1280px-U_Pinkasu_-_duben_1967_-_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:U_Pinkasu_-_duben_1967_-_1.jpg",
+   "license": "Public domain",
+   "artist": "Titl",
+   "query": "U Pinkasů Prague",
+   "kind": "shop"
+  },
+  "dishes": [
+   {
+    "title": "File:Classic Vienna-style beef goulash.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Classic_Vienna-style_beef_goulash.jpg/1280px-Classic_Vienna-style_beef_goulash.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Classic_Vienna-style_beef_goulash.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Rkolarsky",
+    "query": "Czech beef goulash",
+    "file": "pinkasu_d2.jpg",
+    "dish": "Czech beef goulash"
+   },
+   {
+    "title": "File:Pečené vepřové koleno z konvektomatu 01.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Pe%C4%8Den%C3%A9_vep%C5%99ov%C3%A9_koleno_z_konvektomatu_01.jpg/1280px-Pe%C4%8Den%C3%A9_vep%C5%99ov%C3%A9_koleno_z_konvektomatu_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pe%C4%8Den%C3%A9_vep%C5%99ov%C3%A9_koleno_z_konvektomatu_01.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Pohled 111",
+    "query": "Pečené vepřové koleno",
+    "file": "pinkasu_d1.jpg",
+    "dish": "Pečené vepřové koleno"
+   }
+  ]
+ },
+ "uprince": {
+  "shop": {
+   "title": "File:Prague Old Town Square, October 2022.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Prague_Old_Town_Square%2C_October_2022.jpg/1280px-Prague_Old_Town_Square%2C_October_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Prague_Old_Town_Square,_October_2022.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "TheDumpy",
+   "query": "Old Town Square Prague from above",
+   "kind": "view"
+  },
+  "dishes": []
+ },
+ "papas": {
+  "shop": {
+   "title": "File:Vepřové žebírko, hranolky.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Vep%C5%99ov%C3%A9_%C5%BEeb%C3%ADrko%2C_hranolky.jpg/1280px-Vep%C5%99ov%C3%A9_%C5%BEeb%C3%ADrko%2C_hranolky.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Vep%C5%99ov%C3%A9_%C5%BEeb%C3%ADrko,_hranolky.jpg",
+   "license": "CC BY 3.0",
+   "artist": "Dezidor",
+   "query": "Pork ribs Czech",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Praha 2005-09-25 svíčková na smetaně-00.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Praha_2005-09-25_sv%C3%AD%C4%8Dkov%C3%A1_na_smetan%C4%9B-00.jpg/1280px-Praha_2005-09-25_sv%C3%AD%C4%8Dkov%C3%A1_na_smetan%C4%9B-00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Praha_2005-09-25_sv%C3%AD%C4%8Dkov%C3%A1_na_smetan%C4%9B-00.jpg",
+    "license": "CC BY-SA 2.0 de",
+    "artist": "Patrick-Emil Zörner (Paddy)",
+    "query": "Svíčková",
+    "file": "papas_d2.jpg",
+    "dish": "Svíčková"
+   }
+  ]
+ },
+ "satlava": {
+  "dishes": []
+ },
+ "svejk": {
+  "dishes": []
+ },
+ "dacicky": {
+  "shop": {
+   "title": "File:Wildschweingulasch Hefeknöfple Talschenke Eselsburg.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Wildschweingulasch_Hefekn%C3%B6fple_Talschenke_Eselsburg.jpg/1280px-Wildschweingulasch_Hefekn%C3%B6fple_Talschenke_Eselsburg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Wildschweingulasch_Hefekn%C3%B6fple_Talschenke_Eselsburg.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Benreis",
+   "query": "Wild boar goulash",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Hefeknöfple Talschenke Eselsburg.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Hefekn%C3%B6fple_Talschenke_Eselsburg.jpg/1280px-Hefekn%C3%B6fple_Talschenke_Eselsburg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Hefekn%C3%B6fple_Talschenke_Eselsburg.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Benreis",
+    "query": "Wild boar goulash",
+    "file": "dacicky_d1.jpg",
+    "dish": "Wild boar goulash"
+   }
+  ]
+ },
+ "sklipek": {
+  "dishes": []
+ },
+ "augustiner": {
+  "dishes": [
+   {
+    "title": "File:Schweinshaxe Chiang Mai.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Schweinshaxe_Chiang_Mai.JPG/1280px-Schweinshaxe_Chiang_Mai.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Schweinshaxe_Chiang_Mai.JPG",
+    "license": "CC BY-SA 3.0",
+    "artist": "Takeaway",
+    "query": "Schweinshaxe",
+    "file": "augustiner_d1.jpg",
+    "dish": "Schweinshaxe"
+   }
+  ],
+  "shop": {
+   "title": "File:Augustiner Bräu Kloster Mülln, Salzburg - Stiegenhaus - 08.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Augustiner_Br%C3%A4u_Kloster_M%C3%BClln%2C_Salzburg_-_Stiegenhaus_-_08.jpg/1280px-Augustiner_Br%C3%A4u_Kloster_M%C3%BClln%2C_Salzburg_-_Stiegenhaus_-_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Augustiner_Br%C3%A4u_Kloster_M%C3%BClln,_Salzburg_-_Stiegenhaus_-_08.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Eweht",
+   "query": "Augustinerbräu Kloster Mülln",
+   "kind": "shop"
+  }
+ },
+ "barenwirt": {
+  "shop": {
+   "title": "File:Wiener Backhendl 5.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Wiener_Backhendl_5.jpg/1280px-Wiener_Backhendl_5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Wiener_Backhendl_5.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Sacha47",
+   "query": "Backhendl",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Backhendl 2.JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Backhendl_2.JPG/1280px-Backhendl_2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Backhendl_2.JPG",
+    "license": "CC0",
+    "artist": "Brücke-Osteuropa",
+    "query": "Backhendl",
+    "file": "barenwirt_d1.jpg",
+    "dish": "Backhendl"
+   },
+   {
+    "title": "File:Wiener-Schnitzel02.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Wiener-Schnitzel02.jpg/1280px-Wiener-Schnitzel02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Wiener-Schnitzel02.jpg",
+    "license": "CC BY-SA 2.5",
+    "artist": "Kobako",
+    "query": "Wiener Schnitzel",
+    "file": "barenwirt_d2.jpg",
+    "dish": "Wiener Schnitzel"
+   }
+  ]
+ },
+ "seecafe": {
+  "shop": {
+   "title": "File:IMG-20191007-WA0185.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/IMG-20191007-WA0185.jpg/1280px-IMG-20191007-WA0185.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:IMG-20191007-WA0185.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Sashi kala Khatri",
+   "query": "Hallstatt lake cafe",
+   "kind": "view"
+  },
+  "dishes": [
+   {
+    "title": "File:Austrian Apple Strudel (3321759680).jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Austrian_Apple_Strudel_%283321759680%29.jpg/1280px-Austrian_Apple_Strudel_%283321759680%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Austrian_Apple_Strudel_(3321759680).jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "Alfred Lui from Chicago, USA",
+    "query": "Austrian apple strudel",
+    "file": "seecafe_d1.jpg",
+    "dish": "Austrian apple strudel"
+   }
+  ]
+ },
+ "meierei": {
+  "shop": {
+   "title": "File:Reloj de flores, Stadtpark, Viena, Austria, 2020-01-31, DD 96-98 HDR.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Reloj_de_flores%2C_Stadtpark%2C_Viena%2C_Austria%2C_2020-01-31%2C_DD_96-98_HDR.jpg/1280px-Reloj_de_flores%2C_Stadtpark%2C_Viena%2C_Austria%2C_2020-01-31%2C_DD_96-98_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Reloj_de_flores,_Stadtpark,_Viena,_Austria,_2020-01-31,_DD_96-98_HDR.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Diego Delso",
+   "query": "Stadtpark Vienna",
+   "kind": "view"
+  },
+  "dishes": [
+   {
+    "title": "File:Wiener-Schnitzel02.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Wiener-Schnitzel02.jpg/1280px-Wiener-Schnitzel02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Wiener-Schnitzel02.jpg",
+    "license": "CC BY-SA 2.5",
+    "artist": "Kobako",
+    "query": "Wiener Schnitzel",
+    "file": "meierei_d1.jpg",
+    "dish": "Wiener Schnitzel"
+   },
+   {
+    "title": "File:Cheese platter.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Cheese_platter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Cheese_platter.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "미상",
+    "query": "Cheese platter",
+    "file": "meierei_d2.jpg",
+    "dish": "Cheese platter"
+   }
+  ]
+ },
+ "figlmuller": {
+  "shop": {
+   "title": "File:The pork schnitzel at the Figlmuller restaurant in Vienna, Austria.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/The_pork_schnitzel_at_the_Figlmuller_restaurant_in_Vienna%2C_Austria.jpg/1280px-The_pork_schnitzel_at_the_Figlmuller_restaurant_in_Vienna%2C_Austria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:The_pork_schnitzel_at_the_Figlmuller_restaurant_in_Vienna,_Austria.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "TravelPhotosNL",
+   "query": "Wiener Schnitzel Figlmüller",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Authentic Wiener Schnitzel, Vienna, Austria (22463648757).jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Authentic_Wiener_Schnitzel%2C_Vienna%2C_Austria_%2822463648757%29.jpg/1280px-Authentic_Wiener_Schnitzel%2C_Vienna%2C_Austria_%2822463648757%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Authentic_Wiener_Schnitzel,_Vienna,_Austria_(22463648757).jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "traveljunction",
+    "query": "Wiener Schnitzel Figlmüller",
+    "file": "figlmuller_d1.jpg",
+    "dish": "Wiener Schnitzel Figlmüller"
+   },
+   {
+    "title": "File:Wiener-Schnitzel02.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Wiener-Schnitzel02.jpg/1280px-Wiener-Schnitzel02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Wiener-Schnitzel02.jpg",
+    "license": "CC BY-SA 2.5",
+    "artist": "Kobako",
+    "query": "Wiener Schnitzel",
+    "file": "figlmuller_d2.jpg",
+    "dish": "Wiener Schnitzel"
+   }
+  ]
+ }
+}

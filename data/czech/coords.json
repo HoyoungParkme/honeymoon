@@ -1,0 +1,422 @@
+{
+ "astro_clock": {
+  "lat": 50.087,
+  "lon": 14.4207,
+  "src": "manual"
+ },
+ "belvedere": {
+  "lat": 48.1915,
+  "lon": 16.3809,
+  "src": "manual"
+ },
+ "bridge_tower_old": {
+  "lat": 50.0862,
+  "lon": 14.414,
+  "src": "manual"
+ },
+ "castle": {
+  "lat": 50.0904,
+  "lon": 14.4005,
+  "src": "manual"
+ },
+ "charles_bridge": {
+  "lat": 50.0865,
+  "lon": 14.4114,
+  "src": "manual"
+ },
+ "ck_bus": {
+  "lat": 48.8126,
+  "lon": 14.3197,
+  "src": "manual"
+ },
+ "ck_castle": {
+  "lat": 48.8126,
+  "lon": 14.3148,
+  "src": "manual"
+ },
+ "ck_garden": {
+  "lat": 48.8135,
+  "lon": 14.311,
+  "src": "manual"
+ },
+ "ck_rafting": {
+  "lat": 48.8085,
+  "lon": 14.316,
+  "src": "manual"
+ },
+ "ck_square": {
+  "lat": 48.8109,
+  "lon": 14.3152,
+  "src": "manual"
+ },
+ "ck_view": {
+  "lat": 48.8105,
+  "lon": 14.3164,
+  "src": "manual"
+ },
+ "dancing_house": {
+  "lat": 50.0755,
+  "lon": 14.414,
+  "src": "manual"
+ },
+ "florenc": {
+  "lat": 50.0898,
+  "lon": 14.4397,
+  "src": "manual"
+ },
+ "getreidegasse": {
+  "lat": 47.8,
+  "lon": 13.0431,
+  "src": "manual"
+ },
+ "golden_lane": {
+  "lat": 50.0918,
+  "lon": 14.4036,
+  "src": "manual"
+ },
+ "h_ck_oldinn": {
+  "lat": 48.8107,
+  "lon": 14.315,
+  "src": "manual"
+ },
+ "h_ck_ruze": {
+  "lat": 48.8099,
+  "lon": 14.3162,
+  "src": "manual"
+ },
+ "h_hall_heritage": {
+  "lat": 47.5612,
+  "lon": 13.6485,
+  "src": "manual"
+ },
+ "h_kv_pupp": {
+  "lat": 50.2183,
+  "lon": 12.8822,
+  "src": "manual"
+ },
+ "h_prg_987": {
+  "lat": 50.0845,
+  "lon": 14.4335,
+  "src": "manual"
+ },
+ "h_prg_bohemia": {
+  "lat": 50.088,
+  "lon": 14.4271,
+  "src": "manual"
+ },
+ "h_prg_majestic": {
+  "lat": 50.0905,
+  "lon": 14.43,
+  "src": "manual"
+ },
+ "h_salz_europa": {
+  "lat": 47.8122,
+  "lon": 13.0446,
+  "src": "manual"
+ },
+ "h_wien_nh": {
+  "lat": 48.199,
+  "lon": 16.354,
+  "src": "manual"
+ },
+ "hallstatt": {
+  "lat": 47.5622,
+  "lon": 13.6493,
+  "src": "manual"
+ },
+ "hallstatt_skywalk": {
+  "lat": 47.562,
+  "lon": 13.642,
+  "src": "manual"
+ },
+ "hallstatt_station": {
+  "lat": 47.565,
+  "lon": 13.66,
+  "src": "manual"
+ },
+ "hallstatt_view": {
+  "lat": 47.5647,
+  "lon": 13.6484,
+  "src": "manual"
+ },
+ "hofburg": {
+  "lat": 48.2066,
+  "lon": 16.3653,
+  "src": "manual"
+ },
+ "hohensalzburg": {
+  "lat": 47.7949,
+  "lon": 13.0473,
+  "src": "manual"
+ },
+ "josefov": {
+  "lat": 50.09,
+  "lon": 14.4182,
+  "src": "manual"
+ },
+ "kampa": {
+  "lat": 50.0862,
+  "lon": 14.4067,
+  "src": "manual"
+ },
+ "kutna_centre": {
+  "lat": 49.9486,
+  "lon": 15.2683,
+  "src": "manual"
+ },
+ "kutna_hora_station": {
+  "lat": 49.9565,
+  "lon": 15.2764,
+  "src": "manual"
+ },
+ "kutna_mesto": {
+  "lat": 49.9477,
+  "lon": 15.2742,
+  "src": "manual"
+ },
+ "kv_bus": {
+  "lat": 50.228,
+  "lon": 12.874,
+  "src": "manual"
+ },
+ "kv_colonnade": {
+  "lat": 50.2253,
+  "lon": 12.8818,
+  "src": "manual"
+ },
+ "kv_diana": {
+  "lat": 50.2196,
+  "lon": 12.8773,
+  "src": "manual"
+ },
+ "kv_vridlo": {
+  "lat": 50.2228,
+  "lon": 12.8835,
+  "src": "manual"
+ },
+ "letna": {
+  "lat": 50.095,
+  "lon": 14.4153,
+  "src": "manual"
+ },
+ "mala_strana": {
+  "lat": 50.088,
+  "lon": 14.4036,
+  "src": "manual"
+ },
+ "mirabell": {
+  "lat": 47.8058,
+  "lon": 13.0419,
+  "src": "manual"
+ },
+ "na_knizeci": {
+  "lat": 50.0705,
+  "lon": 14.4044,
+  "src": "manual"
+ },
+ "naplavka": {
+  "lat": 50.0715,
+  "lon": 14.414,
+  "src": "manual"
+ },
+ "naschmarkt": {
+  "lat": 48.1985,
+  "lon": 16.363,
+  "src": "manual"
+ },
+ "national_theatre": {
+  "lat": 50.081,
+  "lon": 14.4134,
+  "src": "manual"
+ },
+ "obecni_dum": {
+  "lat": 50.0876,
+  "lon": 14.4282,
+  "src": "manual"
+ },
+ "old_town_sq": {
+  "lat": 50.0875,
+  "lon": 14.4213,
+  "src": "manual"
+ },
+ "petrin": {
+  "lat": 50.0836,
+  "lon": 14.3951,
+  "src": "manual"
+ },
+ "pilsner": {
+  "lat": 49.7475,
+  "lon": 13.3869,
+  "src": "manual"
+ },
+ "plzen_bus": {
+  "lat": 49.7468,
+  "lon": 13.3638,
+  "src": "manual"
+ },
+ "plzen_station": {
+  "lat": 49.7432,
+  "lon": 13.3863,
+  "src": "manual"
+ },
+ "powder_tower": {
+  "lat": 50.087,
+  "lon": 14.4278,
+  "src": "manual"
+ },
+ "praha_hlavni": {
+  "lat": 50.0831,
+  "lon": 14.4353,
+  "src": "manual"
+ },
+ "prg_airport": {
+  "lat": 50.1008,
+  "lon": 14.26,
+  "src": "manual"
+ },
+ "r_augustiner": {
+  "lat": 47.8056,
+  "lon": 13.0346,
+  "src": "manual"
+ },
+ "r_dacicky": {
+  "lat": 49.9497,
+  "lon": 15.2678,
+  "src": "manual"
+ },
+ "r_figlmuller": {
+  "lat": 48.2088,
+  "lon": 16.3747,
+  "src": "manual"
+ },
+ "r_imperial": {
+  "lat": 50.0898,
+  "lon": 14.4325,
+  "src": "manual"
+ },
+ "r_kantyna": {
+  "lat": 50.082,
+  "lon": 14.43,
+  "src": "manual"
+ },
+ "r_kuchyn": {
+  "lat": 50.0893,
+  "lon": 14.3985,
+  "src": "manual"
+ },
+ "r_lokal": {
+  "lat": 50.0905,
+  "lon": 14.425,
+  "src": "manual"
+ },
+ "r_louvre": {
+  "lat": 50.082,
+  "lon": 14.4183,
+  "src": "manual"
+ },
+ "r_meierei": {
+  "lat": 48.2045,
+  "lon": 16.3803,
+  "src": "manual"
+ },
+ "r_papas": {
+  "lat": 48.8124,
+  "lon": 14.3176,
+  "src": "manual"
+ },
+ "r_pinkasu": {
+  "lat": 50.0832,
+  "lon": 14.4243,
+  "src": "manual"
+ },
+ "r_satlava": {
+  "lat": 48.8105,
+  "lon": 14.3159,
+  "src": "manual"
+ },
+ "r_seecafe": {
+  "lat": 47.5616,
+  "lon": 13.649,
+  "src": "manual"
+ },
+ "r_sklipek": {
+  "lat": 50.229,
+  "lon": 12.8716,
+  "src": "manual"
+ },
+ "r_svejk": {
+  "lat": 48.8122,
+  "lon": 14.3178,
+  "src": "manual"
+ },
+ "r_uprince": {
+  "lat": 50.0869,
+  "lon": 14.4204,
+  "src": "manual"
+ },
+ "r_vycep": {
+  "lat": 50.0756,
+  "lon": 14.4545,
+  "src": "manual"
+ },
+ "rudolfinum": {
+  "lat": 50.0898,
+  "lon": 14.4152,
+  "src": "manual"
+ },
+ "salzburg_hbf": {
+  "lat": 47.813,
+  "lon": 13.0456,
+  "src": "manual"
+ },
+ "schonbrunn": {
+  "lat": 48.1845,
+  "lon": 16.3122,
+  "src": "manual"
+ },
+ "sedlec": {
+  "lat": 49.962,
+  "lon": 15.2885,
+  "src": "manual"
+ },
+ "st_barbara": {
+  "lat": 49.9459,
+  "lon": 15.2627,
+  "src": "manual"
+ },
+ "staatsoper": {
+  "lat": 48.203,
+  "lon": 16.3691,
+  "src": "manual"
+ },
+ "stephansdom": {
+  "lat": 48.2085,
+  "lon": 16.3731,
+  "src": "manual"
+ },
+ "strahov": {
+  "lat": 50.0863,
+  "lon": 14.3893,
+  "src": "manual"
+ },
+ "vltava_pier": {
+  "lat": 50.0925,
+  "lon": 14.417,
+  "src": "manual"
+ },
+ "vysehrad": {
+  "lat": 50.0645,
+  "lon": 14.418,
+  "src": "manual"
+ },
+ "wenceslas": {
+  "lat": 50.081,
+  "lon": 14.428,
+  "src": "manual"
+ },
+ "wien_hbf": {
+  "lat": 48.1852,
+  "lon": 16.3753,
+  "src": "manual"
+ }
+}

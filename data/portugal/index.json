@@ -1,0 +1,1131 @@
+{
+ "c1_d01_s1.png": {
+  "course": 1,
+  "day": 1,
+  "seg": 1,
+  "order": {
+   "lis_airport": 1,
+   "h_lis_avani": 2,
+   "rossio": 3,
+   "santa_justa": 4,
+   "chiado": 5,
+   "r_manteigaria": 6,
+   "r_ramiro": 7,
+   "senhora_monte": 8
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "city": "리스본"
+ },
+ "c1_d02_s1.png": {
+  "course": 1,
+  "day": 2,
+  "seg": 1,
+  "order": {
+   "h_lis_avani": 1,
+   "martim_moniz": 2,
+   "graca": 3,
+   "sao_jorge": 4,
+   "santa_luzia": 5,
+   "alfama": 6,
+   "se_lisboa": 7,
+   "r_uma": 8,
+   "comercio": 9,
+   "clube_fado": 10
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20
+  ],
+  "city": "리스본"
+ },
+ "c1_d03_s1.png": {
+  "course": 1,
+  "day": 3,
+  "seg": 1,
+  "order": {
+   "h_lis_avani": 1,
+   "rossio_station": 2
+  },
+  "items": [
+   0
+  ],
+  "city": "신트라 · 카스카이스 (당일)"
+ },
+ "c1_d03_s2.png": {
+  "course": 1,
+  "day": 3,
+  "seg": 2,
+  "order": {
+   "sintra_station": 1,
+   "r_piriquita": 2,
+   "pena": 3,
+   "mouros": 4,
+   "r_tascantiga": 5,
+   "regaleira": 6,
+   "cabo_roca": 7,
+   "cascais": 8,
+   "r_mardoinferno": 9,
+   "cascais_station": 10
+  },
+  "items": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  "city": "신트라 · 카스카이스 (당일)"
+ },
+ "c1_d03_s3.png": {
+  "course": 1,
+  "day": 3,
+  "seg": 3,
+  "order": {
+   "cais_sodre": 1,
+   "h_lis_avani": 2
+  },
+  "items": [
+   20
+  ],
+  "city": "신트라 · 카스카이스 (당일)"
+ },
+ "c1_d04_s1.png": {
+  "course": 1,
+  "day": 4,
+  "seg": 1,
+  "order": {
+   "h_lis_avani": 1,
+   "r_pasteisbelem": 2,
+   "jeronimos": 3,
+   "padrao": 4,
+   "belem_tower": 5,
+   "r_canalha": 6,
+   "santa_apolonia": 7
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "city": "리스본 → 포르투"
+ },
+ "c1_d04_s2.png": {
+  "course": 1,
+  "day": 4,
+  "seg": 2,
+  "order": {
+   "sao_bento": 1,
+   "h_opo_descobertas": 2,
+   "r_brasao": 3,
+   "dom_luis": 4
+  },
+  "items": [
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22
+  ],
+  "city": "리스본 → 포르투"
+ },
+ "c1_d05_s1.png": {
+  "course": 1,
+  "day": 5,
+  "seg": 1,
+  "order": {
+   "h_opo_descobertas": 1,
+   "lello": 2,
+   "clerigos": 3,
+   "sao_bento": 4,
+   "almas": 5,
+   "bolhao": 6,
+   "r_guedes": 7,
+   "se_porto": 8,
+   "ribeira": 9,
+   "gaia": 10,
+   "taylors": 11,
+   "jardim_morro": 12,
+   "dom_luis": 13,
+   "r_tapabento": 14
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27
+  ],
+  "city": "포르투"
+ },
+ "c1_d06_s1.png": {
+  "course": 1,
+  "day": 6,
+  "seg": 1,
+  "order": {
+   "h_opo_descobertas": 1,
+   "sao_bento": 2
+  },
+  "items": [
+   0,
+   1
+  ],
+  "city": "도우루 밸리 (당일)"
+ },
+ "c1_d06_s2.png": {
+  "course": 1,
+  "day": 6,
+  "seg": 2,
+  "order": {
+   "pinhao": 1,
+   "pinhao_pier": 2
+  },
+  "items": [
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "city": "도우루 밸리 (당일)"
+ },
+ "c1_d06_s3.png": {
+  "course": 1,
+  "day": 6,
+  "seg": 3,
+  "order": {
+   "sao_bento": 1,
+   "h_opo_descobertas": 2,
+   "r_santiago": 3
+  },
+  "items": [
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "city": "도우루 밸리 (당일)"
+ },
+ "c1_d07_s1.png": {
+  "course": 1,
+  "day": 7,
+  "seg": 1,
+  "order": {
+   "h_opo_descobertas": 1,
+   "foz": 2,
+   "r_saltamuro": 3,
+   "campanha": 4
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "city": "포르투 → 리스본"
+ },
+ "c1_d07_s2.png": {
+  "course": 1,
+  "day": 7,
+  "seg": 2,
+  "order": {
+   "santa_apolonia": 1,
+   "h_lis_avani": 2,
+   "r_salgrosso": 3
+  },
+  "items": [
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "city": "포르투 → 리스본"
+ },
+ "c1_d08_s1.png": {
+  "course": 1,
+  "day": 8,
+  "seg": 1,
+  "order": {
+   "h_lis_avani": 1,
+   "lx_factory": 2,
+   "time_out_market": 3,
+   "cais_sodre": 4,
+   "bairro_alto": 5,
+   "sao_pedro": 6,
+   "r_eurico": 7
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "city": "리스본"
+ },
+ "c1_d09_s1.png": {
+  "course": 1,
+  "day": 9,
+  "seg": 1,
+  "order": {
+   "h_lis_avani": 1,
+   "oceanario": 2,
+   "oriente": 3,
+   "chiado": 4,
+   "r_frade": 5
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "city": "리스본"
+ },
+ "c1_d10_s1.png": {
+  "course": 1,
+  "day": 10,
+  "seg": 1,
+  "order": {
+   "h_lis_avani": 1,
+   "lis_airport": 2
+  },
+  "items": [
+   0,
+   1,
+   2
+  ],
+  "city": "리스본 → 인천"
+ },
+ "c2_d01_s1.png": {
+  "course": 2,
+  "day": 1,
+  "seg": 1,
+  "order": {
+   "lis_airport": 1,
+   "h_lis_mundial": 2,
+   "rossio": 3,
+   "santa_justa": 4,
+   "chiado": 5,
+   "r_manteigaria": 6,
+   "r_ramiro": 7,
+   "senhora_monte": 8
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "city": "리스본"
+ },
+ "c2_d02_s1.png": {
+  "course": 2,
+  "day": 2,
+  "seg": 1,
+  "order": {
+   "h_lis_mundial": 1,
+   "martim_moniz": 2,
+   "graca": 3,
+   "sao_jorge": 4,
+   "santa_luzia": 5,
+   "alfama": 6,
+   "se_lisboa": 7,
+   "r_uma": 8,
+   "comercio": 9,
+   "clube_fado": 10
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20
+  ],
+  "city": "리스본"
+ },
+ "c2_d03_s1.png": {
+  "course": 2,
+  "day": 3,
+  "seg": 1,
+  "order": {
+   "h_lis_mundial": 1,
+   "rossio_station": 2
+  },
+  "items": [
+   0
+  ],
+  "city": "신트라 · 카스카이스 (당일)"
+ },
+ "c2_d03_s2.png": {
+  "course": 2,
+  "day": 3,
+  "seg": 2,
+  "order": {
+   "sintra_station": 1,
+   "r_piriquita": 2,
+   "pena": 3,
+   "mouros": 4,
+   "r_tascantiga": 5,
+   "regaleira": 6,
+   "cabo_roca": 7,
+   "cascais": 8,
+   "r_mardoinferno": 9,
+   "cascais_station": 10
+  },
+  "items": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  "city": "신트라 · 카스카이스 (당일)"
+ },
+ "c2_d03_s3.png": {
+  "course": 2,
+  "day": 3,
+  "seg": 3,
+  "order": {
+   "cais_sodre": 1,
+   "h_lis_mundial": 2
+  },
+  "items": [
+   20
+  ],
+  "city": "신트라 · 카스카이스 (당일)"
+ },
+ "c2_d04_s1.png": {
+  "course": 2,
+  "day": 4,
+  "seg": 1,
+  "order": {
+   "h_lis_mundial": 1,
+   "r_pasteisbelem": 2,
+   "jeronimos": 3,
+   "padrao": 4,
+   "belem_tower": 5,
+   "car_lisbon": 6
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "city": "리스본 → 오비두스 → 나자레"
+ },
+ "c2_d04_s2.png": {
+  "course": 2,
+  "day": 4,
+  "seg": 2,
+  "order": {
+   "h_naz_marbravo": 1,
+   "nazare": 2
+  },
+  "items": [
+   15,
+   16,
+   17,
+   18,
+   19
+  ],
+  "city": "리스본 → 오비두스 → 나자레"
+ },
+ "c2_d05_s1.png": {
+  "course": 2,
+  "day": 5,
+  "seg": 1,
+  "order": {
+   "car_porto": 1,
+   "h_opo_acta": 2,
+   "r_brasao": 3
+  },
+  "items": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "city": "나자레 → 코임브라 → 아베이루 → 포르투"
+ },
+ "c2_d06_s1.png": {
+  "course": 2,
+  "day": 6,
+  "seg": 1,
+  "order": {
+   "h_opo_acta": 1,
+   "lello": 2,
+   "clerigos": 3,
+   "sao_bento": 4,
+   "almas": 5,
+   "bolhao": 6,
+   "r_guedes": 7,
+   "se_porto": 8,
+   "ribeira": 9,
+   "gaia": 10,
+   "taylors": 11,
+   "jardim_morro": 12,
+   "dom_luis": 13,
+   "r_tapabento": 14
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27
+  ],
+  "city": "포르투"
+ },
+ "c2_d07_s1.png": {
+  "course": 2,
+  "day": 7,
+  "seg": 1,
+  "order": {
+   "h_opo_acta": 1,
+   "sao_bento": 2
+  },
+  "items": [
+   0,
+   1
+  ],
+  "city": "도우루 밸리 (당일)"
+ },
+ "c2_d07_s2.png": {
+  "course": 2,
+  "day": 7,
+  "seg": 2,
+  "order": {
+   "pinhao": 1,
+   "pinhao_pier": 2
+  },
+  "items": [
+   3,
+   4,
+   5,
+   6,
+   7
+  ],
+  "city": "도우루 밸리 (당일)"
+ },
+ "c2_d07_s3.png": {
+  "course": 2,
+  "day": 7,
+  "seg": 3,
+  "order": {
+   "sao_bento": 1,
+   "h_opo_acta": 2,
+   "r_santiago": 3
+  },
+  "items": [
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "city": "도우루 밸리 (당일)"
+ },
+ "c2_d08_s1.png": {
+  "course": 2,
+  "day": 8,
+  "seg": 1,
+  "order": {
+   "h_opo_acta": 1,
+   "foz": 2,
+   "r_saltamuro": 3,
+   "campanha": 4
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "city": "포르투 → 리스본"
+ },
+ "c2_d08_s2.png": {
+  "course": 2,
+  "day": 8,
+  "seg": 2,
+  "order": {
+   "santa_apolonia": 1,
+   "h_lis_mundial": 2,
+   "r_ramiro": 3
+  },
+  "items": [
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "city": "포르투 → 리스본"
+ },
+ "c2_d09_s1.png": {
+  "course": 2,
+  "day": 9,
+  "seg": 1,
+  "order": {
+   "h_lis_mundial": 1,
+   "oceanario": 2,
+   "oriente": 3,
+   "chiado": 4,
+   "r_frade": 5
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "city": "리스본"
+ },
+ "c2_d10_s1.png": {
+  "course": 2,
+  "day": 10,
+  "seg": 1,
+  "order": {
+   "h_lis_mundial": 1,
+   "lis_airport": 2
+  },
+  "items": [
+   0,
+   1,
+   2
+  ],
+  "city": "리스본 → 인천"
+ },
+ "c3_d01_s1.png": {
+  "course": 3,
+  "day": 1,
+  "seg": 1,
+  "order": {
+   "lis_airport": 1,
+   "h_lis_mundial": 2,
+   "rossio": 3,
+   "santa_justa": 4,
+   "chiado": 5,
+   "r_manteigaria": 6,
+   "r_ramiro": 7,
+   "senhora_monte": 8
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "city": "리스본"
+ },
+ "c3_d02_s1.png": {
+  "course": 3,
+  "day": 2,
+  "seg": 1,
+  "order": {
+   "h_lis_mundial": 1,
+   "martim_moniz": 2,
+   "graca": 3,
+   "sao_jorge": 4,
+   "santa_luzia": 5,
+   "alfama": 6,
+   "se_lisboa": 7,
+   "r_uma": 8,
+   "comercio": 9,
+   "clube_fado": 10
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20
+  ],
+  "city": "리스본"
+ },
+ "c3_d03_s1.png": {
+  "course": 3,
+  "day": 3,
+  "seg": 1,
+  "order": {
+   "h_lis_mundial": 1,
+   "rossio_station": 2
+  },
+  "items": [
+   0
+  ],
+  "city": "신트라 · 카스카이스 (당일)"
+ },
+ "c3_d03_s2.png": {
+  "course": 3,
+  "day": 3,
+  "seg": 2,
+  "order": {
+   "sintra_station": 1,
+   "r_piriquita": 2,
+   "pena": 3,
+   "mouros": 4,
+   "r_tascantiga": 5,
+   "regaleira": 6,
+   "cabo_roca": 7,
+   "cascais": 8,
+   "r_mardoinferno": 9,
+   "cascais_station": 10
+  },
+  "items": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  "city": "신트라 · 카스카이스 (당일)"
+ },
+ "c3_d03_s3.png": {
+  "course": 3,
+  "day": 3,
+  "seg": 3,
+  "order": {
+   "cais_sodre": 1,
+   "h_lis_mundial": 2
+  },
+  "items": [
+   20
+  ],
+  "city": "신트라 · 카스카이스 (당일)"
+ },
+ "c3_d04_s1.png": {
+  "course": 3,
+  "day": 4,
+  "seg": 1,
+  "order": {
+   "h_lis_mundial": 1,
+   "r_pasteisbelem": 2,
+   "jeronimos": 3,
+   "padrao": 4,
+   "belem_tower": 5,
+   "oriente": 6,
+   "lagos_bus": 7,
+   "h_lagos_casamae": 8,
+   "lagos": 9,
+   "r_casinha": 10
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19
+  ],
+  "city": "리스본 → 라고스"
+ },
+ "c3_d05_s1.png": {
+  "course": 3,
+  "day": 5,
+  "seg": 1,
+  "order": {
+   "h_lagos_casamae": 1,
+   "lagos_marina": 2,
+   "ponta_piedade": 3,
+   "camilo": 4,
+   "r_forja": 5,
+   "dona_ana": 6,
+   "r_artistas": 7
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "city": "라고스"
+ },
+ "c3_d06_s1.png": {
+  "course": 3,
+  "day": 6,
+  "seg": 1,
+  "order": {
+   "h_lagos_casamae": 1,
+   "lagos_marina": 2,
+   "r_barrigada": 3,
+   "ponta_piedade": 4,
+   "r_casinha": 5
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "city": "라고스"
+ },
+ "c3_d07_s1.png": {
+  "course": 3,
+  "day": 7,
+  "seg": 1,
+  "order": {
+   "h_lagos_casamae": 1,
+   "lagos_bus": 2,
+   "oriente": 3,
+   "h_lis_mundial": 4,
+   "time_out_market": 5,
+   "cais_sodre": 6,
+   "r_salgrosso": 7
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "city": "라고스 → 리스본"
+ },
+ "c3_d08_s1.png": {
+  "course": 3,
+  "day": 8,
+  "seg": 1,
+  "order": {
+   "h_lis_mundial": 1,
+   "lx_factory": 2,
+   "time_out_market": 3,
+   "cais_sodre": 4,
+   "bairro_alto": 5,
+   "sao_pedro": 6,
+   "r_eurico": 7
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "city": "리스본"
+ },
+ "c3_d09_s1.png": {
+  "course": 3,
+  "day": 9,
+  "seg": 1,
+  "order": {
+   "h_lis_mundial": 1,
+   "oceanario": 2,
+   "oriente": 3,
+   "chiado": 4,
+   "r_frade": 5
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "city": "리스본"
+ },
+ "c3_d10_s1.png": {
+  "course": 3,
+  "day": 10,
+  "seg": 1,
+  "order": {
+   "h_lis_mundial": 1,
+   "lis_airport": 2
+  },
+  "items": [
+   0,
+   1,
+   2
+  ],
+  "city": "리스본 → 인천"
+ }
+}

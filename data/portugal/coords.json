@@ -1,0 +1,427 @@
+{
+ "alfama": {
+  "lat": 38.7114,
+  "lon": -9.13,
+  "src": "manual"
+ },
+ "almas": {
+  "lat": 41.1495,
+  "lon": -8.6067,
+  "src": "manual"
+ },
+ "aveiro": {
+  "lat": 40.6413,
+  "lon": -8.6537,
+  "src": "manual"
+ },
+ "bairro_alto": {
+  "lat": 38.713,
+  "lon": -9.1452,
+  "src": "manual"
+ },
+ "belem_tower": {
+  "lat": 38.6916,
+  "lon": -9.216,
+  "src": "manual"
+ },
+ "bolhao": {
+  "lat": 41.1497,
+  "lon": -8.6078,
+  "src": "manual"
+ },
+ "cabo_roca": {
+  "lat": 38.7804,
+  "lon": -9.4989,
+  "src": "manual"
+ },
+ "cais_sodre": {
+  "lat": 38.7058,
+  "lon": -9.1449,
+  "src": "manual"
+ },
+ "camilo": {
+  "lat": 37.0883,
+  "lon": -8.668,
+  "src": "manual"
+ },
+ "campanha": {
+  "lat": 41.1488,
+  "lon": -8.5855,
+  "src": "manual"
+ },
+ "car_lisbon": {
+  "lat": 38.7253,
+  "lon": -9.15,
+  "src": "manual"
+ },
+ "car_porto": {
+  "lat": 41.1488,
+  "lon": -8.5855,
+  "src": "manual"
+ },
+ "cascais": {
+  "lat": 38.6967,
+  "lon": -9.4207,
+  "src": "manual"
+ },
+ "cascais_station": {
+  "lat": 38.7011,
+  "lon": -9.4182,
+  "src": "manual"
+ },
+ "chiado": {
+  "lat": 38.7107,
+  "lon": -9.1424,
+  "src": "manual"
+ },
+ "clerigos": {
+  "lat": 41.1457,
+  "lon": -8.6141,
+  "src": "manual"
+ },
+ "clube_fado": {
+  "lat": 38.7096,
+  "lon": -9.1316,
+  "src": "manual"
+ },
+ "coimbra": {
+  "lat": 40.2073,
+  "lon": -8.4259,
+  "src": "manual"
+ },
+ "comercio": {
+  "lat": 38.7076,
+  "lon": -9.1365,
+  "src": "manual"
+ },
+ "dom_luis": {
+  "lat": 41.1399,
+  "lon": -8.6094,
+  "src": "manual"
+ },
+ "dona_ana": {
+  "lat": 37.0917,
+  "lon": -8.6693,
+  "src": "manual"
+ },
+ "foz": {
+  "lat": 41.1495,
+  "lon": -8.6745,
+  "src": "manual"
+ },
+ "gaia": {
+  "lat": 41.1374,
+  "lon": -8.6136,
+  "src": "manual"
+ },
+ "graca": {
+  "lat": 38.7163,
+  "lon": -9.1315,
+  "src": "manual"
+ },
+ "h_lagos_casamae": {
+  "lat": 37.1015,
+  "lon": -8.6775,
+  "src": "manual"
+ },
+ "h_lis_avani": {
+  "lat": 38.7215,
+  "lon": -9.1462,
+  "src": "manual"
+ },
+ "h_lis_mundial": {
+  "lat": 38.715,
+  "lon": -9.1365,
+  "src": "manual"
+ },
+ "h_naz_marbravo": {
+  "lat": 39.601,
+  "lon": -9.072,
+  "src": "manual"
+ },
+ "h_opo_acta": {
+  "lat": 41.149,
+  "lon": -8.611,
+  "src": "manual"
+ },
+ "h_opo_descobertas": {
+  "lat": 41.1418,
+  "lon": -8.6145,
+  "src": "manual"
+ },
+ "jardim_morro": {
+  "lat": 41.1373,
+  "lon": -8.609,
+  "src": "manual"
+ },
+ "jeronimos": {
+  "lat": 38.6979,
+  "lon": -9.2068,
+  "src": "manual"
+ },
+ "lagos": {
+  "lat": 37.102,
+  "lon": -8.6731,
+  "src": "manual"
+ },
+ "lagos_bus": {
+  "lat": 37.105,
+  "lon": -8.674,
+  "src": "manual"
+ },
+ "lagos_marina": {
+  "lat": 37.1063,
+  "lon": -8.6727,
+  "src": "manual"
+ },
+ "lello": {
+  "lat": 41.1469,
+  "lon": -8.6149,
+  "src": "manual"
+ },
+ "lis_airport": {
+  "lat": 38.7742,
+  "lon": -9.1342,
+  "src": "manual"
+ },
+ "lx_factory": {
+  "lat": 38.7034,
+  "lon": -9.1786,
+  "src": "manual"
+ },
+ "martim_moniz": {
+  "lat": 38.7158,
+  "lon": -9.1366,
+  "src": "manual"
+ },
+ "mouros": {
+  "lat": 38.7925,
+  "lon": -9.3893,
+  "src": "manual"
+ },
+ "nazare": {
+  "lat": 39.6052,
+  "lon": -9.0849,
+  "src": "manual"
+ },
+ "obidos": {
+  "lat": 39.3606,
+  "lon": -9.1571,
+  "src": "manual"
+ },
+ "oceanario": {
+  "lat": 38.7636,
+  "lon": -9.0937,
+  "src": "manual"
+ },
+ "oriente": {
+  "lat": 38.7679,
+  "lon": -9.0991,
+  "src": "manual"
+ },
+ "padrao": {
+  "lat": 38.6936,
+  "lon": -9.2058,
+  "src": "manual"
+ },
+ "pena": {
+  "lat": 38.7876,
+  "lon": -9.3906,
+  "src": "manual"
+ },
+ "pinhao": {
+  "lat": 41.1903,
+  "lon": -7.5455,
+  "src": "manual"
+ },
+ "pinhao_pier": {
+  "lat": 41.189,
+  "lon": -7.5462,
+  "src": "manual"
+ },
+ "ponta_piedade": {
+  "lat": 37.0809,
+  "lon": -8.6688,
+  "src": "manual"
+ },
+ "r_artistas": {
+  "lat": 37.1027,
+  "lon": -8.6738,
+  "src": "manual"
+ },
+ "r_barrigada": {
+  "lat": 37.118,
+  "lon": -8.665,
+  "src": "manual"
+ },
+ "r_brasao": {
+  "lat": 41.1478,
+  "lon": -8.6117,
+  "src": "manual"
+ },
+ "r_canalha": {
+  "lat": 38.699,
+  "lon": -9.1935,
+  "src": "manual"
+ },
+ "r_casinha": {
+  "lat": 37.103,
+  "lon": -8.6745,
+  "src": "manual"
+ },
+ "r_eurico": {
+  "lat": 38.7135,
+  "lon": -9.1345,
+  "src": "manual"
+ },
+ "r_forja": {
+  "lat": 37.1035,
+  "lon": -8.6748,
+  "src": "manual"
+ },
+ "r_frade": {
+  "lat": 38.7078,
+  "lon": -9.154,
+  "src": "manual"
+ },
+ "r_guedes": {
+  "lat": 41.146,
+  "lon": -8.604,
+  "src": "manual"
+ },
+ "r_manteigaria": {
+  "lat": 38.7107,
+  "lon": -9.144,
+  "src": "manual"
+ },
+ "r_mardoinferno": {
+  "lat": 38.6918,
+  "lon": -9.4295,
+  "src": "manual"
+ },
+ "r_pasteisbelem": {
+  "lat": 38.6975,
+  "lon": -9.2033,
+  "src": "manual"
+ },
+ "r_piriquita": {
+  "lat": 38.7975,
+  "lon": -9.3909,
+  "src": "manual"
+ },
+ "r_ramiro": {
+  "lat": 38.7206,
+  "lon": -9.1355,
+  "src": "manual"
+ },
+ "r_salgrosso": {
+  "lat": 38.713,
+  "lon": -9.1253,
+  "src": "manual"
+ },
+ "r_saltamuro": {
+  "lat": 41.186,
+  "lon": -8.696,
+  "src": "manual"
+ },
+ "r_santiago": {
+  "lat": 41.1477,
+  "lon": -8.6058,
+  "src": "manual"
+ },
+ "r_tapabento": {
+  "lat": 41.146,
+  "lon": -8.6098,
+  "src": "manual"
+ },
+ "r_tascantiga": {
+  "lat": 38.797,
+  "lon": -9.3895,
+  "src": "manual"
+ },
+ "r_uma": {
+  "lat": 38.7116,
+  "lon": -9.1378,
+  "src": "manual"
+ },
+ "regaleira": {
+  "lat": 38.7963,
+  "lon": -9.3961,
+  "src": "manual"
+ },
+ "ribeira": {
+  "lat": 41.1407,
+  "lon": -8.6131,
+  "src": "manual"
+ },
+ "rossio": {
+  "lat": 38.7139,
+  "lon": -9.1394,
+  "src": "manual"
+ },
+ "rossio_station": {
+  "lat": 38.7142,
+  "lon": -9.141,
+  "src": "manual"
+ },
+ "santa_apolonia": {
+  "lat": 38.7137,
+  "lon": -9.1225,
+  "src": "manual"
+ },
+ "santa_justa": {
+  "lat": 38.7121,
+  "lon": -9.1394,
+  "src": "manual"
+ },
+ "santa_luzia": {
+  "lat": 38.7117,
+  "lon": -9.1302,
+  "src": "manual"
+ },
+ "sao_bento": {
+  "lat": 41.1456,
+  "lon": -8.6107,
+  "src": "manual"
+ },
+ "sao_jorge": {
+  "lat": 38.7139,
+  "lon": -9.1335,
+  "src": "manual"
+ },
+ "sao_pedro": {
+  "lat": 38.7155,
+  "lon": -9.1442,
+  "src": "manual"
+ },
+ "se_lisboa": {
+  "lat": 38.7098,
+  "lon": -9.1332,
+  "src": "manual"
+ },
+ "se_porto": {
+  "lat": 41.1428,
+  "lon": -8.6113,
+  "src": "manual"
+ },
+ "senhora_monte": {
+  "lat": 38.7192,
+  "lon": -9.1328,
+  "src": "manual"
+ },
+ "sintra_station": {
+  "lat": 38.7997,
+  "lon": -9.3858,
+  "src": "manual"
+ },
+ "taylors": {
+  "lat": 41.1338,
+  "lon": -8.6139,
+  "src": "manual"
+ },
+ "time_out_market": {
+  "lat": 38.7068,
+  "lon": -9.1457,
+  "src": "manual"
+ }
+}

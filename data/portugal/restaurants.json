@@ -1,0 +1,874 @@
+{
+ "ramiro": {
+  "match": [
+   "Cervejaria Ramiro"
+  ],
+  "name": "Cervejaria Ramiro",
+  "city": "리스본 · 인텐덴트",
+  "kind": "해산물 비어홀",
+  "since": "",
+  "signature": [
+   "감바스 티그르 그렐랴다스 (타이거새우 숯불구이, 무게 단위)",
+   "감바스 아 길류 (마늘 올리브유 새우)",
+   "아메이조아스 아 불량 파투 (마늘·고수 조개찜)",
+   "프레구 (마늘 소고기 샌드위치) — 마지막에 '디저트처럼'"
+  ],
+  "order": "새우 + 조개찜 + 맥주, 마지막에 프레구",
+  "price": "1인 €30–45",
+  "rating": {
+   "score": 4.3,
+   "n": 11062,
+   "src": "트립어드바이저 (구글 4.4 / 20,627)",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g189158-d2703366-Reviews-Cervejaria_Ramiro-Lisbon_Lisbon_District_Central_Portugal.html"
+  },
+  "review": "해산물 신선도·가격 호평, 와인도 쌈. 한국 블로그에선 '하미루'. 저녁 웨이팅이 가장 큰 불만",
+  "tip": "월요일 휴무. 웹 예약(커플 €50 선결제 후기), 19:30 이후는 예약 불가 → 번호표 대기",
+  "url": "https://www.cervejariaramiro.com/",
+  "photo": {
+   "file": "photos/portugal/food/ramiro.jpg",
+   "kind": "shop",
+   "credit": "Kent Wang from London, United Kingdom · CC BY-SA 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Cervejaria_Ramiro_(42262921054).jpg"
+  },
+  "dishes": [
+   {
+    "file": "photos/portugal/food/ramiro_d1.jpg",
+    "dish": "Tiger prawns grilled",
+    "credit": "PattayaPatrol · CC BY-SA 4.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:DZ6_0480_Juicy_prawns_sizzling_on_a_charcoal_grill_their_shells_turning_golden_as_they_cook.jpg"
+   },
+   {
+    "file": "photos/portugal/food/ramiro_d2.jpg",
+    "dish": "Amêijoas à Bulhão Pato",
+    "credit": "ricardo · CC BY-SA 2.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Am%C3%AAijoas_%C3%A0_Bulh%C3%A3o_Pato.jpg"
+   }
+  ]
+ },
+ "uma": {
+  "match": [
+   "Uma Marisqueira"
+  ],
+  "name": "Uma Marisqueira",
+  "city": "리스본 · 바이샤",
+  "kind": "해물밥 전문",
+  "since": "",
+  "signature": [
+   "아호스 드 마리스쿠 (새우·게 토마토 국물 해물밥) — 한국인이 말하는 '해물밥'"
+  ],
+  "order": "해물밥 2인분 하나",
+  "price": "2인분 약 €30대",
+  "rating": {
+   "score": 4.6,
+   "n": 27037,
+   "src": "구글 (트립어드바이저 4.0 / 3,036)",
+   "url": "https://www.tripadvisor.com/Search?q=Uma%20Marisqueira%20Lisbon"
+  },
+  "review": "트립스토어가 리스본 1순위로 소개, 한국인 후기 매우 많음. 대기가 불만",
+  "tip": "예약 없음. 오픈 15분 전 도착, 주문 후 20~40분 조리",
+  "url": "",
+  "photo": {
+   "file": "photos/portugal/food/uma.jpg",
+   "kind": "dish",
+   "credit": "Cayetano Delgado · CC BY-SA 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Arroz_de_marisco_-_Tavira.jpg"
+  },
+  "dishes": [
+   {
+    "file": "photos/portugal/food/uma_d1.jpg",
+    "dish": "Arroz de marisco",
+    "credit": "Kritzolina · CC BY-SA 4.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Arroz_de_marisco_in_Lisbon.jpg"
+   },
+   {
+    "file": "photos/portugal/food/uma_d2.jpg",
+    "dish": "Portuguese seafood rice",
+    "credit": "Juan Emilio Prades Bel · CC BY-SA 4.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Arroz_caldoso_con_mariscos.jpg"
+   }
+  ]
+ },
+ "pasteisbelem": {
+  "match": [
+   "Pastéis de Belém"
+  ],
+  "name": "Pastéis de Belém (1837~)",
+  "city": "리스본 · 벨렝",
+  "kind": "원조 에그타르트",
+  "since": "1837년",
+  "signature": [
+   "파스텔 드 벨렝 — 시나몬·슈가파우더 뿌려 먹는 원조 에그타르트",
+   "6개 박스 포장"
+  ],
+  "order": "앉아서 2개씩 + 6개 박스 포장",
+  "price": "1개 약 €1.40–1.50",
+  "rating": {
+   "score": 4.5,
+   "n": 54720,
+   "src": "트립어드바이저 (구글 4.6 / 96,150)",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g189158-d939704-Reviews-Pasteis_de_Belem-Lisbon_Lisbon_District_Central_Portugal.html"
+  },
+  "review": "원조의 바삭함. 줄과 인파가 불만",
+  "tip": "바깥 줄은 대부분 포장 손님 → 안쪽 홀로 들어가 앉으면 빠름. 매일 08:00 오픈",
+  "url": "https://pasteisdebelem.pt/",
+  "photo": {
+   "file": "photos/portugal/food/pasteisbelem.jpg",
+   "kind": "shop",
+   "credit": "Sonse · CC BY 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Takeout_%E2%80%A2_Original_Past%C3%A9is_de_Bel%C3%A9m_(1837)_(50660175068).jpg"
+  },
+  "dishes": [
+   {
+    "file": "photos/portugal/food/pasteisbelem_d1.jpg",
+    "dish": "Pastel de nata",
+    "credit": "Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Funchal_(Madeira,_Portugal),_Rua_Dr._Fern%C3%A3o_de_Ornelas,_Nata_7_-_Fern%C3%A3o_Ornelas_--_2025_--_1205.jpg"
+   },
+   {
+    "file": "photos/portugal/food/pasteisbelem_d2.jpg",
+    "dish": "Pastéis de Belém",
+    "credit": "Photo Claude TRUONG-NGOC · CC BY-SA 3.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Pastel_de_nata_septembre_2015.jpg"
+   }
+  ]
+ },
+ "manteigaria": {
+  "match": [
+   "Manteigaria"
+  ],
+  "name": "Manteigaria (시아두)",
+  "city": "리스본 · 시아두",
+  "kind": "에그타르트",
+  "since": "",
+  "signature": [
+   "파스텔 드 나타 — 갓 구운 판이 나오면 종을 울림"
+  ],
+  "order": "서서 하나씩, 따뜻할 때",
+  "price": "1개 €1.50",
+  "rating": {
+   "score": 4.8,
+   "n": 5283,
+   "src": "트립어드바이저 (구글 4.8 / 10,984)",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g189158-d6957429-Reviews-Manteigaria_Fabrica_de_Pasteis_de_Nata_Chiado-Lisbon_Lisbon_District_Central_Port.html"
+  },
+  "review": "바삭한 결과 크리미한 필링, 유리창 너머 굽는 과정. 커피는 아쉽다는 평",
+  "tip": "매일 08:00~24:00, 줄이 빨리 빠짐. 타임아웃 마켓에도 매장",
+  "url": "https://manteigaria.com/",
+  "photo": {
+   "file": "photos/portugal/food/manteigaria.jpg",
+   "kind": "shop",
+   "credit": "Vernaccia · CC BY 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Lisbon._Past%C3%A9is_de_Nata_from_Manteigaria._Time_Out_Market._(41042777765).jpg"
+  },
+  "dishes": [
+   {
+    "file": "photos/portugal/food/manteigaria_d1.jpg",
+    "dish": "Pastel de nata",
+    "credit": "Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Funchal_(Madeira,_Portugal),_Rua_Dr._Fern%C3%A3o_de_Ornelas,_Nata_7_-_Fern%C3%A3o_Ornelas_--_2025_--_1205.jpg"
+   }
+  ]
+ },
+ "timeout": {
+  "match": [
+   "타임아웃 마켓"
+  ],
+  "name": "Time Out Market Lisboa",
+  "city": "리스본 · 카이스 두 소드레",
+  "kind": "푸드홀 (여러 셰프 매장)",
+  "since": "",
+  "signature": [
+   "여러 유명 식당의 대표 메뉴를 한 건물에서",
+   "만테이가리아 나타"
+  ],
+  "order": "각자 한 가게씩 골라 나눠 먹기",
+  "price": "1인 €15–30",
+  "rating": {
+   "score": 4.3,
+   "n": 25184,
+   "src": "트립어드바이저 명소 (구글 4.4 / 72,268)",
+   "url": "https://www.tripadvisor.com/Attraction_Review-g189158-d3214902-Reviews-Time_Out_Market_Lisboa-Lisbon_Lisbon_District_Central_Portugal.html"
+  },
+  "review": "한 번은 가볼 만하지만 리스본 평균보다 비싸다는 평. 혼잡·자리 잡기가 불만",
+  "tip": "매일 10:00~24:00. 점심 피크(13시) 피하기",
+  "url": "",
+  "photo": {
+   "file": "photos/portugal/food/timeout.jpg",
+   "kind": "shop",
+   "credit": "Sonse · CC BY 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Mercado_da_Ribeira,_Time_Out_Market,_Lisbon_-_49677105008.jpg"
+  },
+  "dishes": []
+ },
+ "salgrosso": {
+  "match": [
+   "Taberna Sal Grosso"
+  ],
+  "name": "Taberna Sal Grosso",
+  "city": "리스본 · 알파마",
+  "kind": "작은 타스카 (포르투갈 가정식)",
+  "since": "",
+  "signature": [
+   "바칼라우 아 브라스 (대구살·감자채·달걀 볶음)"
+  ],
+  "order": "바칼라우 아 브라스 + 오늘의 요리",
+  "price": "1인 €20–30",
+  "rating": {
+   "score": 4.5,
+   "n": 1881,
+   "src": "트립어드바이저 (구글 4.7 / 4,012)",
+   "url": "https://www.tripadvisor.com/Search?q=Taberna%20Sal%20Grosso%20Lisbon"
+  },
+  "review": "작은 공간과 가성비 호평. 금방 만석",
+  "tip": "영업일(화~토 / 매일)·예약 방식(페이스북 메시지 / 워크인) 출처 상충 → 전화 +351 910 137 713로 확인",
+  "url": "",
+  "photo": {
+   "file": "photos/portugal/food/salgrosso.jpg",
+   "kind": "dish",
+   "credit": "Fpenteado at en.wikipedia · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Bacalhau_a_Bras.jpg"
+  },
+  "dishes": [
+   {
+    "file": "photos/portugal/food/salgrosso_d1.jpg",
+    "dish": "Bacalhau à Brás",
+    "credit": "Pauloleong2002 · CC BY-SA 4.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:%E8%96%AF%E7%B5%B2%E9%A6%AC%E4%BB%8B%E4%BC%91.jpg"
+   }
+  ]
+ },
+ "eurico": {
+  "match": [
+   "O Velho Eurico"
+  ],
+  "name": "O Velho Eurico",
+  "city": "리스본 · 모라리아",
+  "kind": "전통 타스카 (나눠 먹는 요리)",
+  "since": "",
+  "signature": [
+   "전통 타스카 요리를 여럿이 나눠 먹는 집 (메뉴는 그날그날)"
+  ],
+  "order": "직원 추천 2~3가지",
+  "price": "1인 €20–30",
+  "rating": {
+   "score": 4.3,
+   "n": 2051,
+   "src": "트립어드바이저 (구글 4.4 / 4,208)",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g189158-d2317379-Reviews-O_Velho_Eurico-Lisbon_Lisbon_District_Central_Portugal.html"
+  },
+  "review": "'과장되지 않은 클래식'(사바도 ★★★★). 자리 구하기가 매우 어려움",
+  "tip": "월요일 휴무. 저녁 예약은 몇 달 치가 참 → 지금 전화 +351 21 886 1815, 당일 대기 리스트도 있음",
+  "url": "",
+  "photo": {
+   "file": "photos/portugal/food/eurico.jpg",
+   "kind": "dish",
+   "credit": "Unknown authorUnknown author · CC BY 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Pataniscas_de_Bacalhau.jpg"
+  },
+  "dishes": [
+   {
+    "file": "photos/portugal/food/eurico_d1.jpg",
+    "dish": "Pataniscas de bacalhau",
+    "credit": "Adriao · CC BY-SA 3.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Pataniscas_de_bacalhau.jpg"
+   },
+   {
+    "file": "photos/portugal/food/eurico_d2.jpg",
+    "dish": "Bacalhau com grão",
+    "credit": "Adriao · CC BY 3.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Meia_desfeita.jpg"
+   }
+  ]
+ },
+ "frade": {
+  "match": [
+   "Frade dos Mares"
+  ],
+  "name": "Frade dos Mares",
+  "city": "리스본 · 산투스",
+  "kind": "해산물 · 포르투갈 현대",
+  "since": "",
+  "signature": [
+   "폴부 아 라가레이라 (올리브유 문어구이)",
+   "소파 드 페이시 (생선수프)",
+   "새우 리소토"
+  ],
+  "order": "문어구이 + 생선수프 + 와인",
+  "price": "1인 €30–45",
+  "rating": {
+   "score": 4.8,
+   "n": 6254,
+   "src": "트립어드바이저 (구글 4.7 / 3,769)",
+   "url": "https://www.tripadvisor.com/Restaurant_Review-g189158-d2308921-Reviews-Frade_dos_Mares-Lisbon_Lisbon_District_Central_Portugal.html"
+  },
+  "review": "문어 조리와 가격 대비 양 호평, 기념일 디너 추천. 리소토가 짜다는 평",
+  "tip": "예약 사실상 필수 (전화 +351 21 390 9418)",
+  "url": "",
+  "photo": {
+   "file": "photos/portugal/food/frade.jpg",
+   "kind": "dish",
+   "credit": "Exilexi · CC BY 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Polvo_a_lagareiro.jpg"
+  },
+  "dishes": [
+   {
+    "file": "photos/portugal/food/frade_d1.jpg",
+    "dish": "Polvo à lagareiro",
+    "credit": "The Ogre · CC BY-SA 4.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Polvo_%C3%A0_lagareiro_(Alcochete).jpg"
+   },
+   {
+    "file": "photos/portugal/food/frade_d2.jpg",
+    "dish": "Portuguese fish soup",
+    "credit": "aripeskoe2 · CC BY 2.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Fufu_in_groundnut_soup_with_fish.jpg"
+   }
+  ]
+ },
+ "canalha": {
+  "match": [
+   "Canalha"
+  ],
+  "name": "Canalha",
+  "city": "리스본 · 벨렝(중케이라)",
+  "kind": "포르투갈 현대 (미슐랭 빕 구르망)",
+  "since": "",
+  "signature": [
+   "제철 해산물·로컬 식재료 요리 (셰프 주앙 호드리게스)"
+  ],
+  "order": "그날 해산물 추천",
+  "price": "1인 €40–60",
+  "rating": {
+   "score": 4.3,
+   "n": 889,
+   "src": "구글 · 미슐랭 빕 구르망 (트립어드바이저 4.0 / 116)",
+   "url": "https://guide.michelin.com/us/en/lisboa-region/lisboa/restaurants/bib-gourmand"
+  },
+  "review": "평점 수는 적지만 미슐랭 빕과 Culinary Backstreets 소개로 넣음",
+  "tip": "예약 필수 (미슐랭 페이지 또는 +351 962 152 742). 휴무일 출처 상충",
+  "url": "",
+  "photo": {
+   "file": "photos/portugal/food/canalha.jpg",
+   "kind": "dish",
+   "credit": "Kolforn (Kolforn)\nI'd appreciate if you could mail me (Kolfo · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:25-04-2017_Garlic_and_clams,_Silves.JPG"
+  },
+  "dishes": [
+   {
+    "file": "photos/portugal/food/canalha_d1.jpg",
+    "dish": "Portuguese seafood dish restaurant",
+    "credit": "Kolforn (Kolforn)\nI'd appreciate if you could mail me (Kolfo · CC BY-SA 4.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:17_November_2016,_Cod_with_clams,_asparagus,_peas_in_white_wine_sauce_(4).JPG"
+   }
+  ]
+ },
+ "santiago": {
+  "match": [
+   "Café Santiago"
+  ],
+  "name": "Café Santiago",
+  "city": "포르투 · 바이샤",
+  "kind": "프란세지냐 원조급",
+  "since": "",
+  "signature": [
+   "프란세지냐 에스페시알 — 고기 샌드위치 + 녹인 치즈 + 맥주·토마토 소스 + 달걀",
+   "감자튀김"
+  ],
+  "order": "프란세지냐 하나를 둘이 (아주 무거움)",
+  "price": "1인 €11–15",
+  "rating": {
+   "score": 4.4,
+   "n": 18519,
+   "src": "구글 (트립어드바이저 4.0 / 5,212)",
+   "url": "https://www.tripadvisor.com/Search?q=Cafe%20Santiago%20Porto"
+  },
+  "review": "TasteAtlas 세계 50대 샌드위치. 비법 소스 호평, 줄이 길고 무겁다는 불만",
+  "tip": "일요일 휴무. 12시 오픈 직후나 15~17시",
+  "url": "https://cafesantiago.pt/",
+  "photo": {
+   "file": "photos/portugal/food/santiago.jpg",
+   "kind": "dish",
+   "credit": "Inclusion et Aequalitate · CC0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Francesinha_Poveira.jpg"
+  },
+  "dishes": [
+   {
+    "file": "photos/portugal/food/santiago_d1.jpg",
+    "dish": "Francesinha",
+    "credit": "Ih8connecticut · CC0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Francesinha_encaixados_porto_portugal.jpg"
+   }
+  ]
+ },
+ "brasao": {
+  "match": [
+   "Brasão Aliados"
+  ],
+  "name": "Cervejaria Brasão Aliados",
+  "city": "포르투 · 알리아도스",
+  "kind": "비어홀 · 프란세지냐",
+  "since": "",
+  "signature": [
+   "프란세지냐",
+   "대구 요리",
+   "오리밥 (한국인 블로거 추천)"
+  ],
+  "order": "프란세지냐 하나 + 오리밥 하나",
+  "price": "1인 €15–25",
+  "rating": {
+   "score": 4.5,
+   "n": 6496,
+   "src": "트립어드바이저 (구글 4.6 / 16,665)",
+   "url": "https://www.tripadvisor.com/Search?q=Cervejaria%20Brasao%20Aliados%20Porto"
+  },
+  "review": "두 기준 모두 충족하는 가장 안정적인 프란세지냐. 피크 대기",
+  "tip": "구글로 예약, 매일 영업",
+  "url": "https://brasao.pt/",
+  "photo": {
+   "file": "photos/portugal/food/brasao.jpg",
+   "kind": "dish",
+   "credit": "Inclusion et Aequalitate · CC0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Francesinha_Poveira.jpg"
+  },
+  "dishes": [
+   {
+    "file": "photos/portugal/food/brasao_d1.jpg",
+    "dish": "Francesinha",
+    "credit": "Ih8connecticut · CC0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Francesinha_encaixados_porto_portugal.jpg"
+   },
+   {
+    "file": "photos/portugal/food/brasao_d2.jpg",
+    "dish": "Arroz de pato",
+    "credit": "Restaurantes Temáticos de Bogotá · CC BY-SA 4.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Arroz_de_Pato_.jpg"
+   }
+  ]
+ },
+ "guedes": {
+  "match": [
+   "Casa Guedes"
+  ],
+  "name": "Casa Guedes Tradicional",
+  "city": "포르투 · 포베이루스 광장",
+  "kind": "돼지고기 샌드위치",
+  "since": "",
+  "signature": [
+   "산드스 드 페르닐 (천천히 구운 돼지 뒷다리살) 약 €4.50",
+   "세하 다 에스트렐라 치즈 추가 +€2"
+  ],
+  "order": "페르닐 + 치즈 추가 하나씩",
+  "price": "1인 €5–10",
+  "rating": {
+   "score": 4.5,
+   "n": 3621,
+   "src": "트립어드바이저 (구글 4.5 / 19,905)",
+   "url": "https://www.tripadvisor.com/Search?q=Casa%20Guedes%20Porto"
+  },
+  "review": "두 기준 모두 충족",
+  "tip": "월~토 10~22시 (2023년 이전 후 바뀌었을 수 있음)",
+  "url": "https://casaguedes.pt/",
+  "photo": {
+   "file": "photos/portugal/food/guedes.jpg",
+   "kind": "dish",
+   "credit": "Casa Guedes · CC BY 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Tradicional_sandes_de_pernil_da_Casa_Guedes.jpg"
+  },
+  "dishes": [
+   {
+    "file": "photos/portugal/food/guedes_d2.jpg",
+    "dish": "Pork sandwich Porto",
+    "credit": "Siliconred · CC BY-SA 4.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Porto-style_Bifana_sandwich_with_egg.jpg"
+   }
+  ]
+ },
+ "saltamuro": {
+  "match": [
+   "Salta o Muro"
+  ],
+  "name": "Salta o Muro",
+  "city": "마토지뉴스",
+  "kind": "숯불 생선구이",
+  "since": "",
+  "signature": [
+   "페이시 그렐랴두 (숯불 생선)",
+   "칼데이라다 (생선 스튜)",
+   "대구 숯불구이 + 으깬 감자"
+  ],
+  "order": "그날 생선 숯불구이 하나 + 대구",
+  "price": "1인 약 €35 (Guia Repsol)",
+  "rating": {
+   "score": 4.6,
+   "n": 1692,
+   "src": "구글 (트립어드바이저 4.5 / 467)",
+   "url": "https://www.tripadvisor.com/Search?q=Salta%20o%20Muro%20Matosinhos"
+  },
+  "review": "포르투 해산물 거리 마토지뉴스의 생선구이집",
+  "tip": "일요일 저녁 휴무. 메트로 A선 Matosinhos역 (시내 25분)",
+  "url": "",
+  "photo": {
+   "file": "photos/portugal/food/saltamuro.jpg",
+   "kind": "dish",
+   "credit": "Geoffreyrabbit · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Grilled_fish_with_side_dish.jpg"
+  },
+  "dishes": [
+   {
+    "file": "photos/portugal/food/saltamuro_d1.jpg",
+    "dish": "Grilled fish Portugal",
+    "credit": "pelican from Tokyo, Japan · CC BY-SA 2.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Grilled_cod_(48137564662).jpg"
+   },
+   {
+    "file": "photos/portugal/food/saltamuro_d2.jpg",
+    "dish": "Caldeirada",
+    "credit": "(WT-en) Mimi at English Wikivoyage · Public domain · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Caldeirada_Paraense.jpg"
+   }
+  ]
+ },
+ "tapabento": {
+  "match": [
+   "Tapabento"
+  ],
+  "name": "Tapabento",
+  "city": "포르투 · 상 벤투역 옆",
+  "kind": "포르투갈 현대 · 해산물",
+  "since": "",
+  "signature": [
+   "문어 샐러드",
+   "오리밥",
+   "타이거새우구이",
+   "굴·맛조개"
+  ],
+  "order": "문어 + 오리밥",
+  "price": "1인 €35–50",
+  "rating": {
+   "score": 4.7,
+   "n": 6239,
+   "src": "트립어드바이저 (구글 4.6 / 6,490)",
+   "url": "https://www.tripadvisor.com/Search?q=Tapabento%20Porto"
+  },
+  "review": "두 기준 모두 충족",
+  "tip": "예약 사실상 필수 (구글 지도). 휴무일(월 / 월·화) 확인",
+  "url": "https://tapabento.com/",
+  "photo": {
+   "file": "photos/portugal/food/tapabento.jpg",
+   "kind": "dish",
+   "credit": "Andy Li · CC0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Marinated_octopus_salad_-_Latina_cafe_deli,_Brighton_2023-10-03.jpg"
+  },
+  "dishes": [
+   {
+    "file": "photos/portugal/food/tapabento_d1.jpg",
+    "dish": "Octopus salad Portuguese",
+    "credit": "pelican from Tokyo, Japan · CC BY-SA 2.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Octopus_salad_(48130761808).jpg"
+   },
+   {
+    "file": "photos/portugal/food/tapabento_d2.jpg",
+    "dish": "Arroz de pato",
+    "credit": "Restaurantes Temáticos de Bogotá · CC BY-SA 4.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Arroz_de_Pato_.jpg"
+   }
+  ]
+ },
+ "vinum": {
+  "match": [
+   "Vinum"
+  ],
+  "name": "Vinum (Graham's 셀러 안)",
+  "city": "빌라 노바 드 가이아",
+  "kind": "숯불 고기·생선 + 포트와인 (뷰 맛집)",
+  "since": "",
+  "signature": [
+   "숯불 고기·생선과 와인 페어링",
+   "포르투 시내와 도우루강 전망"
+  ],
+  "order": "일몰 시간 창가석",
+  "price": "1인 €51 이상",
+  "rating": {
+   "score": 4.5,
+   "n": 2402,
+   "src": "트립어드바이저 (구글 4.6 / 3,368)",
+   "url": "https://www.tripadvisor.com/Search?q=Vinum%20Graham's%20Porto"
+  },
+  "review": "뷰와 음식 모두 기준 충족",
+  "tip": "매일 영업, 직접 연락해 예약",
+  "url": "",
+  "photo": {
+   "file": "photos/portugal/food/vinum.jpg",
+   "kind": "view",
+   "credit": "Diego Delso · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Rabelos_en_el_r%C3%ADo_Duero,_Vila_Nova_de_Gaia,_Portugal,_2012-05-09,_DD_14.JPG"
+  },
+  "dishes": [
+   {
+    "file": "photos/portugal/food/vinum_d1.jpg",
+    "dish": "Port wine glasses",
+    "credit": "Jon Sullivan · Public domain · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Port_wine.jpg"
+   }
+  ]
+ },
+ "piriquita": {
+  "match": [
+   "Casa Piriquita"
+  ],
+  "name": "Casa Piriquita",
+  "city": "신트라 구시가",
+  "kind": "신트라 전통 과자점",
+  "since": "",
+  "signature": [
+   "트라베세이루 ('베개' 페이스트리, 아몬드·노른자 크림)",
+   "케이자다 드 신트라 (작은 치즈 타르트)"
+  ],
+  "order": "트라베세이루 2 + 케이자다 2",
+  "price": "€5 내외",
+  "rating": {
+   "score": 4.5,
+   "n": 3637,
+   "src": "트립어드바이저 2호점 (본점 구글 4.4 / 7,320)",
+   "url": "https://www.tripadvisor.com/Search?q=Casa%20Piriquita%20Sintra"
+  },
+  "review": "트라베세이루와 빠른 번호표 호평. 혼잡·너무 달다는 평",
+  "tip": "본점 08:30 오픈, 11시 이후 줄 → 줄이 길면 18번지 2호점",
+  "url": "https://www.piriquita.pt/",
+  "photo": {
+   "file": "photos/portugal/food/piriquita.jpg",
+   "kind": "shop",
+   "credit": "Lajmmoore · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Casa_Piriquita.jpg"
+  },
+  "dishes": [
+   {
+    "file": "photos/portugal/food/piriquita_d1.jpg",
+    "dish": "Travesseiro de Sintra",
+    "credit": "Philip Mallis from Melbourne · CC BY-SA 4.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Travesseiro_de_Sintra_and_Queijada_de_Sintra_bakery_pastries_in_Sintra,_Portugal_(55139884975).jpg"
+   },
+   {
+    "file": "photos/portugal/food/piriquita_d2.jpg",
+    "dish": "Queijada de Sintra",
+    "credit": "Edvaldo LL Souza · CC BY-SA 4.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Queijadinha_SV300005.jpg"
+   }
+  ]
+ },
+ "tascantiga": {
+  "match": [
+   "Tascantiga"
+  ],
+  "name": "Tascantiga",
+  "city": "신트라 구시가",
+  "kind": "페티스쿠 (포르투갈식 작은 접시)",
+  "since": "",
+  "signature": [
+   "대구튀김 + 고추·초리수",
+   "보셰샤스 드 포르쿠 (돼지 볼살)",
+   "치즈 샌드위치"
+  ],
+  "order": "작은 접시 3개 나눠 먹기",
+  "price": "1인 €15–25",
+  "rating": {
+   "score": 4.5,
+   "n": 1309,
+   "src": "트립어드바이저 (구글 4.5 / 3,736)",
+   "url": "https://www.tripadvisor.com/Search?q=Tascantiga%20Sintra"
+  },
+  "review": "두 기준 모두 충족",
+  "tip": "점심은 예약 불가 → 12시 전 도착",
+  "url": "",
+  "photo": {
+   "file": "photos/portugal/food/tascantiga.jpg",
+   "kind": "dish",
+   "credit": "GostinhoDeBrasil · CC BY 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Bolinho_de_bacalhau.jpg"
+  },
+  "dishes": [
+   {
+    "file": "photos/portugal/food/tascantiga_d1.jpg",
+    "dish": "Bolinhos de bacalhau",
+    "credit": "Ralbahitha · CC BY-SA 4.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Past%C3%A9is_de_Bacalhau_~_Salt_Cod_Fritters.jpg"
+   }
+  ]
+ },
+ "mardoinferno": {
+  "match": [
+   "Mar do Inferno"
+  ],
+  "name": "Mar do Inferno",
+  "city": "카스카이스 · 보카 두 인페르누",
+  "kind": "해산물 (바다 절벽 뷰)",
+  "since": "",
+  "signature": [
+   "카라비네이루 (붉은 새우)",
+   "산톨라 (거미게)",
+   "마리스카다 해산물 플래터 (2인 약 €39.50~88)"
+  ],
+  "order": "마리스카다 2인 + 와인",
+  "price": "1인 €40–70",
+  "rating": {
+   "score": 4.4,
+   "n": 2652,
+   "src": "트립어드바이저 (구글 4.6 / 3,826)",
+   "url": "https://www.tripadvisor.com/Search?q=Mar%20do%20Inferno%20Cascais"
+  },
+  "review": "바다 전망·신선도 호평. 실내가 시끄럽다는 평",
+  "tip": "수요일 휴무, 테라스 예약. 일부 사이트에 '폐업' 표기가 섞여 있어 출발 전 영업 확인",
+  "url": "",
+  "photo": {
+   "file": "photos/portugal/food/mardoinferno.jpg",
+   "kind": "view",
+   "credit": "Jakub Hałun · CC BY 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Boca_do_Inferno,_Cascais,_Portugal,_20250606_1734_0368.jpg"
+  },
+  "dishes": [
+   {
+    "file": "photos/portugal/food/mardoinferno_d1.jpg",
+    "dish": "Mariscada",
+    "credit": "I99pema · CC BY-SA 4.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Skaldjursplat%C3%A5.jpg"
+   }
+  ]
+ },
+ "casinha": {
+  "match": [
+   "Casinha do Petisco"
+  ],
+  "name": "Casinha do Petisco",
+  "city": "라고스 구시가",
+  "kind": "해산물 (작은 가정집 식당)",
+  "since": "",
+  "signature": [
+   "카타플라나 (구리 냄비 해산물찜)",
+   "생선구이"
+  ],
+  "order": "카타플라나 2인",
+  "price": "1인 €20–30",
+  "rating": {
+   "score": 4.5,
+   "n": 1939,
+   "src": "트립어드바이저 (구글 4.7 / 2,599)",
+   "url": "https://www.tripadvisor.com/Search?q=Casinha%20do%20Petisco%20Lagos"
+  },
+  "review": "카타플라나와 주인 요리 호평. 자리가 극히 적음",
+  "tip": "예약 방식 출처 상충 (19:30 전 예약·이후 워크인) → 이른 시간",
+  "url": "",
+  "photo": {
+   "file": "photos/portugal/food/casinha.jpg",
+   "kind": "dish",
+   "credit": "Satdeep Gill · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Seafood_Cataplana_at_World_Heritage_Cuisine_Summit_%26_Food_Festival_2018_(Day_2)_-_20.jpg"
+  },
+  "dishes": [
+   {
+    "file": "photos/portugal/food/casinha_d1.jpg",
+    "dish": "Cataplana",
+    "credit": "Satdeep Gill · CC BY-SA 4.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Seafood_Cataplana_at_World_Heritage_Cuisine_Summit_%26_Food_Festival_2018_(Day_2)_-_22.jpg"
+   }
+  ]
+ },
+ "forja": {
+  "match": [
+   "A Forja"
+  ],
+  "name": "A Forja",
+  "city": "라고스 구시가",
+  "kind": "타스카 (오늘의 생선)",
+  "since": "",
+  "signature": [
+   "오늘의 생선 (보드에 적힘)",
+   "포르투갈 가정식"
+  ],
+  "order": "보드의 생선 하나 + 샐러드",
+  "price": "1인 약 €15",
+  "rating": {
+   "score": 4.5,
+   "n": 1201,
+   "src": "트립어드바이저 (구글 4.6 / 1,636)",
+   "url": "https://www.tripadvisor.com/Search?q=A%20Forja%20Lagos"
+  },
+  "review": "두 기준 충족. 약 30분 대기",
+  "tip": "토요일 휴무 가능성, 현금 준비",
+  "url": "",
+  "photo": {
+   "file": "photos/portugal/food/forja.jpg",
+   "kind": "dish",
+   "credit": "gildemax · CC BY-SA 2.5 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Sardines_04_beach_Torre_del_Mar.JPG"
+  },
+  "dishes": [
+   {
+    "file": "photos/portugal/food/forja_d1.jpg",
+    "dish": "Grilled sardines Portugal",
+    "credit": "Wusel007 · CC BY-SA 3.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Gegrille_Sardinen.jpg"
+   },
+   {
+    "file": "photos/portugal/food/forja_d2.jpg",
+    "dish": "Portuguese grilled fish",
+    "credit": "Geoffreyrabbit · CC BY-SA 4.0 · Wikimedia Commons",
+    "page": "https://commons.wikimedia.org/wiki/File:Grilled_fish_with_side_dish.jpg"
+   }
+  ]
+ },
+ "artistas": {
+  "match": [
+   "Restaurante dos Artistas"
+  ],
+  "name": "Restaurante dos Artistas",
+  "city": "라고스 구시가",
+  "kind": "파인다이닝 (미슐랭 가이드 등재)",
+  "since": "",
+  "signature": [
+   "주간 테이스팅 메뉴"
+  ],
+  "order": "테이스팅 메뉴",
+  "price": "1인 €40–80 (추정)",
+  "rating": {
+   "score": 4.5,
+   "n": 1593,
+   "src": "트립어드바이저 (구글 4.6 / 1,120)",
+   "url": "https://www.tripadvisor.com/Search?q=Restaurante%20dos%20Artistas%20Lagos"
+  },
+  "review": "신혼 디너용",
+  "tip": "일요일 휴무, 전화 +351 282 760 659",
+  "url": "",
+  "photo": null,
+  "dishes": []
+ },
+ "barrigada": {
+  "match": [
+   "A Barrigada"
+  ],
+  "name": "A Barrigada",
+  "city": "라고스 · 메이아 프라이아",
+  "kind": "해산물 (해변 뷰)",
+  "since": "",
+  "signature": [
+   "해산물·생선구이 (해변 바로 앞)"
+  ],
+  "order": "생선구이 + 화이트 와인",
+  "price": "1인 €25–40 (추정)",
+  "rating": {
+   "score": 4.5,
+   "n": 1095,
+   "src": "트립어드바이저 (구글 4.4 / 2,816)",
+   "url": "https://www.tripadvisor.com/Search?q=A%20Barrigada%20Lagos"
+  },
+  "review": "해변 앞 테라스",
+  "tip": "",
+  "url": "",
+  "photo": {
+   "file": "photos/portugal/food/barrigada.jpg",
+   "kind": "view",
+   "credit": "Joseolgon · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Meia_Praia_(2).jpg"
+  },
+  "dishes": []
+ }
+}

@@ -39,8 +39,8 @@ for d in (OUT, PHOTO_DIR, FOOD_DIR):
     os.makedirs(d, exist_ok=True)
 PLACES = trip.PLACES
 COURSES = {c: [add_times(d) for d in days] for c, days in trip.COURSES.items()}
-LONG_HAUL = {"train", "plane", "ferry"}
-GMAP_MODE = {"walk": "walking", "taxi": "driving", "boat": "driving"}
+LONG_HAUL = {"train", "plane", "ferry", "car"}
+GMAP_MODE = {"walk": "walking", "taxi": "driving", "boat": "driving", "car": "driving"}
 UA = "HoneymoonTripBuilder/1.0"
 CTX = ssl.create_default_context()
 

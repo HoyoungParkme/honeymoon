@@ -1,0 +1,566 @@
+{
+ "ramiro": {
+  "shop": {
+   "title": "File:Cervejaria Ramiro (42262921054).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Cervejaria_Ramiro_%2842262921054%29.jpg/1280px-Cervejaria_Ramiro_%2842262921054%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Cervejaria_Ramiro_(42262921054).jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Kent Wang from London, United Kingdom",
+   "query": "Cervejaria Ramiro Lisbon",
+   "kind": "shop"
+  },
+  "dishes": [
+   {
+    "title": "File:DZ6 0480 Juicy prawns sizzling on a charcoal grill their shells turning golden as they cook.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/DZ6_0480_Juicy_prawns_sizzling_on_a_charcoal_grill_their_shells_turning_golden_as_they_cook.jpg/1280px-DZ6_0480_Juicy_prawns_sizzling_on_a_charcoal_grill_their_shells_turning_golden_as_they_cook.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:DZ6_0480_Juicy_prawns_sizzling_on_a_charcoal_grill_their_shells_turning_golden_as_they_cook.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "PattayaPatrol",
+    "query": "Tiger prawns grilled",
+    "file": "ramiro_d1.jpg",
+    "dish": "Tiger prawns grilled"
+   },
+   {
+    "title": "File:Amêijoas à Bulhão Pato.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Am%C3%AAijoas_%C3%A0_Bulh%C3%A3o_Pato.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Am%C3%AAijoas_%C3%A0_Bulh%C3%A3o_Pato.jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "ricardo",
+    "query": "Amêijoas à Bulhão Pato",
+    "file": "ramiro_d2.jpg",
+    "dish": "Amêijoas à Bulhão Pato"
+   }
+  ]
+ },
+ "uma": {
+  "shop": {
+   "title": "File:Arroz de marisco - Tavira.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Arroz_de_marisco_-_Tavira.jpg/1280px-Arroz_de_marisco_-_Tavira.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Arroz_de_marisco_-_Tavira.jpg",
+   "license": "CC BY-SA 2.0",
+   "artist": "Cayetano Delgado",
+   "query": "Arroz de marisco",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Arroz de marisco in Lisbon.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Arroz_de_marisco_in_Lisbon.jpg/1280px-Arroz_de_marisco_in_Lisbon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Arroz_de_marisco_in_Lisbon.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Kritzolina",
+    "query": "Arroz de marisco",
+    "file": "uma_d1.jpg",
+    "dish": "Arroz de marisco"
+   },
+   {
+    "title": "File:Arroz caldoso con mariscos.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Arroz_caldoso_con_mariscos.jpg/1280px-Arroz_caldoso_con_mariscos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Arroz_caldoso_con_mariscos.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Juan Emilio Prades Bel",
+    "query": "Portuguese seafood rice",
+    "file": "uma_d2.jpg",
+    "dish": "Portuguese seafood rice"
+   }
+  ]
+ },
+ "pasteisbelem": {
+  "shop": {
+   "title": "File:Takeout • Original Pastéis de Belém (1837) (50660175068).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Takeout_%E2%80%A2_Original_Past%C3%A9is_de_Bel%C3%A9m_%281837%29_%2850660175068%29.jpg/1280px-Takeout_%E2%80%A2_Original_Past%C3%A9is_de_Bel%C3%A9m_%281837%29_%2850660175068%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Takeout_%E2%80%A2_Original_Past%C3%A9is_de_Bel%C3%A9m_(1837)_(50660175068).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Sonse",
+   "query": "Pastéis de Belém shop",
+   "kind": "shop"
+  },
+  "dishes": [
+   {
+    "title": "File:Funchal (Madeira, Portugal), Rua Dr. Fernão de Ornelas, Nata 7 - Fernão Ornelas -- 2025 -- 1205.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Funchal_%28Madeira%2C_Portugal%29%2C_Rua_Dr._Fern%C3%A3o_de_Ornelas%2C_Nata_7_-_Fern%C3%A3o_Ornelas_--_2025_--_1205.jpg/1280px-Funchal_%28Madeira%2C_Portugal%29%2C_Rua_Dr._Fern%C3%A3o_de_Ornelas%2C_Nata_7_-_Fern%C3%A3o_Ornelas_--_2025_--_1205.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Funchal_(Madeira,_Portugal),_Rua_Dr._Fern%C3%A3o_de_Ornelas,_Nata_7_-_Fern%C3%A3o_Ornelas_--_2025_--_1205.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "query": "Pastel de nata",
+    "file": "pasteisbelem_d1.jpg",
+    "dish": "Pastel de nata"
+   },
+   {
+    "title": "File:Pastel de nata septembre 2015.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Pastel_de_nata_septembre_2015.jpg/1280px-Pastel_de_nata_septembre_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pastel_de_nata_septembre_2015.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Photo Claude TRUONG-NGOC",
+    "query": "Pastéis de Belém",
+    "file": "pasteisbelem_d2.jpg",
+    "dish": "Pastéis de Belém"
+   }
+  ]
+ },
+ "manteigaria": {
+  "shop": {
+   "title": "File:Lisbon. Pastéis de Nata from Manteigaria. Time Out Market. (41042777765).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Lisbon._Past%C3%A9is_de_Nata_from_Manteigaria._Time_Out_Market._%2841042777765%29.jpg/1280px-Lisbon._Past%C3%A9is_de_Nata_from_Manteigaria._Time_Out_Market._%2841042777765%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Lisbon._Past%C3%A9is_de_Nata_from_Manteigaria._Time_Out_Market._(41042777765).jpg",
+   "license": "CC BY 2.0",
+   "artist": "Vernaccia",
+   "query": "Manteigaria Lisbon",
+   "kind": "shop"
+  },
+  "dishes": [
+   {
+    "title": "File:Funchal (Madeira, Portugal), Rua Dr. Fernão de Ornelas, Nata 7 - Fernão Ornelas -- 2025 -- 1205.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Funchal_%28Madeira%2C_Portugal%29%2C_Rua_Dr._Fern%C3%A3o_de_Ornelas%2C_Nata_7_-_Fern%C3%A3o_Ornelas_--_2025_--_1205.jpg/1280px-Funchal_%28Madeira%2C_Portugal%29%2C_Rua_Dr._Fern%C3%A3o_de_Ornelas%2C_Nata_7_-_Fern%C3%A3o_Ornelas_--_2025_--_1205.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Funchal_(Madeira,_Portugal),_Rua_Dr._Fern%C3%A3o_de_Ornelas,_Nata_7_-_Fern%C3%A3o_Ornelas_--_2025_--_1205.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Dietmar Rabich",
+    "query": "Pastel de nata",
+    "file": "manteigaria_d1.jpg",
+    "dish": "Pastel de nata"
+   }
+  ]
+ },
+ "timeout": {
+  "shop": {
+   "title": "File:Mercado da Ribeira, Time Out Market, Lisbon - 49677105008.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Mercado_da_Ribeira%2C_Time_Out_Market%2C_Lisbon_-_49677105008.jpg/1280px-Mercado_da_Ribeira%2C_Time_Out_Market%2C_Lisbon_-_49677105008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Mercado_da_Ribeira,_Time_Out_Market,_Lisbon_-_49677105008.jpg",
+   "license": "CC BY 2.0",
+   "artist": "Sonse",
+   "query": "Time Out Market Lisboa",
+   "kind": "shop"
+  },
+  "dishes": []
+ },
+ "salgrosso": {
+  "shop": {
+   "title": "File:Bacalhau a Bras.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Bacalhau_a_Bras.jpg/1280px-Bacalhau_a_Bras.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Bacalhau_a_Bras.jpg",
+   "license": "CC BY-SA 3.0",
+   "artist": "Fpenteado at en.wikipedia",
+   "query": "Bacalhau à Brás",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:薯絲馬介休.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/%E8%96%AF%E7%B5%B2%E9%A6%AC%E4%BB%8B%E4%BC%91.jpg/1280px-%E8%96%AF%E7%B5%B2%E9%A6%AC%E4%BB%8B%E4%BC%91.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:%E8%96%AF%E7%B5%B2%E9%A6%AC%E4%BB%8B%E4%BC%91.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Pauloleong2002",
+    "query": "Bacalhau à Brás",
+    "file": "salgrosso_d1.jpg",
+    "dish": "Bacalhau à Brás"
+   }
+  ]
+ },
+ "eurico": {
+  "shop": {
+   "title": "File:Pataniscas de Bacalhau.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Pataniscas_de_Bacalhau.jpg/1280px-Pataniscas_de_Bacalhau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Pataniscas_de_Bacalhau.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Unknown authorUnknown author",
+   "query": "Pataniscas de bacalhau",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Pataniscas de bacalhau.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Pataniscas_de_bacalhau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Pataniscas_de_bacalhau.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Adriao",
+    "query": "Pataniscas de bacalhau",
+    "file": "eurico_d1.jpg",
+    "dish": "Pataniscas de bacalhau"
+   },
+   {
+    "title": "File:Meia desfeita.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Meia_desfeita.jpg/1280px-Meia_desfeita.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Meia_desfeita.jpg",
+    "license": "CC BY 3.0",
+    "artist": "Adriao",
+    "query": "Bacalhau com grão",
+    "file": "eurico_d2.jpg",
+    "dish": "Bacalhau com grão"
+   }
+  ]
+ },
+ "frade": {
+  "shop": {
+   "title": "File:Polvo a lagareiro.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Polvo_a_lagareiro.jpg/1280px-Polvo_a_lagareiro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Polvo_a_lagareiro.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Exilexi",
+   "query": "Polvo à lagareiro",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Polvo à lagareiro (Alcochete).jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Polvo_%C3%A0_lagareiro_%28Alcochete%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Polvo_%C3%A0_lagareiro_(Alcochete).jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "The Ogre",
+    "query": "Polvo à lagareiro",
+    "file": "frade_d1.jpg",
+    "dish": "Polvo à lagareiro"
+   },
+   {
+    "title": "File:Fufu in groundnut soup with fish.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/53/Fufu_in_groundnut_soup_with_fish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Fufu_in_groundnut_soup_with_fish.jpg",
+    "license": "CC BY 2.0",
+    "artist": "aripeskoe2",
+    "query": "Portuguese fish soup",
+    "file": "frade_d2.jpg",
+    "dish": "Portuguese fish soup"
+   }
+  ]
+ },
+ "canalha": {
+  "shop": {
+   "title": "File:25-04-2017 Garlic and clams, Silves.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/25-04-2017_Garlic_and_clams%2C_Silves.JPG/1280px-25-04-2017_Garlic_and_clams%2C_Silves.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:25-04-2017_Garlic_and_clams,_Silves.JPG",
+   "license": "CC BY-SA 4.0",
+   "artist": "Kolforn (Kolforn)\nI'd appreciate if you could mail me (Kolfo",
+   "query": "Portuguese seafood dish restaurant",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:17 November 2016, Cod with clams, asparagus, peas in white wine sauce (4).JPG",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/17_November_2016%2C_Cod_with_clams%2C_asparagus%2C_peas_in_white_wine_sauce_%284%29.JPG/1280px-17_November_2016%2C_Cod_with_clams%2C_asparagus%2C_peas_in_white_wine_sauce_%284%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:17_November_2016,_Cod_with_clams,_asparagus,_peas_in_white_wine_sauce_(4).JPG",
+    "license": "CC BY-SA 4.0",
+    "artist": "Kolforn (Kolforn)\nI'd appreciate if you could mail me (Kolfo",
+    "query": "Portuguese seafood dish restaurant",
+    "file": "canalha_d1.jpg",
+    "dish": "Portuguese seafood dish restaurant"
+   }
+  ]
+ },
+ "santiago": {
+  "shop": {
+   "title": "File:Francesinha Poveira.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Francesinha_Poveira.jpg/1280px-Francesinha_Poveira.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Francesinha_Poveira.jpg",
+   "license": "CC0",
+   "artist": "Inclusion et Aequalitate",
+   "query": "Francesinha",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Francesinha encaixados porto portugal.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Francesinha_encaixados_porto_portugal.jpg/1280px-Francesinha_encaixados_porto_portugal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Francesinha_encaixados_porto_portugal.jpg",
+    "license": "CC0",
+    "artist": "Ih8connecticut",
+    "query": "Francesinha",
+    "file": "santiago_d1.jpg",
+    "dish": "Francesinha"
+   }
+  ]
+ },
+ "brasao": {
+  "shop": {
+   "title": "File:Francesinha Poveira.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Francesinha_Poveira.jpg/1280px-Francesinha_Poveira.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Francesinha_Poveira.jpg",
+   "license": "CC0",
+   "artist": "Inclusion et Aequalitate",
+   "query": "Francesinha",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Francesinha encaixados porto portugal.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Francesinha_encaixados_porto_portugal.jpg/1280px-Francesinha_encaixados_porto_portugal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Francesinha_encaixados_porto_portugal.jpg",
+    "license": "CC0",
+    "artist": "Ih8connecticut",
+    "query": "Francesinha",
+    "file": "brasao_d1.jpg",
+    "dish": "Francesinha"
+   },
+   {
+    "title": "File:Arroz de Pato .jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Arroz_de_Pato_.jpg/1280px-Arroz_de_Pato_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Arroz_de_Pato_.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Restaurantes Temáticos de Bogotá",
+    "query": "Arroz de pato",
+    "file": "brasao_d2.jpg",
+    "dish": "Arroz de pato"
+   }
+  ]
+ },
+ "guedes": {
+  "shop": {
+   "title": "File:Tradicional sandes de pernil da Casa Guedes.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Tradicional_sandes_de_pernil_da_Casa_Guedes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "page": "https://commons.wikimedia.org/wiki/File:Tradicional_sandes_de_pernil_da_Casa_Guedes.jpg",
+   "license": "CC BY 3.0",
+   "artist": "Casa Guedes",
+   "query": "Sandes de pernil",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Porto-style Bifana sandwich with egg.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Porto-style_Bifana_sandwich_with_egg.jpg/1280px-Porto-style_Bifana_sandwich_with_egg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Porto-style_Bifana_sandwich_with_egg.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Siliconred",
+    "query": "Pork sandwich Porto",
+    "file": "guedes_d2.jpg",
+    "dish": "Pork sandwich Porto"
+   }
+  ]
+ },
+ "saltamuro": {
+  "shop": {
+   "title": "File:Grilled fish with side dish.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Grilled_fish_with_side_dish.jpg/1280px-Grilled_fish_with_side_dish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Grilled_fish_with_side_dish.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Geoffreyrabbit",
+   "query": "Grilled fish Portugal",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Grilled cod (48137564662).jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Grilled_cod_%2848137564662%29.jpg/1280px-Grilled_cod_%2848137564662%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Grilled_cod_(48137564662).jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "pelican from Tokyo, Japan",
+    "query": "Grilled fish Portugal",
+    "file": "saltamuro_d1.jpg",
+    "dish": "Grilled fish Portugal"
+   },
+   {
+    "title": "File:Caldeirada Paraense.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Caldeirada_Paraense.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Caldeirada_Paraense.jpg",
+    "license": "Public domain",
+    "artist": "(WT-en) Mimi at English Wikivoyage",
+    "query": "Caldeirada",
+    "file": "saltamuro_d2.jpg",
+    "dish": "Caldeirada"
+   }
+  ]
+ },
+ "tapabento": {
+  "shop": {
+   "title": "File:Marinated octopus salad - Latina cafe deli, Brighton 2023-10-03.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Marinated_octopus_salad_-_Latina_cafe_deli%2C_Brighton_2023-10-03.jpg/1280px-Marinated_octopus_salad_-_Latina_cafe_deli%2C_Brighton_2023-10-03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Marinated_octopus_salad_-_Latina_cafe_deli,_Brighton_2023-10-03.jpg",
+   "license": "CC0",
+   "artist": "Andy Li",
+   "query": "Octopus salad Portuguese",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Octopus salad (48130761808).jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Octopus_salad_%2848130761808%29.jpg/1280px-Octopus_salad_%2848130761808%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Octopus_salad_(48130761808).jpg",
+    "license": "CC BY-SA 2.0",
+    "artist": "pelican from Tokyo, Japan",
+    "query": "Octopus salad Portuguese",
+    "file": "tapabento_d1.jpg",
+    "dish": "Octopus salad Portuguese"
+   },
+   {
+    "title": "File:Arroz de Pato .jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Arroz_de_Pato_.jpg/1280px-Arroz_de_Pato_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Arroz_de_Pato_.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Restaurantes Temáticos de Bogotá",
+    "query": "Arroz de pato",
+    "file": "tapabento_d2.jpg",
+    "dish": "Arroz de pato"
+   }
+  ]
+ },
+ "vinum": {
+  "shop": {
+   "title": "File:Rabelos en el río Duero, Vila Nova de Gaia, Portugal, 2012-05-09, DD 14.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Rabelos_en_el_r%C3%ADo_Duero%2C_Vila_Nova_de_Gaia%2C_Portugal%2C_2012-05-09%2C_DD_14.JPG/1280px-Rabelos_en_el_r%C3%ADo_Duero%2C_Vila_Nova_de_Gaia%2C_Portugal%2C_2012-05-09%2C_DD_14.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Rabelos_en_el_r%C3%ADo_Duero,_Vila_Nova_de_Gaia,_Portugal,_2012-05-09,_DD_14.JPG",
+   "license": "CC BY-SA 3.0",
+   "artist": "Diego Delso",
+   "query": "Porto from Vila Nova de Gaia",
+   "kind": "view"
+  },
+  "dishes": [
+   {
+    "title": "File:Port wine.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/5/57/Port_wine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Port_wine.jpg",
+    "license": "Public domain",
+    "artist": "Jon Sullivan",
+    "query": "Port wine glasses",
+    "file": "vinum_d1.jpg",
+    "dish": "Port wine glasses"
+   }
+  ]
+ },
+ "piriquita": {
+  "shop": {
+   "title": "File:Casa Piriquita.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Casa_Piriquita.jpg/1280px-Casa_Piriquita.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Casa_Piriquita.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Lajmmoore",
+   "query": "Casa Piriquita Sintra",
+   "kind": "shop"
+  },
+  "dishes": [
+   {
+    "title": "File:Travesseiro de Sintra and Queijada de Sintra bakery pastries in Sintra, Portugal (55139884975).jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Travesseiro_de_Sintra_and_Queijada_de_Sintra_bakery_pastries_in_Sintra%2C_Portugal_%2855139884975%29.jpg/1280px-Travesseiro_de_Sintra_and_Queijada_de_Sintra_bakery_pastries_in_Sintra%2C_Portugal_%2855139884975%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Travesseiro_de_Sintra_and_Queijada_de_Sintra_bakery_pastries_in_Sintra,_Portugal_(55139884975).jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Philip Mallis from Melbourne",
+    "query": "Travesseiro de Sintra",
+    "file": "piriquita_d1.jpg",
+    "dish": "Travesseiro de Sintra"
+   },
+   {
+    "title": "File:Queijadinha SV300005.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Queijadinha_SV300005.jpg/1280px-Queijadinha_SV300005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Queijadinha_SV300005.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Edvaldo LL Souza",
+    "query": "Queijada de Sintra",
+    "file": "piriquita_d2.jpg",
+    "dish": "Queijada de Sintra"
+   }
+  ]
+ },
+ "tascantiga": {
+  "shop": {
+   "title": "File:Bolinho de bacalhau.jpg",
+   "thumb": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Bolinho_de_bacalhau.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "page": "https://commons.wikimedia.org/wiki/File:Bolinho_de_bacalhau.jpg",
+   "license": "CC BY 3.0",
+   "artist": "GostinhoDeBrasil",
+   "query": "Bolinhos de bacalhau",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Pastéis de Bacalhau ~ Salt Cod Fritters.jpg",
+    "thumb": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Past%C3%A9is_de_Bacalhau_~_Salt_Cod_Fritters.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Past%C3%A9is_de_Bacalhau_~_Salt_Cod_Fritters.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Ralbahitha",
+    "query": "Bolinhos de bacalhau",
+    "file": "tascantiga_d1.jpg",
+    "dish": "Bolinhos de bacalhau"
+   }
+  ]
+ },
+ "mardoinferno": {
+  "shop": {
+   "title": "File:Boca do Inferno, Cascais, Portugal, 20250606 1734 0368.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Boca_do_Inferno%2C_Cascais%2C_Portugal%2C_20250606_1734_0368.jpg/1280px-Boca_do_Inferno%2C_Cascais%2C_Portugal%2C_20250606_1734_0368.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Boca_do_Inferno,_Cascais,_Portugal,_20250606_1734_0368.jpg",
+   "license": "CC BY 4.0",
+   "artist": "Jakub Hałun",
+   "query": "Boca do Inferno Cascais",
+   "kind": "view"
+  },
+  "dishes": [
+   {
+    "title": "File:Skaldjursplatå.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Skaldjursplat%C3%A5.jpg/1280px-Skaldjursplat%C3%A5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Skaldjursplat%C3%A5.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "I99pema",
+    "query": "Mariscada",
+    "file": "mardoinferno_d1.jpg",
+    "dish": "Mariscada"
+   }
+  ]
+ },
+ "casinha": {
+  "shop": {
+   "title": "File:Seafood Cataplana at World Heritage Cuisine Summit & Food Festival 2018 (Day 2) - 20.jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Seafood_Cataplana_at_World_Heritage_Cuisine_Summit_%26_Food_Festival_2018_%28Day_2%29_-_20.jpg/1280px-Seafood_Cataplana_at_World_Heritage_Cuisine_Summit_%26_Food_Festival_2018_%28Day_2%29_-_20.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Seafood_Cataplana_at_World_Heritage_Cuisine_Summit_%26_Food_Festival_2018_(Day_2)_-_20.jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Satdeep Gill",
+   "query": "Cataplana",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Seafood Cataplana at World Heritage Cuisine Summit & Food Festival 2018 (Day 2) - 22.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Seafood_Cataplana_at_World_Heritage_Cuisine_Summit_%26_Food_Festival_2018_%28Day_2%29_-_22.jpg/1280px-Seafood_Cataplana_at_World_Heritage_Cuisine_Summit_%26_Food_Festival_2018_%28Day_2%29_-_22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Seafood_Cataplana_at_World_Heritage_Cuisine_Summit_%26_Food_Festival_2018_(Day_2)_-_22.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Satdeep Gill",
+    "query": "Cataplana",
+    "file": "casinha_d1.jpg",
+    "dish": "Cataplana"
+   }
+  ]
+ },
+ "forja": {
+  "shop": {
+   "title": "File:Sardines 04 beach Torre del Mar.JPG",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Sardines_04_beach_Torre_del_Mar.JPG/1280px-Sardines_04_beach_Torre_del_Mar.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Sardines_04_beach_Torre_del_Mar.JPG",
+   "license": "CC BY-SA 2.5",
+   "artist": "gildemax",
+   "query": "Grilled sardines Portugal",
+   "kind": "dish"
+  },
+  "dishes": [
+   {
+    "title": "File:Gegrille Sardinen.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Gegrille_Sardinen.jpg/1280px-Gegrille_Sardinen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Gegrille_Sardinen.jpg",
+    "license": "CC BY-SA 3.0",
+    "artist": "Wusel007",
+    "query": "Grilled sardines Portugal",
+    "file": "forja_d1.jpg",
+    "dish": "Grilled sardines Portugal"
+   },
+   {
+    "title": "File:Grilled fish with side dish.jpg",
+    "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Grilled_fish_with_side_dish.jpg/1280px-Grilled_fish_with_side_dish.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Grilled_fish_with_side_dish.jpg",
+    "license": "CC BY-SA 4.0",
+    "artist": "Geoffreyrabbit",
+    "query": "Portuguese grilled fish",
+    "file": "forja_d2.jpg",
+    "dish": "Portuguese grilled fish"
+   }
+  ]
+ },
+ "artistas": {
+  "dishes": []
+ },
+ "barrigada": {
+  "shop": {
+   "title": "File:Meia Praia (2).jpg",
+   "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Meia_Praia_%282%29.jpg/1280px-Meia_Praia_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "page": "https://commons.wikimedia.org/wiki/File:Meia_Praia_(2).jpg",
+   "license": "CC BY-SA 4.0",
+   "artist": "Joseolgon",
+   "query": "Meia Praia Lagos",
+   "kind": "view"
+  },
+  "dishes": []
+ }
+}

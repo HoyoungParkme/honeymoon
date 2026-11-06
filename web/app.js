@@ -22,7 +22,7 @@
   var BADGE = {
     walk: ['도보', '#1E56A0'], metro: ['메트로', '#B8432A'], train: ['열차', '#B8432A'],
     rack: ['산악열차', '#B8432A'], funicular: ['푸니쿨라', '#B8432A'], bus: ['버스', '#2F7A57'],
-    tram: ['트램', '#2F7A57'], taxi: ['택시', '#7A5C99'], plane: ['비행기', '#7A5C99'], ferry: ['페리', '#1E7FA8'], boat: ['보트', '#1E7FA8'], stop: ['장소', '#1C2230']
+    tram: ['트램', '#2F7A57'], taxi: ['택시', '#7A5C99'], plane: ['비행기', '#7A5C99'], ferry: ['페리', '#1E7FA8'], boat: ['보트', '#1E7FA8'], car: ['렌터카', '#7A5C99'], stop: ['장소', '#1C2230']
   };
 
   var trip = null;          // { courses, coords, routes }
@@ -266,7 +266,7 @@
 
   // ── 지도 ──
 
-  var LINE_COLOR = { walk: '#1E56A0', metro: '#B8432A', train: '#B8432A', rack: '#B8432A', funicular: '#B8432A', bus: '#2F7A57', tram: '#2F7A57', taxi: '#7A5C99', plane: '#7A5C99' , ferry: '#1E7FA8', boat: '#1E7FA8' };
+  var LINE_COLOR = { walk: '#1E56A0', metro: '#B8432A', train: '#B8432A', rack: '#B8432A', funicular: '#B8432A', bus: '#2F7A57', tram: '#2F7A57', taxi: '#7A5C99', plane: '#7A5C99' , ferry: '#1E7FA8', boat: '#1E7FA8', car: '#7A5C99' };
 
   // 아티팩트로 발행된 페이지는 외부 타일 서버를 못 쓴다. 미리 받아 둔 타일을
   // 아틀라스(JPEG 16×16장)에서 잘라 그리는 타일 레이어로 대신한다.

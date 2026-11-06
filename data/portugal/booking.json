@@ -1,0 +1,1490 @@
+{
+ "generated": "2026-11-06",
+ "country": {
+  "kicker": "PORTUGAL · 2027.05.09 – 05.18",
+  "page": "portugal.html"
+ },
+ "sites": [
+  {
+   "name": "아고다",
+   "url": "https://www.agoda.com/ko-kr/",
+   "for": "숙소",
+   "note": "한국어·원화 결제. 유로로 결제하면 수수료가 덜 붙음"
+  },
+  {
+   "name": "트립닷컴",
+   "url": "https://kr.trip.com/",
+   "for": "숙소·항공·열차·렌터카",
+   "note": "한국어 고객센터. CP 열차·렌터카도 한국어로"
+  },
+  {
+   "name": "부킹닷컴",
+   "url": "https://www.booking.com/index.ko.html",
+   "for": "숙소",
+   "note": "라고스·나자레 소형 숙소 재고가 가장 많음"
+  },
+  {
+   "name": "네이버 항공",
+   "url": "https://flight.naver.com/",
+   "for": "국제선",
+   "note": "카타르·대한항공 직항·루프트한자 비교"
+  },
+  {
+   "name": "CP",
+   "url": "https://www.cp.pt/passageiros/en",
+   "for": "열차",
+   "note": "알파 펜둘라르 조기 할인, 도우루선·신트라선"
+  },
+  {
+   "name": "클룩",
+   "url": "https://www.klook.com/ko/",
+   "for": "투어·입장권",
+   "note": "한국어. 신트라·도우루 투어, 파두"
+  },
+  {
+   "name": "마이리얼트립",
+   "url": "https://www.myrealtrip.com/",
+   "for": "한국어 가이드·스냅",
+   "note": "리스본·포르투 한국어 워킹투어·스냅"
+  }
+ ],
+ "taxi": [
+  {
+   "what": "리스본 공항 ↔ 시내",
+   "note": "Uber·Bolt 약 €16. 메트로 빨간선 1인 €1.90 + 카드 €0.50",
+   "links": [
+    {
+     "name": "Bolt",
+     "url": "https://bolt.eu/"
+    }
+   ]
+  },
+  {
+   "what": "포르투 공항 ↔ 시내",
+   "note": "메트로 E선 1인 €2.30 + 카드 €0.60, 택시 €25~35",
+   "links": []
+  },
+  {
+   "what": "리스본 대중교통",
+   "note": "나베간트(Navegante) 충전식 카드 하나로 메트로·트램·CP 근교선. 28번 트램은 아침 일찍",
+   "links": []
+  },
+  {
+   "what": "언덕 도시 이동",
+   "note": "리스본·포르투는 언덕과 미끄러운 돌길 → 굽 없는 운동화. 오르막은 Uber·Bolt가 싸고 빠름",
+   "links": []
+  },
+  {
+   "what": "렌터카 (코스 2)",
+   "note": "국제운전면허증 + 한국 면허증. 고속도로는 전자 통행료라 '비아 베르드' 단말기 렌트 필수",
+   "links": []
+  },
+  {
+   "what": "데이터",
+   "note": "eSIM(유럽 10일 10GB) 출국 전 설치",
+   "links": []
+  }
+ ],
+ "courses": {
+  "course1": {
+   "name": "코스 1 · 리스본 + 포르투·도우루",
+   "groups": [
+    {
+     "cat": "국제선 항공",
+     "hint": "가장 먼저. 코스가 정해지면 당일",
+     "items": [
+      {
+       "what": "카타르항공 왕복: 인천 5/9 01:20 → 도하 → 리스본 13:30 / 리스본 5/18 08:25 → 도하 → 인천 5/19 17:05",
+       "where": "인천 ↔ 리스본",
+       "dates": "5/9 출발 · 5/18 귀국",
+       "price": "1인 약 143.3만 원 (2026-11-06 구글 항공)",
+       "when": "코스를 고르면 바로. 5월은 2~3월부터 오름",
+       "alt": "대한항공 직항(KE921 12:45 → 리스본 20:20 / KE922 22:30 귀국)은 여행사 상품에 쓰이는 편 — 직항을 원하면 2027 운항 요일 확인. 리스본 IN·포르투 OUT 루프트한자 149.3만 원",
+       "links": [
+        {
+         "name": "네이버 항공",
+         "tag": "한국어",
+         "url": "https://flight.naver.com/flights/international/ICN-LIS-20270509/LIS-ICN-20270518?adult=2&fareType=Y"
+        },
+        {
+         "name": "카타르항공 공식",
+         "tag": "공식",
+         "url": "https://www.qatarairways.com/ko-kr/homepage.html"
+        },
+        {
+         "name": "구글 항공",
+         "tag": "비교",
+         "url": "https://www.google.com/travel/flights?hl=ko&curr=KRW"
+        }
+       ],
+       "due": "지금"
+      }
+     ]
+    },
+    {
+     "cat": "숙소",
+     "hint": "무료 취소 요금으로 먼저",
+     "items": [
+      {
+       "what": "Avani Avenida Liberdade (리스본)",
+       "where": "리스본 · 리베르다드 거리",
+       "dates": "05/09 체크인 · 3박 (05/12 체크아웃)",
+       "price": "€200–280 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "하나투어 일주 상품의 '리스본 시내 1박' 선택지. 더 싸게는 Hotel Mundial(4성, 루프탑) €150~220",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Avani%20Avenida%20Liberdade%20Lisbon&checkIn=2027-05-09&los=3&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Avani%20Avenida%20Liberdade%20Lisbon&checkin=2027-05-09&checkout=2027-05-12&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Avani%20Avenida%20Liberdade%20Lisbon&checkin=2027/05/09&checkout=2027/05/12&adult=2"
+        }
+       ],
+       "due": "열리면"
+      },
+      {
+       "what": "Descobertas Boutique Hotel (포르투)",
+       "where": "포르투 · 히베이라 근처",
+       "dates": "05/12 체크인 · 3박 (05/15 체크아웃)",
+       "price": "€140–190 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "하나투어 자유허니문의 포르투 호텔. 강변까지 걸어서. 더 싸게는 Hotel Acta The Avenue",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Descobertas%20Boutique%20Hotel%20Porto&checkIn=2027-05-12&los=3&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Descobertas%20Boutique%20Hotel%20Porto&checkin=2027-05-12&checkout=2027-05-15&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Descobertas%20Boutique%20Hotel%20Porto&checkin=2027/05/12&checkout=2027/05/15&adult=2"
+        }
+       ],
+       "due": "열리면"
+      },
+      {
+       "what": "Avani Avenida Liberdade (리스본)",
+       "where": "리스본 · 리베르다드 거리",
+       "dates": "05/15 체크인 · 3박 (05/18 체크아웃)",
+       "price": "€200–280 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "하나투어 일주 상품의 '리스본 시내 1박' 선택지. 더 싸게는 Hotel Mundial(4성, 루프탑) €150~220",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Avani%20Avenida%20Liberdade%20Lisbon&checkIn=2027-05-15&los=3&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Avani%20Avenida%20Liberdade%20Lisbon&checkin=2027-05-15&checkout=2027-05-18&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Avani%20Avenida%20Liberdade%20Lisbon&checkin=2027/05/15&checkout=2027/05/18&adult=2"
+        }
+       ],
+       "due": "열리면"
+      }
+     ]
+    },
+    {
+     "cat": "열차",
+     "hint": "알파 펜둘라르는 일찍 살수록 쌈",
+     "items": [
+      {
+       "what": "CP 알파 펜둘라르 리스본 ↔ 포르투",
+       "where": "산타 아폴로니아 ↔ 캄파냥",
+       "dates": "5/12 · 5/15",
+       "price": "€35.70 (편도 1인, 인터시다드 €28.05)",
+       "when": "1~2달 전 조기 할인",
+       "alt": "",
+       "links": [
+        {
+         "name": "CP 포르투갈 철도",
+         "tag": "공식",
+         "url": "https://www.cp.pt/passageiros/en"
+        },
+        {
+         "name": "트립닷컴 열차",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/trains/"
+        }
+       ],
+       "due": "2개월 전"
+      },
+      {
+       "what": "도우루선 열차 상 벤투 ↔ 피냥",
+       "where": "포르투 → 도우루",
+       "dates": "5/14",
+       "price": "€12.45 (편도 1인) + 하벨루 보트 €12.50",
+       "when": "당일 역 창구·앱 (좌석 지정 없음)",
+       "alt": "와이너리 점심 포함 투어 $60~120",
+       "links": [
+        {
+         "name": "CP 포르투갈 철도",
+         "tag": "공식",
+         "url": "https://www.cp.pt/passageiros/en"
+        },
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=도우루"
+        },
+        {
+         "name": "마이리얼트립",
+         "tag": "한국어",
+         "url": "https://www.myrealtrip.com/search?q=도우루 밸리"
+        }
+       ],
+       "due": "현장"
+      }
+     ]
+    },
+    {
+     "cat": "입장권·공연",
+     "hint": "페나 09:30 슬롯과 렐루 첫 타임이 먼저",
+     "items": [
+      {
+       "what": "상 조르즈 성",
+       "where": "리스본",
+       "dates": "5/10 09:30",
+       "price": "€17 (1인)",
+       "when": "며칠 전 온라인 (줄 건너뛰기)",
+       "alt": "",
+       "links": [
+        {
+         "name": "상 조르즈 성 공식",
+         "tag": "공식",
+         "url": "https://castelodesaojorge.pt/en/"
+        }
+       ],
+       "due": "미리"
+      },
+      {
+       "what": "파두 디너 — Clube de Fado",
+       "where": "리스본 · 알파마",
+       "dates": "5/10 20:00",
+       "price": "€78 (1인, 식사+공연)",
+       "when": "1~2주 전",
+       "alt": "O Faia 커버 €20, 한국어 파두 투어는 마이리얼트립",
+       "links": [
+        {
+         "name": "Clube de Fado 공식",
+         "tag": "공식",
+         "url": "https://www.clube-de-fado.com/"
+        },
+        {
+         "name": "마이리얼트립",
+         "tag": "한국어",
+         "url": "https://www.myrealtrip.com/search?q=리스본 파두"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "페나 궁전 09:30 시간 지정 (+ 셔틀)",
+       "where": "신트라",
+       "dates": "5/11 09:30",
+       "price": "€20 + 셔틀 €4.5 (1인)",
+       "when": "2~3주 전. 오전 슬롯부터 매진",
+       "alt": "무어인의 성 €12도 같은 사이트",
+       "links": [
+        {
+         "name": "Parques de Sintra 공식",
+         "tag": "공식",
+         "url": "https://www.parquesdesintra.pt/en/"
+        },
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=페나 궁전"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "헤갈레이라 별장 14:30 (30분 단위)",
+       "where": "신트라",
+       "dates": "5/11 14:30",
+       "price": "€20 (1인)",
+       "when": "1~2주 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "Quinta da Regaleira 공식",
+         "tag": "공식",
+         "url": "https://www.regaleira.pt/en/"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "제로니무스 수도원 + 벨렝탑",
+       "where": "리스본 · 벨렝",
+       "dates": "5/12 09:30",
+       "price": "€18 + €15 (1인)",
+       "when": "1~2주 전 시간 지정 (둘 다 월요일 휴관)",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식 e-티켓",
+         "tag": "공식",
+         "url": "https://www.museusemonumentos.pt/en"
+        },
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=제로니무스"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "렐루 서점 시간 지정 입장",
+       "where": "포르투",
+       "dates": "5/13 09:00",
+       "price": "€15.95 (1인, 책 구매 시 차감)",
+       "when": "1~2주 전 첫 타임",
+       "alt": "",
+       "links": [
+        {
+         "name": "Livraria Lello 공식",
+         "tag": "공식",
+         "url": "https://www.livrarialello.pt/en/"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "테일러스 포트와인 셀러 투어 + 시음",
+       "where": "빌라 노바 드 가이아",
+       "dates": "5/13 15:30",
+       "price": "€25 (1인)",
+       "when": "1주 전 온라인",
+       "alt": "칼렘 €22, 그레이엄스 €40~",
+       "links": [
+        {
+         "name": "Taylor's 공식",
+         "tag": "공식",
+         "url": "https://www.taylor.pt/en/visit-taylors"
+        }
+       ],
+       "due": "2주 전"
+      }
+     ]
+    },
+    {
+     "cat": "식당",
+     "hint": "",
+     "items": [
+      {
+       "what": "O Velho Eurico",
+       "where": "리스본 · 모라리아",
+       "dates": "코스 일정 참고",
+       "price": "1인 €20–30",
+       "when": "지금 (몇 달 치 예약이 참)",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g189158-d2317379-Reviews-O_Velho_Eurico-Lisbon_Lisbon_District_Central_Portugal.html"
+        }
+       ],
+       "due": "지금"
+      },
+      {
+       "what": "Cervejaria Ramiro",
+       "where": "리스본 · 인텐덴트",
+       "dates": "코스 일정 참고",
+       "price": "1인 €30–45",
+       "when": "1~2주 전 웹 예약",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://www.cervejariaramiro.com/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g189158-d2703366-Reviews-Cervejaria_Ramiro-Lisbon_Lisbon_District_Central_Portugal.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Frade dos Mares",
+       "where": "리스본 · 산투스",
+       "dates": "코스 일정 참고",
+       "price": "1인 €30–45",
+       "when": "1~2주 전 전화",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g189158-d2308921-Reviews-Frade_dos_Mares-Lisbon_Lisbon_District_Central_Portugal.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Canalha",
+       "where": "리스본 · 벨렝(중케이라)",
+       "dates": "코스 일정 참고",
+       "price": "1인 €40–60",
+       "when": "1~2주 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://guide.michelin.com/us/en/lisboa-region/lisboa/restaurants/bib-gourmand"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Tapabento",
+       "where": "포르투 · 상 벤투역 옆",
+       "dates": "코스 일정 참고",
+       "price": "1인 €35–50",
+       "when": "1주 전 구글",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://tapabento.com/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Search?q=Tapabento%20Porto"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Cervejaria Brasão Aliados",
+       "where": "포르투 · 알리아도스",
+       "dates": "코스 일정 참고",
+       "price": "1인 €15–25",
+       "when": "며칠 전 구글",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://brasao.pt/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Search?q=Cervejaria%20Brasao%20Aliados%20Porto"
+        }
+       ],
+       "due": "미리"
+      },
+      {
+       "what": "Mar do Inferno",
+       "where": "카스카이스 · 보카 두 인페르누",
+       "dates": "코스 일정 참고",
+       "price": "1인 €40–70",
+       "when": "1주 전 테라스 (영업 확인)",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Search?q=Mar%20do%20Inferno%20Cascais"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Taberna Sal Grosso",
+       "where": "리스본 · 알파마",
+       "dates": "코스 일정 참고",
+       "price": "1인 €20–30",
+       "when": "1주 전 전화",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Search?q=Taberna%20Sal%20Grosso%20Lisbon"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Uma Marisqueira",
+       "where": "리스본 · 바이샤",
+       "dates": "코스 일정 참고",
+       "price": "2인분 약 €30대",
+       "when": "예약 불가 — 오픈 전 도착",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Search?q=Uma%20Marisqueira%20Lisbon"
+        }
+       ],
+       "due": "미리"
+      }
+     ]
+    }
+   ]
+  },
+  "course2": {
+   "name": "코스 2 · 포르투갈 일주",
+   "groups": [
+    {
+     "cat": "국제선 항공",
+     "hint": "가장 먼저",
+     "items": [
+      {
+       "what": "카타르항공 왕복: 인천 5/9 01:20 → 도하 → 리스본 13:30 / 리스본 5/18 08:25 → 도하 → 인천 5/19 17:05",
+       "where": "인천 ↔ 리스본",
+       "dates": "5/9 출발 · 5/18 귀국",
+       "price": "1인 약 143.3만 원 (2026-11-06 구글 항공)",
+       "when": "코스를 고르면 바로. 5월은 2~3월부터 오름",
+       "alt": "대한항공 직항(KE921 12:45 → 리스본 20:20 / KE922 22:30 귀국)은 여행사 상품에 쓰이는 편 — 직항을 원하면 2027 운항 요일 확인. 리스본 IN·포르투 OUT 루프트한자 149.3만 원",
+       "links": [
+        {
+         "name": "네이버 항공",
+         "tag": "한국어",
+         "url": "https://flight.naver.com/flights/international/ICN-LIS-20270509/LIS-ICN-20270518?adult=2&fareType=Y"
+        },
+        {
+         "name": "카타르항공 공식",
+         "tag": "공식",
+         "url": "https://www.qatarairways.com/ko-kr/homepage.html"
+        },
+        {
+         "name": "구글 항공",
+         "tag": "비교",
+         "url": "https://www.google.com/travel/flights?hl=ko&curr=KRW"
+        }
+       ],
+       "due": "지금"
+      }
+     ]
+    },
+    {
+     "cat": "숙소",
+     "hint": "",
+     "items": [
+      {
+       "what": "Hotel Mundial (리스본 4성, 루프탑)",
+       "where": "리스본 · 마르팅 모니즈 (28번 트램 출발점)",
+       "dates": "05/09 체크인 · 3박 (05/12 체크아웃)",
+       "price": "€150–220 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "하나투어 허니문·모두투어 세미팩의 리스본 호텔. 루프탑 바에서 상 조르즈 성 정면",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Hotel%20Mundial%20Lisbon&checkIn=2027-05-09&los=3&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Hotel%20Mundial%20Lisbon&checkin=2027-05-09&checkout=2027-05-12&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Hotel%20Mundial%20Lisbon&checkin=2027/05/09&checkout=2027/05/12&adult=2"
+        }
+       ],
+       "due": "열리면"
+      },
+      {
+       "what": "Hotel Mar Bravo (나자레)",
+       "where": "나자레 · 해변 광장",
+       "dates": "05/12 체크인 · 1박 (05/13 체크아웃)",
+       "price": "€110–160 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "해변 바로 앞. 주차는 호텔에 문의 (여름엔 해변 주차가 어려움)",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Hotel%20Mar%20Bravo%20Nazare&checkIn=2027-05-12&los=1&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Hotel%20Mar%20Bravo%20Nazare&checkin=2027-05-12&checkout=2027-05-13&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Hotel%20Mar%20Bravo%20Nazare&checkin=2027/05/12&checkout=2027/05/13&adult=2"
+        }
+       ],
+       "due": "열리면"
+      },
+      {
+       "what": "Hotel Acta The Avenue (포르투 4성)",
+       "where": "포르투 · 알리아도스 거리",
+       "dates": "05/13 체크인 · 3박 (05/16 체크아웃)",
+       "price": "€120–170 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "하나투어 자유허니문 포르투 호텔 중 하나. 상 벤투역 도보 5분, 렌터카 반납 후 걸어서",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Hotel%20Acta%20The%20Avenue%20Porto&checkIn=2027-05-13&los=3&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Hotel%20Acta%20The%20Avenue%20Porto&checkin=2027-05-13&checkout=2027-05-16&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Hotel%20Acta%20The%20Avenue%20Porto&checkin=2027/05/13&checkout=2027/05/16&adult=2"
+        }
+       ],
+       "due": "열리면"
+      },
+      {
+       "what": "Hotel Mundial (리스본 4성, 루프탑)",
+       "where": "리스본 · 마르팅 모니즈 (28번 트램 출발점)",
+       "dates": "05/16 체크인 · 2박 (05/18 체크아웃)",
+       "price": "€150–220 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "하나투어 허니문·모두투어 세미팩의 리스본 호텔. 루프탑 바에서 상 조르즈 성 정면",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Hotel%20Mundial%20Lisbon&checkIn=2027-05-16&los=2&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Hotel%20Mundial%20Lisbon&checkin=2027-05-16&checkout=2027-05-18&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Hotel%20Mundial%20Lisbon&checkin=2027/05/16&checkout=2027/05/18&adult=2"
+        }
+       ],
+       "due": "열리면"
+      }
+     ]
+    },
+    {
+     "cat": "렌터카·열차",
+     "hint": "",
+     "items": [
+      {
+       "what": "렌터카 3일 (리스본 시내 픽업 → 포르투 반납, 오토)",
+       "where": "리스본 → 포르투",
+       "dates": "5/12–5/13",
+       "price": "€180–250 (편도 반납료·완전자차 포함, 추정)",
+       "when": "1~2달 전. 오토는 수량이 적음",
+       "alt": "통행료 단말기(비아 베르드) 함께 렌트",
+       "links": [
+        {
+         "name": "트립닷컴 렌터카",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/carhire/"
+        },
+        {
+         "name": "Rentalcars",
+         "tag": "비교",
+         "url": "https://www.rentalcars.com/"
+        }
+       ],
+       "due": "2개월 전"
+      },
+      {
+       "what": "도우루선 열차 상 벤투 ↔ 피냥",
+       "where": "포르투 → 도우루",
+       "dates": "5/15",
+       "price": "€12.45 (편도 1인) + 하벨루 보트 €12.50",
+       "when": "당일 역 창구·앱 (좌석 지정 없음)",
+       "alt": "와이너리 점심 포함 투어 $60~120",
+       "links": [
+        {
+         "name": "CP 포르투갈 철도",
+         "tag": "공식",
+         "url": "https://www.cp.pt/passageiros/en"
+        },
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=도우루"
+        },
+        {
+         "name": "마이리얼트립",
+         "tag": "한국어",
+         "url": "https://www.myrealtrip.com/search?q=도우루 밸리"
+        }
+       ],
+       "due": "현장"
+      },
+      {
+       "what": "CP 알파 펜둘라르 포르투 → 리스본",
+       "where": "산타 아폴로니아 ↔ 캄파냥",
+       "dates": "5/16",
+       "price": "€35.70 (편도 1인, 인터시다드 €28.05)",
+       "when": "1~2달 전 조기 할인",
+       "alt": "",
+       "links": [
+        {
+         "name": "CP 포르투갈 철도",
+         "tag": "공식",
+         "url": "https://www.cp.pt/passageiros/en"
+        },
+        {
+         "name": "트립닷컴 열차",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/trains/"
+        }
+       ],
+       "due": "2개월 전"
+      }
+     ]
+    },
+    {
+     "cat": "입장권·공연",
+     "hint": "",
+     "items": [
+      {
+       "what": "상 조르즈 성",
+       "where": "리스본",
+       "dates": "5/10 09:30",
+       "price": "€17 (1인)",
+       "when": "며칠 전 온라인 (줄 건너뛰기)",
+       "alt": "",
+       "links": [
+        {
+         "name": "상 조르즈 성 공식",
+         "tag": "공식",
+         "url": "https://castelodesaojorge.pt/en/"
+        }
+       ],
+       "due": "미리"
+      },
+      {
+       "what": "파두 디너 — Clube de Fado",
+       "where": "리스본 · 알파마",
+       "dates": "5/10 20:00",
+       "price": "€78 (1인, 식사+공연)",
+       "when": "1~2주 전",
+       "alt": "O Faia 커버 €20, 한국어 파두 투어는 마이리얼트립",
+       "links": [
+        {
+         "name": "Clube de Fado 공식",
+         "tag": "공식",
+         "url": "https://www.clube-de-fado.com/"
+        },
+        {
+         "name": "마이리얼트립",
+         "tag": "한국어",
+         "url": "https://www.myrealtrip.com/search?q=리스본 파두"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "페나 궁전 09:30 시간 지정 (+ 셔틀)",
+       "where": "신트라",
+       "dates": "5/11 09:30",
+       "price": "€20 + 셔틀 €4.5 (1인)",
+       "when": "2~3주 전. 오전 슬롯부터 매진",
+       "alt": "무어인의 성 €12도 같은 사이트",
+       "links": [
+        {
+         "name": "Parques de Sintra 공식",
+         "tag": "공식",
+         "url": "https://www.parquesdesintra.pt/en/"
+        },
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=페나 궁전"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "헤갈레이라 별장 14:30 (30분 단위)",
+       "where": "신트라",
+       "dates": "5/11 14:30",
+       "price": "€20 (1인)",
+       "when": "1~2주 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "Quinta da Regaleira 공식",
+         "tag": "공식",
+         "url": "https://www.regaleira.pt/en/"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "제로니무스 수도원 + 벨렝탑",
+       "where": "리스본 · 벨렝",
+       "dates": "5/12 09:30",
+       "price": "€18 + €15 (1인)",
+       "when": "1~2주 전 시간 지정 (둘 다 월요일 휴관)",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식 e-티켓",
+         "tag": "공식",
+         "url": "https://www.museusemonumentos.pt/en"
+        },
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=제로니무스"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "코임브라 대학교 (조아니나 도서관 시간 지정)",
+       "where": "코임브라",
+       "dates": "5/13 오전",
+       "price": "요금 공식 사이트 확인",
+       "when": "1~2주 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "코임브라 대학교 방문",
+         "tag": "공식",
+         "url": "https://visit.uc.pt/en/"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "렐루 서점 시간 지정 입장",
+       "where": "포르투",
+       "dates": "5/14 09:00",
+       "price": "€15.95 (1인, 책 구매 시 차감)",
+       "when": "1~2주 전 첫 타임",
+       "alt": "",
+       "links": [
+        {
+         "name": "Livraria Lello 공식",
+         "tag": "공식",
+         "url": "https://www.livrarialello.pt/en/"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "테일러스 포트와인 셀러 투어 + 시음",
+       "where": "빌라 노바 드 가이아",
+       "dates": "5/14 15:30",
+       "price": "€25 (1인)",
+       "when": "1주 전 온라인",
+       "alt": "칼렘 €22, 그레이엄스 €40~",
+       "links": [
+        {
+         "name": "Taylor's 공식",
+         "tag": "공식",
+         "url": "https://www.taylor.pt/en/visit-taylors"
+        }
+       ],
+       "due": "2주 전"
+      }
+     ]
+    },
+    {
+     "cat": "식당",
+     "hint": "",
+     "items": [
+      {
+       "what": "O Velho Eurico",
+       "where": "리스본 · 모라리아",
+       "dates": "코스 일정 참고",
+       "price": "1인 €20–30",
+       "when": "지금 (참고: 코스 2는 일정에 없음, 원하면 5/17 저녁과 교체)",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g189158-d2317379-Reviews-O_Velho_Eurico-Lisbon_Lisbon_District_Central_Portugal.html"
+        }
+       ],
+       "due": "지금"
+      },
+      {
+       "what": "Cervejaria Ramiro",
+       "where": "리스본 · 인텐덴트",
+       "dates": "코스 일정 참고",
+       "price": "1인 €30–45",
+       "when": "1~2주 전 웹 예약",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://www.cervejariaramiro.com/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g189158-d2703366-Reviews-Cervejaria_Ramiro-Lisbon_Lisbon_District_Central_Portugal.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Frade dos Mares",
+       "where": "리스본 · 산투스",
+       "dates": "코스 일정 참고",
+       "price": "1인 €30–45",
+       "when": "1~2주 전 전화",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g189158-d2308921-Reviews-Frade_dos_Mares-Lisbon_Lisbon_District_Central_Portugal.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Tapabento",
+       "where": "포르투 · 상 벤투역 옆",
+       "dates": "코스 일정 참고",
+       "price": "1인 €35–50",
+       "when": "1주 전 구글",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://tapabento.com/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Search?q=Tapabento%20Porto"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Cervejaria Brasão Aliados",
+       "where": "포르투 · 알리아도스",
+       "dates": "코스 일정 참고",
+       "price": "1인 €15–25",
+       "when": "며칠 전 구글",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://brasao.pt/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Search?q=Cervejaria%20Brasao%20Aliados%20Porto"
+        }
+       ],
+       "due": "미리"
+      },
+      {
+       "what": "Mar do Inferno",
+       "where": "카스카이스 · 보카 두 인페르누",
+       "dates": "코스 일정 참고",
+       "price": "1인 €40–70",
+       "when": "1주 전 (영업 확인)",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Search?q=Mar%20do%20Inferno%20Cascais"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Salta o Muro",
+       "where": "마토지뉴스",
+       "dates": "코스 일정 참고",
+       "price": "1인 약 €35 (Guia Repsol)",
+       "when": "며칠 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Search?q=Salta%20o%20Muro%20Matosinhos"
+        }
+       ],
+       "due": "미리"
+      }
+     ]
+    }
+   ]
+  },
+  "course3": {
+   "name": "코스 3 · 리스본 + 라고스",
+   "groups": [
+    {
+     "cat": "국제선 항공",
+     "hint": "가장 먼저",
+     "items": [
+      {
+       "what": "카타르항공 왕복: 인천 5/9 01:20 → 도하 → 리스본 13:30 / 리스본 5/18 08:25 → 도하 → 인천 5/19 17:05",
+       "where": "인천 ↔ 리스본",
+       "dates": "5/9 출발 · 5/18 귀국",
+       "price": "1인 약 143.3만 원 (2026-11-06 구글 항공)",
+       "when": "코스를 고르면 바로. 5월은 2~3월부터 오름",
+       "alt": "대한항공 직항(KE921 12:45 → 리스본 20:20 / KE922 22:30 귀국)은 여행사 상품에 쓰이는 편 — 직항을 원하면 2027 운항 요일 확인. 리스본 IN·포르투 OUT 루프트한자 149.3만 원",
+       "links": [
+        {
+         "name": "네이버 항공",
+         "tag": "한국어",
+         "url": "https://flight.naver.com/flights/international/ICN-LIS-20270509/LIS-ICN-20270518?adult=2&fareType=Y"
+        },
+        {
+         "name": "카타르항공 공식",
+         "tag": "공식",
+         "url": "https://www.qatarairways.com/ko-kr/homepage.html"
+        },
+        {
+         "name": "구글 항공",
+         "tag": "비교",
+         "url": "https://www.google.com/travel/flights?hl=ko&curr=KRW"
+        }
+       ],
+       "due": "지금"
+      }
+     ]
+    },
+    {
+     "cat": "숙소",
+     "hint": "라고스 부티크부터",
+     "items": [
+      {
+       "what": "Hotel Mundial (리스본 4성, 루프탑)",
+       "where": "리스본 · 마르팅 모니즈 (28번 트램 출발점)",
+       "dates": "05/09 체크인 · 3박 (05/12 체크아웃)",
+       "price": "€150–220 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "하나투어 허니문·모두투어 세미팩의 리스본 호텔. 루프탑 바에서 상 조르즈 성 정면",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Hotel%20Mundial%20Lisbon&checkIn=2027-05-09&los=3&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Hotel%20Mundial%20Lisbon&checkin=2027-05-09&checkout=2027-05-12&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Hotel%20Mundial%20Lisbon&checkin=2027/05/09&checkout=2027/05/12&adult=2"
+        }
+       ],
+       "due": "열리면"
+      },
+      {
+       "what": "Casa Mãe (라고스 부티크)",
+       "where": "라고스 구시가 성벽 안",
+       "dates": "05/12 체크인 · 3박 (05/15 체크아웃)",
+       "price": "€200–280 (추정) · 1박 2인 1실",
+       "when": "알가르브 부티크는 5월부터 성수기 요금. 무료 취소로 지금",
+       "alt": "정원·수영장 있는 부티크. 더 싸게는 구시가 게스트하우스 €100~150, 리조트를 원하면 알부페이라(하나투어 허니문)",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Casa%20Mae%20Lagos&checkIn=2027-05-12&los=3&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Casa%20Mae%20Lagos&checkin=2027-05-12&checkout=2027-05-15&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Casa%20Mae%20Lagos&checkin=2027/05/12&checkout=2027/05/15&adult=2"
+        }
+       ],
+       "due": "지금"
+      },
+      {
+       "what": "Hotel Mundial (리스본 4성, 루프탑)",
+       "where": "리스본 · 마르팅 모니즈 (28번 트램 출발점)",
+       "dates": "05/15 체크인 · 3박 (05/18 체크아웃)",
+       "price": "€150–220 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "하나투어 허니문·모두투어 세미팩의 리스본 호텔. 루프탑 바에서 상 조르즈 성 정면",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Hotel%20Mundial%20Lisbon&checkIn=2027-05-15&los=3&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Hotel%20Mundial%20Lisbon&checkin=2027-05-15&checkout=2027-05-18&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Hotel%20Mundial%20Lisbon&checkin=2027/05/15&checkout=2027/05/18&adult=2"
+        }
+       ],
+       "due": "열리면"
+      }
+     ]
+    },
+    {
+     "cat": "버스",
+     "hint": "",
+     "items": [
+      {
+       "what": "Rede Expressos 리스본 ↔ 라고스 고속버스",
+       "where": "리스본 오리엔트 ↔ 라고스",
+       "dates": "5/12 · 5/15",
+       "price": "€20–25 (편도 1인, 추정)",
+       "when": "1~2주 전 좌석 지정",
+       "alt": "CP 열차 투네스 환승 약 4시간",
+       "links": [
+        {
+         "name": "Rede Expressos 공식",
+         "tag": "공식",
+         "url": "https://rede-expressos.pt/en"
+        },
+        {
+         "name": "CP 포르투갈 철도",
+         "tag": "공식",
+         "url": "https://www.cp.pt/passageiros/en"
+        }
+       ],
+       "due": "2주 전"
+      }
+     ]
+    },
+    {
+     "cat": "입장권·보트·공연",
+     "hint": "보트는 파도 따라 취소 → 무료 취소 상품",
+     "items": [
+      {
+       "what": "상 조르즈 성",
+       "where": "리스본",
+       "dates": "5/10 09:30",
+       "price": "€17 (1인)",
+       "when": "며칠 전 온라인 (줄 건너뛰기)",
+       "alt": "",
+       "links": [
+        {
+         "name": "상 조르즈 성 공식",
+         "tag": "공식",
+         "url": "https://castelodesaojorge.pt/en/"
+        }
+       ],
+       "due": "미리"
+      },
+      {
+       "what": "파두 디너 — Clube de Fado",
+       "where": "리스본 · 알파마",
+       "dates": "5/10 20:00",
+       "price": "€78 (1인, 식사+공연)",
+       "when": "1~2주 전",
+       "alt": "O Faia 커버 €20, 한국어 파두 투어는 마이리얼트립",
+       "links": [
+        {
+         "name": "Clube de Fado 공식",
+         "tag": "공식",
+         "url": "https://www.clube-de-fado.com/"
+        },
+        {
+         "name": "마이리얼트립",
+         "tag": "한국어",
+         "url": "https://www.myrealtrip.com/search?q=리스본 파두"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "페나 궁전 09:30 시간 지정 (+ 셔틀)",
+       "where": "신트라",
+       "dates": "5/11 09:30",
+       "price": "€20 + 셔틀 €4.5 (1인)",
+       "when": "2~3주 전. 오전 슬롯부터 매진",
+       "alt": "무어인의 성 €12도 같은 사이트",
+       "links": [
+        {
+         "name": "Parques de Sintra 공식",
+         "tag": "공식",
+         "url": "https://www.parquesdesintra.pt/en/"
+        },
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=페나 궁전"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "헤갈레이라 별장 14:30 (30분 단위)",
+       "where": "신트라",
+       "dates": "5/11 14:30",
+       "price": "€20 (1인)",
+       "when": "1~2주 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "Quinta da Regaleira 공식",
+         "tag": "공식",
+         "url": "https://www.regaleira.pt/en/"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "제로니무스 수도원 + 벨렝탑",
+       "where": "리스본 · 벨렝",
+       "dates": "5/12 09:30",
+       "price": "€18 + €15 (1인)",
+       "when": "1~2주 전 시간 지정 (둘 다 월요일 휴관)",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식 e-티켓",
+         "tag": "공식",
+         "url": "https://www.museusemonumentos.pt/en"
+        },
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=제로니무스"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "폰타 다 피에다드 동굴 보트",
+       "where": "라고스 마리나",
+       "dates": "5/13 09:30",
+       "price": "€25–35 (1인, 추정)",
+       "when": "현장 또는 1~2일 전",
+       "alt": "카약 투어",
+       "links": [
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=라고스 보트"
+        }
+       ],
+       "due": "현장"
+      },
+      {
+       "what": "베나길 동굴 보트 투어 (라고스 출발)",
+       "where": "라고스 마리나",
+       "dates": "5/14 09:30",
+       "price": "€35–45 (1인, 추정)",
+       "when": "2~3일 전",
+       "alt": "2025년부터 동굴 상륙 금지 — 배에서만 관람",
+       "links": [
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=베나길"
+        },
+        {
+         "name": "마이리얼트립",
+         "tag": "한국어",
+         "url": "https://www.myrealtrip.com/search?q=베나길"
+        }
+       ],
+       "due": "미리"
+      }
+     ]
+    },
+    {
+     "cat": "식당",
+     "hint": "",
+     "items": [
+      {
+       "what": "O Velho Eurico",
+       "where": "리스본 · 모라리아",
+       "dates": "코스 일정 참고",
+       "price": "1인 €20–30",
+       "when": "지금 (몇 달 치 예약이 참)",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g189158-d2317379-Reviews-O_Velho_Eurico-Lisbon_Lisbon_District_Central_Portugal.html"
+        }
+       ],
+       "due": "지금"
+      },
+      {
+       "what": "Cervejaria Ramiro",
+       "where": "리스본 · 인텐덴트",
+       "dates": "코스 일정 참고",
+       "price": "1인 €30–45",
+       "when": "1~2주 전 웹 예약",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://www.cervejariaramiro.com/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g189158-d2703366-Reviews-Cervejaria_Ramiro-Lisbon_Lisbon_District_Central_Portugal.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Frade dos Mares",
+       "where": "리스본 · 산투스",
+       "dates": "코스 일정 참고",
+       "price": "1인 €30–45",
+       "when": "1~2주 전 전화",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g189158-d2308921-Reviews-Frade_dos_Mares-Lisbon_Lisbon_District_Central_Portugal.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Restaurante dos Artistas",
+       "where": "라고스 구시가",
+       "dates": "코스 일정 참고",
+       "price": "1인 €40–80 (추정)",
+       "when": "1~2주 전 전화",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Search?q=Restaurante%20dos%20Artistas%20Lagos"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Casinha do Petisco",
+       "where": "라고스 구시가",
+       "dates": "코스 일정 참고",
+       "price": "1인 €20–30",
+       "when": "이른 시간 방문",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Search?q=Casinha%20do%20Petisco%20Lagos"
+        }
+       ],
+       "due": "미리"
+      },
+      {
+       "what": "Mar do Inferno",
+       "where": "카스카이스 · 보카 두 인페르누",
+       "dates": "코스 일정 참고",
+       "price": "1인 €40–70",
+       "when": "1주 전 (영업 확인)",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Search?q=Mar%20do%20Inferno%20Cascais"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Taberna Sal Grosso",
+       "where": "리스본 · 알파마",
+       "dates": "코스 일정 참고",
+       "price": "1인 €20–30",
+       "when": "1주 전 전화",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Search?q=Taberna%20Sal%20Grosso%20Lisbon"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "A Forja",
+       "where": "라고스 구시가",
+       "dates": "코스 일정 참고",
+       "price": "1인 약 €15",
+       "when": "현금, 대기",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Search?q=A%20Forja%20Lagos"
+        }
+       ],
+       "due": "미리"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

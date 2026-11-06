@@ -14,5 +14,21 @@
   "data": "greece/",
   "kicker": "ΕΛΛΆΔΑ",
   "cur": "€"
+ },
+ "portugal": {
+  "name": "포르투갈",
+  "title": "포르투갈 신혼여행",
+  "page": "portugal.html",
+  "data": "portugal/",
+  "kicker": "PORTUGAL",
+  "cur": "€"
+ },
+ "czech": {
+  "name": "체코",
+  "title": "체코 신혼여행",
+  "page": "czech.html",
+  "data": "czech/",
+  "kicker": "ČESKO",
+  "cur": "€"
  }
 }

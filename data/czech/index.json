@@ -1,0 +1,1050 @@
+{
+ "c1_d01_s1.png": {
+  "course": 1,
+  "day": 1,
+  "seg": 1,
+  "order": {
+   "prg_airport": 1,
+   "h_prg_bohemia": 2,
+   "old_town_sq": 3,
+   "astro_clock": 4,
+   "r_lokal": 5,
+   "charles_bridge": 6
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "city": "프라하"
+ },
+ "c1_d02_s1.png": {
+  "course": 1,
+  "day": 2,
+  "seg": 1,
+  "order": {
+   "h_prg_bohemia": 1,
+   "castle": 2,
+   "golden_lane": 3,
+   "r_kuchyn": 4,
+   "mala_strana": 5,
+   "kampa": 6,
+   "bridge_tower_old": 7,
+   "r_pinkasu": 8
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16
+  ],
+  "city": "프라하"
+ },
+ "c1_d03_s1.png": {
+  "course": 1,
+  "day": 3,
+  "seg": 1,
+  "order": {
+   "h_prg_bohemia": 1,
+   "praha_hlavni": 2
+  },
+  "items": [
+   0
+  ],
+  "city": "쿠트나호라 (당일)"
+ },
+ "c1_d03_s2.png": {
+  "course": 1,
+  "day": 3,
+  "seg": 2,
+  "order": {
+   "kutna_hora_station": 1,
+   "sedlec": 2,
+   "kutna_centre": 3,
+   "r_dacicky": 4,
+   "st_barbara": 5,
+   "kutna_mesto": 6
+  },
+  "items": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "city": "쿠트나호라 (당일)"
+ },
+ "c1_d03_s3.png": {
+  "course": 1,
+  "day": 3,
+  "seg": 3,
+  "order": {
+   "praha_hlavni": 1,
+   "h_prg_bohemia": 2,
+   "r_kantyna": 3
+  },
+  "items": [
+   13,
+   14,
+   15,
+   16,
+   17
+  ],
+  "city": "쿠트나호라 (당일)"
+ },
+ "c1_d04_s1.png": {
+  "course": 1,
+  "day": 4,
+  "seg": 1,
+  "order": {
+   "h_prg_bohemia": 1,
+   "josefov": 2,
+   "rudolfinum": 3,
+   "astro_clock": 4,
+   "r_louvre": 5,
+   "national_theatre": 6,
+   "dancing_house": 7,
+   "r_imperial": 8,
+   "obecni_dum": 9
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  "city": "프라하"
+ },
+ "c1_d05_s1.png": {
+  "course": 1,
+  "day": 5,
+  "seg": 1,
+  "order": {
+   "h_prg_bohemia": 1,
+   "na_knizeci": 2,
+   "ck_bus": 3,
+   "h_ck_ruze": 4,
+   "r_papas": 5,
+   "ck_castle": 6,
+   "ck_garden": 7,
+   "ck_view": 8,
+   "r_satlava": 9
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  "city": "프라하 → 체스키크룸로프"
+ },
+ "c1_d06_s1.png": {
+  "course": 1,
+  "day": 6,
+  "seg": 1,
+  "order": {
+   "h_ck_ruze": 1,
+   "ck_castle": 2,
+   "ck_square": 3,
+   "ck_rafting": 4,
+   "r_svejk": 5
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "city": "체스키크룸로프"
+ },
+ "c1_d07_s1.png": {
+  "course": 1,
+  "day": 7,
+  "seg": 1,
+  "order": {
+   "h_ck_ruze": 1,
+   "ck_bus": 2,
+   "na_knizeci": 3,
+   "h_prg_bohemia": 4,
+   "letna": 5,
+   "vltava_pier": 6
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "city": "체스키크룸로프 → 프라하"
+ },
+ "c1_d08_s1.png": {
+  "course": 1,
+  "day": 8,
+  "seg": 1,
+  "order": {
+   "h_prg_bohemia": 1,
+   "vysehrad": 2,
+   "naplavka": 3,
+   "r_louvre": 4,
+   "petrin": 5,
+   "mala_strana": 6,
+   "letna": 7,
+   "r_vycep": 8
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16
+  ],
+  "city": "프라하"
+ },
+ "c1_d09_s1.png": {
+  "course": 1,
+  "day": 9,
+  "seg": 1,
+  "order": {
+   "h_prg_bohemia": 1,
+   "strahov": 2,
+   "r_kuchyn": 3,
+   "kampa": 4,
+   "r_uprince": 5,
+   "r_imperial": 6
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "city": "프라하"
+ },
+ "c1_d10_s1.png": {
+  "course": 1,
+  "day": 10,
+  "seg": 1,
+  "order": {
+   "h_prg_bohemia": 1,
+   "old_town_sq": 2,
+   "powder_tower": 3,
+   "wenceslas": 4,
+   "r_kantyna": 5,
+   "prg_airport": 6
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "city": "프라하 → 인천"
+ },
+ "c2_d01_s1.png": {
+  "course": 2,
+  "day": 1,
+  "seg": 1,
+  "order": {
+   "prg_airport": 1,
+   "h_prg_987": 2,
+   "old_town_sq": 3,
+   "astro_clock": 4,
+   "r_lokal": 5,
+   "charles_bridge": 6
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "city": "프라하"
+ },
+ "c2_d02_s1.png": {
+  "course": 2,
+  "day": 2,
+  "seg": 1,
+  "order": {
+   "h_prg_987": 1,
+   "castle": 2,
+   "golden_lane": 3,
+   "r_kuchyn": 4,
+   "mala_strana": 5,
+   "kampa": 6,
+   "bridge_tower_old": 7,
+   "r_imperial": 8
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16
+  ],
+  "city": "프라하"
+ },
+ "c2_d03_s1.png": {
+  "course": 2,
+  "day": 3,
+  "seg": 1,
+  "order": {
+   "h_prg_987": 1,
+   "josefov": 2,
+   "rudolfinum": 3,
+   "astro_clock": 4,
+   "r_louvre": 5,
+   "national_theatre": 6,
+   "dancing_house": 7,
+   "vltava_pier": 8
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16
+  ],
+  "city": "프라하"
+ },
+ "c2_d04_s1.png": {
+  "course": 2,
+  "day": 4,
+  "seg": 1,
+  "order": {
+   "h_prg_987": 1,
+   "na_knizeci": 2,
+   "ck_bus": 3,
+   "h_ck_oldinn": 4,
+   "r_papas": 5,
+   "ck_castle": 6,
+   "ck_garden": 7,
+   "ck_view": 8,
+   "r_satlava": 9
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  "city": "프라하 → 체스키크룸로프"
+ },
+ "c2_d05_s1.png": {
+  "course": 2,
+  "day": 5,
+  "seg": 1,
+  "order": {
+   "h_ck_oldinn": 1,
+   "ck_garden": 2,
+   "hallstatt": 3,
+   "h_hall_heritage": 4,
+   "r_seecafe": 5,
+   "hallstatt_skywalk": 6,
+   "hallstatt_view": 7
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19
+  ],
+  "city": "체스키크룸로프 → 할슈타트"
+ },
+ "c2_d06_s1.png": {
+  "course": 2,
+  "day": 6,
+  "seg": 1,
+  "order": {
+   "hallstatt": 1,
+   "h_hall_heritage": 2
+  },
+  "items": [
+   0,
+   1
+  ],
+  "city": "할슈타트 → 잘츠부르크"
+ },
+ "c2_d06_s2.png": {
+  "course": 2,
+  "day": 6,
+  "seg": 2,
+  "order": {
+   "salzburg_hbf": 1,
+   "h_salz_europa": 2,
+   "mirabell": 3,
+   "getreidegasse": 4,
+   "hohensalzburg": 5,
+   "r_augustiner": 6
+  },
+  "items": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16
+  ],
+  "city": "할슈타트 → 잘츠부르크"
+ },
+ "c2_d07_s1.png": {
+  "course": 2,
+  "day": 7,
+  "seg": 1,
+  "order": {
+   "h_salz_europa": 1,
+   "salzburg_hbf": 2
+  },
+  "items": [
+   0
+  ],
+  "city": "잘츠부르크 → 빈"
+ },
+ "c2_d07_s2.png": {
+  "course": 2,
+  "day": 7,
+  "seg": 2,
+  "order": {
+   "wien_hbf": 1,
+   "h_wien_nh": 2,
+   "naschmarkt": 3,
+   "belvedere": 4,
+   "r_meierei": 5
+  },
+  "items": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "city": "잘츠부르크 → 빈"
+ },
+ "c2_d08_s1.png": {
+  "course": 2,
+  "day": 8,
+  "seg": 1,
+  "order": {
+   "h_wien_nh": 1,
+   "schonbrunn": 2,
+   "r_figlmuller": 3,
+   "stephansdom": 4,
+   "hofburg": 5,
+   "staatsoper": 6
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "city": "빈"
+ },
+ "c2_d09_s1.png": {
+  "course": 2,
+  "day": 9,
+  "seg": 1,
+  "order": {
+   "h_wien_nh": 1,
+   "wien_hbf": 2
+  },
+  "items": [
+   0
+  ],
+  "city": "빈 → 프라하"
+ },
+ "c2_d09_s2.png": {
+  "course": 2,
+  "day": 9,
+  "seg": 2,
+  "order": {
+   "praha_hlavni": 1,
+   "h_prg_987": 2,
+   "letna": 3,
+   "r_kuchyn": 4,
+   "charles_bridge": 5
+  },
+  "items": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "city": "빈 → 프라하"
+ },
+ "c2_d10_s1.png": {
+  "course": 2,
+  "day": 10,
+  "seg": 1,
+  "order": {
+   "h_prg_987": 1,
+   "old_town_sq": 2,
+   "powder_tower": 3,
+   "wenceslas": 4,
+   "r_kantyna": 5,
+   "prg_airport": 6
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "city": "프라하 → 인천"
+ },
+ "c3_d01_s1.png": {
+  "course": 3,
+  "day": 1,
+  "seg": 1,
+  "order": {
+   "prg_airport": 1,
+   "h_prg_majestic": 2,
+   "old_town_sq": 3,
+   "astro_clock": 4,
+   "r_lokal": 5,
+   "charles_bridge": 6
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "city": "프라하"
+ },
+ "c3_d02_s1.png": {
+  "course": 3,
+  "day": 2,
+  "seg": 1,
+  "order": {
+   "h_prg_majestic": 1,
+   "castle": 2,
+   "golden_lane": 3,
+   "r_kuchyn": 4,
+   "mala_strana": 5,
+   "kampa": 6,
+   "bridge_tower_old": 7,
+   "r_pinkasu": 8
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16
+  ],
+  "city": "프라하"
+ },
+ "c3_d03_s1.png": {
+  "course": 3,
+  "day": 3,
+  "seg": 1,
+  "order": {
+   "h_prg_majestic": 1,
+   "praha_hlavni": 2
+  },
+  "items": [
+   0,
+   1
+  ],
+  "city": "프라하 → 플젠 → 카를로비바리"
+ },
+ "c3_d03_s2.png": {
+  "course": 3,
+  "day": 3,
+  "seg": 2,
+  "order": {
+   "plzen_station": 1,
+   "pilsner": 2,
+   "plzen_bus": 3,
+   "kv_bus": 4,
+   "h_kv_pupp": 5,
+   "kv_colonnade": 6,
+   "r_sklipek": 7
+  },
+  "items": [
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "city": "프라하 → 플젠 → 카를로비바리"
+ },
+ "c3_d04_s1.png": {
+  "course": 3,
+  "day": 4,
+  "seg": 1,
+  "order": {
+   "h_kv_pupp": 1,
+   "kv_diana": 2,
+   "kv_vridlo": 3,
+   "kv_bus": 4,
+   "florenc": 5,
+   "h_prg_majestic": 6,
+   "r_imperial": 7,
+   "obecni_dum": 8
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "city": "카를로비바리 → 프라하"
+ },
+ "c3_d05_s1.png": {
+  "course": 3,
+  "day": 5,
+  "seg": 1,
+  "order": {
+   "h_prg_majestic": 1,
+   "na_knizeci": 2,
+   "ck_bus": 3,
+   "h_ck_oldinn": 4,
+   "r_papas": 5,
+   "ck_castle": 6,
+   "ck_garden": 7,
+   "ck_view": 8,
+   "r_satlava": 9
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  "city": "프라하 → 체스키크룸로프"
+ },
+ "c3_d06_s1.png": {
+  "course": 3,
+  "day": 6,
+  "seg": 1,
+  "order": {
+   "h_ck_oldinn": 1,
+   "ck_castle": 2,
+   "ck_square": 3,
+   "ck_rafting": 4,
+   "r_svejk": 5
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "city": "체스키크룸로프"
+ },
+ "c3_d07_s1.png": {
+  "course": 3,
+  "day": 7,
+  "seg": 1,
+  "order": {
+   "h_ck_oldinn": 1,
+   "ck_bus": 2,
+   "na_knizeci": 3,
+   "h_prg_majestic": 4,
+   "letna": 5,
+   "vltava_pier": 6
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "city": "체스키크룸로프 → 프라하"
+ },
+ "c3_d08_s1.png": {
+  "course": 3,
+  "day": 8,
+  "seg": 1,
+  "order": {
+   "h_prg_majestic": 1,
+   "josefov": 2,
+   "rudolfinum": 3,
+   "astro_clock": 4,
+   "r_louvre": 5,
+   "national_theatre": 6,
+   "dancing_house": 7,
+   "r_uprince": 8,
+   "r_pinkasu": 9
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  "city": "프라하"
+ },
+ "c3_d09_s1.png": {
+  "course": 3,
+  "day": 9,
+  "seg": 1,
+  "order": {
+   "h_prg_majestic": 1,
+   "praha_hlavni": 2
+  },
+  "items": [
+   0
+  ],
+  "city": "쿠트나호라 (당일)"
+ },
+ "c3_d09_s2.png": {
+  "course": 3,
+  "day": 9,
+  "seg": 2,
+  "order": {
+   "kutna_hora_station": 1,
+   "sedlec": 2,
+   "kutna_centre": 3,
+   "r_dacicky": 4,
+   "st_barbara": 5,
+   "kutna_mesto": 6
+  },
+  "items": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "city": "쿠트나호라 (당일)"
+ },
+ "c3_d09_s3.png": {
+  "course": 3,
+  "day": 9,
+  "seg": 3,
+  "order": {
+   "praha_hlavni": 1,
+   "h_prg_majestic": 2,
+   "r_vycep": 3
+  },
+  "items": [
+   13,
+   14,
+   15,
+   16,
+   17
+  ],
+  "city": "쿠트나호라 (당일)"
+ },
+ "c3_d10_s1.png": {
+  "course": 3,
+  "day": 10,
+  "seg": 1,
+  "order": {
+   "h_prg_majestic": 1,
+   "old_town_sq": 2,
+   "powder_tower": 3,
+   "wenceslas": 4,
+   "r_kantyna": 5,
+   "prg_airport": 6
+  },
+  "items": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "city": "프라하 → 인천"
+ }
+}

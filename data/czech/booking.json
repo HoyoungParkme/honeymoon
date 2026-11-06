@@ -1,0 +1,1756 @@
+{
+ "generated": "2026-11-06",
+ "country": {
+  "kicker": "ČESKO · 2027.05.09 – 05.18",
+  "page": "czech.html"
+ },
+ "sites": [
+  {
+   "name": "아고다",
+   "url": "https://www.agoda.com/ko-kr/",
+   "for": "숙소",
+   "note": "한국어·원화 결제. 현지 통화(CZK·EUR)로 결제하면 수수료가 덜 붙음"
+  },
+  {
+   "name": "트립닷컴",
+   "url": "https://kr.trip.com/",
+   "for": "숙소·항공·열차",
+   "note": "한국어 고객센터. 유럽 열차도 한국어로"
+  },
+  {
+   "name": "부킹닷컴",
+   "url": "https://www.booking.com/index.ko.html",
+   "for": "숙소",
+   "note": "체스키·할슈타트 소형 숙소 재고가 가장 많음"
+  },
+  {
+   "name": "네이버 항공",
+   "url": "https://flight.naver.com/",
+   "for": "국제선",
+   "note": "아시아나·대한항공 직항과 경유편 비교"
+  },
+  {
+   "name": "RegioJet",
+   "url": "https://www.regiojet.com/",
+   "for": "버스·열차",
+   "note": "프라하↔체스키·카를로비바리·빈. 좌석 지정, 한국 카드 결제 가능"
+  },
+  {
+   "name": "ÖBB",
+   "url": "https://www.oebb.at/en/",
+   "for": "오스트리아 열차",
+   "note": "잘츠부르크→빈, 빈→프라하 레일젯. 스파쉬네 조기 요금"
+  },
+  {
+   "name": "클룩",
+   "url": "https://www.klook.com/ko/",
+   "for": "투어·입장권",
+   "note": "한국어. 블타바 크루즈·프라하성 투어"
+  },
+  {
+   "name": "마이리얼트립",
+   "url": "https://www.myrealtrip.com/",
+   "for": "한국어 가이드·스냅",
+   "note": "프라하 한국어 야경 투어·스냅 촬영 후기 많음"
+  }
+ ],
+ "taxi": [
+  {
+   "what": "프라하 공항 ↔ 시내",
+   "note": "Bolt·Uber 550~700 CZK(€22~28, 차량당). AE 공항버스 1인 200 CZK → 중앙역. 119번 버스 + 메트로는 1인 46 CZK",
+   "links": [
+    {
+     "name": "Bolt",
+     "url": "https://bolt.eu/"
+    }
+   ]
+  },
+  {
+   "what": "프라하 대중교통 (PID)",
+   "note": "24시간권 150 CZK, 72시간권 350 CZK. 트램·메트로·버스·페트르진 푸니쿨라 공통. 'PID Lítačka' 앱으로 구매",
+   "links": [
+    {
+     "name": "PID",
+     "url": "https://pid.cz/en/"
+    }
+   ]
+  },
+  {
+   "what": "길거리 택시 주의",
+   "note": "구시가 광장 앞 대기 택시는 바가지가 잦음 → Bolt·Uber 앱으로 호출",
+   "links": []
+  },
+  {
+   "what": "체스키크룸로프",
+   "note": "구시가는 걸어서. 버스 터미널 → 구시가 도보 10~15분 (자갈길이라 캐리어 바퀴 주의)",
+   "links": []
+  },
+  {
+   "what": "오스트리아 이동",
+   "note": "할슈타트역은 호수 건너편 → 기차 시간에 맞춘 페리(€3~4). 잘츠부르크·빈은 ÖBB 앱",
+   "links": [
+    {
+     "name": "ÖBB",
+     "url": "https://www.oebb.at/en/"
+    }
+   ]
+  },
+  {
+   "what": "데이터",
+   "note": "eSIM(유럽 10일 10GB) 출국 전 설치. 체코·오스트리아 모두 EU 로밍 범위",
+   "links": []
+  }
+ ],
+ "courses": {
+  "course1": {
+   "name": "코스 1 · 프라하 + 체스키크룸로프",
+   "groups": [
+    {
+     "cat": "국제선 항공",
+     "hint": "가장 먼저. 코스가 정해지면 당일",
+     "items": [
+      {
+       "what": "아시아나 직항 왕복: 인천 5/9 10:45 → 프라하 16:45 / 프라하 5/18 18:50 → 인천 5/19 13:10",
+       "where": "인천 ↔ 프라하",
+       "dates": "5/9 출발 · 5/18 귀국",
+       "price": "1인 약 136.95만 원 (2026-11-06 구글 항공)",
+       "when": "코스를 고르면 바로. 직항 좌석은 일찍 빠짐",
+       "alt": "카타르(도하 경유) 125.2만 원, 에티하드 116.5만 원(5/10 아침 도착). 대한항공 직항은 2027 하계 운항 요일 확인",
+       "links": [
+        {
+         "name": "네이버 항공",
+         "tag": "한국어",
+         "url": "https://flight.naver.com/flights/international/ICN-PRG-20270509/PRG-ICN-20270518?adult=2&fareType=Y"
+        },
+        {
+         "name": "아시아나 공식",
+         "tag": "공식",
+         "url": "https://flyasiana.com/"
+        },
+        {
+         "name": "구글 항공",
+         "tag": "비교",
+         "url": "https://www.google.com/travel/flights?hl=ko&curr=KRW"
+        }
+       ],
+       "due": "지금"
+      }
+     ]
+    },
+    {
+     "cat": "공연",
+     "hint": "프라하의 봄 개막 공연은 판매 시작 즉시",
+     "items": [
+      {
+       "what": "프라하의 봄 국제음악축제 개막 공연 (시민회관 스메타나 홀)",
+       "where": "프라하",
+       "dates": "5/12 20:00",
+       "price": "좌석 등급별 (2027 판매가 열리면 확인)",
+       "when": "판매 시작 즉시. 개막 공연은 가장 먼저 매진",
+       "alt": "5/13 서울시향 공연, 축제 기간 다른 공연(루돌피눔 등)",
+       "links": [
+        {
+         "name": "Prague Spring 공식",
+         "tag": "공식",
+         "url": "https://festival.cz/en/"
+        }
+       ],
+       "due": "열리면"
+      }
+     ]
+    },
+    {
+     "cat": "숙소",
+     "hint": "체스키 구시가 숙소부터. 무료 취소로 먼저 잡기",
+     "items": [
+      {
+       "what": "Grand Hotel Bohemia (프라하 5성)",
+       "where": "프라하 · 화약탑 옆",
+       "dates": "05/09 체크인 · 4박 (05/13 체크아웃)",
+       "price": "€180–240 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "이오스여행사 업그레이드 선택지(5성). 구시가 광장 도보 6분, 중앙역 도보 10분. 더 싸게는 987 Design·Grand Majestic(4성) €110~150",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Grand%20Hotel%20Bohemia%20Prague&checkIn=2027-05-09&los=4&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Grand%20Hotel%20Bohemia%20Prague&checkin=2027-05-09&checkout=2027-05-13&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Grand%20Hotel%20Bohemia%20Prague&checkin=2027/05/09&checkout=2027/05/13&adult=2"
+        }
+       ],
+       "due": "열리면"
+      },
+      {
+       "what": "Hotel Růže (체스키크룸로프 4성)",
+       "where": "체스키크룸로프 구시가",
+       "dates": "05/13 체크인 · 2박 (05/15 체크아웃)",
+       "price": "€130–180 (추정) · 1박 2인 1실",
+       "when": "체스키 구시가 숙소는 방이 적어 5월 주말이 먼저 참. 무료 취소로 지금",
+       "alt": "이오스여행사 상품의 체스키 호텔(옛 예수회 건물, 성 전망). 광장 정면을 원하면 Hotel Old Inn",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Hotel%20Ruze%20Cesky%20Krumlov&checkIn=2027-05-13&los=2&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Hotel%20Ruze%20Cesky%20Krumlov&checkin=2027-05-13&checkout=2027-05-15&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Hotel%20Ruze%20Cesky%20Krumlov&checkin=2027/05/13&checkout=2027/05/15&adult=2"
+        }
+       ],
+       "due": "지금"
+      },
+      {
+       "what": "Grand Hotel Bohemia (프라하 5성)",
+       "where": "프라하 · 화약탑 옆",
+       "dates": "05/15 체크인 · 3박 (05/18 체크아웃)",
+       "price": "€180–240 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "이오스여행사 업그레이드 선택지(5성). 구시가 광장 도보 6분, 중앙역 도보 10분. 더 싸게는 987 Design·Grand Majestic(4성) €110~150",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Grand%20Hotel%20Bohemia%20Prague&checkIn=2027-05-15&los=3&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Grand%20Hotel%20Bohemia%20Prague&checkin=2027-05-15&checkout=2027-05-18&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Grand%20Hotel%20Bohemia%20Prague&checkin=2027/05/15&checkout=2027/05/18&adult=2"
+        }
+       ],
+       "due": "열리면"
+      }
+     ]
+    },
+    {
+     "cat": "버스·열차",
+     "hint": "",
+     "items": [
+      {
+       "what": "프라하 ↔ 체스키크룸로프 버스 (왕복)",
+       "where": "프라하 안델 ↔ 체스키 터미널",
+       "dates": "5/13 · 5/15",
+       "price": "€8–15 (편도 1인)",
+       "when": "1~2주 전 (좌석 지정, 주말 매진 잦음)",
+       "alt": "CK Shuttle 호텔 앞→호텔 앞 990 CZK (1인)",
+       "links": [
+        {
+         "name": "RegioJet 공식",
+         "tag": "공식",
+         "url": "https://www.regiojet.com/"
+        },
+        {
+         "name": "FlixBus",
+         "tag": "비교",
+         "url": "https://global.flixbus.com/"
+        },
+        {
+         "name": "CK Shuttle",
+         "tag": "공식",
+         "url": "https://www.ckshuttle.cz/"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "프라하 ↔ 쿠트나호라 열차",
+       "where": "프라하 중앙역 ↔ 쿠트나호라 중앙역",
+       "dates": "5/11",
+       "price": "€7 (166 CZK, 편도 1인)",
+       "when": "당일 앱·역 창구 (좌석 지정 없음)",
+       "alt": "",
+       "links": [
+        {
+         "name": "체코철도 ČD",
+         "tag": "공식",
+         "url": "https://www.cd.cz/en/"
+        }
+       ],
+       "due": "현장"
+      }
+     ]
+    },
+    {
+     "cat": "입장권·투어",
+     "hint": "세들레츠와 체스키 성은 시간 지정",
+     "items": [
+      {
+       "what": "프라하성 메인 서킷 (대성당·구왕궁·성 이르지·황금소로)",
+       "where": "프라하",
+       "dates": "5/10 09:00",
+       "price": "€18 (450 CZK, 1인)",
+       "when": "1~2주 전 온라인 (현장 구매도 가능)",
+       "alt": "한국어 가이드 투어는 마이리얼트립",
+       "links": [
+        {
+         "name": "프라하성 공식",
+         "tag": "공식",
+         "url": "https://www.hrad.cz/en"
+        },
+        {
+         "name": "마이리얼트립",
+         "tag": "한국어",
+         "url": "https://www.myrealtrip.com/search?q=프라하성"
+        }
+       ],
+       "due": "현장"
+      },
+      {
+       "what": "세들레츠 해골 성당 시간 지정 입장",
+       "where": "쿠트나호라",
+       "dates": "5/11 10:00",
+       "price": "€9 (220 CZK, 1인)",
+       "when": "1~2주 전 (시간 지정 필수)",
+       "alt": "성 바르바라 대성당 통합권은 현장",
+       "links": [
+        {
+         "name": "세들레츠 공식",
+         "tag": "공식",
+         "url": "https://www.sedlec.info/en/"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "구시청사 탑 (천문시계)",
+       "where": "프라하",
+       "dates": "5/12",
+       "price": "€14 (350 CZK 온라인, 1인)",
+       "when": "며칠 전 온라인 (현장 450 CZK)",
+       "alt": "",
+       "links": [
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=프라하 구시청사"
+        }
+       ],
+       "due": "현장"
+      },
+      {
+       "what": "체스키크룸로프 성 내부 1코스 (가이드 투어)",
+       "where": "체스키크룸로프",
+       "dates": "5/14 09:30",
+       "price": "€12 (300 CZK, 1인) + 탑·박물관 280 CZK",
+       "when": "2~3주 전 시간 지정",
+       "alt": "바로크 극장 투어 400 CZK (요일 한정)",
+       "links": [
+        {
+         "name": "체스키 성 공식",
+         "tag": "공식",
+         "url": "https://www.zamek-ceskykrumlov.cz/en"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "블타바강 디너 크루즈 (뷔페, 약 3시간)",
+       "where": "프라하",
+       "dates": "5/15 19:00",
+       "price": "€62–69 (1,557–1,730 CZK, 1인)",
+       "when": "1~2주 전 (창가석 요청)",
+       "alt": "재즈 보트 €49 + 식사 €31",
+       "links": [
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=블타바 디너 크루즈"
+        },
+        {
+         "name": "마이리얼트립",
+         "tag": "한국어",
+         "url": "https://www.myrealtrip.com/search?q=프라하 크루즈"
+        }
+       ],
+       "due": "2주 전"
+      }
+     ]
+    },
+    {
+     "cat": "식당",
+     "hint": "테라스·저녁 자리 예약",
+     "items": [
+      {
+       "what": "Kuchyň",
+       "where": "프라하성 앞 흐라트차니 광장",
+       "dates": "코스 일정 참고",
+       "price": "1인 €20–30 (추정)",
+       "when": "1~2주 전 테라스석",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://kuchyn.ambi.cz/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g274707-d14919233-Reviews-Kuchyn-Prague_Bohemia.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Krčma v Šatlavské",
+       "where": "체스키크룸로프 구시가",
+       "dates": "코스 일정 참고",
+       "price": "1인 €20–30 (추정)",
+       "when": "1~2주 전 (필수)",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "http://www.satlava.cz/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g274688-d1755654-Reviews-Krcma_v_Satlavske_Ulici-Cesky_Krumlov_South_Bohemian_Region_Bohemia.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Papa's Living Restaurant",
+       "where": "체스키크룸로프 · 라트란",
+       "dates": "코스 일정 참고",
+       "price": "1인 450–900 CZK (€18–36)",
+       "when": "며칠 전 온라인, 테라스 요청",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "http://www.papas.cz/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g274688-d2170218-Reviews-Papa_s_Living_Restaurant-Cesky_Krumlov_South_Bohemian_Region_Bohemia.html"
+        }
+       ],
+       "due": "미리"
+      },
+      {
+       "what": "Dačický",
+       "where": "쿠트나호라",
+       "dates": "코스 일정 참고",
+       "price": "1인 €15–25 (추정)",
+       "when": "1주 전 온라인",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://restaurace.dacicky.com/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g274701-d1027613-Reviews-Dacicky_restaurant-Kutna_Hora_Central_Bohemian_Region_Bohemia.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Café Imperial",
+       "where": "프라하 · 나 포르지치",
+       "dates": "코스 일정 참고",
+       "price": "1인 €25–40 (추정)",
+       "when": "1주 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "http://www.cafeimperial.cz/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Search?q=Cafe%20Imperial%20Prague"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Výčep",
+       "where": "프라하 · 비노흐라디",
+       "dates": "코스 일정 참고",
+       "price": "1인 €25–35 (추정)",
+       "when": "1주 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "http://www.vycepkorunni.cz/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://guide.michelin.com/en/cz/prague/restaurants/bib-gourmand"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Café Louvre (1902~)",
+       "where": "프라하 · 나로드니 거리",
+       "dates": "코스 일정 참고",
+       "price": "1인 450–550 CZK (€18–22)",
+       "when": "며칠 전 온라인",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "http://www.cafelouvre.cz/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g274707-d809264-Reviews-Cafe_Louvre-Prague_Bohemia.html"
+        }
+       ],
+       "due": "미리"
+      },
+      {
+       "what": "Lokál Dlouhááá",
+       "where": "프라하 구시가 · 들로우하 거리",
+       "dates": "코스 일정 참고",
+       "price": "1인 400–500 CZK (€16–20)",
+       "when": "당일 전화 또는 대기",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://lokal-dlouha.ambi.cz/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g274707-d4070135-Reviews-Lokal_Dlouhaaa-Prague_Bohemia.html"
+        }
+       ],
+       "due": "현장"
+      },
+      {
+       "what": "Kantýna",
+       "where": "프라하 신시가",
+       "dates": "코스 일정 참고",
+       "price": "1인 €20–30 (추정)",
+       "when": "예약 불가 — 이른 시간에",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://www.kantyna.ambi.cz/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g274707-d12387607-Reviews-Kantyna-Prague_Bohemia.html"
+        }
+       ],
+       "due": "미리"
+      }
+     ]
+    }
+   ]
+  },
+  "course2": {
+   "name": "코스 2 · 체코 + 오스트리아",
+   "groups": [
+    {
+     "cat": "국제선 항공",
+     "hint": "가장 먼저",
+     "items": [
+      {
+       "what": "아시아나 직항 왕복: 인천 5/9 10:45 → 프라하 16:45 / 프라하 5/18 18:50 → 인천 5/19 13:10",
+       "where": "인천 ↔ 프라하",
+       "dates": "5/9 출발 · 5/18 귀국",
+       "price": "1인 약 136.95만 원 (2026-11-06 구글 항공)",
+       "when": "코스를 고르면 바로. 직항 좌석은 일찍 빠짐",
+       "alt": "카타르(도하 경유) 125.2만 원, 에티하드 116.5만 원(5/10 아침 도착). 대한항공 직항은 2027 하계 운항 요일 확인",
+       "links": [
+        {
+         "name": "네이버 항공",
+         "tag": "한국어",
+         "url": "https://flight.naver.com/flights/international/ICN-PRG-20270509/PRG-ICN-20270518?adult=2&fareType=Y"
+        },
+        {
+         "name": "아시아나 공식",
+         "tag": "공식",
+         "url": "https://flyasiana.com/"
+        },
+        {
+         "name": "구글 항공",
+         "tag": "비교",
+         "url": "https://www.google.com/travel/flights?hl=ko&curr=KRW"
+        }
+       ],
+       "due": "지금"
+      }
+     ]
+    },
+    {
+     "cat": "숙소",
+     "hint": "할슈타트·체스키부터 (방이 적음)",
+     "items": [
+      {
+       "what": "987 Design Prague (4성)",
+       "where": "프라하 · 신시가 (중앙역 도보 6분)",
+       "dates": "05/09 체크인 · 3박 (05/12 체크아웃)",
+       "price": "€110–150 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "모두투어 체코·오스트리아 허니문 상품의 프라하 호텔. 5성을 원하면 Grand Hotel Bohemia",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=987%20Design%20Prague&checkIn=2027-05-09&los=3&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=987%20Design%20Prague&checkin=2027-05-09&checkout=2027-05-12&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=987%20Design%20Prague&checkin=2027/05/09&checkout=2027/05/12&adult=2"
+        }
+       ],
+       "due": "열리면"
+      },
+      {
+       "what": "Hotel Old Inn (스보르노스티 광장)",
+       "where": "체스키크룸로프 · 스보르노스티 광장",
+       "dates": "05/12 체크인 · 1박 (05/13 체크아웃)",
+       "price": "€110–160 (추정) · 1박 2인 1실",
+       "when": "체스키 구시가 숙소는 방이 적음. 무료 취소로 지금",
+       "alt": "가야투어 상품의 체스키 호텔(광장 한가운데). 단체 상품 대부분은 체스키에서 자지 않음",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Hotel%20Old%20Inn%20Cesky%20Krumlov&checkIn=2027-05-12&los=1&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Hotel%20Old%20Inn%20Cesky%20Krumlov&checkin=2027-05-12&checkout=2027-05-13&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Hotel%20Old%20Inn%20Cesky%20Krumlov&checkin=2027/05/12&checkout=2027/05/13&adult=2"
+        }
+       ],
+       "due": "지금"
+      },
+      {
+       "what": "Heritage Hotel Hallstatt (4성)",
+       "where": "할슈타트 · 선착장 앞",
+       "dates": "05/13 체크인 · 1박 (05/14 체크아웃)",
+       "price": "€250–350 (추정) · 1박 2인 1실",
+       "when": "할슈타트 마을 안 숙소는 몇 곳뿐이라 가장 먼저 매진",
+       "alt": "이오스여행사 상품의 할슈타트 호텔. 모두투어 허니문은 페닉스 홀 부티크. 마을 밖(오버트라운)은 €150~200대",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Heritage%20Hotel%20Hallstatt&checkIn=2027-05-13&los=1&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Heritage%20Hotel%20Hallstatt&checkin=2027-05-13&checkout=2027-05-14&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Heritage%20Hotel%20Hallstatt&checkin=2027/05/13&checkout=2027/05/14&adult=2"
+        }
+       ],
+       "due": "지금"
+      },
+      {
+       "what": "Austria Trend Hotel Europa (잘츠부르크)",
+       "where": "잘츠부르크 · 중앙역 앞",
+       "dates": "05/14 체크인 · 1박 (05/15 체크아웃)",
+       "price": "€140–190 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "모두투어 허니문 상품의 잘츠부르크 호텔. 역 앞이라 짐 끌기 편함, 구시가까지 도보 20분",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Austria%20Trend%20Hotel%20Europa%20Salzburg&checkIn=2027-05-14&los=1&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Austria%20Trend%20Hotel%20Europa%20Salzburg&checkin=2027-05-14&checkout=2027-05-15&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Austria%20Trend%20Hotel%20Europa%20Salzburg&checkin=2027/05/14&checkout=2027/05/15&adult=2"
+        }
+       ],
+       "due": "열리면"
+      },
+      {
+       "what": "NH Wien City (빈 4성)",
+       "where": "빈 · 마리아힐퍼 거리",
+       "dates": "05/15 체크인 · 2박 (05/17 체크아웃)",
+       "price": "€150–200 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "모두투어 허니문 상품의 빈 호텔. 링 안쪽을 원하면 Hotel Royal·Austria Trend Europa Wien",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=NH%20Wien%20City&checkIn=2027-05-15&los=2&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=NH%20Wien%20City&checkin=2027-05-15&checkout=2027-05-17&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=NH%20Wien%20City&checkin=2027/05/15&checkout=2027/05/17&adult=2"
+        }
+       ],
+       "due": "열리면"
+      },
+      {
+       "what": "987 Design Prague (4성)",
+       "where": "프라하 · 신시가 (중앙역 도보 6분)",
+       "dates": "05/17 체크인 · 1박 (05/18 체크아웃)",
+       "price": "€110–150 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "모두투어 체코·오스트리아 허니문 상품의 프라하 호텔. 5성을 원하면 Grand Hotel Bohemia",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=987%20Design%20Prague&checkIn=2027-05-17&los=1&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=987%20Design%20Prague&checkin=2027-05-17&checkout=2027-05-18&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=987%20Design%20Prague&checkin=2027/05/17&checkout=2027/05/18&adult=2"
+        }
+       ],
+       "due": "열리면"
+      }
+     ]
+    },
+    {
+     "cat": "버스·셔틀·열차",
+     "hint": "국경 넘는 구간은 1~2달 전이 가장 쌈",
+     "items": [
+      {
+       "what": "프라하 → 체스키크룸로프 버스 (편도)",
+       "where": "프라하 안델 ↔ 체스키 터미널",
+       "dates": "5/12",
+       "price": "€8–15 (편도 1인)",
+       "when": "1~2주 전 (좌석 지정, 주말 매진 잦음)",
+       "alt": "CK Shuttle 호텔 앞→호텔 앞 990 CZK (1인)",
+       "links": [
+        {
+         "name": "RegioJet 공식",
+         "tag": "공식",
+         "url": "https://www.regiojet.com/"
+        },
+        {
+         "name": "FlixBus",
+         "tag": "비교",
+         "url": "https://global.flixbus.com/"
+        },
+        {
+         "name": "CK Shuttle",
+         "tag": "공식",
+         "url": "https://www.ckshuttle.cz/"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "CK Shuttle 체스키 → 할슈타트 (09:50)",
+       "where": "체스키 호텔 앞 → 할슈타트",
+       "dates": "5/13 09:50",
+       "price": "€40 (990 CZK, 1인)",
+       "when": "3~4일 전까지 (일찍 할수록 시간 선택)",
+       "alt": "Bean Shuttle 등 다른 셔틀사도 비슷한 요금",
+       "links": [
+        {
+         "name": "CK Shuttle",
+         "tag": "공식",
+         "url": "https://www.ckshuttle.cz/"
+        }
+       ],
+       "due": "미리"
+      },
+      {
+       "what": "할슈타트 → 잘츠부르크 (페리 + ÖBB 열차)",
+       "where": "할슈타트 → 잘츠부르크",
+       "dates": "5/14 오전",
+       "price": "€25–35 + 페리 €3–4 (1인, 추정)",
+       "when": "당일 ÖBB 앱",
+       "alt": "버스 543·150번 바트이슐 경유",
+       "links": [
+        {
+         "name": "ÖBB 공식",
+         "tag": "공식",
+         "url": "https://www.oebb.at/en/"
+        }
+       ],
+       "due": "현장"
+      },
+      {
+       "what": "ÖBB 레일젯 잘츠부르크 → 빈",
+       "where": "잘츠부르크 → 빈 중앙역",
+       "dates": "5/15 오전",
+       "price": "€20–40 (1인, 조기 요금, 추정)",
+       "when": "1~2달 전 스파쉬네",
+       "alt": "WESTbahn",
+       "links": [
+        {
+         "name": "ÖBB 공식",
+         "tag": "공식",
+         "url": "https://www.oebb.at/en/"
+        },
+        {
+         "name": "트립닷컴 열차",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/trains/"
+        }
+       ],
+       "due": "2개월 전"
+      },
+      {
+       "what": "빈 → 프라하 레일젯 / RegioJet",
+       "where": "빈 중앙역 → 프라하 중앙역",
+       "dates": "5/17 오전",
+       "price": "€15–30 (1인, 조기 €14.90~)",
+       "when": "1~2달 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "ÖBB 공식",
+         "tag": "공식",
+         "url": "https://www.oebb.at/en/"
+        },
+        {
+         "name": "RegioJet 공식",
+         "tag": "공식",
+         "url": "https://www.regiojet.com/"
+        }
+       ],
+       "due": "2개월 전"
+      }
+     ]
+    },
+    {
+     "cat": "입장권·공연",
+     "hint": "쇤브룬·벨베데레는 시간 지정",
+     "items": [
+      {
+       "what": "프라하성 메인 서킷 (대성당·구왕궁·성 이르지·황금소로)",
+       "where": "프라하",
+       "dates": "5/10 09:00",
+       "price": "€18 (450 CZK, 1인)",
+       "when": "1~2주 전 온라인 (현장 구매도 가능)",
+       "alt": "한국어 가이드 투어는 마이리얼트립",
+       "links": [
+        {
+         "name": "프라하성 공식",
+         "tag": "공식",
+         "url": "https://www.hrad.cz/en"
+        },
+        {
+         "name": "마이리얼트립",
+         "tag": "한국어",
+         "url": "https://www.myrealtrip.com/search?q=프라하성"
+        }
+       ],
+       "due": "현장"
+      },
+      {
+       "what": "구시청사 탑 (천문시계)",
+       "where": "프라하",
+       "dates": "5/11",
+       "price": "€14 (350 CZK 온라인, 1인)",
+       "when": "며칠 전 온라인 (현장 450 CZK)",
+       "alt": "",
+       "links": [
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=프라하 구시청사"
+        }
+       ],
+       "due": "현장"
+      },
+      {
+       "what": "블타바강 디너 크루즈 (뷔페, 약 3시간)",
+       "where": "프라하",
+       "dates": "5/11 19:00",
+       "price": "€62–69 (1,557–1,730 CZK, 1인)",
+       "when": "1~2주 전 (창가석 요청)",
+       "alt": "재즈 보트 €49 + 식사 €31",
+       "links": [
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=블타바 디너 크루즈"
+        },
+        {
+         "name": "마이리얼트립",
+         "tag": "한국어",
+         "url": "https://www.myrealtrip.com/search?q=프라하 크루즈"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "할슈타트 소금광산 푸니쿨라 · 스카이워크",
+       "where": "할슈타트",
+       "dates": "5/13 오후",
+       "price": "푸니쿨라 왕복 €29 (소금광산 포함 €49, 1인)",
+       "when": "현장 또는 며칠 전 온라인",
+       "alt": "",
+       "links": [
+        {
+         "name": "Salzwelten 공식",
+         "tag": "공식",
+         "url": "https://www.salzwelten.at/en/hallstatt"
+        }
+       ],
+       "due": "현장"
+      },
+      {
+       "what": "쇤브룬 궁전 그랜드 투어",
+       "where": "빈",
+       "dates": "5/16 09:00",
+       "price": "€30–42 (1인)",
+       "when": "1~2주 전 시간 지정",
+       "alt": "",
+       "links": [
+        {
+         "name": "쇤브룬 공식",
+         "tag": "공식",
+         "url": "https://www.schoenbrunn.at/en"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "벨베데레 상궁 (클림트 '키스')",
+       "where": "빈",
+       "dates": "5/15 오후",
+       "price": "€23 (1인)",
+       "when": "며칠 전 시간 지정",
+       "alt": "",
+       "links": [
+        {
+         "name": "벨베데레 공식",
+         "tag": "공식",
+         "url": "https://www.belvedere.at/en"
+        }
+       ],
+       "due": "미리"
+      },
+      {
+       "what": "빈 국립오페라극장 공연",
+       "where": "빈",
+       "dates": "5/16 19:00",
+       "price": "좌석 등급별 (공식 사이트)",
+       "when": "판매가 열리면 바로 (보통 2~3달 전)",
+       "alt": "입석은 공연 당일 현장",
+       "links": [
+        {
+         "name": "Wiener Staatsoper 공식",
+         "tag": "공식",
+         "url": "https://www.wiener-staatsoper.at/en/"
+        }
+       ],
+       "due": "지금"
+      }
+     ]
+    },
+    {
+     "cat": "식당",
+     "hint": "",
+     "items": [
+      {
+       "what": "Kuchyň",
+       "where": "프라하성 앞 흐라트차니 광장",
+       "dates": "코스 일정 참고",
+       "price": "1인 €20–30 (추정)",
+       "when": "1~2주 전 테라스석 (마지막 만찬)",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://kuchyn.ambi.cz/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g274707-d14919233-Reviews-Kuchyn-Prague_Bohemia.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Krčma v Šatlavské",
+       "where": "체스키크룸로프 구시가",
+       "dates": "코스 일정 참고",
+       "price": "1인 €20–30 (추정)",
+       "when": "1~2주 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "http://www.satlava.cz/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g274688-d1755654-Reviews-Krcma_v_Satlavske_Ulici-Cesky_Krumlov_South_Bohemian_Region_Bohemia.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Papa's Living Restaurant",
+       "where": "체스키크룸로프 · 라트란",
+       "dates": "코스 일정 참고",
+       "price": "1인 450–900 CZK (€18–36)",
+       "when": "며칠 전 온라인",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "http://www.papas.cz/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g274688-d2170218-Reviews-Papa_s_Living_Restaurant-Cesky_Krumlov_South_Bohemian_Region_Bohemia.html"
+        }
+       ],
+       "due": "미리"
+      },
+      {
+       "what": "Figlmüller Wollzeile",
+       "where": "빈 · 슈테판 대성당 뒤",
+       "dates": "코스 일정 참고",
+       "price": "1인 €20–30",
+       "when": "1~2주 전 (필수)",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://figlmueller.at/wollzeile/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g190454-d711471-Reviews-Figlmuller-Vienna.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Meierei im Stadtpark",
+       "where": "빈 · 시립공원",
+       "dates": "코스 일정 참고",
+       "price": "1인 €30–45",
+       "when": "1주 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g190454-d1866206-Reviews-Meierei_im_Stadtpark-Vienna.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Augustiner Bräustübl Mülln",
+       "where": "잘츠부르크",
+       "dates": "코스 일정 참고",
+       "price": "1인 €15–25",
+       "when": "예약 불가 — 현금",
+       "alt": "",
+       "links": [
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g190441-d1319447-Reviews-Augustiner_Braustuebl-Salzburg_Austrian_Alps.html"
+        }
+       ],
+       "due": "미리"
+      },
+      {
+       "what": "Café Imperial",
+       "where": "프라하 · 나 포르지치",
+       "dates": "코스 일정 참고",
+       "price": "1인 €25–40 (추정)",
+       "when": "1주 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "http://www.cafeimperial.cz/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Search?q=Cafe%20Imperial%20Prague"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Lokál Dlouhááá",
+       "where": "프라하 구시가 · 들로우하 거리",
+       "dates": "코스 일정 참고",
+       "price": "1인 400–500 CZK (€16–20)",
+       "when": "당일",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://lokal-dlouha.ambi.cz/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g274707-d4070135-Reviews-Lokal_Dlouhaaa-Prague_Bohemia.html"
+        }
+       ],
+       "due": "현장"
+      }
+     ]
+    }
+   ]
+  },
+  "course3": {
+   "name": "코스 3 · 체코 일주",
+   "groups": [
+    {
+     "cat": "국제선 항공",
+     "hint": "가장 먼저",
+     "items": [
+      {
+       "what": "아시아나 직항 왕복: 인천 5/9 10:45 → 프라하 16:45 / 프라하 5/18 18:50 → 인천 5/19 13:10",
+       "where": "인천 ↔ 프라하",
+       "dates": "5/9 출발 · 5/18 귀국",
+       "price": "1인 약 136.95만 원 (2026-11-06 구글 항공)",
+       "when": "코스를 고르면 바로. 직항 좌석은 일찍 빠짐",
+       "alt": "카타르(도하 경유) 125.2만 원, 에티하드 116.5만 원(5/10 아침 도착). 대한항공 직항은 2027 하계 운항 요일 확인",
+       "links": [
+        {
+         "name": "네이버 항공",
+         "tag": "한국어",
+         "url": "https://flight.naver.com/flights/international/ICN-PRG-20270509/PRG-ICN-20270518?adult=2&fareType=Y"
+        },
+        {
+         "name": "아시아나 공식",
+         "tag": "공식",
+         "url": "https://flyasiana.com/"
+        },
+        {
+         "name": "구글 항공",
+         "tag": "비교",
+         "url": "https://www.google.com/travel/flights?hl=ko&curr=KRW"
+        }
+       ],
+       "due": "지금"
+      }
+     ]
+    },
+    {
+     "cat": "공연",
+     "hint": "판매 시작 즉시",
+     "items": [
+      {
+       "what": "프라하의 봄 국제음악축제 개막 공연 (시민회관 스메타나 홀)",
+       "where": "프라하",
+       "dates": "5/12 20:00",
+       "price": "좌석 등급별 (2027 판매가 열리면 확인)",
+       "when": "판매 시작 즉시. 개막 공연은 가장 먼저 매진",
+       "alt": "5/13 서울시향 공연, 축제 기간 다른 공연(루돌피눔 등)",
+       "links": [
+        {
+         "name": "Prague Spring 공식",
+         "tag": "공식",
+         "url": "https://festival.cz/en/"
+        }
+       ],
+       "due": "열리면"
+      }
+     ]
+    },
+    {
+     "cat": "숙소",
+     "hint": "체스키 광장 호텔·카를로비바리 푸프부터",
+     "items": [
+      {
+       "what": "Grand Majestic Plaza (프라하 4성)",
+       "where": "프라하 · 공화국 광장",
+       "dates": "05/09 체크인 · 2박 (05/11 체크아웃)",
+       "price": "€110–150 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "하나투어 체코 일주 상품의 프라하 호텔. 프라하를 세 번 들르므로 같은 호텔로 잡고 큰 짐은 맡겨 두기",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Grand%20Majestic%20Plaza%20Prague&checkIn=2027-05-09&los=2&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Grand%20Majestic%20Plaza%20Prague&checkin=2027-05-09&checkout=2027-05-11&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Grand%20Majestic%20Plaza%20Prague&checkin=2027/05/09&checkout=2027/05/11&adult=2"
+        }
+       ],
+       "due": "열리면"
+      },
+      {
+       "what": "Grandhotel Pupp (카를로비바리 5성)",
+       "where": "카를로비바리 · 테플라 강변",
+       "dates": "05/11 체크인 · 1박 (05/12 체크아웃)",
+       "price": "€200–280 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "1701년 문을 연 온천 도시의 상징 호텔(영화 '카지노 로얄' 촬영지). 더 싸게는 콜로나다 근처 4성 €100~140",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Grandhotel%20Pupp%20Karlovy%20Vary&checkIn=2027-05-11&los=1&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Grandhotel%20Pupp%20Karlovy%20Vary&checkin=2027-05-11&checkout=2027-05-12&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Grandhotel%20Pupp%20Karlovy%20Vary&checkin=2027/05/11&checkout=2027/05/12&adult=2"
+        }
+       ],
+       "due": "열리면"
+      },
+      {
+       "what": "Grand Majestic Plaza (프라하 4성)",
+       "where": "프라하 · 공화국 광장",
+       "dates": "05/12 체크인 · 1박 (05/13 체크아웃)",
+       "price": "€110–150 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "하나투어 체코 일주 상품의 프라하 호텔. 프라하를 세 번 들르므로 같은 호텔로 잡고 큰 짐은 맡겨 두기",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Grand%20Majestic%20Plaza%20Prague&checkIn=2027-05-12&los=1&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Grand%20Majestic%20Plaza%20Prague&checkin=2027-05-12&checkout=2027-05-13&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Grand%20Majestic%20Plaza%20Prague&checkin=2027/05/12&checkout=2027/05/13&adult=2"
+        }
+       ],
+       "due": "열리면"
+      },
+      {
+       "what": "Hotel Old Inn (스보르노스티 광장)",
+       "where": "체스키크룸로프 · 스보르노스티 광장",
+       "dates": "05/13 체크인 · 2박 (05/15 체크아웃)",
+       "price": "€110–160 (추정) · 1박 2인 1실",
+       "when": "체스키 구시가 숙소는 방이 적음. 무료 취소로 지금",
+       "alt": "가야투어 상품의 체스키 호텔(광장 한가운데). 단체 상품 대부분은 체스키에서 자지 않음",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Hotel%20Old%20Inn%20Cesky%20Krumlov&checkIn=2027-05-13&los=2&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Hotel%20Old%20Inn%20Cesky%20Krumlov&checkin=2027-05-13&checkout=2027-05-15&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Hotel%20Old%20Inn%20Cesky%20Krumlov&checkin=2027/05/13&checkout=2027/05/15&adult=2"
+        }
+       ],
+       "due": "지금"
+      },
+      {
+       "what": "Grand Majestic Plaza (프라하 4성)",
+       "where": "프라하 · 공화국 광장",
+       "dates": "05/15 체크인 · 3박 (05/18 체크아웃)",
+       "price": "€110–150 (추정) · 1박 2인 1실",
+       "when": "2027년 5월 요금이 열리는 대로. 무료 취소 요금으로 먼저 잡기",
+       "alt": "하나투어 체코 일주 상품의 프라하 호텔. 프라하를 세 번 들르므로 같은 호텔로 잡고 큰 짐은 맡겨 두기",
+       "links": [
+        {
+         "name": "아고다",
+         "tag": "한국어",
+         "url": "https://www.agoda.com/ko-kr/search?textToSearch=Grand%20Majestic%20Plaza%20Prague&checkIn=2027-05-15&los=3&rooms=1&adults=2&children=0"
+        },
+        {
+         "name": "부킹닷컴",
+         "tag": "한국어",
+         "url": "https://www.booking.com/searchresults.ko.html?ss=Grand%20Majestic%20Plaza%20Prague&checkin=2027-05-15&checkout=2027-05-18&group_adults=2&no_rooms=1&group_children=0"
+        },
+        {
+         "name": "트립닷컴",
+         "tag": "한국어",
+         "url": "https://kr.trip.com/hotels/list?keyword=Grand%20Majestic%20Plaza%20Prague&checkin=2027/05/15&checkout=2027/05/18&adult=2"
+        }
+       ],
+       "due": "열리면"
+      }
+     ]
+    },
+    {
+     "cat": "버스·열차",
+     "hint": "",
+     "items": [
+      {
+       "what": "프라하 → 플젠 열차 / 플젠 → 카를로비바리 버스",
+       "where": "프라하 → 플젠 → 카를로비바리",
+       "dates": "5/11",
+       "price": "열차 €6–10 + 버스 €5–8 (1인, 추정)",
+       "when": "1주 전 앱",
+       "alt": "",
+       "links": [
+        {
+         "name": "체코철도 ČD",
+         "tag": "공식",
+         "url": "https://www.cd.cz/en/"
+        },
+        {
+         "name": "RegioJet 공식",
+         "tag": "공식",
+         "url": "https://www.regiojet.com/"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "카를로비바리 → 프라하 버스",
+       "where": "카를로비바리 → 프라하 플로렌츠",
+       "dates": "5/12 오후",
+       "price": "€7–16 (1인)",
+       "when": "1~2주 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "RegioJet 공식",
+         "tag": "공식",
+         "url": "https://www.regiojet.com/"
+        },
+        {
+         "name": "FlixBus",
+         "tag": "비교",
+         "url": "https://global.flixbus.com/"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "프라하 ↔ 체스키크룸로프 버스 (왕복)",
+       "where": "프라하 안델 ↔ 체스키 터미널",
+       "dates": "5/13 · 5/15",
+       "price": "€8–15 (편도 1인)",
+       "when": "1~2주 전 (좌석 지정, 주말 매진 잦음)",
+       "alt": "CK Shuttle 호텔 앞→호텔 앞 990 CZK (1인)",
+       "links": [
+        {
+         "name": "RegioJet 공식",
+         "tag": "공식",
+         "url": "https://www.regiojet.com/"
+        },
+        {
+         "name": "FlixBus",
+         "tag": "비교",
+         "url": "https://global.flixbus.com/"
+        },
+        {
+         "name": "CK Shuttle",
+         "tag": "공식",
+         "url": "https://www.ckshuttle.cz/"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "프라하 ↔ 쿠트나호라 열차",
+       "where": "프라하 중앙역 ↔ 쿠트나호라 중앙역",
+       "dates": "5/17",
+       "price": "€7 (166 CZK, 편도 1인)",
+       "when": "당일 앱·역 창구 (좌석 지정 없음)",
+       "alt": "",
+       "links": [
+        {
+         "name": "체코철도 ČD",
+         "tag": "공식",
+         "url": "https://www.cd.cz/en/"
+        }
+       ],
+       "due": "현장"
+      }
+     ]
+    },
+    {
+     "cat": "입장권·투어",
+     "hint": "",
+     "items": [
+      {
+       "what": "프라하성 메인 서킷 (대성당·구왕궁·성 이르지·황금소로)",
+       "where": "프라하",
+       "dates": "5/10 09:00",
+       "price": "€18 (450 CZK, 1인)",
+       "when": "1~2주 전 온라인 (현장 구매도 가능)",
+       "alt": "한국어 가이드 투어는 마이리얼트립",
+       "links": [
+        {
+         "name": "프라하성 공식",
+         "tag": "공식",
+         "url": "https://www.hrad.cz/en"
+        },
+        {
+         "name": "마이리얼트립",
+         "tag": "한국어",
+         "url": "https://www.myrealtrip.com/search?q=프라하성"
+        }
+       ],
+       "due": "현장"
+      },
+      {
+       "what": "필스너 우르켈 양조장 투어 (영어)",
+       "where": "플젠",
+       "dates": "5/11 11:00",
+       "price": "€17 (430 CZK, 1인)",
+       "when": "1~2주 전 시간 지정",
+       "alt": "",
+       "links": [
+        {
+         "name": "Pilsner Urquell 공식",
+         "tag": "공식",
+         "url": "https://www.prazdrojvisit.cz/en/"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "체스키크룸로프 성 내부 1코스 (가이드 투어)",
+       "where": "체스키크룸로프",
+       "dates": "5/14 09:30",
+       "price": "€12 (300 CZK, 1인) + 탑·박물관 280 CZK",
+       "when": "2~3주 전 시간 지정",
+       "alt": "바로크 극장 투어 400 CZK (요일 한정)",
+       "links": [
+        {
+         "name": "체스키 성 공식",
+         "tag": "공식",
+         "url": "https://www.zamek-ceskykrumlov.cz/en"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "블타바강 디너 크루즈 (뷔페, 약 3시간)",
+       "where": "프라하",
+       "dates": "5/15 19:00",
+       "price": "€62–69 (1,557–1,730 CZK, 1인)",
+       "when": "1~2주 전 (창가석 요청)",
+       "alt": "재즈 보트 €49 + 식사 €31",
+       "links": [
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=블타바 디너 크루즈"
+        },
+        {
+         "name": "마이리얼트립",
+         "tag": "한국어",
+         "url": "https://www.myrealtrip.com/search?q=프라하 크루즈"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "구시청사 탑 (천문시계)",
+       "where": "프라하",
+       "dates": "5/16",
+       "price": "€14 (350 CZK 온라인, 1인)",
+       "when": "며칠 전 온라인 (현장 450 CZK)",
+       "alt": "",
+       "links": [
+        {
+         "name": "클룩",
+         "tag": "한국어",
+         "url": "https://www.klook.com/ko/search/?query=프라하 구시청사"
+        }
+       ],
+       "due": "현장"
+      },
+      {
+       "what": "세들레츠 해골 성당 시간 지정 입장",
+       "where": "쿠트나호라",
+       "dates": "5/17 10:00",
+       "price": "€9 (220 CZK, 1인)",
+       "when": "1~2주 전 (시간 지정 필수)",
+       "alt": "성 바르바라 대성당 통합권은 현장",
+       "links": [
+        {
+         "name": "세들레츠 공식",
+         "tag": "공식",
+         "url": "https://www.sedlec.info/en/"
+        }
+       ],
+       "due": "2주 전"
+      }
+     ]
+    },
+    {
+     "cat": "식당",
+     "hint": "",
+     "items": [
+      {
+       "what": "Kuchyň",
+       "where": "프라하성 앞 흐라트차니 광장",
+       "dates": "코스 일정 참고",
+       "price": "1인 €20–30 (추정)",
+       "when": "1~2주 전 테라스석",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://kuchyn.ambi.cz/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g274707-d14919233-Reviews-Kuchyn-Prague_Bohemia.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Restaurace Sklípek",
+       "where": "카를로비바리",
+       "dates": "코스 일정 참고",
+       "price": "1인 €12–20 (추정)",
+       "when": "며칠 전 (현금)",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "http://restauracesklipek.cz/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g274697-d1996966-Reviews-Restaurace_Sklipek-Karlovy_Vary_Karlovy_Vary_Region_Bohemia.html"
+        }
+       ],
+       "due": "미리"
+      },
+      {
+       "what": "Café Imperial",
+       "where": "프라하 · 나 포르지치",
+       "dates": "코스 일정 참고",
+       "price": "1인 €25–40 (추정)",
+       "when": "1주 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "http://www.cafeimperial.cz/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Search?q=Cafe%20Imperial%20Prague"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Krčma v Šatlavské",
+       "where": "체스키크룸로프 구시가",
+       "dates": "코스 일정 참고",
+       "price": "1인 €20–30 (추정)",
+       "when": "1~2주 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "http://www.satlava.cz/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g274688-d1755654-Reviews-Krcma_v_Satlavske_Ulici-Cesky_Krumlov_South_Bohemian_Region_Bohemia.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Papa's Living Restaurant",
+       "where": "체스키크룸로프 · 라트란",
+       "dates": "코스 일정 참고",
+       "price": "1인 450–900 CZK (€18–36)",
+       "when": "며칠 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "http://www.papas.cz/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g274688-d2170218-Reviews-Papa_s_Living_Restaurant-Cesky_Krumlov_South_Bohemian_Region_Bohemia.html"
+        }
+       ],
+       "due": "미리"
+      },
+      {
+       "what": "Dačický",
+       "where": "쿠트나호라",
+       "dates": "코스 일정 참고",
+       "price": "1인 €15–25 (추정)",
+       "when": "1주 전",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "https://restaurace.dacicky.com/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g274701-d1027613-Reviews-Dacicky_restaurant-Kutna_Hora_Central_Bohemian_Region_Bohemia.html"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "Výčep",
+       "where": "프라하 · 비노흐라디",
+       "dates": "코스 일정 참고",
+       "price": "1인 €25–35 (추정)",
+       "when": "1주 전 (마지막 만찬)",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "http://www.vycepkorunni.cz/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://guide.michelin.com/en/cz/prague/restaurants/bib-gourmand"
+        }
+       ],
+       "due": "2주 전"
+      },
+      {
+       "what": "U Pinkasů (1843~)",
+       "where": "프라하 · 융만노보 광장",
+       "dates": "코스 일정 참고",
+       "price": "1인 450–600 CZK (€18–24)",
+       "when": "당일 가능",
+       "alt": "",
+       "links": [
+        {
+         "name": "공식·예약",
+         "tag": "공식",
+         "url": "http://www.upinkasu.cz/"
+        },
+        {
+         "name": "트립어드바이저",
+         "tag": "비교",
+         "url": "https://www.tripadvisor.com/Restaurant_Review-g274707-d694898-Reviews-U_Pinkasu-Prague_Bohemia.html"
+        }
+       ],
+       "due": "현장"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}
