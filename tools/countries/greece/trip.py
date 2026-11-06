@@ -32,13 +32,13 @@ HOTELS = {
     "h_oia_andronis": ("Andronis Boutique Hotel (이아, 핫텁 스위트)", "https://www.andronis.com/", "€650–900 (추정)"),
     "h_fira_elgreco": ("El Greco Resort (피라, 4성)", "https://www.kayak.co.kr/hotels/El-Greco-Resort-Santorini", "€150–220 (추정)"),
     "h_imero_astra": ("Astra Suites (이메로비글리, 칼데라 뷰)", "https://www.astra-suites.com/", "€450–650 (추정)"),
-    "h_kal_doupiani": ("Doupiani House (카스트라키, 메테오라 뷰)", "https://www.doupianihouse.com/", "투어 요금에 포함"),
+    "h_kal_doupiani": ("Doupiani House (카스트라키, 메테오라 뷰)", "https://www.doupianihouse.gr/", "투어 요금에 포함"),
     "h_cha_delfino": ("Casa Delfino (하니아 구항, 부티크)", "https://www.casadelfino.com/", "€220–320 (추정)"),
     "h_her_lato": ("Lato Boutique Hotel (이라클리온)", "https://www.lato.gr/", "€120–160 (추정)"),
 }
 
 HOTEL_META = {
-    "h_ath_electra": {"city": "아테네 · 플라카", "search": "Electra Palace Athens", "official": "https://www.electrahotels.gr/", "alt": "루프탑 수영장에서 아크로폴리스가 보임. 더 싸게는 Hotel Plaka(3성, 루프탑 뷰) 1박 €150~200"},
+    "h_ath_electra": {"city": "아테네 · 플라카", "search": "Electra Palace Athens", "official": "https://www.electrahotels.gr/hotels/electra-palace-athens/", "alt": "루프탑 수영장에서 아크로폴리스가 보임. 더 싸게는 Hotel Plaka(3성, 루프탑 뷰) 1박 €150~200"},
     "h_ath_plaka": {"city": "아테네 · 플라카", "search": "Plaka Hotel Athens", "official": "https://www.plakahotel.gr/", "alt": "루프탑 바에서 아크로폴리스 정면. 수영장이 원하면 Electra Palace(5성)"},
     "h_ath_herodion": {"city": "아테네 · 아크로폴리스 박물관 앞", "search": "Herodion Hotel Athens", "official": "https://www.herodion.gr/", "alt": "아크로폴리스 남쪽 입구까지 도보 5분, 루프탑 정원 뷰"},
     "h_myk_harmony": {"city": "미코노스 타운 (구항 언덕)", "search": "Harmony Boutique Hotel Mykonos", "official": "", "alt": "이오스여행사 허니문 상품의 4성 선택지. 5성은 Kouros·Katikies Mykonos"},
@@ -47,7 +47,7 @@ HOTEL_META = {
     "h_fira_elgreco": {"city": "산토리니 · 피라 외곽", "search": "El Greco Resort Santorini", "official": "", "alt": "하나투어 그리스 일주 상품의 산토리니 호텔(수영장). 칼데라 뷰는 아님"},
     "h_imero_astra": {"city": "산토리니 · 이메로비글리", "search": "Astra Suites Santorini", "official": "https://www.astra-suites.com/", "when": "칼데라 뷰 스위트는 일찍 매진. 지금 무료 취소로",
                       "alt": "이아보다 조용한 칼데라 정면, 스카로스 바위가 바로 앞. 더 싸게는 피로스테파니 칼데라 뷰 3성 €250~350"},
-    "h_kal_doupiani": {"city": "메테오라 · 카스트라키", "search": "Doupiani House Kastraki", "official": "https://www.doupianihouse.com/", "when": "델피·메테오라 1박 2일 투어를 예약하면 투어사가 배정 (투어별로 호텔 다름)",
+    "h_kal_doupiani": {"city": "메테오라 · 카스트라키", "search": "Doupiani House Kastraki", "official": "https://www.doupianihouse.gr/", "when": "델피·메테오라 1박 2일 투어를 예약하면 투어사가 배정 (투어별로 호텔 다름)",
                        "alt": "투어 대신 직접 가면 1박 €90~130"},
     "h_cha_delfino": {"city": "크레타 · 하니아 구항", "search": "Casa Delfino Chania", "official": "https://www.casadelfino.com/", "alt": "구항 골목 17세기 저택 호텔. 주차는 구시가 밖 공영주차장"},
     "h_her_lato": {"city": "크레타 · 이라클리온", "search": "Lato Boutique Hotel Heraklion", "official": "https://www.lato.gr/", "alt": "항구 바로 위라 다음 날 08:00 페리에 걸어서 감 (트립어드바이저 4.4, 리뷰 2,579)"},

@@ -50,7 +50,7 @@ TAXI = [
 
 # ---------- 숙소 메타 (잠자리 이름 앞부분 → 도시·공식 사이트·다른 선택지) ----------
 HOTELS = {
-    "Room Mate Alba": {"city": "마드리드", "search": "Room Mate Alba Madrid", "official": "https://room-matehotels.com/", "alt": "Hotel Regente(3성, 솔 광장 옆, 1박 €150–200 추정)로 바꾸면 3박 약 €150 절약"},
+    "Room Mate Alba": {"city": "마드리드", "search": "Room Mate Alba Madrid", "official": "https://room-matehotels.com/es/hotel-alba-madrid/", "alt": "Hotel Regente(3성, 솔 광장 옆, 1박 €150–200 추정)로 바꾸면 3박 약 €150 절약"},
     "Hotel Regente": {"city": "마드리드", "search": "Hotel Regente Madrid", "official": "https://www.hotelregente.com/", "alt": "4성으로 올리고 싶으면 Room Mate Alba(1박 €195–270)"},
     "Las Casas de la Judería": {"city": "세비야", "search": "Las Casas de la Juderia Sevilla", "official": "https://www.lascasasdelajuderiasevilla.com/", "alt": "Hotel Rey Alfonso X(4성, 같은 산타크루스 지구)도 비슷한 가격"},
     "Hotel Rey Alfonso X": {"city": "세비야", "search": "Hotel Rey Alfonso X Sevilla", "official": "https://www.hotelreyalfonsox.com/", "alt": "분위기를 원하면 Las Casas de la Judería(파티오 27개짜리 저택 호텔)"},

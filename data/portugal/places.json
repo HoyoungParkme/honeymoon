@@ -1,0 +1,354 @@
+{
+ "places": {
+  "Avani Avenida Liberdade (리스본)": {
+   "file": "photos/portugal/places/h_lis_avani.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.avanihotels.com/en/lisbon"
+  },
+  "호시우 광장": {
+   "file": "photos/portugal/places/rossio.jpg",
+   "kind": "place",
+   "credit": "This photo was taken by Anton Zelenov.\nPlease credit this wi · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Pedro_IV_square_Lisbon.jpg"
+  },
+  "산타 주스타 엘리베이터": {
+   "file": "photos/portugal/places/santa_justa.jpg",
+   "kind": "place",
+   "credit": "Luca Galuzzi (Lucag) · CC BY-SA 2.5 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Lisbon_(Lisboa)_historic_elevator_Santa_Justa_Luca_Galuzzi_2006.jpg"
+  },
+  "시아두": {
+   "file": "photos/portugal/places/chiado.jpg",
+   "kind": "place",
+   "credit": "Ввласенко · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:View_of_Baixa_from_Chiado._Lisbon,_Portugal.jpg"
+  },
+  "세뇨라 두 몬트 전망대": {
+   "file": "photos/portugal/places/senhora_monte.jpg",
+   "kind": "place",
+   "credit": "Filipe Rocha,user:sacavem (pt) http://pt.wikipedia.org/wiki/ · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Miradouro_Nossa_Senhora_do_Monte_II.jpg"
+  },
+  "마르팅 모니즈 (28번 트램 출발)": {
+   "file": "photos/portugal/places/martim_moniz.jpg",
+   "kind": "place",
+   "credit": "Philip Mallis from Melbourne · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Remodelados_class_tram_-576_operating_a_Route_28_service_to_Pra%C3%A7a_Martim_Moniz_on_Escolas_Gerais_in_Lisbon,_Portugal_(55066896887).jpg"
+  },
+  "그라사 전망대": {
+   "file": "photos/portugal/places/graca.jpg",
+   "kind": "place",
+   "credit": "Diego Delso · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Vistas_de_Lisboa_desde_Miradouro_da_Gra%C3%A7a,_Portugal,_2012-05-12,_DD_02.JPG"
+  },
+  "상 조르즈 성": {
+   "file": "photos/portugal/places/sao_jorge.jpg",
+   "kind": "place",
+   "credit": "Ingo Mehling · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Lissabon_-_Castle_-_Ramparts_-_1.jpg"
+  },
+  "산타 루치아 · 포르타스 두 솔 전망대": {
+   "file": "photos/portugal/places/santa_luzia.jpg",
+   "kind": "place",
+   "credit": "Jakub Hałun · CC BY 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:View_from_Miradouro_de_Santa_Luzia,_Lisbon,_20250603_2016_9045.jpg"
+  },
+  "알파마 골목": {
+   "file": "photos/portugal/places/alfama.jpg",
+   "kind": "place",
+   "credit": "Matti Blume · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Alfama,_Lisbon_(DSC03367).jpg"
+  },
+  "리스본 대성당": {
+   "file": "photos/portugal/places/se_lisboa.jpg",
+   "kind": "place",
+   "credit": "Simon Burchell · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:S%C3%A9_de_Lisboa_(Lisbon_Cathedral)_02.jpg"
+  },
+  "코메르시우 광장": {
+   "file": "photos/portugal/places/comercio.jpg",
+   "kind": "place",
+   "credit": "Diego Delso · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Arco_Triunfal_da_Rua_Augusta,_Plaza_del_Comercio,_Lisboa,_Portugal,_2012-05-12,_DD_02.JPG"
+  },
+  "Clube de Fado (알파마 파두 하우스)": {
+   "file": "photos/portugal/places/clube_fado.jpg",
+   "kind": "place",
+   "credit": "69joehawkins · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:ClubedeFado.JPG"
+  },
+  "페나 궁전": {
+   "file": "photos/portugal/places/pena.jpg",
+   "kind": "place",
+   "credit": "CEphoto, Uwe Aranas · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Sintra_Portugal_Pal%C3%A1cio_da_Pena-01.jpg"
+  },
+  "무어인의 성": {
+   "file": "photos/portugal/places/mouros.jpg",
+   "kind": "place",
+   "credit": "Jakub Hałun · CC BY 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Castelo_dos_Mouros,_Sintra,_20250606_1215_0180.jpg"
+  },
+  "헤갈레이라 별장": {
+   "file": "photos/portugal/places/regaleira.jpg",
+   "kind": "place",
+   "credit": "Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Quinta_da_Regaleira,_Sintra,_Portugal,_2019-05-25,_DD_69.jpg"
+  },
+  "호카곶 (유라시아 서쪽 끝)": {
+   "file": "photos/portugal/places/cabo_roca.jpg",
+   "kind": "place",
+   "credit": "Ввласенко · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Cabo_da_Roca_-_Cape_Roca.JPG"
+  },
+  "카스카이스 구시가 · 해변": {
+   "file": "photos/portugal/places/cascais.jpg",
+   "kind": "place",
+   "credit": "lele3100 · CC BY 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Cascais_(1413897396).jpg"
+  },
+  "제로니무스 수도원": {
+   "file": "photos/portugal/places/jeronimos.jpg",
+   "kind": "place",
+   "credit": "Jakub Hałun · CC BY 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:View_of_Mosteiro_dos_Jer%C3%B3nimos_from_Monument_of_the_Discoveries,_Bel%C3%A9m,_Lisbon,_20250604_1111_9124.jpg"
+  },
+  "발견기념비": {
+   "file": "photos/portugal/places/padrao.jpg",
+   "kind": "place",
+   "credit": "미상 · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Padr%C3%A3o_dos_Descobrimentos_por_Rodrigo_Tetsuo_Argenton.jpg"
+  },
+  "벨렝탑": {
+   "file": "photos/portugal/places/belem_tower.jpg",
+   "kind": "place",
+   "credit": "Rodrigo.Argenton · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Torre_de_Bel%C3%A9m_por_Rodrigo_Tetsuo_Argenton_(2).jpg"
+  },
+  "Descobertas Boutique Hotel (포르투 히베이라)": {
+   "file": "photos/portugal/places/h_opo_descobertas.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.aspasios.com/destination/porto-boutique-hotels/descobertas-boutique-hotel-by-aspasios"
+  },
+  "동 루이스 1세 다리 (위층)": {
+   "file": "photos/portugal/places/dom_luis.jpg",
+   "kind": "place",
+   "credit": "Diego Delso · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Puente_Don_Luis_I,_Oporto,_Portugal,_2012-05-09,_DD_13.JPG"
+  },
+  "렐루 서점": {
+   "file": "photos/portugal/places/lello.jpg",
+   "kind": "place",
+   "credit": "John Samuel · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Exterior_view_of_Livraria_Lello_02.jpg"
+  },
+  "클레리구스 탑": {
+   "file": "photos/portugal/places/clerigos.jpg",
+   "kind": "place",
+   "credit": "Alvesgaspar · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Porto_April_2019-1.jpg"
+  },
+  "상 벤투역 (아줄레주 홀)": {
+   "file": "photos/portugal/places/sao_bento.jpg",
+   "kind": "place",
+   "credit": "Krzysztof Golik · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Sao_Bento_train_station_in_Porto_(3).jpg"
+  },
+  "알마스 성당 (파란 타일)": {
+   "file": "photos/portugal/places/almas.jpg",
+   "kind": "place",
+   "credit": "Krzysztof Golik · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Azulejo_facade_of_the_Capela_das_Almas_in_Porto_(3).jpg"
+  },
+  "볼량 시장": {
+   "file": "photos/portugal/places/bolhao.jpg",
+   "kind": "place",
+   "credit": "KoS · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Mercado_do_Bolh%C3%A3o_stands.JPG"
+  },
+  "포르투 대성당": {
+   "file": "photos/portugal/places/se_porto.jpg",
+   "kind": "place",
+   "credit": "Thomas Dahlstrøm Nielsen · CC BY 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Porto_Cathedral,_July_2023.jpg"
+  },
+  "히베이라 강변": {
+   "file": "photos/portugal/places/ribeira.jpg",
+   "kind": "place",
+   "credit": "Krzysztof Golik · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Cais_da_Ribeira_in_Porto_(1).jpg"
+  },
+  "테일러스 포트와인 셀러": {
+   "file": "photos/portugal/places/taylors.jpg",
+   "kind": "place",
+   "credit": "Ray in Manila · CC BY 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Taylor%E2%80%99s_Port_Wine_Cellar,_Vila_Nova_de_Gaia,_Oporto_(48730636822).jpg"
+  },
+  "빌라 노바 드 가이아 강변": {
+   "file": "photos/portugal/places/gaia.jpg",
+   "kind": "place",
+   "credit": "Diego Delso · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Rabelos_en_el_r%C3%ADo_Duero,_Vila_Nova_de_Gaia,_Portugal,_2012-05-09,_DD_14.JPG"
+  },
+  "모루 정원 · 세하 두 필라르 (일몰)": {
+   "file": "photos/portugal/places/jardim_morro.jpg",
+   "kind": "place",
+   "credit": "Diego Delso · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Jardim_do_Morro,_Vila_Nova_de_Gaia,_Portugal,_2012-05-09,_DD_01.JPG"
+  },
+  "피냥역 (도우루 밸리)": {
+   "file": "photos/portugal/places/pinhao.jpg",
+   "kind": "place",
+   "credit": "Feliciano Guimarães · CC BY 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:The_train_is_coming_to_Pinh%C3%A3o_station.jpg"
+  },
+  "포스 두 도우루 (대서양 하구)": {
+   "file": "photos/portugal/places/foz.jpg",
+   "kind": "place",
+   "credit": "bebatut · CC BY-SA 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Foz_do_Douro_(26387458906).jpg"
+  },
+  "LX 팩토리": {
+   "file": "photos/portugal/places/lx_factory.jpg",
+   "kind": "place",
+   "credit": "TJ DeGroat from San Francisco, CA, Los estados unidos · CC BY 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:LX_Factory_Lisbon_(44353483285).jpg"
+  },
+  "바이후 알투": {
+   "file": "photos/portugal/places/bairro_alto.jpg",
+   "kind": "place",
+   "credit": "Gabriel Perazzo from Sao Paulo, Brazil · CC BY 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Lisboa_-_Bairro_Alto_(5420829357).jpg"
+  },
+  "상 페드루 드 알칸타라 전망대": {
+   "file": "photos/portugal/places/sao_pedro.jpg",
+   "kind": "place",
+   "credit": "Ingo Mehling · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Lissabon_-_Sao_Pedro_de_Alcantara.jpg"
+  },
+  "리스본 오세아나리우": {
+   "file": "photos/portugal/places/oceanario.jpg",
+   "kind": "place",
+   "credit": "Sonse · CC BY 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:The_size_of_Lisbon_Oceanarium.jpg"
+  },
+  "Hotel Mundial (리스본, 루프탑)": {
+   "file": "photos/portugal/places/h_lis_mundial.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.hotel-mundial.pt/en/"
+  },
+  "오비두스 성곽 마을": {
+   "file": "photos/portugal/places/obidos.jpg",
+   "kind": "place",
+   "credit": "Alexkom000 · CC BY 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:2025-09-21_%C3%93bidos_11.jpg"
+  },
+  "Hotel Mar Bravo (나자레 해변 앞)": {
+   "file": "photos/portugal/places/h_naz_marbravo.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.marbravo.com/en"
+  },
+  "나자레 (시티우 전망대)": {
+   "file": "photos/portugal/places/nazare.jpg",
+   "kind": "place",
+   "credit": "Joseolgon · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Coreto_do_S%C3%ADtio_da_Nazar%C3%A9.jpg"
+  },
+  "코임브라 대학교 · 조아니나 도서관": {
+   "file": "photos/portugal/places/coimbra.jpg",
+   "kind": "place",
+   "credit": "Alvesgaspar · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Coimbra_December_2011-19a.jpg"
+  },
+  "아베이루 운하": {
+   "file": "photos/portugal/places/aveiro.jpg",
+   "kind": "place",
+   "credit": "John Samuel · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Canal_in_Aveiro_12.jpg"
+  },
+  "Hotel Acta The Avenue (포르투 알리아도스)": {
+   "file": "photos/portugal/places/h_opo_acta.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.actahotels.com/en/hotels/hotel-acta-the-avenue"
+  },
+  "Casa Mãe (라고스 부티크)": {
+   "file": "photos/portugal/places/h_lagos_casamae.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://casa-mae.com/"
+  },
+  "라고스 구시가": {
+   "file": "photos/portugal/places/lagos.jpg",
+   "kind": "place",
+   "credit": "Freebird from Madrid, Spain · CC BY-SA 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Pra%C3%A7a_Lu%C3%ADs_de_Cam%C3%B5es,_Lagos_(20765941920).jpg"
+  },
+  "라고스 마리나 (보트 출발)": {
+   "file": "photos/portugal/places/lagos_marina.jpg",
+   "kind": "place",
+   "credit": "Norbert Nagel · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Big_Blue_rigid_inflatable_boat_at_Marina_de_Lagos_-_Portugal_-_2015-08-06.jpg"
+  },
+  "폰타 다 피에다드 (해안 절벽)": {
+   "file": "photos/portugal/places/ponta_piedade.jpg",
+   "kind": "place",
+   "credit": "Tony Bowden · CC BY-SA 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Farol_Ponta_da_Piedade_02.jpg"
+  },
+  "카밀루 해변 (계단 해변)": {
+   "file": "photos/portugal/places/camilo.jpg",
+   "kind": "place",
+   "credit": "dronepicr · CC BY 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Strand_Praia_do_camilo_Lagos_(27711818845).jpg"
+  },
+  "도나 아나 해변": {
+   "file": "photos/portugal/places/dona_ana.jpg",
+   "kind": "place",
+   "credit": "Vitor Oliveira from Torres Vedras, PORTUGAL · CC BY-SA 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Praia_de_Dona_Ana_-_Portugal_(9068382051).jpg"
+  }
+ },
+ "hotels": {
+  "Avani Avenida Liberdade (리스본)": {
+   "file": "photos/portugal/places/h_lis_avani.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.avanihotels.com/en/lisbon"
+  },
+  "Descobertas Boutique Hotel (포르투)": {
+   "file": "photos/portugal/places/h_opo_descobertas.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.aspasios.com/destination/porto-boutique-hotels/descobertas-boutique-hotel-by-aspasios"
+  },
+  "Hotel Mundial (리스본 4성, 루프탑)": {
+   "file": "photos/portugal/places/h_lis_mundial.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.hotel-mundial.pt/en/"
+  },
+  "Hotel Mar Bravo (나자레)": {
+   "file": "photos/portugal/places/h_naz_marbravo.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.marbravo.com/en"
+  },
+  "Hotel Acta The Avenue (포르투 4성)": {
+   "file": "photos/portugal/places/h_opo_acta.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.actahotels.com/en/hotels/hotel-acta-the-avenue"
+  },
+  "Casa Mãe (라고스 부티크)": {
+   "file": "photos/portugal/places/h_lagos_casamae.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://casa-mae.com/"
+  }
+ }
+}

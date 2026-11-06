@@ -50,6 +50,21 @@
 - 렌터카 구간을 위해 이동 수단 `car`(렌터카)를 추가했다 (`tripkit.MODE_KO`, `web/app.js`, `build_country.py`).
 - 만드는 법: `tools/countries/{portugal,czech}/trip.py` + `pt_|cz_places.py` + `pt_|cz_restaurants.py` → `python -I tools/build_country.py portugal` (czech).
 
+## 명소·호텔 사진 (2026-11-06 추가)
+
+식당처럼 명소와 호텔에도 실제 사진을 붙였다. 4개 나라 명소 182곳, 호텔 34곳.
+
+| 어디에 보이나 | 내용 |
+|---|---|
+| 일정 화면 행 | 장소 행 오른쪽에 작은 사진, 행을 누르면 큰 사진 카드 (명소·숙소 표시, 출처) |
+| 일정 화면 '오늘 숙소' | 호텔 사진 + 출처 |
+| 예약할 것 · 숙소 | 호텔마다 사진 |
+
+- 명소: 위키미디어 커먼즈. 처음 받은 사진을 한 장씩 눈으로 보고, 틀린 것(엉뚱한 나라의 성, 비둘기, 부채 등 약 60장)은 `tools/place_photo_q.py`에 검색어나 `File:` 이름을 적어 바꿨다.
+- 호텔: 호텔 공식 사이트의 대표 사진(og:image 또는 첫 화면 사진). 체인 본사 페이지는 다른 지점 사진이 나와서 호텔 전용 페이지로 고쳤다 (Electra Palace Athens, Room Mate Alba). 공식 사이트가 막힌 곳(파라도르, Rey Alfonso X)은 커먼즈.
+- 역·공항·정류장·선착장은 사진을 넣지 않는다 (볼거리인 상 벤투역·피냥역·솔 광장·하니아 구항은 예외).
+- 만드는 법: `python -I tools/build_place_photos.py spain` (greece·portugal·czech) → `photos/<나라>/places/` + `data/<나라>/places.json` (스페인은 `photos/places/`, `data/places.json`).
+
 ## 로컬 실행
 
 이 폴더(README가 있는 곳)에서 아래를 실행하고, 브라우저로 http://localhost:8000/ 을 연다 (일정만 보려면 `/web/`).
@@ -114,6 +129,7 @@ python -I tools/build_atlas.py <타일_저장_폴더> web
 | `tools/restaurants.py` | 식당 23곳 정보(종류·대표 메뉴·주문 팁·가격·트립어드바이저 평점·리뷰 요약) → `data/restaurants.json`. 일정 화면에서 식당 행을 누르면 카드, 예약 페이지 식당 항목에도 표시 |
 | `tools/fetch_food_photos.py` | 식당·대표 음식 사진을 위키미디어 커먼즈에서 받아 `photos/food/`에 저장, 저작자는 `photos/food_credits.json`. 가게 사진이 없으면 대표 음식 사진 |
 | `tools/build_booking.py` | 코스별 예약 목록 → `data/booking.json`. 숙소는 `courses.json`의 잠자리에서 자동(체크인·박수·아고다/부킹/트립닷컴 날짜 링크), 항공·열차·입장권·식당·택시는 파일 안 표를 손으로 고친다 |
+| `tools/build_place_photos.py` | 명소(커먼즈)·호텔(공식 사이트) 사진 → `data/<나라>/places.json`. 검색어 바꾸기·예외는 `tools/place_photo_q.py` |
 | `tools/fetch_previews.py` | 일정 행의 예매·식당 링크를 Playwright로 열어 `previews/*.jpg` 스크린샷과 제목을 `data/previews.json`에 저장. 새 링크만 받으니 링크를 추가하면 다시 실행 |
 
 ## 결정 사항

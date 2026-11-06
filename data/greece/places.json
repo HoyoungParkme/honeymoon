@@ -1,0 +1,414 @@
+{
+ "places": {
+  "Electra Palace Athens (5성)": {
+   "file": "photos/greece/places/h_ath_electra.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.electrahotels.gr/hotels/electra-palace-athens/"
+  },
+  "모나스티라키 광장": {
+   "file": "photos/greece/places/monastiraki.jpg",
+   "kind": "place",
+   "credit": "C messier · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:%CE%A0%CE%B1%CE%BD%CE%B1%CE%B3%CE%AF%CE%B1_%CE%A0%CE%B1%CE%BD%CF%84%CE%AC%CE%BD%CE%B1%CF%83%CF%83%CE%B1-%CE%9C%CE%BF%CE%BD%CE%B1%CF%83%CF%84%CE%B7%CF%81%CE%AC%CE%BA%CE%B9_1124.jpg"
+  },
+  "플라카 (아드리아누 거리)": {
+   "file": "photos/greece/places/plaka.jpg",
+   "kind": "place",
+   "credit": "C messier · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:%CE%A0%CE%BB%CE%AC%CE%BA%CE%B1_6552.jpg"
+  },
+  "아나피오티카 골목": {
+   "file": "photos/greece/places/anafiotika.jpg",
+   "kind": "place",
+   "credit": "Jakub Hałun · CC BY 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Anafiotika,_Athens,_20240601_0923_0020.jpg"
+  },
+  "리카비토스 언덕 (정상)": {
+   "file": "photos/greece/places/lycabettus.jpg",
+   "kind": "place",
+   "credit": "Jakub Hałun · CC BY 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:View_from_the_Acropolis_in_Athens_with_the_Lycabettus_Hill,_20240531_1314_9656.jpg"
+  },
+  "아크로폴리스 (남쪽 입구)": {
+   "file": "photos/greece/places/acropolis.jpg",
+   "kind": "place",
+   "credit": "George E. Koronaios · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:The_entrance_to_the_South_Slope_of_the_Acropolis_of_Athens_on_August_19,_2021.jpg"
+  },
+  "아크로폴리스 박물관": {
+   "file": "photos/greece/places/acropolis_museum.jpg",
+   "kind": "place",
+   "credit": "Zde · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Chthonic_deity_from_Hekatompedos,_570_BC,_(old)_Acropolis_Museum,_Akrm501.jpg"
+  },
+  "고대 아고라": {
+   "file": "photos/greece/places/ancient_agora.jpg",
+   "kind": "place",
+   "credit": "Jebulon · CC0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Church_of_the_Holy_Apostles_back_ancient_agora_Athens.jpg"
+  },
+  "국회의사당 · 무명용사비 근위병 교대": {
+   "file": "photos/greece/places/syntagma_guard.jpg",
+   "kind": "place",
+   "credit": "Luc.T from Buggenhout, België · CC BY 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Evzones,_Presidential_Guard_(41263332434).jpg"
+  },
+  "수니온 곶 포세이돈 신전": {
+   "file": "photos/greece/places/sounion.jpg",
+   "kind": "place",
+   "credit": "Berthold Werner · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Greece_Cape_Sounion_BW_2017-10-09_10-12-43.jpg"
+  },
+  "Harmony Boutique Hotel (4성)": {
+   "file": "photos/greece/places/h_myk_harmony.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.harmonyhotel.gr/"
+  },
+  "파라포르티아니 교회": {
+   "file": "photos/greece/places/paraportiani.jpg",
+   "kind": "place",
+   "credit": "Bernard Gagnon · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Church_of_Panagia_Paraportiani.jpg"
+  },
+  "마토얀니 거리": {
+   "file": "photos/greece/places/matoyianni.jpg",
+   "kind": "place",
+   "credit": "Warren LeMay from Chicago, IL, United States · CC BY-SA 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Chora_Street,_Mykonos,_Greece_(53502210777).jpg"
+  },
+  "카토 밀리 풍차": {
+   "file": "photos/greece/places/windmills.jpg",
+   "kind": "place",
+   "credit": "Joe deSousa · CC0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Windmills_of_Kato_Mili,_Mykonos_(39171204142).jpg"
+  },
+  "델로스 섬 유적": {
+   "file": "photos/greece/places/delos.jpg",
+   "kind": "place",
+   "credit": "ftrc · CC BY-SA 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Delos,_overview_of_a_site.jpg"
+  },
+  "아기오스 소스티스 해변": {
+   "file": "photos/greece/places/agios_sostis.jpg",
+   "kind": "place",
+   "credit": "Jules Verne Times Two · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Long-exposure_of_sunrise_with_Mykonos_in_the_background,_Agios_Sostis,_Tinos,_Greece_julesvernex2.jpg"
+  },
+  "아르메니스티스 등대": {
+   "file": "photos/greece/places/armenistis.jpg",
+   "kind": "place",
+   "credit": "Pimi 69110 · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Phare_Armenistis_(%C3%AEle_de_Mykonos_Gr%C3%A8ce).jpg"
+  },
+  "Andronis Boutique Hotel (이아 동굴 스위트)": {
+   "file": "photos/greece/places/h_oia_andronis.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.andronis.com/"
+  },
+  "이아 마을 (중심 거리)": {
+   "file": "photos/greece/places/oia.jpg",
+   "kind": "place",
+   "credit": "Giles Laurent · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:1000_Three_domes_of_Oia_in_Santorini_Photo_by_Giles_Laurent.jpg"
+  },
+  "El Greco Resort (피라)": {
+   "file": "photos/greece/places/h_fira_elgreco.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://elgreco.com.gr/"
+  },
+  "스카로스 바위": {
+   "file": "photos/greece/places/skaros.jpg",
+   "kind": "place",
+   "credit": "Zde · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Santorini,_Route_9,_22M8942,_Skaros_from_Imerovigli.jpg"
+  },
+  "아크로티리 유적": {
+   "file": "photos/greece/places/akrotiri.jpg",
+   "kind": "place",
+   "credit": "Norbert Nagel · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Archaeological_site_of_Akrotiri_-_Santorini_-_July_12th_2012_-_98.jpg"
+  },
+  "레드 비치 전망대": {
+   "file": "photos/greece/places/red_beach.jpg",
+   "kind": "place",
+   "credit": "Anthony Baratier · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Red_Beach_in_Santorini.jpg"
+  },
+  "산토 와인즈 (와이너리)": {
+   "file": "photos/greece/places/santo_wines.jpg",
+   "kind": "place",
+   "credit": "Emanuela Meme Giudic… · CC BY 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Santo_wines_-_panoramio.jpg"
+  },
+  "네아 카메니 화산섬 · 온천": {
+   "file": "photos/greece/places/nea_kameni.jpg",
+   "kind": "place",
+   "credit": "Norbert Nagel · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Nea_Kameni_volcanic_island_-_Santorini_-_Greece_-_19.jpg"
+  },
+  "피라 시내 (테오토코풀루 광장)": {
+   "file": "photos/greece/places/fira.jpg",
+   "kind": "place",
+   "credit": "Norbert Nagel · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Crater_rim_-_Fira_-_Santorini_-_Greece_-_10.jpg"
+  },
+  "피르고스 마을": {
+   "file": "photos/greece/places/pyrgos.jpg",
+   "kind": "place",
+   "credit": "Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Santorin_(GR),_Pirgos_Kallistis_--_2017_--_2911.jpg"
+  },
+  "피르고스 성채 (카스텔리) 일몰": {
+   "file": "photos/greece/places/pyrgos_castle.jpg",
+   "kind": "place",
+   "credit": "Edal Anton Lefterov · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Ruins-of-the-Kasteli-in-Pyrgos.jpg"
+  },
+  "국립고고학박물관": {
+   "file": "photos/greece/places/nat_arch_museum.jpg",
+   "kind": "place",
+   "credit": "Thomas Wolf, www.foto-tw.de · CC BY-SA 3.0 de · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Arch%C3%A4ologisches_Nationalmuseum_Athen.jpg"
+  },
+  "국립정원": {
+   "file": "photos/greece/places/national_garden.jpg",
+   "kind": "place",
+   "credit": "Jakub Hałun · CC BY 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:National_Garden_of_Athens,_20240531_1540_9794.jpg"
+  },
+  "파나티나이코 스타디움": {
+   "file": "photos/greece/places/panathenaic.jpg",
+   "kind": "place",
+   "credit": "Jakub Hałun · CC BY 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Panathenaic_Stadium,_Athens,_20240601_1007_0050.jpg"
+  },
+  "제우스 신전 · 하드리아누스 문": {
+   "file": "photos/greece/places/zeus_temple.jpg",
+   "kind": "place",
+   "credit": "A.Savin · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Attica_06-13_Athens_25_Olympian_Zeus_Temple.jpg"
+  },
+  "Hotel Plaka (3성)": {
+   "file": "photos/greece/places/h_ath_plaka.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.plakahotel.gr/"
+  },
+  "델피 유적·박물관": {
+   "file": "photos/greece/places/delphi.jpg",
+   "kind": "place",
+   "credit": "Zde · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Down_Archaeological_site_of_Delphi,_Marmaria,_201267.jpg"
+  },
+  "아라호바 마을": {
+   "file": "photos/greece/places/arachova.jpg",
+   "kind": "place",
+   "credit": "Akouts · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Arachova2015.jpg"
+  },
+  "Doupiani House (카스트라키)": {
+   "file": "photos/greece/places/h_kal_doupiani.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.doupianihouse.gr/"
+  },
+  "메테오라 일몰 전망대 (프사로페트라)": {
+   "file": "photos/greece/places/meteora_sunset.jpg",
+   "kind": "place",
+   "credit": "Falk2 · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:J26_509_%C3%81gios_Nik%C3%B3laos,_Rus%C3%A1nu,_Meg%C3%A1lo_Met%C3%A9oro,_Varla%C3%A1m.jpg"
+  },
+  "카스트라키 마을": {
+   "file": "photos/greece/places/kastraki.jpg",
+   "kind": "place",
+   "credit": "Falk2 · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:X2.02_Kastr%C3%A1ki,_%C2%BBSpindel%C2%AB.jpg"
+  },
+  "대 메테오론 수도원": {
+   "file": "photos/greece/places/great_meteoron.jpg",
+   "kind": "place",
+   "credit": "DimitrisP67 · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Megalo_Meteoro_monastery1.jpg"
+  },
+  "바를라암 수도원": {
+   "file": "photos/greece/places/varlaam.jpg",
+   "kind": "place",
+   "credit": "Giles Laurent · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:1005_Courtyard_of_the_Monastery_of_Varlaam_in_Meteora_Photo_by_Giles_Laurent.jpg"
+  },
+  "칼람바카 시내": {
+   "file": "photos/greece/places/kalambaka.jpg",
+   "kind": "place",
+   "credit": "Argiriskaramouzas · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:%CE%9C%CE%B5%CF%84%CE%B5%CF%89%CF%81%CE%B1_by_night.jpg"
+  },
+  "페리사 검은 모래 해변": {
+   "file": "photos/greece/places/perissa.jpg",
+   "kind": "place",
+   "credit": "Norbert Nagel · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Beach_-_Perissa_-_Santorini_-_Greece_-_02.jpg"
+  },
+  "이아 성채 (일몰 명당)": {
+   "file": "photos/greece/places/oia_castle.jpg",
+   "kind": "place",
+   "credit": "Zde · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Oia_from_Kastro,_Santorini,_176689.jpg"
+  },
+  "고대 티라 유적 (메사 부노)": {
+   "file": "photos/greece/places/ancient_thera.jpg",
+   "kind": "place",
+   "credit": "Norbert Nagel · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:2012_-_Ancient_Thera_-_Santorini_-_Greece_-_19.jpg"
+  },
+  "카마리 해변": {
+   "file": "photos/greece/places/kamari.jpg",
+   "kind": "place",
+   "credit": "Jules Verne Times Two · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Long-exposure_of_man_walking_on_the_beach,_Kamari,_Santorini,_Beach_julesvernex2.jpg"
+  },
+  "Herodion Hotel (4성)": {
+   "file": "photos/greece/places/h_ath_herodion.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.herodion.gr/"
+  },
+  "필로파포스 언덕": {
+   "file": "photos/greece/places/philopappos.jpg",
+   "kind": "place",
+   "credit": "A.Savin · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Attica_06-13_Athens_50_View_from_Philopappos_-_Acropolis_Hill.jpg"
+  },
+  "세이탄 리마니아 해변": {
+   "file": "photos/greece/places/seitan_limania.jpg",
+   "kind": "place",
+   "credit": "Olhaz · Public domain · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Chania_-_Seitan_Limania.jpg"
+  },
+  "Casa Delfino (하니아 구항)": {
+   "file": "photos/greece/places/h_cha_delfino.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.casadelfino.com/"
+  },
+  "하니아 베네치아 구항": {
+   "file": "photos/greece/places/chania_harbour.jpg",
+   "kind": "place",
+   "credit": "Aivin Gast · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Chania_Old_Harbour_by_night.jpg"
+  },
+  "하니아 등대": {
+   "file": "photos/greece/places/chania_lighthouse.jpg",
+   "kind": "place",
+   "credit": "Ввласенко · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Lighthouse_in_Chania._Crete,_Greece.jpg"
+  },
+  "엘라포니시 핑크 비치": {
+   "file": "photos/greece/places/elafonisi.jpg",
+   "kind": "place",
+   "credit": "C messier · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:%CE%95%CE%BB%CE%B1%CF%86%CE%BF%CE%BD%CE%AE%CF%83%CE%B9_0976.jpg"
+  },
+  "레팀노 구시가": {
+   "file": "photos/greece/places/rethymno.jpg",
+   "kind": "place",
+   "credit": "Jebulon · CC0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Harbour_snowy_mountains_Rethymno_Crete_Greece.jpg"
+  },
+  "크노소스 궁전": {
+   "file": "photos/greece/places/knossos.jpg",
+   "kind": "place",
+   "credit": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to us · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Knossos_in_Crete_west_court.jpg"
+  },
+  "Lato Boutique Hotel (이라클리온)": {
+   "file": "photos/greece/places/h_her_lato.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.lato.gr/"
+  },
+  "이라클리온 사자 광장": {
+   "file": "photos/greece/places/heraklion_lions.jpg",
+   "kind": "place",
+   "credit": "babbelfisk · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Lions_Square_-_panoramio.jpg"
+  },
+  "Astra Suites (이메로비글리)": {
+   "file": "photos/greece/places/h_imero_astra.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.astra-suites.com/"
+  },
+  "이메로비글리": {
+   "file": "photos/greece/places/imerovigli.jpg",
+   "kind": "place",
+   "credit": "Zde · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Santorini,_Route_9,_22M8932,_Imerovigli,_Firostefani_and_Fira.jpg"
+  }
+ },
+ "hotels": {
+  "Electra Palace Athens (5성)": {
+   "file": "photos/greece/places/h_ath_electra.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.electrahotels.gr/hotels/electra-palace-athens/"
+  },
+  "Harmony Boutique Hotel (4성)": {
+   "file": "photos/greece/places/h_myk_harmony.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.harmonyhotel.gr/"
+  },
+  "Andronis Boutique Hotel (이아, 핫텁 스위트)": {
+   "file": "photos/greece/places/h_oia_andronis.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.andronis.com/"
+  },
+  "El Greco Resort (피라, 4성)": {
+   "file": "photos/greece/places/h_fira_elgreco.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://elgreco.com.gr/"
+  },
+  "Hotel Plaka (3성)": {
+   "file": "photos/greece/places/h_ath_plaka.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.plakahotel.gr/"
+  },
+  "Doupiani House (카스트라키, 메테오라 뷰)": {
+   "file": "photos/greece/places/h_kal_doupiani.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.doupianihouse.gr/"
+  },
+  "Herodion Hotel (4성)": {
+   "file": "photos/greece/places/h_ath_herodion.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.herodion.gr/"
+  },
+  "Casa Delfino (하니아 구항, 부티크)": {
+   "file": "photos/greece/places/h_cha_delfino.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.casadelfino.com/"
+  },
+  "Lato Boutique Hotel (이라클리온)": {
+   "file": "photos/greece/places/h_her_lato.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.lato.gr/"
+  },
+  "Astra Suites (이메로비글리, 칼데라 뷰)": {
+   "file": "photos/greece/places/h_imero_astra.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.astra-suites.com/"
+  }
+ }
+}

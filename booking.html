@@ -46,6 +46,7 @@
   .item .kv dd a { color: var(--gold); font-weight: 700; }
   .rphotos { display: flex; flex-wrap: wrap; gap: 10px; }
   .rphoto { display: inline-flex; flex-direction: column; gap: 2px; width: 200px; max-width: 100%; }
+  .group .rphoto:only-child { width: 280px; }
   .rphoto img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 10px; background: var(--line); }
   .rphoto span { font-size: 10px; color: var(--dim); }
   .item .links { grid-column: 2; display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
@@ -124,6 +125,16 @@
         (r.photo ? '<a class="rphoto" href="' + esc(r.photo.page) + '" target="_blank" rel="noopener"><img src="' + esc(r.photo.file) + '" alt="' + esc(r.name) + '" loading="lazy"><span>' + esc((r.photo.kind === 'dish' ? '대표 음식 · ' : r.photo.kind === 'view' ? '주변 풍경 · ' : '가게 · ') + r.photo.credit) + '</span></a>' : '') +
         (r.dishes || []).map(function (d) { return '<a class="rphoto" href="' + esc(d.page) + '" target="_blank" rel="noopener"><img src="' + esc(d.file) + '" alt="' + esc(d.dish) + '" loading="lazy"><span>' + esc(d.dish + ' · ' + d.credit) + '</span></a>'; }).join('') + '</dd>' : '');
   }
+  function hotelRow(it) {
+    var base = it.what.split(' (')[0], ks = Object.keys(hotels);
+    for (var i = 0; i < ks.length; i++) {
+      if (ks[i].split(' (')[0] === base) {
+        var h = hotels[ks[i]];
+        return '<dt>사진</dt><dd class="rphotos"><a class="rphoto" href="' + esc(h.page) + '" target="_blank" rel="noopener"><img src="' + esc(h.file) + '" alt="' + esc(base) + '" loading="lazy"><span>' + esc(h.credit) + '</span></a></dd>';
+      }
+    }
+    return '';
+  }
   function dueHtml(d) { return '<span class="due' + (d === '지금' || d === '열리면' ? ' hot' : '') + '">' + esc(d) + '</span>'; }
   function tagClass(t) { return t === '한국어' ? 'ko' : (t === '공식' ? 'of' : ''); }
   function link(l, primary) { return '<a class="' + (primary ? 'primary' : '') + '" href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.name) + (l.tag ? '<i class="' + tagClass(l.tag) + '">' + esc(l.tag) + '</i>' : '') + '</a>'; }
@@ -138,7 +149,7 @@
         var k = key(picked, gi, ii), d = !!done[k]; total++; if (d) cnt++;
         return '<li class="item' + (d ? ' done' : '') + '" id="i' + gi + '-' + ii + '"><input type="checkbox" id="' + esc(k) + '" data-k="' + esc(k) + '"' + (d ? ' checked' : '') + ' aria-label="예약 완료 표시">' +
           '<div class="main"><div class="top"><label class="what" for="' + esc(k) + '">' + esc(it.what) + '</label><span class="meta">' + esc(it.where) + ' · ' + esc(it.dates) + '</span></div>' +
-          '<dl class="kv"><dt>금액</dt><dd><b>' + esc(won(it.price)) + '</b></dd><dt>언제</dt><dd>' + dueHtml(it.due) + ' ' + esc(it.when) + '</dd>' + (it.alt ? '<dt>선택지</dt><dd>' + esc(it.alt) + '</dd>' : '') + restRows(g.cat === '식당' ? findRest(it) : null) + '</dl></div>' +
+          '<dl class="kv"><dt>금액</dt><dd><b>' + esc(won(it.price)) + '</b></dd><dt>언제</dt><dd>' + dueHtml(it.due) + ' ' + esc(it.when) + '</dd>' + (it.alt ? '<dt>선택지</dt><dd>' + esc(it.alt) + '</dd>' : '') + restRows(g.cat === '식당' ? findRest(it) : null) + (g.cat === '숙소' ? hotelRow(it) : '') + '</dl></div>' +
           '<div class="links">' + it.links.filter(function (l) { return l.url; }).map(function (l, li) { return link(l, g.cat === '숙소' && li === 0); }).join('') + '</div></li>';
       }).join('') + '</ol></section>';
     }).join('');
@@ -168,10 +179,11 @@
     $('progress').innerHTML = '<b>' + n + '</b> / ' + t + ' 예약 완료 · 항목을 체크하면 저장돼요';
   });
 
-  var rest = {};
+  var rest = {}, hotels = {};
   function findRest(it) { var ks = Object.keys(rest); for (var i = 0; i < ks.length; i++) { if (rest[ks[i]].match.some(function (m) { return it.what.indexOf(m) === 0; })) return rest[ks[i]]; } return null; }
-  Promise.all([fetch(DATA + 'booking.json').then(function (r) { return r.json(); }), fetch(DATA + 'restaurants.json').then(function (r) { return r.json(); }).catch(function () { return {}; })]).then(function (res) {
-    var j = res[0]; rest = res[1] || {};
+  Promise.all([fetch(DATA + 'booking.json').then(function (r) { return r.json(); }), fetch(DATA + 'restaurants.json').then(function (r) { return r.json(); }).catch(function () { return {}; }),
+    fetch(DATA + 'places.json').then(function (r) { return r.json(); }).catch(function () { return {}; })]).then(function (res) {
+    var j = res[0]; rest = res[1] || {}; hotels = (res[2] || {}).hotels || {};
     Object.keys(j.courses).forEach(function (c) { if (j.courses[c].name) NAMES[c] = j.courses[c].name; });
     if (j.country) {
       document.querySelector('.hero .kicker').textContent = j.country.kicker;

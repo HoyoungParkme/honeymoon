@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04",
+ "generated": "2026-11-06",
  "country": {
   "kicker": "ΕΛΛΆΔΑ · 2027.05.09 – 05.18",
   "page": "greece.html"
@@ -162,7 +162,7 @@
         {
          "name": "공식 사이트",
          "tag": "공식",
-         "url": "https://www.electrahotels.gr/"
+         "url": "https://www.electrahotels.gr/hotels/electra-palace-athens/"
         }
        ],
        "due": "열리면"
@@ -276,7 +276,7 @@
         {
          "name": "공식 사이트",
          "tag": "공식",
-         "url": "https://www.electrahotels.gr/"
+         "url": "https://www.electrahotels.gr/hotels/electra-palace-athens/"
         }
        ],
        "due": "열리면"
@@ -857,7 +857,7 @@
         {
          "name": "공식 사이트",
          "tag": "공식",
-         "url": "https://www.doupianihouse.com/"
+         "url": "https://www.doupianihouse.gr/"
         }
        ],
        "due": "미리"

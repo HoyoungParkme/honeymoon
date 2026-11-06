@@ -1,0 +1,378 @@
+{
+ "places": {
+  "Grand Hotel Bohemia (프라하, 5성)": {
+   "file": "photos/czech/places/h_prg_bohemia.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.grandhotelbohemia.cz/"
+  },
+  "구시가 광장": {
+   "file": "photos/czech/places/old_town_sq.jpg",
+   "kind": "place",
+   "credit": "Tadeáš Gregor · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Jan_Hus_Statue,_Old_Town_Square.jpg"
+  },
+  "천문시계 · 구시청사 탑": {
+   "file": "photos/czech/places/astro_clock.jpg",
+   "kind": "place",
+   "credit": "Godot13 · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Czech-2013-Prague-Astronomical_clock_face.jpg"
+  },
+  "카를교": {
+   "file": "photos/czech/places/charles_bridge.jpg",
+   "kind": "place",
+   "credit": "DXR · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:North_view_of_Charles_Bridge_from_M%C3%A1nes%C5%AFv_most,_Prague_20160808_1.jpg"
+  },
+  "프라하성 (성 비투스 대성당)": {
+   "file": "photos/czech/places/castle.jpg",
+   "kind": "place",
+   "credit": "Ввласенко · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:View_of_Prague_and_St._Vitus_Cathedral_from_Vy%C5%A1ehrad._Czech_Republic.jpg"
+  },
+  "황금소로": {
+   "file": "photos/czech/places/golden_lane.jpg",
+   "kind": "place",
+   "credit": "Skot · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Zlat%C3%A1_uli%C4%8Dka,_Pra%C5%BEsk%C3%BD_hrad_(04-2026)_01.jpg"
+  },
+  "말라 스트라나 광장": {
+   "file": "photos/czech/places/mala_strana.jpg",
+   "kind": "place",
+   "credit": "Honza Groh (Jagro) · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Reko_TT_Malostransk%C3%A9_n%C3%A1m%C4%9Bst%C3%AD,_Tatra_T3R.P.jpg"
+  },
+  "캄파 섬 · 존 레논 벽": {
+   "file": "photos/czech/places/kampa.jpg",
+   "kind": "place",
+   "credit": "David Sedlecký · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Lennon_Wall_Prague_2020.jpg"
+  },
+  "카를교 구시가 쪽 교탑": {
+   "file": "photos/czech/places/bridge_tower_old.jpg",
+   "kind": "place",
+   "credit": "Scotch Mist · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Prague_Charles_Bridge_2021_04.jpg"
+  },
+  "세들레츠 해골 성당": {
+   "file": "photos/czech/places/sedlec.jpg",
+   "kind": "place",
+   "credit": "Jan Kameníček · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Ossuary_in_Sedlec.JPG"
+  },
+  "쿠트나호라 구시가": {
+   "file": "photos/czech/places/kutna_centre.jpg",
+   "kind": "place",
+   "credit": "Alžběta Jonáš · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Kutn%C3%A1_Hora_-_Palack%C3%A9ho_n%C3%A1m%C4%9Bst%C3%AD_obr._5.jpg"
+  },
+  "성 바르바라 대성당": {
+   "file": "photos/czech/places/st_barbara.jpg",
+   "kind": "place",
+   "credit": "Perituss · CC0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Saint_Barbara_Kutna_Hora_2010_3.jpg"
+  },
+  "유대인 지구 (요제포프)": {
+   "file": "photos/czech/places/josefov.jpg",
+   "kind": "place",
+   "credit": "Jorge Royan · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Old_Jewish_Cemetery_in_Josefov,_Prague_-_8363.jpg"
+  },
+  "루돌피눔 (음악당)": {
+   "file": "photos/czech/places/rudolfinum.jpg",
+   "kind": "place",
+   "credit": "Pudelek (Marcin Szala) · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Rudolfinum_v_noci.jpg"
+  },
+  "국립극장": {
+   "file": "photos/czech/places/national_theatre.jpg",
+   "kind": "place",
+   "credit": "Tadeáš Gregor · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:N%C3%A1rodn%C3%AD_divadlo_z_Kampy.jpg"
+  },
+  "댄싱 하우스": {
+   "file": "photos/czech/places/dancing_house.jpg",
+   "kind": "place",
+   "credit": "Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Casa_Danzante,_Praga,_Rep%C3%BAblica_Checa,_2022-07-01,_DD_01.jpg"
+  },
+  "시민회관 (스메타나 홀)": {
+   "file": "photos/czech/places/obecni_dum.jpg",
+   "kind": "place",
+   "credit": "Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Casa_municipal,_Praga,_Rep%C3%BAblica_Checa,_2022-07-02,_DD_09.jpg"
+  },
+  "Hotel Růže (체스키크룸로프, 4성)": {
+   "file": "photos/czech/places/h_ck_ruze.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.hotelruze.cz/en"
+  },
+  "체스키크룸로프 성 · 탑": {
+   "file": "photos/czech/places/ck_castle.jpg",
+   "kind": "place",
+   "credit": "Jakub Hałun · CC BY 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:%C4%8Cesk%C3%BD_Krumlov_Castle,_Czechia,_20250504_1248_8849.jpg"
+  },
+  "성 정원 · 망토 다리": {
+   "file": "photos/czech/places/ck_garden.jpg",
+   "kind": "place",
+   "credit": "Tanya Dedyukhina · CC BY 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:381_01_%C4%8Cesk%C3%BD_Krumlov,_Czech_Republic_-_panoramio_(1).jpg"
+  },
+  "세미나리 정원 전망": {
+   "file": "photos/czech/places/ck_view.jpg",
+   "kind": "place",
+   "credit": "Danijel Mihajlovic · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Panorama-of-cesky-krumlov-tower-castle-old-town-and-latran.jpg"
+  },
+  "체스키크룸로프 스보르노스티 광장": {
+   "file": "photos/czech/places/ck_square.jpg",
+   "kind": "place",
+   "credit": "H2k4 · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:%C4%8Cesk%C3%BD_Krumlov,_m%C4%9B%C5%A1%C5%A5ansk%C3%BD_d%C5%AFm,_n%C3%A1m._Svornosti_%C4%8Dp.4.JPG"
+  },
+  "블타바강 래프팅 · 강변": {
+   "file": "photos/czech/places/ck_rafting.jpg",
+   "kind": "place",
+   "credit": "Art Anderson · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:%C4%8Cesk%C3%BD_Krumlov_from_a_river_raft_-_panoramio.jpg"
+  },
+  "레트나 공원 전망 (메트로놈)": {
+   "file": "photos/czech/places/letna.jpg",
+   "kind": "place",
+   "credit": "Eliška Jindříšková · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Praha_Letn%C3%A1_Pra%C5%BEsk%C3%BD_metronom_02.jpg"
+  },
+  "비셰흐라드 성채": {
+   "file": "photos/czech/places/vysehrad.jpg",
+   "kind": "place",
+   "credit": "Ввласенко · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:View_of_Prague_and_St._Vitus_Cathedral_from_Vy%C5%A1ehrad._Czech_Republic.jpg"
+  },
+  "나플라브카 강변": {
+   "file": "photos/czech/places/naplavka.jpg",
+   "kind": "place",
+   "credit": "Txllxt TxllxT · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Praha_-_Ra%C5%A1%C3%ADnovo_n%C3%A1b%C5%99e%C5%BE%C3%AD_-_View_NW_II.jpg"
+  },
+  "페트르진 전망대": {
+   "file": "photos/czech/places/petrin.jpg",
+   "kind": "place",
+   "credit": "Suisant7 · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Pet%C5%99%C3%ADn_tower_05_2018.jpg"
+  },
+  "스트라호프 수도원 도서관": {
+   "file": "photos/czech/places/strahov.jpg",
+   "kind": "place",
+   "credit": "VitVit · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Strahov_knihovna_Teolog_1.jpg"
+  },
+  "화약탑": {
+   "file": "photos/czech/places/powder_tower.jpg",
+   "kind": "place",
+   "credit": "Ank Kumar · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:2014-_The_Powder_Tower_or_Powder_Gate_(Pra%C5%A1n%C3%A1_br%C3%A1na)_Prague,_Czech_Republic_(_Ank_Kumar_)_01.jpg"
+  },
+  "바츨라프 광장": {
+   "file": "photos/czech/places/wenceslas.jpg",
+   "kind": "place",
+   "credit": "Slyronit · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Wenceslas_Square,_Prague_3.jpg"
+  },
+  "987 Design Prague (4성)": {
+   "file": "photos/czech/places/h_prg_987.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.987praguehotel.com/"
+  },
+  "Hotel Old Inn (스보르노스티 광장)": {
+   "file": "photos/czech/places/h_ck_oldinn.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.hoteloldinn.cz/en"
+  },
+  "Heritage Hotel Hallstatt (4성)": {
+   "file": "photos/czech/places/h_hall_heritage.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.hotel-hallstatt.com/en/"
+  },
+  "할슈타트 스카이워크 (소금광산 푸니쿨라)": {
+   "file": "photos/czech/places/hallstatt_skywalk.jpg",
+   "kind": "place",
+   "credit": "Sashi kala Khatri · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:IMG-20191007-WA0185.jpg"
+  },
+  "할슈타트 마을": {
+   "file": "photos/czech/places/hallstatt.jpg",
+   "kind": "place",
+   "credit": "Kevin Poh · CC BY 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Hallstatt_-_8856135370.jpg"
+  },
+  "할슈타트 엽서 뷰포인트": {
+   "file": "photos/czech/places/hallstatt_view.jpg",
+   "kind": "place",
+   "credit": "David Kernan · CC BY 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:View_of_Hallstatt_waterfront_and_churches_from_Hallst%C3%A4tter_See.jpg"
+  },
+  "Austria Trend Hotel Europa (잘츠부르크)": {
+   "file": "photos/czech/places/h_salz_europa.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.austria-trend.at/en/hotels/europa-salzburg"
+  },
+  "미라벨 정원": {
+   "file": "photos/czech/places/mirabell.jpg",
+   "kind": "place",
+   "credit": "Richard Symonds · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Mirabell_Palace_7.jpg"
+  },
+  "게트라이데 거리 · 모차르트 생가": {
+   "file": "photos/czech/places/getreidegasse.jpg",
+   "kind": "place",
+   "credit": "Eweht · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Salzburg_-_Altstadt_-_Getreidegasse_18_-_2019_07_26_-_3.jpg"
+  },
+  "호엔잘츠부르크 성": {
+   "file": "photos/czech/places/hohensalzburg.jpg",
+   "kind": "place",
+   "credit": "Andreas Stiasny · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Festung_Hohensalzburg_von_Nordost.jpg"
+  },
+  "NH Wien City (빈, 4성)": {
+   "file": "photos/czech/places/h_wien_nh.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.nh-hotels.com/en/hotel/nh-wien-city"
+  },
+  "나슈마르크트": {
+   "file": "photos/czech/places/naschmarkt.jpg",
+   "kind": "place",
+   "credit": "Dietmar Rabich · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Wien,_Naschmarkt_--_2018_--_3109.jpg"
+  },
+  "벨베데레 궁전 (클림트 '키스')": {
+   "file": "photos/czech/places/belvedere.jpg",
+   "kind": "place",
+   "credit": "Upper_Belvedere_LCD-toneedit2.jpg: Murdockcrc · CC BY 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Upper_Belvedere_LCD-toneedit2_NR.jpg"
+  },
+  "쇤브룬 궁전": {
+   "file": "photos/czech/places/schonbrunn.jpg",
+   "kind": "place",
+   "credit": "Martin Falbisoner · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Schoenbrunn_Palace_as_seen_from_Neptune_Fountain,_September_2016.jpg"
+  },
+  "슈테판 대성당": {
+   "file": "photos/czech/places/stephansdom.jpg",
+   "kind": "place",
+   "credit": "acediscovery · CC BY 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Stephansdom-Vienna-Austria.jpg"
+  },
+  "호프부르크 왕궁": {
+   "file": "photos/czech/places/hofburg.jpg",
+   "kind": "place",
+   "credit": "Sandor Somkuti from Wien, Österreich · CC BY-SA 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Hofburg,_Michaelerplatz_Wien_(54519402718).jpg"
+  },
+  "빈 국립오페라극장": {
+   "file": "photos/czech/places/staatsoper.jpg",
+   "kind": "place",
+   "credit": "P e z i · CC BY-SA 3.0 at · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Staatsoper_Wien_DSC_5273w.jpg"
+  },
+  "Grand Majestic Plaza (프라하, 4성)": {
+   "file": "photos/czech/places/h_prg_majestic.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.hotel-grandmajestic.cz/en/"
+  },
+  "필스너 우르켈 양조장": {
+   "file": "photos/czech/places/pilsner.jpg",
+   "kind": "place",
+   "credit": "Mister No · CC BY 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Pilsner_Urquell_Brewery_-_panoramio_(2).jpg"
+  },
+  "Grandhotel Pupp (카를로비바리, 5성)": {
+   "file": "photos/czech/places/h_kv_pupp.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.pupp.cz/en"
+  },
+  "믈린스카 콜로나다 (온천수 회랑)": {
+   "file": "photos/czech/places/kv_colonnade.jpg",
+   "kind": "place",
+   "credit": "VitVit · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Karlovy_Vary_-_kolon%C3%A1da_detail.JPG"
+  },
+  "디아나 전망대 (푸니쿨라)": {
+   "file": "photos/czech/places/kv_diana.jpg",
+   "kind": "place",
+   "credit": "Lubor Ferenc · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Karlovy_Vary_rozhledna_Diana_(2).jpg"
+  },
+  "브르지들로 (간헐천)": {
+   "file": "photos/czech/places/kv_vridlo.jpg",
+   "kind": "place",
+   "credit": "Juan de Vojníkov · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:V%C5%99%C3%ADdlo_004.JPG"
+  }
+ },
+ "hotels": {
+  "Grand Hotel Bohemia (프라하 5성)": {
+   "file": "photos/czech/places/h_prg_bohemia.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.grandhotelbohemia.cz/"
+  },
+  "Hotel Růže (체스키크룸로프 4성)": {
+   "file": "photos/czech/places/h_ck_ruze.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.hotelruze.cz/en"
+  },
+  "987 Design Prague (4성)": {
+   "file": "photos/czech/places/h_prg_987.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.987praguehotel.com/"
+  },
+  "Hotel Old Inn (스보르노스티 광장)": {
+   "file": "photos/czech/places/h_ck_oldinn.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.hoteloldinn.cz/en"
+  },
+  "Heritage Hotel Hallstatt (4성)": {
+   "file": "photos/czech/places/h_hall_heritage.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.hotel-hallstatt.com/en/"
+  },
+  "Austria Trend Hotel Europa (잘츠부르크)": {
+   "file": "photos/czech/places/h_salz_europa.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.austria-trend.at/en/hotels/europa-salzburg"
+  },
+  "NH Wien City (빈 4성)": {
+   "file": "photos/czech/places/h_wien_nh.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.nh-hotels.com/en/hotel/nh-wien-city"
+  },
+  "Grand Majestic Plaza (프라하 4성)": {
+   "file": "photos/czech/places/h_prg_majestic.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.hotel-grandmajestic.cz/en/"
+  },
+  "Grandhotel Pupp (카를로비바리 5성)": {
+   "file": "photos/czech/places/h_kv_pupp.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.pupp.cz/en"
+  }
+ }
+}

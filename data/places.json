@@ -1,0 +1,378 @@
+{
+ "places": {
+  "Room Mate Alba 호텔": {
+   "file": "photos/places/hotelA_mad.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://room-matehotels.com/es/hotel-alba-madrid/"
+  },
+  "솔역 (Puerta del Sol)": {
+   "file": "photos/places/sol.jpg",
+   "kind": "place",
+   "credit": "tnarik from Spain · CC BY-SA 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Puerta_del_Sol_(Madrid)_03.jpg"
+  },
+  "마요르 광장": {
+   "file": "photos/places/plaza_mayor.jpg",
+   "kind": "place",
+   "credit": "Carlos Delgado · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Plaza_Mayor_de_Madrid_-_01.jpg"
+  },
+  "마드리드 왕궁": {
+   "file": "photos/places/palacio_real.jpg",
+   "kind": "place",
+   "credit": "Carlos Delgado · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Palacio_Real_de_Madrid_-_13.jpg"
+  },
+  "알무데나 대성당": {
+   "file": "photos/places/almudena.jpg",
+   "kind": "place",
+   "credit": "Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Catedral_de_la_Almudena,_Madrid,_Espa%C3%B1a,_2014-12-27,_DD_21.JPG"
+  },
+  "사바티니 정원": {
+   "file": "photos/places/sabatini.jpg",
+   "kind": "place",
+   "credit": "Javier Perez Montes · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Estanque_Central_-_Jardines_de_Sabatini_-_Madrid_01.jpg"
+  },
+  "비야 광장": {
+   "file": "photos/places/plaza_villa.jpg",
+   "kind": "place",
+   "credit": "Carlos Delgado · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Plaza_de_la_Villa_-_08.jpg"
+  },
+  "알칼라 문 (레티로 입구)": {
+   "file": "photos/places/puerta_alcala.jpg",
+   "kind": "place",
+   "credit": "Wikier 2017 · CC0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Puerta_de_Alcal%C3%A1,_Madrid,_illuminated_with_the_rainbow_colours_during_the_celebrations_of_WorldPride_2017.jpg"
+  },
+  "프라도 미술관 (고야 문)": {
+   "file": "photos/places/prado.jpg",
+   "kind": "place",
+   "credit": "Discasto · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Puerta_de_Goya_del_Museo_del_Prado_(6_de_diciembre_de_2005,_Madrid).jpg"
+  },
+  "시르쿨로 데 베야스 아르테스": {
+   "file": "photos/places/cba.jpg",
+   "kind": "place",
+   "credit": "Zarateman · CC0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Madrid_-_C%C3%ADrculo_de_Bellas_Artes,_Azotea_07.jpg"
+  },
+  "소코도베르 광장": {
+   "file": "photos/places/zocodover.jpg",
+   "kind": "place",
+   "credit": "Lourdes Cardenal · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Toledo_Zocodover_01_lou.JPG"
+  },
+  "톨레도 대성당": {
+   "file": "photos/places/toledo_cathedral.jpg",
+   "kind": "place",
+   "credit": "Mabel1973 · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Vista_de_una_parte_exterior_de_la_Catedral_de_Toledo.JPG"
+  },
+  "미라도르 델 바예 전망대": {
+   "file": "photos/places/mirador_valle.jpg",
+   "kind": "place",
+   "credit": "Rafa Esteve · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Alcazar_Toledo_Mirador_Valle.jpg"
+  },
+  "메스키타 (코르도바)": {
+   "file": "photos/places/mezquita.jpg",
+   "kind": "place",
+   "credit": "Jose María Ligero Loarte · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Centro_Hist%C3%B3rico,_16.9_--_2023_--_C%C3%B3rdoba,_Espa%C3%B1a.jpg"
+  },
+  "꽃의 골목 (Calleja de las Flores)": {
+   "file": "photos/places/flores.jpg",
+   "kind": "place",
+   "credit": "jorcolma · CC BY 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Calleja_de_las_Flores_002.jpg"
+  },
+  "로마 다리 (푸에르타 델 푸엔테)": {
+   "file": "photos/places/puente_romano.jpg",
+   "kind": "place",
+   "credit": "Jose María Ligero Loarte · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Centro_Hist%C3%B3rico,_16.9_--_2023_--_C%C3%B3rdoba,_Espa%C3%B1a.jpg"
+  },
+  "Las Casas de la Judería": {
+   "file": "photos/places/hotelA_sev.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.lascasasdelajuderiasevilla.com/"
+  },
+  "La Terraza del EME 루프탑": {
+   "file": "photos/places/eme.jpg",
+   "kind": "place",
+   "credit": "Tim Adams · CC BY 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:View_of_roof_of_Cathedral_from_Giralda_of_Seville_on_March_9_2017.jpg"
+  },
+  "세비야 알카사르 (사자의 문)": {
+   "file": "photos/places/alcazar_sev.jpg",
+   "kind": "place",
+   "credit": "Américo Toledano · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Alc%C3%A1zar_de_Sevilla_-_Patio_de_las_Doncellas_002.jpg"
+  },
+  "세비야 대성당 (산 크리스토발 문)": {
+   "file": "photos/places/cathedral_sev.jpg",
+   "kind": "place",
+   "credit": "Suicasmo · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Exterior_of_the_Cathedral_of_Seville_20180719.jpg"
+  },
+  "세비야 대학교 (옛 담배공장)": {
+   "file": "photos/places/universidad_sev.jpg",
+   "kind": "place",
+   "credit": "Anual · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Rectorado_universidad_de_sevilla_2024An001.jpg"
+  },
+  "스페인 광장": {
+   "file": "photos/places/plaza_espana.jpg",
+   "kind": "place",
+   "credit": "Carlos Delgado · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Plaza_de_Espa%C3%B1a_(Sevilla)_-_01.jpg"
+  },
+  "마리아 루이사 공원": {
+   "file": "photos/places/maria_luisa.jpg",
+   "kind": "place",
+   "credit": "Infrogmation · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Parque_de_Mar%C3%ADa_Luisa,_Sevilla,_Oct_1999_-_03.jpg"
+  },
+  "황금의 탑": {
+   "file": "photos/places/torre_oro.jpg",
+   "kind": "place",
+   "credit": "Benjamin Smith · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Sevilla_-_Torre_del_Oro_and_river_Guadalquivir_at_night.jpg"
+  },
+  "마에스트란사 투우장": {
+   "file": "photos/places/plaza_toros.jpg",
+   "kind": "place",
+   "credit": "Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Plaza_de_toros_de_la_Maestranza,_Sevilla,_Espa%C3%B1a,_2015-12-06,_DD_69.JPG"
+  },
+  "Casa de la Memoria (플라멩코)": {
+   "file": "photos/places/casa_memoria.jpg",
+   "kind": "place",
+   "credit": "Zarateman · CC0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Sevilla_-_Centro_Cultural_Flamenco_Casa_de_la_Memoria.jpg"
+  },
+  "세타스 데 세비야 (메트로폴 파라솔)": {
+   "file": "photos/places/setas.jpg",
+   "kind": "place",
+   "credit": "Rainerkruckenberg · CC0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:SEVILLA_METROPOL-PARASOL_MEYER-H_20120530_174928.jpg"
+  },
+  "Hotel Porcel Alixares": {
+   "file": "photos/places/hotelA_gra.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.hotelesporcel.com/"
+  },
+  "산 니콜라스 전망대": {
+   "file": "photos/places/san_nicolas.jpg",
+   "kind": "place",
+   "credit": "Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Granada_-_View_from_Mirador_de_San_Nicol%C3%A1s_-_02.jpg"
+  },
+  "알카사바": {
+   "file": "photos/places/alcazaba.jpg",
+   "kind": "place",
+   "credit": "Jebulon · CC0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Alcazaba_Alhambra_Grenade_Espagne.jpg"
+  },
+  "나스르 궁전": {
+   "file": "photos/places/nasrid.jpg",
+   "kind": "place",
+   "credit": "Tuxyso · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Patio_de_los_Arrayanes_Alhambra_02_2014.jpg"
+  },
+  "카를로스 5세 궁전": {
+   "file": "photos/places/carlos_v.jpg",
+   "kind": "place",
+   "credit": "Benjamin Smith · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Granada_-_Alhambra_-_Palacio_de_Carlos_V.jpg"
+  },
+  "Catalonia Catedral": {
+   "file": "photos/places/hotelA_bcn.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.cataloniahotels.com/en/hotel/catalonia-catedral"
+  },
+  "사그라다 파밀리아 (마리나 거리 입장구)": {
+   "file": "photos/places/sagrada.jpg",
+   "kind": "place",
+   "credit": "Txllxt TxllxT · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Barcelona_-_Carrer_de_Mallorca_-_View_West_on_La_Sagrada_Fam%C3%ADlia_-_Nativity_fa%C3%A7ade.jpg"
+  },
+  "카사 바트요": {
+   "file": "photos/places/casa_batllo.jpg",
+   "kind": "place",
+   "credit": "Mstyslav Chernov · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Casa_Batll%C3%B3_(Antoni_Gaudi)_(exterior),_43,_Passeig_de_Gr%C3%A0cia,_Eixample,_Barcelona,_Catalonia,_Spain.jpg"
+  },
+  "카사 밀라 (라 페드레라)": {
+   "file": "photos/places/casa_mila.jpg",
+   "kind": "place",
+   "credit": "Yair Haklai · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Antoni_Gaud%C3%AD-Casa_Mil%C3%A0-Barcelona.jpg"
+  },
+  "구엘 공원 (카르멜 도로 입구)": {
+   "file": "photos/places/park_guell.jpg",
+   "kind": "place",
+   "credit": "Andy Mitchell from Glasgow, UK · CC BY-SA 2.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Bird_nests_at_Park_G%C3%BCell_(2925592214).jpg"
+  },
+  "벙커 델 카르멜": {
+   "file": "photos/places/bunkers.jpg",
+   "kind": "place",
+   "credit": "Barcelonatips · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Bunkers_del_Carmel_Barcelona.jpg"
+  },
+  "몬세라트 수도원": {
+   "file": "photos/places/montserrat.jpg",
+   "kind": "place",
+   "credit": "José Luiz · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Monestir_de_St._Benedict_(Sant_Benet)_de_Montserrat_-_Montserrat_2014_(3).JPG"
+  },
+  "산 조안 푸니쿨라 상부": {
+   "file": "photos/places/sant_joan.jpg",
+   "kind": "place",
+   "credit": "SomeRailfan · CC BY 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Funicular_de_Sant_Joan,_2023-04-11.jpg"
+  },
+  "바르셀로나 대성당 (고딕 지구)": {
+   "file": "photos/places/bcn_cathedral.jpg",
+   "kind": "place",
+   "credit": "Jose María Ligero Loarte · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Catedral_de_la_Santa_Cruz_y_Santa_Eulalia_--_2019_--_Barcelona,_Espa%C3%B1a.jpg"
+  },
+  "바르셀로네타 해변": {
+   "file": "photos/places/barceloneta_beach.jpg",
+   "kind": "place",
+   "credit": "DimiTalen · CC0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Promenade_and_beach,_Platja_de_la_Barceloneta,_Barcelona,_2015.jpg"
+  },
+  "Hotel Regente": {
+   "file": "photos/places/hotelB_mad.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.hotelregente.com/"
+  },
+  "Hotel Rey Alfonso X": {
+   "file": "photos/places/hotelB_sev.jpg",
+   "kind": "hotel",
+   "credit": "CarlosVdeHabsburgo · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Hotel_Alfonso_X.jpg"
+  },
+  "Casa del Capitel Nazarí": {
+   "file": "photos/places/hotelB_gra.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.hotelcasacapitel.com/"
+  },
+  "Hotel Lleó": {
+   "file": "photos/places/hotelB_bcn.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.hotel-lleo.com/"
+  },
+  "파라도르 데 그라나다": {
+   "file": "photos/places/parador.jpg",
+   "kind": "hotel",
+   "credit": "Jebulon · CC0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Convento_San_Francisco_parador_Alhambra_Granada_Spain.jpg"
+  },
+  "누에바 광장": {
+   "file": "photos/places/plaza_nueva_gra.jpg",
+   "kind": "place",
+   "credit": "Øyvind Holmstad · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Aa_plaza_nueva_in_granada.jpg"
+  },
+  "시벨레스 광장": {
+   "file": "photos/places/cibeles.jpg",
+   "kind": "place",
+   "credit": "Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Fuente_de_Cibeles,_Plaza_de_Cibeles,_Madrid,_Espa%C3%B1a,_2017-05-18,_DD_10.jpg"
+  },
+  "세고비아 수도교 (아소게호 광장)": {
+   "file": "photos/places/acueducto.jpg",
+   "kind": "place",
+   "credit": "Komencanto · Public domain · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Roman_aqueduct_in_Segovia_(side_view).jpg"
+  },
+  "세고비아 대성당": {
+   "file": "photos/places/segovia_cathedral.jpg",
+   "kind": "place",
+   "credit": "Óscar Ibáñez Fernández · CC BY-SA 3.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Catedral_de_Segovia.jpg"
+  },
+  "세고비아 알카사르": {
+   "file": "photos/places/alcazar_segovia.jpg",
+   "kind": "place",
+   "credit": "Rafa Esteve · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Segovia_-_Alc%C3%A1zar_de_Segovia_22_2017-10-24.jpg"
+  },
+  "크리스탈 궁전 (레티로)": {
+   "file": "photos/places/palacio_cristal.jpg",
+   "kind": "place",
+   "credit": "Diego Delso · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Palacio_de_Cristal,_Parque_del_Retiro,_Madrid,_Espa%C3%B1a,_2017-05-18,_DD_25.jpg"
+  }
+ },
+ "hotels": {
+  "Room Mate Alba (4성)": {
+   "file": "photos/places/hotelA_mad.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://room-matehotels.com/es/hotel-alba-madrid/"
+  },
+  "Las Casas de la Judería (4성)": {
+   "file": "photos/places/hotelA_sev.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.lascasasdelajuderiasevilla.com/"
+  },
+  "Hotel Porcel Alixares (4성)": {
+   "file": "photos/places/hotelA_gra.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.hotelesporcel.com/"
+  },
+  "Catalonia Catedral (4성)": {
+   "file": "photos/places/hotelA_bcn.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.cataloniahotels.com/en/hotel/catalonia-catedral"
+  },
+  "Hotel Regente (3성)": {
+   "file": "photos/places/hotelB_mad.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.hotelregente.com/"
+  },
+  "Hotel Rey Alfonso X (4성)": {
+   "file": "photos/places/hotelB_sev.jpg",
+   "kind": "hotel",
+   "credit": "CarlosVdeHabsburgo · CC BY-SA 4.0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Hotel_Alfonso_X.jpg"
+  },
+  "Casa del Capitel Nazarí (3성)": {
+   "file": "photos/places/hotelB_gra.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.hotelcasacapitel.com/"
+  },
+  "Hotel Lleó (3성)": {
+   "file": "photos/places/hotelB_bcn.jpg",
+   "kind": "hotel",
+   "credit": "사진: 호텔 공식 사이트",
+   "page": "https://www.hotel-lleo.com/"
+  },
+  "Parador de Granada": {
+   "file": "photos/places/parador.jpg",
+   "kind": "hotel",
+   "credit": "Jebulon · CC0 · Wikimedia Commons",
+   "page": "https://commons.wikimedia.org/wiki/File:Convento_San_Francisco_parador_Alhambra_Granada_Spain.jpg"
+  }
+ }
+}

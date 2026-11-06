@@ -3,6 +3,7 @@
  * data/index.json    : 지도 구간 ↔ 행 번호 · 마커 번호(장소 키) 대응표
  * data/coords.json   : 장소 키 → 위경도
  * data/routes.json   : "출발|도착" 장소 키 → 도보 실제 경로
+ * data/places.json   : 장소 행 이름 · 숙소 이름 → 사진 (tools/build_place_photos.py)
  * 마커 번호는 구간마다 1부터 다시 매기며, 행 제목("3 트리부날역 → 4 안톤 마르틴역")의 번호와 같다. */
 (function () {
   'use strict';
@@ -142,12 +143,14 @@
     };
     var previews = get('previews.json').catch(function () { return {}; });  // 없어도 앱은 돈다
     var restaurants = get('restaurants.json').catch(function () { return {}; });
+    var places = get('places.json').catch(function () { return {}; });
     var countries = fetch(ROOTDATA + 'countries.json').then(function (r) { return r.json(); }).catch(function () { return {}; });
-    return Promise.all(['courses.json', 'index.json', 'coords.json', 'routes.json'].map(get).concat([previews, restaurants, countries])).then(function (res) {
+    return Promise.all(['courses.json', 'index.json', 'coords.json', 'routes.json'].map(get).concat([previews, restaurants, countries, places])).then(function (res) {
       if (res[6] && res[6][K]) COUNTRY = res[6][K];
       applyCountry();
       attachSegments(res[0], res[1], res[2], res[3]);
-      trip = { courses: res[0], coords: res[2], routes: res[3], previews: res[4] || {}, restaurants: res[5] || {} };
+      var pl = res[7] || {};
+      trip = { courses: res[0], coords: res[2], routes: res[3], previews: res[4] || {}, restaurants: res[5] || {}, places: pl.places || {}, hotels: pl.hotels || {} };
     });
   }
 
@@ -214,8 +217,12 @@
       '<dt>아침 B</dt><dd>' + esc(won(d.bfB)) + '</dd>' +
       '<dt>' + esc(d.start) + ' 출발</dt><dd>' + esc(d.startNote || '') + '</dd></dl>';
     if (d.sleepName) {
-      h += '<div class="stay"><b>오늘 숙소</b> ' + esc(d.sleepName) + ' · 1박 ' + esc(won(d.sleepPrice || '')) +
-        (d.sleepUrl ? ' <a href="' + esc(d.sleepUrl) + '" target="_blank" rel="noopener">숙소 요금 (카약) ↗</a>' : '') + '</div>';
+      var hp = trip.hotels[d.sleepName];
+      h += '<div class="stay' + (hp ? ' with-photo' : '') + '">' +
+        (hp ? '<a class="stay-img" href="' + esc(hp.page) + '" target="_blank" rel="noopener" title="' + esc(hp.credit) + '"><img src="' + esc(ASSET + hp.file) + '" alt="' + esc(d.sleepName) + ' 사진" loading="lazy" onerror="this.parentNode.remove()"></a>' : '') +
+        '<div><b>오늘 숙소</b> ' + esc(d.sleepName) + ' · 1박 ' + esc(won(d.sleepPrice || '')) +
+        (d.sleepUrl ? ' <a href="' + esc(d.sleepUrl) + '" target="_blank" rel="noopener">숙소 요금 (카약) ↗</a>' : '') +
+        (hp ? '<span class="stay-credit">' + esc(hp.credit) + '</span>' : '') + '</div></div>';
     }
     h += '</div>';
     if (d.photo && d.photo.file) {
@@ -246,17 +253,22 @@
     if (fare.main) f += '<span class="fm">' + esc(fare.main) + '</span>';
     fare.lines.forEach(function (t) { f += '<span class="fl">' + esc(t) + '</span>'; });
     if (fare.note) f += '<span class="fn">' + esc(fare.note) + '</span>';
+    var rest = findRestaurant(it), place = findPlace(it);
+    var thumb = rest ? (rest.photo ? rest.photo.file : '') : (place ? place.file : '');
     return '<li class="row" data-i="' + i + '" id="row-' + i + '">' +
       '<time>' + esc(it.time) + '</time>' +
       '<span class="badge" style="--c:' + b[1] + '">' + b[0] + '</span>' +
-      '<div class="main"><span class="head">' + esc(it.head) + '</span>' +
+      '<div class="main' + (thumb ? ' with-thumb' : '') + '"><span class="mt"><span class="head">' + esc(it.head) + '</span>' +
       (it.line ? '<span>' + esc(won(it.line)) + '</span>' : '') +
-      (it.note ? '<span class="note">' + esc(won(it.note)) + '</span>' : '') + '</div>' +
+      (it.note ? '<span class="note">' + esc(won(it.note)) + '</span>' : '') + '</span>' +
+      (thumb ? '<img class="thumb" src="' + esc(ASSET + thumb) + '" alt="" loading="lazy" onerror="this.remove()">' : '') + '</div>' +
       '<div class="side"><span class="dur">' + esc(it.dur) + '</span>' + (f ? '<span class="fare">' + f + '</span>' : '') + '</div>' +
       '<div class="links">' +
       (it.mapUrl ? '<a href="' + esc(it.mapUrl) + '" target="_blank" rel="noopener">' + esc(mapLabel(it)) + '</a>' : '') +
       (it.link ? '<a class="src" href="' + esc(it.link) + '" target="_blank" rel="noopener">' + esc(LINK_LABEL[linkKind(it)]) + ' ↗</a>' : '') +
-      (findRestaurant(it) ? '<span class="chip food" title="행을 누르면 메뉴·평점·사진이 떠요">메뉴·평점</span>' : (it.link ? '<span class="chip" title="행을 누르면 이 페이지 미리보기가 떠요">미리보기</span>' : '')) +
+      (rest ? '<span class="chip food" title="행을 누르면 메뉴·평점·사진이 떠요">메뉴·평점</span>' :
+        place ? '<span class="chip pic" title="행을 누르면 사진이 크게 떠요">' + (place.kind === 'hotel' ? '숙소 사진' : '사진') + '</span>' :
+        (it.link ? '<span class="chip" title="행을 누르면 이 페이지 미리보기가 떠요">미리보기</span>' : '')) +
       '</div></li>';
   }
   function mapLabel(it) {
@@ -350,6 +362,25 @@
     }
     return null;
   }
+  // 행이 가리키는 명소·숙소 사진 (data/places.json). 행 제목에서 마커 번호를 뗀 이름으로 찾는다
+  function findPlace(it) {
+    if (it.kind !== 'stop' || !trip.places) return null;
+    return trip.places[(it.head || '').replace(/^\d+ /, '')] || null;
+  }
+  function placeCard(p, it) {
+    var name = (it.head || '').replace(/^\d+ /, '');
+    var city = trip.courses[state.course].days[state.day].city;
+    return '<article class="pv rest place">' +
+      '<a class="shot" href="' + esc(p.page) + '" target="_blank" rel="noopener"><img src="' + esc(ASSET + p.file) + '" alt="' + esc(name) + '" loading="lazy"><span class="credit">' + esc(p.credit) + '</span></a>' +
+      '<div class="meta"><span class="kind">' + (p.kind === 'hotel' ? '숙소' : '명소') + ' · ' + esc(city) + '</span>' +
+      '<span class="title">' + esc(name) + '</span>' +
+      (it.line ? '<span class="desc">' + esc(won(it.line)) + '</span>' : '') +
+      (it.note ? '<span class="desc quote">' + esc(won(it.note)) + '</span>' : '') +
+      '<span class="host">' + (it.dur ? '<b class="price">' + esc(it.dur) + '</b>' : '') +
+      (it.link ? '<a href="' + esc(it.link) + '" target="_blank" rel="noopener">' + esc(LINK_LABEL[linkKind(it)]) + ' ↗</a>' : '') +
+      (it.mapUrl ? '<a href="' + esc(it.mapUrl) + '" target="_blank" rel="noopener">구글 지도 ↗</a>' : '') +
+      '</span></div></article>';
+  }
   function stars(score) {
     if (score == null) return '<span class="stars none">평점 미확인</span>';
     var full = Math.round(score);
@@ -387,6 +418,8 @@
   function previewHtml(it) {
     var r = findRestaurant(it);
     if (r) return restaurantCard(r, it);
+    var pl = findPlace(it);
+    if (pl) return placeCard(pl, it);
     if (!it.link) return '<p class="preview-empty">이 행은 예매·식당 링크가 없어요. 지도 링크는 행 안의 "' + esc(mapLabel(it)) + '"를 눌러요.</p>';
     var p = trip.previews[it.link] || {};
     var host = p.host || it.link.replace(/^https?:\/\/(www\.)?/, '').split('/')[0];
@@ -403,7 +436,7 @@
     var html = previewHtml(it);
     $('preview').innerHTML = html;                                   // 데스크톱: 지도 아래
     document.querySelectorAll('.row-preview').forEach(function (e) { e.remove(); });
-    if (row && (it.link || findRestaurant(it))) {                    // 폰: 그 행 아래
+    if (row && (it.link || findRestaurant(it) || findPlace(it))) {                    // 폰: 그 행 아래
       var li = document.createElement('li');
       li.className = 'row-preview'; li.innerHTML = html;
       row.insertAdjacentElement('afterend', li);
@@ -474,7 +507,7 @@
     var bl = $('bookLink'); if (bl) bl.href = '../booking.html' + Q + '#c' + (location.hash.match(/^#c(\d)/) || [0, 1])[1];
     renderPlan();
     renderMap();
-    $('preview').innerHTML = '<p class="preview-empty">일정 행을 누르면 그 행의 예매·식당 페이지 미리보기가 여기에 떠요.</p>';
+    $('preview').innerHTML = '<p class="preview-empty">일정 행을 누르면 그 장소 사진, 식당 메뉴·평점, 예매 페이지 미리보기가 여기에 떠요.</p>';
     window.scrollTo({ top: 0 });
   }
 
